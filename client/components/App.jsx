@@ -1,11 +1,26 @@
 import React from 'react'
+import { HashRouter as Router, Route } from "react-router-dom"
+// import { NavLink as Router, Route } from "react-router-dom"
+
+import NavBar from './NavBar'
+import WhoIam from './WhoIam'
+import Experiences from './Experiences'
+import Portfolio from './Portfolio';
+import Contact from './Contact'
 
 const App = () => {
   return (
     <>
-      <div className="pushpin">
-        <h1>React development has begun!</h1>
-      </div>
+      <Router>
+        <NavBar/>
+        <WhoIam />
+        <Experiences />
+        <Portfolio />
+        <Contact/>
+        
+        
+       
+        </Router>
     </>
   )
 }
