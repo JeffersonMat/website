@@ -1,0 +1,6 @@
+@import './experiences';
+@import './variables/variablesFont';
+
+.contact {
+   @include flexCenter(center,center,column,green);
+}

@@ -4,7 +4,7 @@ const Experiences = () => {
   return (
     <>
       <section id="experiences">
-        <div style={{ background: "light-red" }}>
+        <div className="experiences ">
           <h1>This is a Test Experiences</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, aut

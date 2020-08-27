@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <section id="contact">
-        <div style={{ background: "light-red" }}>
+        <div className="contact" >
           <h1>This is a Test</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, aut

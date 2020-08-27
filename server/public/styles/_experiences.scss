@@ -1,0 +1,24 @@
+@import './variables/variablesFont';
+
+@mixin flexCenter($alignContent, $alignItems, $direction, $background,) {
+   height:100vh;
+   display: flex;
+   justify-content:$alignContent;
+   align-items:$alignItems;
+   flex-direction:$direction;
+   background-color:$background; 
+
+}
+
+.experiences{
+    
+   @include flexCenter(center,center,column,yellow);
+   h1{
+      color:$titleFontColour; 
+   }
+
+   p {
+       color:$textColour;
+       font-family:$textFontFamily
+   }
+}

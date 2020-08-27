@@ -1,8 +1,8 @@
 import React from 'react'
-import { HashRouter as Router, Route } from "react-router-dom"
-// import { NavLink as Router, Route } from "react-router-dom"
+import { HashRouter as Router} from "react-router-dom"
 
-import NavBar from './NavBar'
+
+import NavBar from './NavBar/NavBar'
 import WhoIam from './WhoIam'
 import Experiences from './Experiences'
 import Portfolio from './Portfolio';
@@ -12,7 +12,9 @@ const App = () => {
   return (
     <>
       <Router>
-        <NavBar/>
+        <NavBar />
+   
+        
         <WhoIam />
         <Experiences />
         <Portfolio />

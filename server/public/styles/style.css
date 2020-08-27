@@ -1,18 +1,108 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
-
-#who-i-am{
-    background-color: brown;
-    height:100vh;
+.experiences {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: yellow;
 }
 
-#experiences{
-      background-color: green;  
-      height:100vh;
+.experiences h1 {
+  color: #333;
 }
 
-#portfolio{
-   
-      background-color:blue;  
-      height: 100vh;
-
+.experiences p {
+  color: #323648;
+  font-family: "Work Sans", sans-serif;
 }
+
+.experiences {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: yellow;
+}
+
+.experiences h1 {
+  color: #333;
+}
+
+.experiences p {
+  color: #323648;
+  font-family: "Work Sans", sans-serif;
+}
+
+.contact {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: green;
+}
+
+.experiences {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: yellow;
+}
+
+.experiences h1 {
+  color: #333;
+}
+
+.experiences p {
+  color: #323648;
+  font-family: "Work Sans", sans-serif;
+}
+
+.portfolio {
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=style.css.map */
