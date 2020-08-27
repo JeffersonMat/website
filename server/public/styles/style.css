@@ -1,3 +1,14 @@
+nav .nav-wrapper {
+  background-color: #333;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#experiences {
+  background: url("../images/manInOcean.jpg");
+  width: 100%;
+  height: 100vh;
+}
+
 .experiences {
   height: 100vh;
   display: -webkit-box;
@@ -13,7 +24,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: yellow;
 }
 
 .experiences h1 {
@@ -25,6 +35,12 @@
   font-family: "Work Sans", sans-serif;
 }
 
+#experiences {
+  background: url("../images/manInOcean.jpg");
+  width: 100%;
+  height: 100vh;
+}
+
 .experiences {
   height: 100vh;
   display: -webkit-box;
@@ -40,7 +56,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: yellow;
 }
 
 .experiences h1 {
@@ -67,7 +82,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: green;
+}
+
+#experiences {
+  background: url("../images/manInOcean.jpg");
+  width: 100%;
+  height: 100vh;
 }
 
 .experiences {
@@ -85,7 +105,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: yellow;
 }
 
 .experiences h1 {
@@ -104,5 +123,17 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background: #333;
+  line-height: 1.6;
+  height: 100vh;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
