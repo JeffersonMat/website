@@ -12,7 +12,8 @@ import Website from "./Portfoliovideos/Website"
 
 const Portfolio = () => {
   
-  return(
+  return (
+    <section id="portfolio-section">
     <div className="carousel carousel-slider center portfolio">
       <div className="carousel-fixed-item center">
         <a className="btn waves-effect white grey-text darken-text-2">button</a>
@@ -62,7 +63,8 @@ const Portfolio = () => {
       <div className="carousel-item orange white-text" href="#nine!">
        <Website/>
       </div>
-    </div>
+      </div>
+      </section>
   )
 }
 

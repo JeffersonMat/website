@@ -6,6 +6,12 @@ nav {
   height: 60px;
 }
 
+.nav-wrapper {
+  overflow-y: scroll;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
 .navbar-fixed {
   background: rgba(0, 0, 0, 0.7);
   z-index: 1;
@@ -34,8 +40,13 @@ nav ul li a:hover {
   color: skyblue;
 }
 
+section.experiences-background {
+  background: url("../images/manInOcean.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 50vh;
+}
+
 section#experiences {
-  background: url("../images/manInOcean .jpg") no-repeat center center/cover;
   width: 100%;
   height: 100vh;
 }
@@ -66,8 +77,13 @@ section#experiences {
   font-family: "Work Sans", sans-serif;
 }
 
+section.experiences-background {
+  background: url("../images/manInOcean.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 50vh;
+}
+
 section#experiences {
-  background: url("../images/manInOcean .jpg") no-repeat center center/cover;
   width: 100%;
   height: 100vh;
 }
@@ -115,8 +131,18 @@ section#experiences {
           flex-direction: column;
 }
 
+section#contact {
+  widows: 100%;
+  height: 100vh;
+}
+
+section.experiences-background {
+  background: url("../images/manInOcean.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 50vh;
+}
+
 section#experiences {
-  background: url("../images/manInOcean .jpg") no-repeat center center/cover;
   width: 100%;
   height: 100vh;
 }
@@ -147,8 +173,13 @@ section#experiences {
   font-family: "Work Sans", sans-serif;
 }
 
-section#who-i-am {
+section.who-i-am-background {
   background: url("../images/trees.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 50vh;
+}
+
+section#who-i-am {
   width: 100%;
   height: 100vh;
 }
@@ -171,8 +202,13 @@ section#who-i-am {
           flex-direction: column;
 }
 
+section.experiences-background {
+  background: url("../images/manInOcean.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 50vh;
+}
+
 section#experiences {
-  background: url("../images/manInOcean .jpg") no-repeat center center/cover;
   width: 100%;
   height: 100vh;
 }
@@ -203,7 +239,18 @@ section#experiences {
   font-family: "Work Sans", sans-serif;
 }
 
+section#portfolio-section {
+  width: 100%;
+  height: 100vh;
+}
+
 .portfolio {
+  width: 100%;
+  height: 100vh;
+}
+
+.carousel {
+  width: 100%;
   height: 100vh;
 }
 
@@ -237,10 +284,6 @@ section#experiences {
   background: teal;
 }
 
-.item-6 {
-  background: orange;
-}
-
 .item-7 {
   background: purple;
 }
@@ -264,5 +307,12 @@ body {
 #app {
   width: 100%;
   height: 100%;
+  overflow-y: scroll;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: center;
 }
 /*# sourceMappingURL=style.css.map */

@@ -11,13 +11,28 @@
 }
 
 body{
+    
     font-family:$textFontFamily;
     background:#333;
     line-height:1.6;
     height:100vh;
+
 }
 
 #app{
 width:100%;
-height:100%;
+height:100%;  
+overflow-y:scroll;  
+scroll-snap-type: y mandatory;  
+
+}
+// #testing-app-scroll{
+//  width:100%;
+//  height:100vh; 
+// //  overflow-y:scroll;   
+// //  scroll-snap-type: y mandatory;   
+// }
+
+section{
+    scroll-snap-align:center;
 }

@@ -5,6 +5,7 @@ const WhoIam = () => {
     
     return (
       <>
+        <section className="who-i-am-background"></section>
         <section id="who-i-am">
           <div className="who-i-am">
             <h1>This is a Test</h1>

@@ -8,6 +8,11 @@ z-index:1;
 width: 100%;
 height:60px;
 
+
+}
+.nav-wrapper{
+ overflow-y:scroll;  
+ scroll-snap-type: y mandatory;  
 }
 
 .navbar-fixed{   

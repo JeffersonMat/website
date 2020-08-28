@@ -30,15 +30,18 @@
 
     document.addEventListener('DOMContentLoaded', function () {
         let elems = document.querySelectorAll('.carousel');
-        let instances = M.Carousel.init(elems);
         
-        
+        let instances = M.Carousel.init(elems, {
+        fullWidth: true,
+        indicators: true
+      });
+                instance.next()
+                instance.prev();
       })
+         
       
-      let instance = M.Carousel.init({
-          fullWidth: true,
-          indicators: true
-        })    
+      
+   
         
 
   </script>

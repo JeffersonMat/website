@@ -3,6 +3,9 @@ import React from "react"
 const Experiences = () => {
   return (
     <>
+      <section className="experiences-background">
+       
+      </section>
       <section id="experiences">
         <div className="experiences ">
           <h1>This is a Test Experiences</h1>

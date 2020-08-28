@@ -11,18 +11,15 @@ import Contact from './Contact'
 const App = () => {
   return (
     <>
-      <Router>
+ 
         <NavBar />
-   
-        
-        <WhoIam />
-        <Experiences />
-        <Portfolio />
-        <Contact/>
-        
-        
-       
+        <Router>
+          <WhoIam />
+          <Experiences />
+          <Portfolio />
+          <Contact />
         </Router>
+
     </>
   )
 }

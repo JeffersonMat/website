@@ -8,10 +8,19 @@
    flex-direction:$direction;
 }
 
+
+section.experiences-background{
+
+   background:url('../images/manInOcean.jpg') no-repeat center center/cover;
+   width:100%;
+   height:50vh;
+}
+
 section#experiences{
-  background:url('../images/manInOcean\ .jpg') no-repeat center center/cover;
+//   background:url('../images/manInOcean\ .jpg') no-repeat center center/cover;
   width:100%;
   height:100vh;
+  
 }
 .experiences{
    
