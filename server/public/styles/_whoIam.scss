@@ -1,0 +1,14 @@
+@import './experiences';
+@import './variables/variablesStyles';
+
+
+ section#who-i-am{
+  background: url('../images/trees.jpg') no-repeat center center/cover;
+  width:100%;
+  height:100vh;
+}
+
+.who-i-am{ 
+  z-index:3;
+    @include flexCenter(center,center,column)
+    ;}

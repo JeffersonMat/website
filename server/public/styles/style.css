@@ -1,10 +1,34 @@
-nav .nav-wrapper {
+nav {
   background-color: #333;
   background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  width: 100%;
+  height: 60px;
 }
 
-#experiences {
-  background: url("../images/manInOcean.jpg");
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f4f4f4;
+}
+
+nav ul li a:hover {
+  color: skyblue;
+}
+
+section#experiences {
+  background: url("../images/manInOcean .jpg") no-repeat center center/cover;
   width: 100%;
   height: 100vh;
 }
@@ -35,8 +59,8 @@ nav .nav-wrapper {
   font-family: "Work Sans", sans-serif;
 }
 
-#experiences {
-  background: url("../images/manInOcean.jpg");
+section#experiences {
+  background: url("../images/manInOcean .jpg") no-repeat center center/cover;
   width: 100%;
   height: 100vh;
 }
@@ -84,8 +108,64 @@ nav .nav-wrapper {
           flex-direction: column;
 }
 
-#experiences {
-  background: url("../images/manInOcean.jpg");
+section#experiences {
+  background: url("../images/manInOcean .jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.experiences {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.experiences h1 {
+  color: #333;
+}
+
+.experiences p {
+  color: #323648;
+  font-family: "Work Sans", sans-serif;
+}
+
+section#who-i-am {
+  background: url("../images/trees.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.who-i-am {
+  z-index: 3;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section#experiences {
+  background: url("../images/manInOcean .jpg") no-repeat center center/cover;
   width: 100%;
   height: 100vh;
 }

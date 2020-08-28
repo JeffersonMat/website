@@ -6,7 +6,7 @@ const WhoIam = () => {
     return (
       <>
         <section id="who-i-am">
-          <div >
+          <div className="who-i-am">
             <h1>This is a Test</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,

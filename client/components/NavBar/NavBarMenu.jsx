@@ -4,7 +4,9 @@ import { Link } from "react-scroll"
 const NavBarMenu = () => {
     
     return (
-      <ul className="sidenav" id="mobile-demo">
+        
+      
+        <ul className="sidenav" id="mobile-demo">
         <li>
           <Link
             activeClass="active"
@@ -45,7 +47,7 @@ const NavBarMenu = () => {
           <Link
             activeClass="active"
             to="contact"
-            spy={true}
+            spy={false}
             smooth={true}
             offset={-70}
             duration={500}
@@ -53,7 +55,8 @@ const NavBarMenu = () => {
             Contact Me
           </Link>
         </li>
-      </ul>
+            </ul>
+   
     )
 }
 
