@@ -207,6 +207,32 @@ section#experiences {
   height: 100vh;
 }
 
+.portfolio .carousel-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.item-1 {
+  background: pink;
+}
+
+.item-2 {
+  background: blue;
+}
+
+.item-3 {
+  background: purple;
+}
+
+.item-4 {
+  background: black;
+}
+
 * {
   margin: 0;
   padding: 0;

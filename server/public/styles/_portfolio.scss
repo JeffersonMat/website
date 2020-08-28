@@ -7,3 +7,22 @@
 height: 100vh;
 
 }
+
+.portfolio .carousel-item{
+    display: flex;
+    flex-direction:column;
+}
+
+.item-1{
+    background:pink
+}
+.item-2{
+    background:blue
+}
+ .item-3{
+    background:purple
+}
+.item-4{
+    background:black
+
+}
