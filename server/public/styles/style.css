@@ -218,7 +218,7 @@ section#experiences {
 }
 
 .item-1 {
-  background: pink;
+  background: red;
 }
 
 .item-2 {
@@ -226,11 +226,27 @@ section#experiences {
 }
 
 .item-3 {
-  background: purple;
+  background: green;
 }
 
 .item-4 {
   background: black;
+}
+
+.item-5 {
+  background: teal;
+}
+
+.item-6 {
+  background: orange;
+}
+
+.item-7 {
+  background: purple;
+}
+
+.item-7 {
+  background: pink;
 }
 
 * {

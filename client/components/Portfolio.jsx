@@ -1,7 +1,18 @@
 import React from "react"
 
+import LifeOtheParty from './Portfoliovideos/LifeOfTheParty'
+import LostAndFound from "./Portfoliovideos/LostAndFound"
+import MindEater from "./Portfoliovideos/MindEater"
+import Pantree from "./Portfoliovideos/Pantree"
+import Pong from "./Portfoliovideos/Pong"
+import QuizApp from "./Portfoliovideos/QizzApp"
+import TaskManager from "./Portfoliovideos/TaskManager"
+import Website from "./Portfoliovideos/Website"
+
+
 const Portfolio = () => {
-  return (
+  
+  return(
     <div className="carousel carousel-slider center portfolio">
       <div className="carousel-fixed-item center">
         <a className="btn waves-effect white grey-text darken-text-2">button</a>
@@ -28,40 +39,28 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="carousel-item amber white-text" href="#two!">
-        <h2>Second Panel</h2>
-        <p className="white-text">This is your second panel</p>
-        <div className="item-2">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla,
-            facilis! Consequatur, libero possimus expedita blanditiis quod,
-            quidem ratione recusandae in delectus voluptate unde consectetur
-            tempore exercitationem officiis accusantium dolor aliquam.
-          </p>
-        </div>
+      <LifeOtheParty/>
       </div>
-      <div className="carousel-item green white-text" href="#three!">
-        <h2>Third Panel</h2>
-        <p className="white-text">This is your third panel</p>
-        <div className="item-3">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla,
-            facilis! Consequatur, libero possimus expedita blanditiis quod,
-            quidem ratione recusandae in delectus voluptate unde consectetur
-            tempore exercitationem officiis accusantium dolor aliquam.
-          </p>
-        </div>
+      <div className="carousel-item yellow white-text" href="#three!">
+     <LostAndFound/>
       </div>
       <div className="carousel-item blue white-text" href="#four!">
-        <h2>Fourth Panel</h2>
-        <p className="white-text">This is your fourth panel</p>
-        <div className="item-4">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla,
-            facilis! Consequatur, libero possimus expedita blanditiis quod,
-            quidem ratione recusandae in delectus voluptate unde consectetur
-            tempore exercitationem officiis accusantium dolor aliquam.
-          </p>
-        </div>
+       <Pantree/>
+      </div>
+      <div className="carousel-item gree white-text" href="#five!">
+       <QuizApp/>
+      </div>
+      <div className="carousel-item black white-text" href="#six!">
+      <TaskManager/>
+      </div>
+      <div className="carousel-item orange white-text" href="#seven!">
+       <Pong/>
+      </div>
+      <div className="carousel-item orange white-text" href="#eight!">
+       <MindEater/>
+      </div>
+      <div className="carousel-item orange white-text" href="#nine!">
+       <Website/>
       </div>
     </div>
   )

@@ -1,6 +1,9 @@
 @import './experiences';
 @import './variables/variablesStyles';
 
+@mixin backgorundColour($backgroundItemcolour) {
+    background:$backgroundItemcolour
+};
 
 .portfolio {
 
@@ -14,15 +17,27 @@ height: 100vh;
 }
 
 .item-1{
-    background:pink
+  @include backgorundColour(red)
 }
+
 .item-2{
-    background:blue
+      @include backgorundColour(blue) 
 }
- .item-3{
-    background:purple
+.item-3{
+       @include backgorundColour(green)   
 }
 .item-4{
-    background:black
-
+     @include backgorundColour(black)
+}
+.item-5{
+     @include backgorundColour(teal)
+}
+.item-6{
+@include backgorundColour(orange)
+}
+.item-7{
+@include backgorundColour(purple)
+}
+.item-7{
+@include backgorundColour(pink)
 }
