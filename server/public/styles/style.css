@@ -34,19 +34,22 @@ nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #f4f4f4;
+  padding-left: 4rem;
+  text-align: center;
 }
 
 nav ul li a:hover {
   color: skyblue;
 }
 
-section.experiences-background {
-  background: url("../images/manInOcean.jpg") no-repeat center center/cover;
+.experiences-background {
+  background: url("../images/manInOcean.jpg") fixed no-repeat center center/cover;
   width: 100%;
   height: 50vh;
 }
 
 section#experiences {
+  background: snow;
   width: 100%;
   height: 100vh;
 }
@@ -77,13 +80,14 @@ section#experiences {
   font-family: "Work Sans", sans-serif;
 }
 
-section.experiences-background {
-  background: url("../images/manInOcean.jpg") no-repeat center center/cover;
+.experiences-background {
+  background: url("../images/manInOcean.jpg") fixed no-repeat center center/cover;
   width: 100%;
   height: 50vh;
 }
 
 section#experiences {
+  background: snow;
   width: 100%;
   height: 100vh;
 }
@@ -132,17 +136,19 @@ section#experiences {
 }
 
 section#contact {
+  background: snow;
   widows: 100%;
   height: 100vh;
 }
 
-section.experiences-background {
-  background: url("../images/manInOcean.jpg") no-repeat center center/cover;
+.experiences-background {
+  background: url("../images/manInOcean.jpg") fixed no-repeat center center/cover;
   width: 100%;
   height: 50vh;
 }
 
 section#experiences {
+  background: snow;
   width: 100%;
   height: 100vh;
 }
@@ -174,12 +180,13 @@ section#experiences {
 }
 
 section.who-i-am-background {
-  background: url("../images/trees.jpg") no-repeat center center/cover;
+  background: url("../images/trees.jpg") fixed no-repeat center center/cover;
   width: 100%;
   height: 50vh;
 }
 
 section#who-i-am {
+  background: snow;
   width: 100%;
   height: 100vh;
 }
@@ -202,13 +209,14 @@ section#who-i-am {
           flex-direction: column;
 }
 
-section.experiences-background {
-  background: url("../images/manInOcean.jpg") no-repeat center center/cover;
+.experiences-background {
+  background: url("../images/manInOcean.jpg") fixed no-repeat center center/cover;
   width: 100%;
   height: 50vh;
 }
 
 section#experiences {
+  background: snow;
   width: 100%;
   height: 100vh;
 }
@@ -237,6 +245,12 @@ section#experiences {
 .experiences p {
   color: #323648;
   font-family: "Work Sans", sans-serif;
+}
+
+section.portfolio-background {
+  background: url("../images/Himalaya.jpg") fixed no-repeat center center/cover;
+  width: 100%;
+  height: 50vh;
 }
 
 section#portfolio-section {
@@ -307,9 +321,6 @@ body {
 #app {
   width: 100%;
   height: 100%;
-  overflow-y: scroll;
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
 }
 
 section {

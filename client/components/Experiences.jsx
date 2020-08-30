@@ -3,9 +3,7 @@ import React from "react"
 const Experiences = () => {
   return (
     <>
-      <section className="experiences-background">
-       
-      </section>
+      <section className="experiences-background"></section>
       <section id="experiences">
         <div className="experiences ">
           <h1>This is a Test Experiences</h1>
@@ -30,6 +28,7 @@ const Experiences = () => {
           </p>
         </div>
       </section>
+      <section className="experiences-background-bottom"></section>
     </>
   )
 }

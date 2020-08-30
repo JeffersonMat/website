@@ -13,6 +13,8 @@ import Website from "./Portfoliovideos/Website"
 const Portfolio = () => {
   
   return (
+    <>
+  <section className="portfolio-background"></section>
     <section id="portfolio-section">
     <div className="carousel carousel-slider center portfolio">
       <div className="carousel-fixed-item center">
@@ -64,7 +66,8 @@ const Portfolio = () => {
        <Website/>
       </div>
       </div>
-      </section>
+    </section>
+    </>
   )
 }
 

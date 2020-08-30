@@ -18,7 +18,7 @@ const NavBar = () => {
                   <Link
                     activeClass="active"
                     to="who-i-am"
-                    spy={true}
+                    // spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
@@ -30,7 +30,7 @@ const NavBar = () => {
                   <Link
                     activeClass="active"
                     to="experiences"
-                    spy={true}
+                    // spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
@@ -42,7 +42,7 @@ const NavBar = () => {
                   <Link
                     activeClass="active"
                     to="portfolio"
-                    spy={true}
+                    // spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
@@ -54,7 +54,7 @@ const NavBar = () => {
                   <Link
                     activeClass="active"
                     to="contact"
-                    spy={true}
+                    // spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
