@@ -1,22 +1,26 @@
-@import './experiences';
-@import './variables/variablesStyles';
+@import "./variables-Functions/variablesStyles";
+@import "./variables-Functions/functions";
 
-
-
-section.who-i-am-background{
-    background: url('../images/trees.jpg') fixed no-repeat center center/cover;
-    width:100%;
-    height:50vh;
+section.who-i-am-background {
+  background: url("../images/trees.jpg") fixed no-repeat center center/cover;
+  width: 100%;
+  height: 50vh;
+  h1{
+    color:$titleFontColour
+  }
 }
 
- section#who-i-am{
-  background:$backgroundSections;
-  width:100%;
-  height:100vh;
-
+section#who-i-am {
+  background: $backgroundSections;
+  width: 100%;
+  height: 100vh;
 }
 
-.who-i-am{ 
-  z-index:3;
-    @include flexCenter(center,center,column)
-    ;}
+.who-i-am {
+  z-index: 1;
+  @include flexCenter(center, center, column);
+}
+.carousel  .content-who-i-am{
+  @include marginAlignment();
+}
+

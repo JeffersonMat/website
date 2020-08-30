@@ -1,0 +1,61 @@
+@import './variablesStyles';
+
+//Flex section functions
+
+@mixin flexCenter($alignContent, $alignItems, $direction) {
+  height: 100vh;
+  display: flex;
+  justify-content: $alignContent;
+  align-items: $alignItems;
+  flex-direction: $direction;
+}
+
+
+
+//Brekapoints  Functions
+
+@mixin breakPoint360Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media screen and (max-width: 360px) {
+    
+    margin:$marginBreakPoint;
+    font-size:$fontsizeBreakPoint
+
+    h1 {
+      font-size: 2rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      // line-height:$lineHeighttext ;
+      margin-bottom: $marginBottomText360Px;
+    }
+
+    ul.indicatores{
+      top:590px;
+    }
+  }
+}
+
+@mixin breakPoint420Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media screen and (max-width: 420px) {
+    margin: $marginBreakPoint;
+    font-size:$fontsizeBreakPoin;
+    h1 {
+      font-size: 3rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      // line-height:$lineHeighttext ;
+      margin-bottom: $marginBottomText420Px;
+    }
+  }
+}
+
+//Margin Alignment includes breakPoints
+@mixin marginAlignment{
+  margin:$divSectionsMargin;
+  //Breakpoint
+  @include breakPoint360Px($divSectionMarginMax360px, $fontsizeMobileTextMax360Px);
+  @include breakPoint420Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
+}

@@ -5,8 +5,8 @@ const Experiences = () => {
     <>
       <section className="experiences-background"></section>
       <section id="experiences">
-        <div className="experiences ">
-          <h1>This is a Test Experiences</h1>
+        <div className="experiences-content">
+          <h1>My Journey</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, aut
             tempore. Animi, est eum alias dignissimos ullam nihil vero
@@ -28,7 +28,6 @@ const Experiences = () => {
           </p>
         </div>
       </section>
-      <section className="experiences-background-bottom"></section>
     </>
   )
 }

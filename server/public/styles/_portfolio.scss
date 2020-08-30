@@ -1,5 +1,5 @@
-@import './experiences';
-@import './variables/variablesStyles';
+// @import './experiences';
+@import './variables-Functions/variablesStyles.scss';
 
 @mixin backgorundColour($backgroundItemcolour) {
     background:$backgroundItemcolour

@@ -1,36 +1,36 @@
-@import './variables/variablesStyles';
+@import './variables-Functions/variablesStyles';
+@import './variables-Functions/functions';
 
-@mixin flexCenter($alignContent, $alignItems, $direction) {
-   height:100vh;
-   display: flex;
-   justify-content:$alignContent;
-   align-items:$alignItems;
-   flex-direction:$direction;
+
+.experiences-background {
+  background: url("../images/manInOcean.jpg") fixed no-repeat center
+    center/cover;
+  width: 100%;
+  height: 50vh;
 }
 
-.experiences-background{
+section#experiences {
+  background: $backgroundSections;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap:wrap;
+}
 
-   background:url('../images/manInOcean.jpg') fixed no-repeat center center/cover;
-   width:100%;
-   height:50vh;
-}   
-   
-section#experiences{
- background:$backgroundSections;
-  width:100%;
-  height:100vh;
+.experiences-content{
+    z-index: 1;
+  @include flexCenter(center, center, column);
   
+  h1 {
+    color: $titleFontColour; 
+  }
+  
+  p {
+    color: $textColour;
+    font-family: $textFontFamily;
+  }
+  
+@include marginAlignment();
 }
-.experiences{
-   
-   @include flexCenter(center,center,column);
-   
-   h1{
-      color:$titleFontColour; 
-   }
 
-   p {
-       color:$textColour;
-       font-family:$textFontFamily
-   }
-};
+
