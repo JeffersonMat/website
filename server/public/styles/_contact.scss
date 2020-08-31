@@ -1,5 +1,5 @@
-@import './experiences';
-@import './variables-Functions/variablesStyles.scss';
+@import './variables-Functions/variablesStyles';
+@import './variables-Functions/functions';
 
 .contact {
    @include flexCenter(center,center,column);

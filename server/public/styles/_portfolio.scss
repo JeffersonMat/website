@@ -32,28 +32,10 @@ height: 100vh;
     flex-direction:column;
 }
 
-.item-1{
-  @include backgorundColour(red)
+.carousel  .carousel-item .portfolio-content{
+   @include marginAlignment();   
 }
 
-.item-2{
-      @include backgorundColour(blue) 
-}
-.item-3{
-       @include backgorundColour(green)   
-}
-.item-4{
-     @include backgorundColour(black)
-}
-.item-5{
-     @include backgorundColour(teal)
-}
-// .item-6{
-// // @include backgorundColour(orange)
-// }
-.item-7{
-@include backgorundColour(purple)
-}
-.item-7{
-@include backgorundColour(pink)
+.portfolio-background{
+    background:$backgroundSections
 }

@@ -3,8 +3,9 @@ import React from "react"
 const Contact = () => {
   return (
     <>
+      <section className="portfolio-background"></section>
       <section id="contact">
-        <div className="contact" >
+        <div className="contact">
           <h1>This is a Test</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, aut

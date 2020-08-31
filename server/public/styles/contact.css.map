@@ -4,8 +4,8 @@
     "sources": [
         "contact.scss",
         "_experiences.scss",
-        "variables/_variablesFont.scss",
-        "variables/_variablesFont.scss"
+        "variables/_variablesStyle.scss"
+     
     ],
     "names": [],
     "file": "contact.css"

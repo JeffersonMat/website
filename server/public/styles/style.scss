@@ -1,5 +1,5 @@
-@import './variables-Functions/variablesStyles.scss';
-@import './variables-Functions/Functions.scss';
+@import './variables-Functions/variablesStyles';
+@import './variables-Functions/functions';
 @import './navbar';
 @import './experiences';
 @import './contact';
@@ -39,3 +39,14 @@ section{
 .carousel .indicators .indicator-item.active{
      background:#333;
 }
+
+//BreakPoints
+
+
+ @media screen and (max-width: 1025px){
+
+    body{
+        font-size:21px;
+    }
+   
+ }

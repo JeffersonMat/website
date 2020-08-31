@@ -21,7 +21,7 @@ const NavBar = () => {
                     // spy={true}
                     smooth={true}
                     offset={-70}
-                    duration={500}
+                    duration={2000}
                   >
                     Who I Am
                   </Link>
@@ -33,7 +33,7 @@ const NavBar = () => {
                     // spy={true}
                     smooth={true}
                     offset={-70}
-                    duration={500}
+                    duration={2000}
                   >
                     Experience
                   </Link>
@@ -45,7 +45,7 @@ const NavBar = () => {
                     // spy={true}
                     smooth={true}
                     offset={-70}
-                    duration={500}
+                    duration={2000}
                   >
                     Portfolio
                   </Link>
@@ -57,7 +57,7 @@ const NavBar = () => {
                     // spy={true}
                     smooth={true}
                     offset={-70}
-                    duration={500}
+                    duration={4000}
                   >
                     Contact Me
                   </Link>

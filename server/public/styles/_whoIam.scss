@@ -17,10 +17,10 @@ section#who-i-am {
 }
 
 .who-i-am {
-  z-index: 1;
+  
   @include flexCenter(center, center, column);
 }
-.carousel  .content-who-i-am{
+.carousel .carousel-item  .content-who-i-am{
   @include marginAlignment();
 }
 

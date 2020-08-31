@@ -10,7 +10,7 @@
 }
 
 section#experiences {
-  background: $backgroundSections;
+  // background-image: linear-gradient(#fffafa,#564454);
   width: 100%;
   height: 100vh;
   display: flex;
@@ -18,7 +18,7 @@ section#experiences {
 }
 
 .experiences-content{
-    z-index: 1;
+ 
   @include flexCenter(center, center, column);
   
   h1 {

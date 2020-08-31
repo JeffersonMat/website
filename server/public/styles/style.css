@@ -41,6 +41,7 @@ nav ul li a {
 nav ul li a:hover {
   color: skyblue;
 }
+
 .experiences-background {
   background: url("../images/manInOcean.jpg") fixed no-repeat center center/cover;
   width: 100%;
@@ -48,7 +49,6 @@ nav ul li a:hover {
 }
 
 section#experiences {
-  background: snow;
   width: 100%;
   height: 100vh;
   display: -webkit-box;
@@ -59,7 +59,6 @@ section#experiences {
 }
 
 .experiences-content {
-  z-index: 1;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -77,7 +76,6 @@ section#experiences {
   margin: 0 150px 180px 150px;
 }
 
-
 .experiences-content h1 {
   color: #333;
 }
@@ -87,35 +85,51 @@ section#experiences {
   font-family: "Work Sans", sans-serif;
 }
 
-
-
-@media screen and (max-width: 420px) {
-  .experiences-content {
-    margin: 0 2rem 0 2rem;
-    font-size: 18px;
-  }
-  .experiences-content h1 {
-    font-size: 3rem;
-    color: #333;
-  }
-  .experiences-content p {
-    color: #696969;
-    margin-bottom: 1.5rem;
-  }
-}
-
 @media screen and (max-width: 360px) {
   .experiences-content {
     margin: 0 1rem 0 1rem;
     font-size: 14px;
   }
   .experiences-content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #333;
   }
   .experiences-content p {
     color: #696969;
     margin-bottom: 1rem;
+  }
+  .experiences-content ul.indicatores {
+    top: 590px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .experiences-content {
+    margin: 0 2rem 0 2rem;
+  }
+  .experiences-content h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  .experiences-content p {
+    color: #696969;
+    font-size: 18px;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .experiences-content {
+    margin: 0 2rem 0 2rem;
+  }
+  .experiences-content h1 {
+    font-size: 4rem;
+    color: #333;
+  }
+  .experiences-content p {
+    color: #696969;
+    font-size: 21px;
+    margin-bottom: 2rem;
   }
 }
 
@@ -137,7 +151,7 @@ section#experiences {
 }
 
 section#contact {
-  background: snow;
+  background: #fffafa;
   widows: 100%;
   height: 100vh;
 }
@@ -153,13 +167,12 @@ section.who-i-am-background h1 {
 }
 
 section#who-i-am {
-  background: snow;
+  background: #fffafa;
   width: 100%;
   height: 100vh;
 }
 
 .who-i-am {
-  z-index: 1;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -176,39 +189,57 @@ section#who-i-am {
           flex-direction: column;
 }
 
-.carousel .content-who-i-am {
+.carousel .carousel-item .content-who-i-am {
   margin: 0 150px 180px 150px;
 }
 
-@media screen and (max-width: 420px) {
-  .carousel .content-who-i-am {
-    margin: 0 2rem 0 2rem;
-    font-size: 18px;
-  }
-  .carousel .content-who-i-am h1 {
-    font-size: 3rem;
-    color: #333;
-  }
-  .carousel .content-who-i-am p {
-    color: #696969;
-    margin-bottom: 1.5rem;
-  }
-}
 @media screen and (max-width: 360px) {
-  .carousel .content-who-i-am {
+  .carousel .carousel-item .content-who-i-am {
     margin: 0 1rem 0 1rem;
     font-size: 14px;
   }
-  .carousel .content-who-i-am h1 {
-    font-size: 3rem;
+  .carousel .carousel-item .content-who-i-am h1 {
+    font-size: 2rem;
     color: #333;
   }
-  .carousel .content-who-i-am p {
+  .carousel .carousel-item .content-who-i-am p {
     color: #696969;
     margin-bottom: 1rem;
   }
+  .carousel .carousel-item .content-who-i-am ul.indicatores {
+    top: 590px;
+  }
 }
 
+@media screen and (max-width: 420px) {
+  .carousel .carousel-item .content-who-i-am {
+    margin: 0 2rem 0 2rem;
+  }
+  .carousel .carousel-item .content-who-i-am h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  .carousel .carousel-item .content-who-i-am p {
+    color: #696969;
+    font-size: 18px;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .carousel .carousel-item .content-who-i-am {
+    margin: 0 2rem 0 2rem;
+  }
+  .carousel .carousel-item .content-who-i-am h1 {
+    font-size: 4rem;
+    color: #333;
+  }
+  .carousel .carousel-item .content-who-i-am p {
+    color: #696969;
+    font-size: 21px;
+    margin-bottom: 2rem;
+  }
+}
 
 section.portfolio-background {
   background: url("../images/Himalaya.jpg") fixed no-repeat center center/cover;
@@ -241,32 +272,60 @@ section#portfolio-section {
           flex-direction: column;
 }
 
-.item-1 {
-  background: red;
+.carousel .carousel-item .portfolio-content {
+  margin: 0 150px 180px 150px;
 }
 
-.item-2 {
-  background: blue;
+@media screen and (max-width: 360px) {
+  .carousel .carousel-item .portfolio-content {
+    margin: 0 1rem 0 1rem;
+    font-size: 14px;
+  }
+  .carousel .carousel-item .portfolio-content h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  .carousel .carousel-item .portfolio-content p {
+    color: #696969;
+    margin-bottom: 1rem;
+  }
+  .carousel .carousel-item .portfolio-content ul.indicatores {
+    top: 590px;
+  }
 }
 
-.item-3 {
-  background: green;
+@media screen and (max-width: 420px) {
+  .carousel .carousel-item .portfolio-content {
+    margin: 0 2rem 0 2rem;
+  }
+  .carousel .carousel-item .portfolio-content h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  .carousel .carousel-item .portfolio-content p {
+    color: #696969;
+    font-size: 18px;
+    margin-bottom: 2rem;
+  }
 }
 
-.item-4 {
-  background: black;
+@media screen and (max-width: 770px) {
+  .carousel .carousel-item .portfolio-content {
+    margin: 0 2rem 0 2rem;
+  }
+  .carousel .carousel-item .portfolio-content h1 {
+    font-size: 4rem;
+    color: #333;
+  }
+  .carousel .carousel-item .portfolio-content p {
+    color: #696969;
+    font-size: 21px;
+    margin-bottom: 2rem;
+  }
 }
 
-.item-5 {
-  background: teal;
-}
-
-.item-7 {
-  background: purple;
-}
-
-.item-7 {
-  background: pink;
+.portfolio-background {
+  background: #fffafa;
 }
 
 * {
@@ -291,10 +350,16 @@ section {
 }
 
 .carousel .indicators .indicator-item {
-  background: #333;
+  background: lightgray;
 }
 
 .carousel .indicators .indicator-item.active {
-  background: lightgrey;
+  background: #333;
+}
+
+@media screen and (max-width: 1025px) {
+  body {
+    font-size: 21px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
