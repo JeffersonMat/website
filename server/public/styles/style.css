@@ -171,6 +171,32 @@ section#experiences {
   }
 }
 
+@media screen and (max-width: 1370px) {
+  .experiences-content {
+    margin: 0 3rem 0 3rem;
+  }
+  .experiences-content h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    color: #333;
+  }
+  .experiences-content p {
+    color: #696969;
+    font-size: 27px;
+    margin-bottom: 3rem;
+  }
+  .experiences-content .experience-title {
+    margin-top: -300px;
+  }
+  .experiences-content .contact-title {
+    margin-top: -300px;
+  }
+  .experiences-content video {
+    margin-top: 2rem;
+    width: 900px;
+  }
+}
+
 section#contact {
   background: #fffafa;
   widows: 100%;
@@ -276,6 +302,32 @@ section#contact {
   .contact-content video {
     margin-top: 5rem;
     width: 800px;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .contact-content {
+    margin: 0 3rem 0 3rem;
+  }
+  .contact-content h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    color: #333;
+  }
+  .contact-content p {
+    color: #696969;
+    font-size: 27px;
+    margin-bottom: 3rem;
+  }
+  .contact-content .experience-title {
+    margin-top: -300px;
+  }
+  .contact-content .contact-title {
+    margin-top: -300px;
+  }
+  .contact-content video {
+    margin-top: 2rem;
+    width: 900px;
   }
 }
 
@@ -400,6 +452,32 @@ section#who-i-am {
   }
 }
 
+@media screen and (max-width: 1370px) {
+  .carousel .carousel-item .content-who-i-am {
+    margin: 0 3rem 0 3rem;
+  }
+  .carousel .carousel-item .content-who-i-am h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    color: #333;
+  }
+  .carousel .carousel-item .content-who-i-am p {
+    color: #696969;
+    font-size: 27px;
+    margin-bottom: 3rem;
+  }
+  .carousel .carousel-item .content-who-i-am .experience-title {
+    margin-top: -300px;
+  }
+  .carousel .carousel-item .content-who-i-am .contact-title {
+    margin-top: -300px;
+  }
+  .carousel .carousel-item .content-who-i-am video {
+    margin-top: 2rem;
+    width: 900px;
+  }
+}
+
 section.portfolio-background {
   background: url("../images/Himalaya.jpg") fixed no-repeat center center/cover;
   width: 100%;
@@ -519,6 +597,32 @@ section#portfolio-section {
   }
 }
 
+@media screen and (max-width: 1370px) {
+  .carousel .carousel-item .portfolio-content {
+    margin: 0 3rem 0 3rem;
+  }
+  .carousel .carousel-item .portfolio-content h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    color: #333;
+  }
+  .carousel .carousel-item .portfolio-content p {
+    color: #696969;
+    font-size: 27px;
+    margin-bottom: 3rem;
+  }
+  .carousel .carousel-item .portfolio-content .experience-title {
+    margin-top: -300px;
+  }
+  .carousel .carousel-item .portfolio-content .contact-title {
+    margin-top: -300px;
+  }
+  .carousel .carousel-item .portfolio-content video {
+    margin-top: 2rem;
+    width: 900px;
+  }
+}
+
 .portfolio-background {
   background: #fffafa;
 }
@@ -558,6 +662,15 @@ section {
   }
   ul li a {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  body {
+    font-size: 27px;
+  }
+  ul li a {
+    font-size: 21px;
   }
 }
 /*# sourceMappingURL=style.css.map */
