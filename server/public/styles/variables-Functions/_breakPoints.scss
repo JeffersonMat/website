@@ -1,77 +1,6 @@
 //Brekapoints  Functions
-
-@mixin breakPoint360Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media  screen and (max-width: 360px) {
-    
-    margin:$marginBreakPoint;
-    font-size:$fontsizeBreakPoint;
-
-    h1 {
-      font-size: 2rem;
-      color: $titleFontColour;
-    }
-    p {
-      color: $textColour;
-      // line-height:$lineHeighttext ;
-      margin-bottom: $marginBottomTextMax360Px
-    }
-
-    ul.indicatores{
-      top:590px;
-    }
-
-    video{
-       margin-top:3rem;
-      width:320px;
-     
-    }
-  }
-}
-
-@mixin breakPoint420Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media screen and (min-width: 370px) {
-    margin: $marginBreakPoint;
-    h1 {
-      font-size: 3rem;
-      color: $titleFontColour;
-    }
-    p {
-      color: $textColour;
-      font-size:$fontsizeBreakPoint;
-      // line-height:$lineHeighttext ;
-      margin-bottom:$marginBottomTextMax420Px
-    }
-    video{
-      margin-top:5rem;  
-      width:300px;
-    }
-  }
-}
-
-@mixin breakPoint414Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media screen and (width: 414px) {
-    margin: $marginBreakPoint;
-    h1 {
-      font-size: 3rem;
-      color: $titleFontColour;
-    }
-    p {
-      color: $textColour;
-      font-size:$fontsizeBreakPoint;
-      // line-height:$lineHeighttext ;
-      margin-bottom:$marginBottomTextMax420Px
-    }
-    video{
-      margin-top:3rem;
-      width:350px;
-    }
-  }
-}
-
-
-
-@mixin breakPoint770Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (width: 768px) {
+@mixin breakPoint1370Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
+  @media only screen and (min-width:1360px) and (min-width:900px) {
     margin: $marginBreakPoint;
 
     h1 {
@@ -81,27 +10,28 @@
     }
     p {
       color: $textColour;
-      font-size:$fontsizeBreakPoint;
-      
+      font-size:$fontsizeBreakPoint;    
       // line-height:$lineHeighttext ;
-      margin-bottom:$marginBottomTextMax770Px;
+      margin-bottom:$marginBottomTextMax1370Px;
     }
     .experience-title{
-      margin-top:-200px;
+      margin-top:-100px;
     }
     .contact-title{
-      margin-top:-200px;
+      margin-top:-100px;
+    }
+    .portfolio-title{
+      margin-bottom:3rem;
     }
     video{
-
-      margin-top:5rem;
-      width:700px;
+      margin-top:0.5rem;
+      width:900px;
     }
   }
 }
 
 @mixin breakPoint1204Width-770Height($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (min-width:1024), only screen and( height:768px) {
+  @media only screen   and (max-width:1024) and (min-width:900px) and (orientation: landscape) {
     margin: $marginBreakPoint;
 
     h1 {
@@ -134,10 +64,8 @@
 }
 
 
-
-
 @mixin breakPoint1024Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (max-width: 1024px) and (min-width:900px){
     margin: $marginBreakPoint;
 
     h1 {
@@ -167,9 +95,8 @@
 
 
 
-
-@mixin breakPoint1370Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (min-width:1370px) {
+@mixin breakPoint770Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
+  @media only screen and (max-width: 810px) and (min-width:700px) {
     margin: $marginBreakPoint;
 
     h1 {
@@ -179,22 +106,157 @@
     }
     p {
       color: $textColour;
-      font-size:$fontsizeBreakPoint;    
+      font-size:$fontsizeBreakPoint;
+      
       // line-height:$lineHeighttext ;
-      margin-bottom:$marginBottomTextMax1370Px;
+      margin-bottom:$marginBottomTextMax770Px;
     }
     .experience-title{
-      margin-top:-100px;
+      margin-top:-180px;
     }
     .contact-title{
-      margin-top:-100px;
-    }
-    .portfolio-title{
-      margin-bottom:3rem;
+      margin-top:-180px;
     }
     video{
-      margin-top:0.5rem;
+
+      margin-top:5rem;
       width:700px;
     }
   }
 }
+
+
+@mixin breakPoint480Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media screen and (width:480px){
+    margin: $marginBreakPoint;
+    h1 {
+      font-size: 3rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size:$fontsizeBreakPoint;
+      // line-height:$lineHeighttext ;
+      margin-bottom:$marginBottomTextMax480Px
+    }
+    video{
+      margin-top:2rem;
+      width:400px;
+    }
+  }
+}
+
+@mixin breakPoint414Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media screen and (max-width: 470px) and (min-width:450px) {
+    margin: $marginBreakPoint;
+    h1 {
+      font-size: 3rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size:$fontsizeBreakPoint;
+      // line-height:$lineHeighttext ;
+      margin-bottom:$marginBottomTextMax420Px
+    }
+    video{
+      margin-top:3rem;
+      width:350px;
+    }
+  }
+}
+
+
+@mixin breakPoint375Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media screen and (max-width: 400px) and (min-width:372px){
+    margin: $marginBreakPoint;
+    h1 {
+      font-size: 2.5rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size:$fontsizeBreakPoint;
+      // line-height:$lineHeighttext ;
+      margin-bottom:$marginBottomTextMax375Px
+    }
+    .experience-title{
+      margin-top:-40px;
+    }
+    .contact-title{
+      margin-top:-40px;
+    }
+
+    video{
+      margin-top:3rem;  
+      width:300px;
+    }
+  }
+}
+
+
+@mixin breakPoint370Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media screen and (max-width: 420px) and (min-width:380px){
+    margin: $marginBreakPoint;
+    h1 {
+      font-size: 3rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size:$fontsizeBreakPoint;
+      // line-height:$lineHeighttext ;
+      margin-bottom:$marginBottomTextMax420Px
+    }
+    video{
+      margin-top:3rem;  
+      width:350px;
+    }
+  }
+}
+
+
+@mixin breakPoint360Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media  screen and (max-width: 365px) and (min-width:350px) {
+    
+    margin:$marginBreakPoint;
+    font-size:$fontsizeBreakPoint;
+
+    h1 {
+      font-size: 2rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      // line-height:$lineHeighttext ;
+      margin-bottom: $marginBottomTextMax360Px
+    }
+
+    ul.indicatores{
+      top:590px;
+    }
+
+    video{
+       margin-top:1rem;
+       width:320px;
+     
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

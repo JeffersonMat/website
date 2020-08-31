@@ -1,6 +1,6 @@
 nav {
   background-color: #333;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
   z-index: 1;
   width: 100%;
   height: 60px;
@@ -87,7 +87,7 @@ section#experiences {
   font-family: "Work Sans", sans-serif;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 365px) and (min-width: 350px) {
   .experiences-content {
     margin: 0 1rem 0 1rem;
     font-size: 16px;
@@ -104,12 +104,12 @@ section#experiences {
     top: 590px;
   }
   .experiences-content video {
-    margin-top: 3rem;
+    margin-top: 1rem;
     width: 320px;
   }
 }
 
-@media screen and (min-width: 370px) {
+@media screen and (max-width: 420px) and (min-width: 380px) {
   .experiences-content {
     margin: 0 2rem 0 2rem;
   }
@@ -119,26 +119,7 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 18px;
-    margin-bottom: 1.5rem;
-  }
-  .experiences-content video {
-    margin-top: 5rem;
-    width: 300px;
-  }
-}
-
-@media screen and (width: 414px) {
-  .experiences-content {
-    margin: 0 2rem 0 2rem;
-  }
-  .experiences-content h1 {
-    font-size: 3rem;
-    color: #333;
-  }
-  .experiences-content p {
-    color: #696969;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 1.5rem;
   }
   .experiences-content video {
@@ -147,33 +128,70 @@ section#experiences {
   }
 }
 
-@media only screen and (width: 768px) {
+@media screen and (max-width: 400px) and (min-width: 372px) {
   .experiences-content {
-    margin: 0 3rem 0 3rem;
+    margin: 0 1.8rem 0 1.8rem;
   }
   .experiences-content h1 {
-    font-size: 4rem;
-    margin-bottom: 5rem;
+    font-size: 2.5rem;
     color: #333;
   }
   .experiences-content p {
     color: #696969;
-    font-size: 22px;
-    margin-bottom: 3rem;
+    font-size: 15px;
+    margin-bottom: 1.2rem;
   }
   .experiences-content .experience-title {
-    margin-top: -200px;
+    margin-top: -40px;
   }
   .experiences-content .contact-title {
-    margin-top: -200px;
+    margin-top: -40px;
   }
   .experiences-content video {
-    margin-top: 5rem;
-    width: 700px;
+    margin-top: 3rem;
+    width: 300px;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media screen and (max-width: 470px) and (min-width: 450px) {
+  .experiences-content {
+    margin: 0 2rem 0 2rem;
+  }
+  .experiences-content h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  .experiences-content p {
+    color: #696969;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+  }
+  .experiences-content video {
+    margin-top: 3rem;
+    width: 350px;
+  }
+}
+
+@media screen and (width: 480px) {
+  .experiences-content {
+    margin: 0 1rem 0 1rem;
+  }
+  .experiences-content h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  .experiences-content p {
+    color: #696969;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+  }
+  .experiences-content video {
+    margin-top: 2rem;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 900px) {
   .experiences-content {
     margin: 0 3rem 0 3rem;
   }
@@ -199,9 +217,9 @@ section#experiences {
   }
 }
 
-@media only screen and (min-width: 1370px) {
+@media only screen and (max-width: 810px) and (min-width: 700px) {
   .experiences-content {
-    margin: 0 15rem 0 15rem;
+    margin: 0 3rem 0 3rem;
   }
   .experiences-content h1 {
     font-size: 4rem;
@@ -214,21 +232,18 @@ section#experiences {
     margin-bottom: 3rem;
   }
   .experiences-content .experience-title {
-    margin-top: -100px;
+    margin-top: -180px;
   }
   .experiences-content .contact-title {
-    margin-top: -100px;
-  }
-  .experiences-content .portfolio-title {
-    margin-bottom: 3rem;
+    margin-top: -180px;
   }
   .experiences-content video {
-    margin-top: 0.5rem;
+    margin-top: 5rem;
     width: 700px;
   }
 }
 
-@media only screen and (min-width: 1024), only screen and (height: 768px) {
+@media only screen and (max-width: 1024) and (min-width: 900px) and (orientation: landscape) {
   .experiences-content {
     margin: 0 3rem 0 3rem;
   }
@@ -254,6 +269,35 @@ section#experiences {
   .experiences-content video {
     margin-top: 0.5rem;
     width: 620px;
+  }
+}
+
+@media only screen and (min-width: 1360px) and (min-width: 900px) {
+  .experiences-content {
+    margin: 0 15rem 0 15rem;
+  }
+  .experiences-content h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    color: #333;
+  }
+  .experiences-content p {
+    color: #696969;
+    font-size: 22px;
+    margin-bottom: 3rem;
+  }
+  .experiences-content .experience-title {
+    margin-top: -100px;
+  }
+  .experiences-content .contact-title {
+    margin-top: -100px;
+  }
+  .experiences-content .portfolio-title {
+    margin-bottom: 3rem;
+  }
+  .experiences-content video {
+    margin-top: 0.5rem;
+    width: 900px;
   }
 }
 
@@ -283,7 +327,7 @@ section#contact {
   margin: 0 150px 180px 150px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 365px) and (min-width: 350px) {
   .contact-content {
     margin: 0 1rem 0 1rem;
     font-size: 16px;
@@ -300,12 +344,12 @@ section#contact {
     top: 590px;
   }
   .contact-content video {
-    margin-top: 3rem;
+    margin-top: 1rem;
     width: 320px;
   }
 }
 
-@media screen and (min-width: 370px) {
+@media screen and (max-width: 420px) and (min-width: 380px) {
   .contact-content {
     margin: 0 2rem 0 2rem;
   }
@@ -315,26 +359,7 @@ section#contact {
   }
   .contact-content p {
     color: #696969;
-    font-size: 18px;
-    margin-bottom: 1.5rem;
-  }
-  .contact-content video {
-    margin-top: 5rem;
-    width: 300px;
-  }
-}
-
-@media screen and (width: 414px) {
-  .contact-content {
-    margin: 0 2rem 0 2rem;
-  }
-  .contact-content h1 {
-    font-size: 3rem;
-    color: #333;
-  }
-  .contact-content p {
-    color: #696969;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 1.5rem;
   }
   .contact-content video {
@@ -343,33 +368,70 @@ section#contact {
   }
 }
 
-@media only screen and (width: 768px) {
+@media screen and (max-width: 400px) and (min-width: 372px) {
   .contact-content {
-    margin: 0 3rem 0 3rem;
+    margin: 0 1.8rem 0 1.8rem;
   }
   .contact-content h1 {
-    font-size: 4rem;
-    margin-bottom: 5rem;
+    font-size: 2.5rem;
     color: #333;
   }
   .contact-content p {
     color: #696969;
-    font-size: 22px;
-    margin-bottom: 3rem;
+    font-size: 15px;
+    margin-bottom: 1.2rem;
   }
   .contact-content .experience-title {
-    margin-top: -200px;
+    margin-top: -40px;
   }
   .contact-content .contact-title {
-    margin-top: -200px;
+    margin-top: -40px;
   }
   .contact-content video {
-    margin-top: 5rem;
-    width: 700px;
+    margin-top: 3rem;
+    width: 300px;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media screen and (max-width: 470px) and (min-width: 450px) {
+  .contact-content {
+    margin: 0 2rem 0 2rem;
+  }
+  .contact-content h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  .contact-content p {
+    color: #696969;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+  }
+  .contact-content video {
+    margin-top: 3rem;
+    width: 350px;
+  }
+}
+
+@media screen and (width: 480px) {
+  .contact-content {
+    margin: 0 1rem 0 1rem;
+  }
+  .contact-content h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  .contact-content p {
+    color: #696969;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+  }
+  .contact-content video {
+    margin-top: 2rem;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 900px) {
   .contact-content {
     margin: 0 3rem 0 3rem;
   }
@@ -395,9 +457,9 @@ section#contact {
   }
 }
 
-@media only screen and (min-width: 1370px) {
+@media only screen and (max-width: 810px) and (min-width: 700px) {
   .contact-content {
-    margin: 0 15rem 0 15rem;
+    margin: 0 3rem 0 3rem;
   }
   .contact-content h1 {
     font-size: 4rem;
@@ -410,21 +472,18 @@ section#contact {
     margin-bottom: 3rem;
   }
   .contact-content .experience-title {
-    margin-top: -100px;
+    margin-top: -180px;
   }
   .contact-content .contact-title {
-    margin-top: -100px;
-  }
-  .contact-content .portfolio-title {
-    margin-bottom: 3rem;
+    margin-top: -180px;
   }
   .contact-content video {
-    margin-top: 0.5rem;
+    margin-top: 5rem;
     width: 700px;
   }
 }
 
-@media only screen and (min-width: 1024), only screen and (height: 768px) {
+@media only screen and (max-width: 1024) and (min-width: 900px) and (orientation: landscape) {
   .contact-content {
     margin: 0 3rem 0 3rem;
   }
@@ -450,6 +509,35 @@ section#contact {
   .contact-content video {
     margin-top: 0.5rem;
     width: 620px;
+  }
+}
+
+@media only screen and (min-width: 1360px) and (min-width: 900px) {
+  .contact-content {
+    margin: 0 15rem 0 15rem;
+  }
+  .contact-content h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    color: #333;
+  }
+  .contact-content p {
+    color: #696969;
+    font-size: 22px;
+    margin-bottom: 3rem;
+  }
+  .contact-content .experience-title {
+    margin-top: -100px;
+  }
+  .contact-content .contact-title {
+    margin-top: -100px;
+  }
+  .contact-content .portfolio-title {
+    margin-bottom: 3rem;
+  }
+  .contact-content video {
+    margin-top: 0.5rem;
+    width: 900px;
   }
 }
 
@@ -490,7 +578,7 @@ section#who-i-am {
   margin: 0 150px 180px 150px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 365px) and (min-width: 350px) {
   .carousel .carousel-item .content-who-i-am {
     margin: 0 1rem 0 1rem;
     font-size: 16px;
@@ -507,12 +595,12 @@ section#who-i-am {
     top: 590px;
   }
   .carousel .carousel-item .content-who-i-am video {
-    margin-top: 3rem;
+    margin-top: 1rem;
     width: 320px;
   }
 }
 
-@media screen and (min-width: 370px) {
+@media screen and (max-width: 420px) and (min-width: 380px) {
   .carousel .carousel-item .content-who-i-am {
     margin: 0 2rem 0 2rem;
   }
@@ -522,26 +610,7 @@ section#who-i-am {
   }
   .carousel .carousel-item .content-who-i-am p {
     color: #696969;
-    font-size: 18px;
-    margin-bottom: 1.5rem;
-  }
-  .carousel .carousel-item .content-who-i-am video {
-    margin-top: 5rem;
-    width: 300px;
-  }
-}
-
-@media screen and (width: 414px) {
-  .carousel .carousel-item .content-who-i-am {
-    margin: 0 2rem 0 2rem;
-  }
-  .carousel .carousel-item .content-who-i-am h1 {
-    font-size: 3rem;
-    color: #333;
-  }
-  .carousel .carousel-item .content-who-i-am p {
-    color: #696969;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 1.5rem;
   }
   .carousel .carousel-item .content-who-i-am video {
@@ -550,33 +619,70 @@ section#who-i-am {
   }
 }
 
-@media only screen and (width: 768px) {
+@media screen and (max-width: 400px) and (min-width: 372px) {
   .carousel .carousel-item .content-who-i-am {
-    margin: 0 3rem 0 3rem;
+    margin: 0 1.8rem 0 1.8rem;
   }
   .carousel .carousel-item .content-who-i-am h1 {
-    font-size: 4rem;
-    margin-bottom: 5rem;
+    font-size: 2.5rem;
     color: #333;
   }
   .carousel .carousel-item .content-who-i-am p {
     color: #696969;
-    font-size: 22px;
-    margin-bottom: 3rem;
+    font-size: 15px;
+    margin-bottom: 1.2rem;
   }
   .carousel .carousel-item .content-who-i-am .experience-title {
-    margin-top: -200px;
+    margin-top: -40px;
   }
   .carousel .carousel-item .content-who-i-am .contact-title {
-    margin-top: -200px;
+    margin-top: -40px;
   }
   .carousel .carousel-item .content-who-i-am video {
-    margin-top: 5rem;
-    width: 700px;
+    margin-top: 3rem;
+    width: 300px;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media screen and (max-width: 470px) and (min-width: 450px) {
+  .carousel .carousel-item .content-who-i-am {
+    margin: 0 2rem 0 2rem;
+  }
+  .carousel .carousel-item .content-who-i-am h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  .carousel .carousel-item .content-who-i-am p {
+    color: #696969;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+  }
+  .carousel .carousel-item .content-who-i-am video {
+    margin-top: 3rem;
+    width: 350px;
+  }
+}
+
+@media screen and (width: 480px) {
+  .carousel .carousel-item .content-who-i-am {
+    margin: 0 1rem 0 1rem;
+  }
+  .carousel .carousel-item .content-who-i-am h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  .carousel .carousel-item .content-who-i-am p {
+    color: #696969;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+  }
+  .carousel .carousel-item .content-who-i-am video {
+    margin-top: 2rem;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 900px) {
   .carousel .carousel-item .content-who-i-am {
     margin: 0 3rem 0 3rem;
   }
@@ -602,9 +708,9 @@ section#who-i-am {
   }
 }
 
-@media only screen and (min-width: 1370px) {
+@media only screen and (max-width: 810px) and (min-width: 700px) {
   .carousel .carousel-item .content-who-i-am {
-    margin: 0 15rem 0 15rem;
+    margin: 0 3rem 0 3rem;
   }
   .carousel .carousel-item .content-who-i-am h1 {
     font-size: 4rem;
@@ -617,21 +723,18 @@ section#who-i-am {
     margin-bottom: 3rem;
   }
   .carousel .carousel-item .content-who-i-am .experience-title {
-    margin-top: -100px;
+    margin-top: -180px;
   }
   .carousel .carousel-item .content-who-i-am .contact-title {
-    margin-top: -100px;
-  }
-  .carousel .carousel-item .content-who-i-am .portfolio-title {
-    margin-bottom: 3rem;
+    margin-top: -180px;
   }
   .carousel .carousel-item .content-who-i-am video {
-    margin-top: 0.5rem;
+    margin-top: 5rem;
     width: 700px;
   }
 }
 
-@media only screen and (min-width: 1024), only screen and (height: 768px) {
+@media only screen and (max-width: 1024) and (min-width: 900px) and (orientation: landscape) {
   .carousel .carousel-item .content-who-i-am {
     margin: 0 3rem 0 3rem;
   }
@@ -657,6 +760,35 @@ section#who-i-am {
   .carousel .carousel-item .content-who-i-am video {
     margin-top: 0.5rem;
     width: 620px;
+  }
+}
+
+@media only screen and (min-width: 1360px) and (min-width: 900px) {
+  .carousel .carousel-item .content-who-i-am {
+    margin: 0 15rem 0 15rem;
+  }
+  .carousel .carousel-item .content-who-i-am h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    color: #333;
+  }
+  .carousel .carousel-item .content-who-i-am p {
+    color: #696969;
+    font-size: 22px;
+    margin-bottom: 3rem;
+  }
+  .carousel .carousel-item .content-who-i-am .experience-title {
+    margin-top: -100px;
+  }
+  .carousel .carousel-item .content-who-i-am .contact-title {
+    margin-top: -100px;
+  }
+  .carousel .carousel-item .content-who-i-am .portfolio-title {
+    margin-bottom: 3rem;
+  }
+  .carousel .carousel-item .content-who-i-am video {
+    margin-top: 0.5rem;
+    width: 900px;
   }
 }
 
@@ -695,7 +827,7 @@ section#portfolio-section {
   margin: 0 150px 180px 150px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 365px) and (min-width: 350px) {
   .carousel .carousel-item .portfolio-content {
     margin: 0 1rem 0 1rem;
     font-size: 16px;
@@ -712,12 +844,12 @@ section#portfolio-section {
     top: 590px;
   }
   .carousel .carousel-item .portfolio-content video {
-    margin-top: 3rem;
+    margin-top: 1rem;
     width: 320px;
   }
 }
 
-@media screen and (min-width: 370px) {
+@media screen and (max-width: 420px) and (min-width: 380px) {
   .carousel .carousel-item .portfolio-content {
     margin: 0 2rem 0 2rem;
   }
@@ -727,26 +859,7 @@ section#portfolio-section {
   }
   .carousel .carousel-item .portfolio-content p {
     color: #696969;
-    font-size: 18px;
-    margin-bottom: 1.5rem;
-  }
-  .carousel .carousel-item .portfolio-content video {
-    margin-top: 5rem;
-    width: 300px;
-  }
-}
-
-@media screen and (width: 414px) {
-  .carousel .carousel-item .portfolio-content {
-    margin: 0 2rem 0 2rem;
-  }
-  .carousel .carousel-item .portfolio-content h1 {
-    font-size: 3rem;
-    color: #333;
-  }
-  .carousel .carousel-item .portfolio-content p {
-    color: #696969;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 1.5rem;
   }
   .carousel .carousel-item .portfolio-content video {
@@ -755,33 +868,70 @@ section#portfolio-section {
   }
 }
 
-@media only screen and (width: 768px) {
+@media screen and (max-width: 400px) and (min-width: 372px) {
   .carousel .carousel-item .portfolio-content {
-    margin: 0 3rem 0 3rem;
+    margin: 0 1.8rem 0 1.8rem;
   }
   .carousel .carousel-item .portfolio-content h1 {
-    font-size: 4rem;
-    margin-bottom: 5rem;
+    font-size: 2.5rem;
     color: #333;
   }
   .carousel .carousel-item .portfolio-content p {
     color: #696969;
-    font-size: 22px;
-    margin-bottom: 3rem;
+    font-size: 15px;
+    margin-bottom: 1.2rem;
   }
   .carousel .carousel-item .portfolio-content .experience-title {
-    margin-top: -200px;
+    margin-top: -40px;
   }
   .carousel .carousel-item .portfolio-content .contact-title {
-    margin-top: -200px;
+    margin-top: -40px;
   }
   .carousel .carousel-item .portfolio-content video {
-    margin-top: 5rem;
-    width: 700px;
+    margin-top: 3rem;
+    width: 300px;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media screen and (max-width: 470px) and (min-width: 450px) {
+  .carousel .carousel-item .portfolio-content {
+    margin: 0 2rem 0 2rem;
+  }
+  .carousel .carousel-item .portfolio-content h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  .carousel .carousel-item .portfolio-content p {
+    color: #696969;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+  }
+  .carousel .carousel-item .portfolio-content video {
+    margin-top: 3rem;
+    width: 350px;
+  }
+}
+
+@media screen and (width: 480px) {
+  .carousel .carousel-item .portfolio-content {
+    margin: 0 1rem 0 1rem;
+  }
+  .carousel .carousel-item .portfolio-content h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  .carousel .carousel-item .portfolio-content p {
+    color: #696969;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+  }
+  .carousel .carousel-item .portfolio-content video {
+    margin-top: 2rem;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 900px) {
   .carousel .carousel-item .portfolio-content {
     margin: 0 3rem 0 3rem;
   }
@@ -807,9 +957,9 @@ section#portfolio-section {
   }
 }
 
-@media only screen and (min-width: 1370px) {
+@media only screen and (max-width: 810px) and (min-width: 700px) {
   .carousel .carousel-item .portfolio-content {
-    margin: 0 15rem 0 15rem;
+    margin: 0 3rem 0 3rem;
   }
   .carousel .carousel-item .portfolio-content h1 {
     font-size: 4rem;
@@ -822,21 +972,18 @@ section#portfolio-section {
     margin-bottom: 3rem;
   }
   .carousel .carousel-item .portfolio-content .experience-title {
-    margin-top: -100px;
+    margin-top: -180px;
   }
   .carousel .carousel-item .portfolio-content .contact-title {
-    margin-top: -100px;
-  }
-  .carousel .carousel-item .portfolio-content .portfolio-title {
-    margin-bottom: 3rem;
+    margin-top: -180px;
   }
   .carousel .carousel-item .portfolio-content video {
-    margin-top: 0.5rem;
+    margin-top: 5rem;
     width: 700px;
   }
 }
 
-@media only screen and (min-width: 1024), only screen and (height: 768px) {
+@media only screen and (max-width: 1024) and (min-width: 900px) and (orientation: landscape) {
   .carousel .carousel-item .portfolio-content {
     margin: 0 3rem 0 3rem;
   }
@@ -862,6 +1009,35 @@ section#portfolio-section {
   .carousel .carousel-item .portfolio-content video {
     margin-top: 0.5rem;
     width: 620px;
+  }
+}
+
+@media only screen and (min-width: 1360px) and (min-width: 900px) {
+  .carousel .carousel-item .portfolio-content {
+    margin: 0 15rem 0 15rem;
+  }
+  .carousel .carousel-item .portfolio-content h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    color: #333;
+  }
+  .carousel .carousel-item .portfolio-content p {
+    color: #696969;
+    font-size: 22px;
+    margin-bottom: 3rem;
+  }
+  .carousel .carousel-item .portfolio-content .experience-title {
+    margin-top: -100px;
+  }
+  .carousel .carousel-item .portfolio-content .contact-title {
+    margin-top: -100px;
+  }
+  .carousel .carousel-item .portfolio-content .portfolio-title {
+    margin-bottom: 3rem;
+  }
+  .carousel .carousel-item .portfolio-content video {
+    margin-top: 0.5rem;
+    width: 900px;
   }
 }
 

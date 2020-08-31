@@ -16,10 +16,12 @@
   margin:$divSectionsMargin;
   //Breakpoint
   @include breakPoint360Px($divSectionMarginMax360px, $fontsizeMobileTextMax360Px);
-  @include breakPoint420Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
+  @include breakPoint370Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
+  @include breakPoint375Px ($divSectionMarginMax375px, $fontsizeMobileTextMax375Px);
   @include breakPoint414Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
-  @include breakPoint770Px( $divSectionMarginMax770px,$fontsizeMobileTextMax770Px, $marginBottomTittleMax770Px);
+  @include breakPoint480Px($divSectionMarginMax480px, $fontsizeMobileTextMax480Px);
   @include breakPoint1024Px($divSectionMarginMax1024px,$fontsizeMobileTextMax1024Px,$marginBottomTittleMax1024Px);
+  @include breakPoint770Px( $divSectionMarginMax770px,$fontsizeMobileTextMax770Px, $marginBottomTittleMax770Px);
+  @include breakPoint1204Width-770Height($divSectionMarginMax1024px,$fontsizeMobileTextMax1024Px,$marginBottomTittleMax1024Px);
   @include breakPoint1370Px($divSectionMarginMax1370px,$fontsizeMobileTextMax1370Px,$marginBottomTittleMax1370Px);
-  @include breakPoint1204Width-770Height($divSectionMarginMax1024px,$fontsizeMobileTextMax1024Px,$marginBottomTittleMax1024Px)
 }
