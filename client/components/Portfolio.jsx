@@ -27,13 +27,15 @@ const Portfolio = () => {
             </a>
           </div>
           <div className="carousel-item portfolio-background" href="#one!">
-            <h2>Projects I have worked on</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, at. Magni molestias neque laborum unde reiciendis
-              illo consectetur blanditiis, suscipit sequi quasi possimus. Ipsum
-              voluptatibus deleniti a animi esse veniam.
-            </p>
+            <div className="portfolio-content">
+              <h1>Projects I have worked on</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae, at. Magni molestias neque laborum unde reiciendis
+                illo consectetur blanditiis, suscipit sequi quasi possimus.
+                Ipsum voluptatibus deleniti a animi esse veniam.
+              </p>
+            </div>
           </div>
           {data.map((content, index) => (
             <PortfolioContent content={content} key={index} />

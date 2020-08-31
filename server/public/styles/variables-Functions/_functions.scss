@@ -51,11 +51,12 @@
     }
   }
 }
-@mixin breakPoint770Px($marginBreakPoint, $fontsizeBreakPoint) {
+@mixin breakPoint770Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
   @media screen and (max-width: 770px) {
     margin: $marginBreakPoint;
     h1 {
       font-size: 4rem;
+      margin-bottom:$marginBottom;
       color: $titleFontColour;
     }
     p {
@@ -63,7 +64,11 @@
       font-size:$fontsizeBreakPoint;
       
       // line-height:$lineHeighttext ;
-      margin-bottom:$marginBottomTextMax420Px
+      margin-bottom:$marginBottomTextMax770Px;
+    }
+
+    video{
+      margin-top:5rem;
     }
   }
 }
@@ -74,5 +79,5 @@
   //Breakpoint
   @include breakPoint360Px($divSectionMarginMax360px, $fontsizeMobileTextMax360Px);
   @include breakPoint420Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
-  @include breakPoint770Px( $divSectionMarginMax770px, $fontsizeMobileTextMax770Px)
+  @include breakPoint770Px( $divSectionMarginMax770px, $fontsizeMobileTextMax770Px,$marginBottomTittleMax770Px)
 }

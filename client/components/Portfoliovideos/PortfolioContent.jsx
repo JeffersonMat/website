@@ -23,8 +23,12 @@ function PortfolioContent (props) {
 
     return (
       <>
-        <div className="carousel-item portfolio-background" href={`${hrefValue}`}>
-          <div className="content-portfolio">
+      
+        <div
+          className="carousel-item portfolio-background"
+          href={`${hrefValue}`}
+        >
+          <div className="portfolio-content">
             <h1>{props.content.title}</h1>
             <p>{props.content.description}</p>
             <video width="600" controls>

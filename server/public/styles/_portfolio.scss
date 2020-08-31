@@ -1,5 +1,5 @@
 // @import './experiences';
-@import './variables-Functions/variablesStyles.scss';
+@import './variables-Functions/variablesStyles';
 
 @mixin backgorundColour($backgroundItemcolour) {
     background:$backgroundItemcolour
@@ -32,7 +32,7 @@ height: 100vh;
     flex-direction:column;
 }
 
-.carousel  .carousel-item .portfolio-content{
+.carousel .carousel-item .portfolio-content{
    @include marginAlignment();   
 }
 
