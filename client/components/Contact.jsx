@@ -5,8 +5,8 @@ const Contact = () => {
     <>
       <section className="portfolio-background"></section>
       <section id="contact">
-        <div className="contact">
-          <h1>This is a Test</h1>
+        <div className="contact-content">
+          <h1 className="contact-title">Contact Me</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, aut
             tempore. Animi, est eum alias dignissimos ullam nihil vero

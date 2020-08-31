@@ -1,14 +1,13 @@
-@import './variables-Functions/variablesStyles';
-@import './variables-Functions/functions';
+@import "./variables-Functions/variablesStyles";
+@import "./variables-Functions/functions";
 
-.contact {
-   @include flexCenter(center,center,column);
- 
+section#contact {
+  background: $backgroundSections;
+  widows: 100%;
+  height: 100vh;
 }
 
-section#contact{
-   background:$backgroundSections;
-   widows: 100%;
-   height:100vh;
-  
+.contact-content {
+  @include flexCenter(center, center, column);
+  @include marginAlignment();
 }

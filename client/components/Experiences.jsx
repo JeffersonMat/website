@@ -6,7 +6,7 @@ const Experiences = () => {
       <section className="experiences-background"></section>
       <section id="experiences">
         <div className="experiences-content">
-          <h1>My Journey</h1>
+          <h1 className="experience-title">My Journey</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, aut
             tempore. Animi, est eum alias dignissimos ullam nihil vero

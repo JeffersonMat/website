@@ -49,6 +49,7 @@ nav ul li a:hover {
 }
 
 section#experiences {
+  background: #fffafa;
   width: 100%;
   height: 100vh;
   display: -webkit-box;
@@ -120,7 +121,7 @@ section#experiences {
 
 @media screen and (max-width: 770px) {
   .experiences-content {
-    margin: 1rem 2rem 0 2rem;
+    margin: 0 3rem 0 3rem;
   }
   .experiences-content h1 {
     font-size: 4rem;
@@ -129,15 +130,27 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 21px;
-    margin-bottom: 2rem;
+    font-size: 24px;
+    margin-bottom: 3rem;
+  }
+  .experiences-content .experience-title {
+    margin-top: -200px;
+  }
+  .experiences-content .contact-title {
+    margin-top: -200px;
   }
   .experiences-content video {
     margin-top: 5rem;
   }
 }
 
-.contact {
+section#contact {
+  background: #fffafa;
+  widows: 100%;
+  height: 100vh;
+}
+
+.contact-content {
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -152,12 +165,65 @@ section#experiences {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 0 150px 180px 150px;
 }
 
-section#contact {
-  background: #fffafa;
-  widows: 100%;
-  height: 100vh;
+@media screen and (max-width: 360px) {
+  .contact-content {
+    margin: 0 1rem 0 1rem;
+    font-size: 14px;
+  }
+  .contact-content h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  .contact-content p {
+    color: #696969;
+    margin-bottom: 1rem;
+  }
+  .contact-content ul.indicatores {
+    top: 590px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .contact-content {
+    margin: 0 2rem 0 2rem;
+  }
+  .contact-content h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  .contact-content p {
+    color: #696969;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .contact-content {
+    margin: 0 3rem 0 3rem;
+  }
+  .contact-content h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    color: #333;
+  }
+  .contact-content p {
+    color: #696969;
+    font-size: 24px;
+    margin-bottom: 3rem;
+  }
+  .contact-content .experience-title {
+    margin-top: -200px;
+  }
+  .contact-content .contact-title {
+    margin-top: -200px;
+  }
+  .contact-content video {
+    margin-top: 5rem;
+  }
 }
 
 section.who-i-am-background {
@@ -232,7 +298,7 @@ section#who-i-am {
 
 @media screen and (max-width: 770px) {
   .carousel .carousel-item .content-who-i-am {
-    margin: 1rem 2rem 0 2rem;
+    margin: 0 3rem 0 3rem;
   }
   .carousel .carousel-item .content-who-i-am h1 {
     font-size: 4rem;
@@ -241,8 +307,14 @@ section#who-i-am {
   }
   .carousel .carousel-item .content-who-i-am p {
     color: #696969;
-    font-size: 21px;
-    margin-bottom: 2rem;
+    font-size: 24px;
+    margin-bottom: 3rem;
+  }
+  .carousel .carousel-item .content-who-i-am .experience-title {
+    margin-top: -200px;
+  }
+  .carousel .carousel-item .content-who-i-am .contact-title {
+    margin-top: -200px;
   }
   .carousel .carousel-item .content-who-i-am video {
     margin-top: 5rem;
@@ -319,7 +391,7 @@ section#portfolio-section {
 
 @media screen and (max-width: 770px) {
   .carousel .carousel-item .portfolio-content {
-    margin: 1rem 2rem 0 2rem;
+    margin: 0 3rem 0 3rem;
   }
   .carousel .carousel-item .portfolio-content h1 {
     font-size: 4rem;
@@ -328,8 +400,14 @@ section#portfolio-section {
   }
   .carousel .carousel-item .portfolio-content p {
     color: #696969;
-    font-size: 21px;
-    margin-bottom: 2rem;
+    font-size: 24px;
+    margin-bottom: 3rem;
+  }
+  .carousel .carousel-item .portfolio-content .experience-title {
+    margin-top: -200px;
+  }
+  .carousel .carousel-item .portfolio-content .contact-title {
+    margin-top: -200px;
   }
   .carousel .carousel-item .portfolio-content video {
     margin-top: 5rem;

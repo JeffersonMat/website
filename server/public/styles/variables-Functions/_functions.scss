@@ -54,6 +54,7 @@
 @mixin breakPoint770Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
   @media screen and (max-width: 770px) {
     margin: $marginBreakPoint;
+
     h1 {
       font-size: 4rem;
       margin-bottom:$marginBottom;
@@ -66,7 +67,14 @@
       // line-height:$lineHeighttext ;
       margin-bottom:$marginBottomTextMax770Px;
     }
+    .experience-title{
+      margin-top:-200px;
+    }
+    .contact-title{
+      margin-top:-200px;
+    }
 
+  
     video{
       margin-top:5rem;
     }

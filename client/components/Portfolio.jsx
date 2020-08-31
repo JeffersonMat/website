@@ -28,7 +28,7 @@ const Portfolio = () => {
           </div>
           <div className="carousel-item portfolio-background" href="#one!">
             <div className="portfolio-content">
-              <h1>Projects I have worked on</h1>
+              <h1>Projects</h1>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Repudiandae, at. Magni molestias neque laborum unde reiciendis
