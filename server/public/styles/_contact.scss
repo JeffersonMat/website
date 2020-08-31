@@ -8,6 +8,8 @@ section#contact {
 }
 
 .contact-content {
+  widows: 100%;
+  height: 100vh;
   @include flexCenter(center, center, column);
   @include marginAlignment();
 }

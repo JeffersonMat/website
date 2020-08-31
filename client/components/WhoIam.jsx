@@ -11,7 +11,7 @@ const WhoIam = () => {
               
             <div className="carousel-item" href="#one!">
               <div className="content-who-i-am">
-                <h1>Who I am?</h1>
+                <h1>Who I am...</h1>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dicta, aut tempore. Animi, est eum alias dignissimos ullam
@@ -36,7 +36,7 @@ const WhoIam = () => {
          
             <div className="carousel-item " href="#two!">
                <div className="content-who-i-am">
-              <h1>What I Love?</h1>
+              <h1>What I Love...</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
                 aut tempore. Animi, est eum alias dignissimos ullam nihil vero

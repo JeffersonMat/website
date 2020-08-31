@@ -87,7 +87,7 @@ section#experiences {
   font-family: "Work Sans", sans-serif;
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
   .experiences-content {
     margin: 0 1rem 0 1rem;
     font-size: 14px;
@@ -105,7 +105,7 @@ section#experiences {
   }
 }
 
-@media screen and (max-width: 420px) {
+@media only screen and (max-width: 420px) {
   .experiences-content {
     margin: 0 2rem 0 2rem;
   }
@@ -120,7 +120,7 @@ section#experiences {
   }
 }
 
-@media screen and (max-width: 770px) {
+@media only screen and (max-width: 770px) {
   .experiences-content {
     margin: 0 3rem 0 3rem;
   }
@@ -131,21 +131,22 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 3rem;
   }
   .experiences-content .experience-title {
-    margin-top: -200px;
+    margin-top: 20px;
   }
   .experiences-content .contact-title {
-    margin-top: -200px;
+    margin-top: 20px;
   }
   .experiences-content video {
     margin-top: 5rem;
+    width: 700px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .experiences-content {
     margin: 0 3rem 0 3rem;
   }
@@ -156,7 +157,7 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 27px;
+    font-size: 22px;
     margin-bottom: 3rem;
   }
   .experiences-content .experience-title {
@@ -171,9 +172,9 @@ section#experiences {
   }
 }
 
-@media screen and (max-width: 1370px) {
+@media only screen and (min-width: 1370px) {
   .experiences-content {
-    margin: 0 3rem 0 3rem;
+    margin: 0 15rem 0 15rem;
   }
   .experiences-content h1 {
     font-size: 4rem;
@@ -182,18 +183,21 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 27px;
+    font-size: 22px;
     margin-bottom: 3rem;
   }
   .experiences-content .experience-title {
-    margin-top: -300px;
+    margin-top: -100px;
   }
   .experiences-content .contact-title {
-    margin-top: -300px;
+    margin-top: -100px;
+  }
+  .experiences-content .portfolio-title {
+    margin-bottom: 3rem;
   }
   .experiences-content video {
-    margin-top: 2rem;
-    width: 900px;
+    margin-top: 0.5rem;
+    width: 700px;
   }
 }
 
@@ -204,6 +208,8 @@ section#contact {
 }
 
 .contact-content {
+  widows: 100%;
+  height: 100vh;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -221,7 +227,7 @@ section#contact {
   margin: 0 150px 180px 150px;
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
   .contact-content {
     margin: 0 1rem 0 1rem;
     font-size: 14px;
@@ -239,7 +245,7 @@ section#contact {
   }
 }
 
-@media screen and (max-width: 420px) {
+@media only screen and (max-width: 420px) {
   .contact-content {
     margin: 0 2rem 0 2rem;
   }
@@ -254,7 +260,7 @@ section#contact {
   }
 }
 
-@media screen and (max-width: 770px) {
+@media only screen and (max-width: 770px) {
   .contact-content {
     margin: 0 3rem 0 3rem;
   }
@@ -265,21 +271,22 @@ section#contact {
   }
   .contact-content p {
     color: #696969;
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 3rem;
   }
   .contact-content .experience-title {
-    margin-top: -200px;
+    margin-top: 20px;
   }
   .contact-content .contact-title {
-    margin-top: -200px;
+    margin-top: 20px;
   }
   .contact-content video {
     margin-top: 5rem;
+    width: 700px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .contact-content {
     margin: 0 3rem 0 3rem;
   }
@@ -290,7 +297,7 @@ section#contact {
   }
   .contact-content p {
     color: #696969;
-    font-size: 27px;
+    font-size: 22px;
     margin-bottom: 3rem;
   }
   .contact-content .experience-title {
@@ -305,9 +312,9 @@ section#contact {
   }
 }
 
-@media screen and (max-width: 1370px) {
+@media only screen and (min-width: 1370px) {
   .contact-content {
-    margin: 0 3rem 0 3rem;
+    margin: 0 15rem 0 15rem;
   }
   .contact-content h1 {
     font-size: 4rem;
@@ -316,18 +323,21 @@ section#contact {
   }
   .contact-content p {
     color: #696969;
-    font-size: 27px;
+    font-size: 22px;
     margin-bottom: 3rem;
   }
   .contact-content .experience-title {
-    margin-top: -300px;
+    margin-top: -100px;
   }
   .contact-content .contact-title {
-    margin-top: -300px;
+    margin-top: -100px;
+  }
+  .contact-content .portfolio-title {
+    margin-bottom: 3rem;
   }
   .contact-content video {
-    margin-top: 2rem;
-    width: 900px;
+    margin-top: 0.5rem;
+    width: 700px;
   }
 }
 
@@ -368,7 +378,7 @@ section#who-i-am {
   margin: 0 150px 180px 150px;
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
   .carousel .carousel-item .content-who-i-am {
     margin: 0 1rem 0 1rem;
     font-size: 14px;
@@ -386,7 +396,7 @@ section#who-i-am {
   }
 }
 
-@media screen and (max-width: 420px) {
+@media only screen and (max-width: 420px) {
   .carousel .carousel-item .content-who-i-am {
     margin: 0 2rem 0 2rem;
   }
@@ -401,7 +411,7 @@ section#who-i-am {
   }
 }
 
-@media screen and (max-width: 770px) {
+@media only screen and (max-width: 770px) {
   .carousel .carousel-item .content-who-i-am {
     margin: 0 3rem 0 3rem;
   }
@@ -412,21 +422,22 @@ section#who-i-am {
   }
   .carousel .carousel-item .content-who-i-am p {
     color: #696969;
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 3rem;
   }
   .carousel .carousel-item .content-who-i-am .experience-title {
-    margin-top: -200px;
+    margin-top: 20px;
   }
   .carousel .carousel-item .content-who-i-am .contact-title {
-    margin-top: -200px;
+    margin-top: 20px;
   }
   .carousel .carousel-item .content-who-i-am video {
     margin-top: 5rem;
+    width: 700px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .carousel .carousel-item .content-who-i-am {
     margin: 0 3rem 0 3rem;
   }
@@ -437,7 +448,7 @@ section#who-i-am {
   }
   .carousel .carousel-item .content-who-i-am p {
     color: #696969;
-    font-size: 27px;
+    font-size: 22px;
     margin-bottom: 3rem;
   }
   .carousel .carousel-item .content-who-i-am .experience-title {
@@ -452,9 +463,9 @@ section#who-i-am {
   }
 }
 
-@media screen and (max-width: 1370px) {
+@media only screen and (min-width: 1370px) {
   .carousel .carousel-item .content-who-i-am {
-    margin: 0 3rem 0 3rem;
+    margin: 0 15rem 0 15rem;
   }
   .carousel .carousel-item .content-who-i-am h1 {
     font-size: 4rem;
@@ -463,18 +474,21 @@ section#who-i-am {
   }
   .carousel .carousel-item .content-who-i-am p {
     color: #696969;
-    font-size: 27px;
+    font-size: 22px;
     margin-bottom: 3rem;
   }
   .carousel .carousel-item .content-who-i-am .experience-title {
-    margin-top: -300px;
+    margin-top: -100px;
   }
   .carousel .carousel-item .content-who-i-am .contact-title {
-    margin-top: -300px;
+    margin-top: -100px;
+  }
+  .carousel .carousel-item .content-who-i-am .portfolio-title {
+    margin-bottom: 3rem;
   }
   .carousel .carousel-item .content-who-i-am video {
-    margin-top: 2rem;
-    width: 900px;
+    margin-top: 0.5rem;
+    width: 700px;
   }
 }
 
@@ -513,7 +527,7 @@ section#portfolio-section {
   margin: 0 150px 180px 150px;
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
   .carousel .carousel-item .portfolio-content {
     margin: 0 1rem 0 1rem;
     font-size: 14px;
@@ -531,7 +545,7 @@ section#portfolio-section {
   }
 }
 
-@media screen and (max-width: 420px) {
+@media only screen and (max-width: 420px) {
   .carousel .carousel-item .portfolio-content {
     margin: 0 2rem 0 2rem;
   }
@@ -546,7 +560,7 @@ section#portfolio-section {
   }
 }
 
-@media screen and (max-width: 770px) {
+@media only screen and (max-width: 770px) {
   .carousel .carousel-item .portfolio-content {
     margin: 0 3rem 0 3rem;
   }
@@ -557,21 +571,22 @@ section#portfolio-section {
   }
   .carousel .carousel-item .portfolio-content p {
     color: #696969;
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 3rem;
   }
   .carousel .carousel-item .portfolio-content .experience-title {
-    margin-top: -200px;
+    margin-top: 20px;
   }
   .carousel .carousel-item .portfolio-content .contact-title {
-    margin-top: -200px;
+    margin-top: 20px;
   }
   .carousel .carousel-item .portfolio-content video {
     margin-top: 5rem;
+    width: 700px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .carousel .carousel-item .portfolio-content {
     margin: 0 3rem 0 3rem;
   }
@@ -582,7 +597,7 @@ section#portfolio-section {
   }
   .carousel .carousel-item .portfolio-content p {
     color: #696969;
-    font-size: 27px;
+    font-size: 22px;
     margin-bottom: 3rem;
   }
   .carousel .carousel-item .portfolio-content .experience-title {
@@ -597,9 +612,9 @@ section#portfolio-section {
   }
 }
 
-@media screen and (max-width: 1370px) {
+@media only screen and (min-width: 1370px) {
   .carousel .carousel-item .portfolio-content {
-    margin: 0 3rem 0 3rem;
+    margin: 0 15rem 0 15rem;
   }
   .carousel .carousel-item .portfolio-content h1 {
     font-size: 4rem;
@@ -608,18 +623,21 @@ section#portfolio-section {
   }
   .carousel .carousel-item .portfolio-content p {
     color: #696969;
-    font-size: 27px;
+    font-size: 22px;
     margin-bottom: 3rem;
   }
   .carousel .carousel-item .portfolio-content .experience-title {
-    margin-top: -300px;
+    margin-top: -100px;
   }
   .carousel .carousel-item .portfolio-content .contact-title {
-    margin-top: -300px;
+    margin-top: -100px;
+  }
+  .carousel .carousel-item .portfolio-content .portfolio-title {
+    margin-bottom: 3rem;
   }
   .carousel .carousel-item .portfolio-content video {
-    margin-top: 2rem;
-    width: 900px;
+    margin-top: 0.5rem;
+    width: 700px;
   }
 }
 
@@ -658,7 +676,7 @@ section {
 
 @media screen and (max-width: 1025px) {
   body {
-    font-size: 27px;
+    font-size: 24px;
   }
   ul li a {
     font-size: 18px;
@@ -667,7 +685,7 @@ section {
 
 @media screen and (max-width: 1370px) {
   body {
-    font-size: 27px;
+    font-size: 24px;
   }
   ul li a {
     font-size: 21px;
