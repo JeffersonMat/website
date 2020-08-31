@@ -81,11 +81,43 @@
   }
 }
 
+
+@mixin breakPoint1024Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
+  @media screen and (max-width: 1024px) {
+    margin: $marginBreakPoint;
+
+    h1 {
+      font-size: 4rem;
+      margin-bottom:$marginBottom;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size:$fontsizeBreakPoint;
+      
+      // line-height:$lineHeighttext ;
+      margin-bottom:$marginBottomTextMax1024Px;
+    }
+    .experience-title{
+      margin-top:-400px;
+    }
+    .contact-title{
+      margin-top:-400px;
+    }
+
+  
+    video{
+      margin-top:5rem;
+      width:800px;
+    }
+  }
+}
 //Margin Alignment includes breakPoints
 @mixin marginAlignment{
   margin:$divSectionsMargin;
   //Breakpoint
   @include breakPoint360Px($divSectionMarginMax360px, $fontsizeMobileTextMax360Px);
   @include breakPoint420Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
-  @include breakPoint770Px( $divSectionMarginMax770px, $fontsizeMobileTextMax770Px,$marginBottomTittleMax770Px)
+  @include breakPoint770Px( $divSectionMarginMax770px,$fontsizeMobileTextMax770Px, $marginBottomTittleMax770Px);
+  @include breakPoint1024Px($divSectionMarginMax1024px,$fontsizeMobileTextMax1024Px,$marginBottomTittleMax1024Px)
 }
