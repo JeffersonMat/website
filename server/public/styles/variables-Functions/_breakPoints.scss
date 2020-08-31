@@ -1,0 +1,200 @@
+//Brekapoints  Functions
+
+@mixin breakPoint360Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media  screen and (max-width: 360px) {
+    
+    margin:$marginBreakPoint;
+    font-size:$fontsizeBreakPoint;
+
+    h1 {
+      font-size: 2rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      // line-height:$lineHeighttext ;
+      margin-bottom: $marginBottomTextMax360Px
+    }
+
+    ul.indicatores{
+      top:590px;
+    }
+
+    video{
+       margin-top:3rem;
+      width:320px;
+     
+    }
+  }
+}
+
+@mixin breakPoint420Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media screen and (min-width: 370px) {
+    margin: $marginBreakPoint;
+    h1 {
+      font-size: 3rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size:$fontsizeBreakPoint;
+      // line-height:$lineHeighttext ;
+      margin-bottom:$marginBottomTextMax420Px
+    }
+    video{
+      margin-top:5rem;  
+      width:300px;
+    }
+  }
+}
+
+@mixin breakPoint414Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media screen and (width: 414px) {
+    margin: $marginBreakPoint;
+    h1 {
+      font-size: 3rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size:$fontsizeBreakPoint;
+      // line-height:$lineHeighttext ;
+      margin-bottom:$marginBottomTextMax420Px
+    }
+    video{
+      margin-top:3rem;
+      width:350px;
+    }
+  }
+}
+
+
+
+@mixin breakPoint770Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
+  @media only screen and (width: 768px) {
+    margin: $marginBreakPoint;
+
+    h1 {
+      font-size: 4rem;
+      margin-bottom:$marginBottom;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size:$fontsizeBreakPoint;
+      
+      // line-height:$lineHeighttext ;
+      margin-bottom:$marginBottomTextMax770Px;
+    }
+    .experience-title{
+      margin-top:-200px;
+    }
+    .contact-title{
+      margin-top:-200px;
+    }
+    video{
+
+      margin-top:5rem;
+      width:700px;
+    }
+  }
+}
+
+@mixin breakPoint1204Width-770Height($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
+  @media only screen and (min-width:1024), only screen and( height:768px) {
+    margin: $marginBreakPoint;
+
+    h1 {
+      font-size: 4rem;
+      margin-bottom:$marginBottom;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size:$fontsizeBreakPoint;
+      
+      // line-height:$lineHeighttext ;
+      margin-bottom:$marginBottomTextMax770Px;
+    }
+    .experience-title{
+      margin-top:-50px;
+    }
+    .contact-title{
+      margin-top:-50px;
+    }
+    .portfolio-title{
+      margin-bottom:3rem;
+    }
+    video{
+
+      margin-top:0.5rem;
+      width:620px;
+    }
+  }
+}
+
+
+
+
+@mixin breakPoint1024Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
+  @media only screen and (min-width: 1024px) {
+    margin: $marginBreakPoint;
+
+    h1 {
+      font-size: 4rem;
+      margin-bottom:$marginBottom;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size:$fontsizeBreakPoint;
+      
+      // line-height:$lineHeighttext ;
+      margin-bottom:$marginBottomTextMax1024Px;
+    }
+    .experience-title{
+      margin-top:-500px;
+    }
+    .contact-title{
+      margin-top:-500px;
+    }
+    video{
+      margin-top:5rem;
+      width:800px;
+    }
+  }
+}
+
+
+
+
+@mixin breakPoint1370Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
+  @media only screen and (min-width:1370px) {
+    margin: $marginBreakPoint;
+
+    h1 {
+      font-size: 4rem;
+      margin-bottom:$marginBottom;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size:$fontsizeBreakPoint;    
+      // line-height:$lineHeighttext ;
+      margin-bottom:$marginBottomTextMax1370Px;
+    }
+    .experience-title{
+      margin-top:-100px;
+    }
+    .contact-title{
+      margin-top:-100px;
+    }
+    .portfolio-title{
+      margin-bottom:3rem;
+    }
+    video{
+      margin-top:0.5rem;
+      width:700px;
+    }
+  }
+}

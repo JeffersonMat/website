@@ -1,4 +1,5 @@
 @import './variablesStyles';
+@import './breakPoints';
 
 //Flex section functions
 
@@ -10,150 +11,15 @@
   flex-direction: $direction;
 }
 
-
-
-//Brekapoints  Functions
-
-@mixin breakPoint360Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media only screen and (max-width: 360px) {
-    
-    margin:$marginBreakPoint;
-    font-size:$fontsizeBreakPoint;
-
-    h1 {
-      font-size: 2rem;
-      color: $titleFontColour;
-    }
-    p {
-      color: $textColour;
-      // line-height:$lineHeighttext ;
-      margin-bottom: $marginBottomTextMax360Px
-    }
-
-    ul.indicatores{
-      top:590px;
-    }
-  }
-}
-
-@mixin breakPoint420Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media only screen and (max-width: 420px) {
-    margin: $marginBreakPoint;
-    h1 {
-      font-size: 3rem;
-      color: $titleFontColour;
-    }
-    p {
-      color: $textColour;
-      font-size:$fontsizeBreakPoint;
-      // line-height:$lineHeighttext ;
-      margin-bottom:$marginBottomTextMax420Px
-    }
-  }
-}
-
-@mixin breakPoint770Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (max-width: 770px) {
-    margin: $marginBreakPoint;
-
-    h1 {
-      font-size: 4rem;
-      margin-bottom:$marginBottom;
-      color: $titleFontColour;
-    }
-    p {
-      color: $textColour;
-      font-size:$fontsizeBreakPoint;
-      
-      // line-height:$lineHeighttext ;
-      margin-bottom:$marginBottomTextMax770Px;
-    }
-    .experience-title{
-      margin-top:20px;
-    }
-    .contact-title{
-      margin-top:20px;
-    }
-    video{
-
-      margin-top:5rem;
-      width:700px;
-    }
-  }
-}
-
-
-@mixin breakPoint1024Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (min-width: 1024px) {
-    margin: $marginBreakPoint;
-
-    h1 {
-      font-size: 4rem;
-      margin-bottom:$marginBottom;
-      color: $titleFontColour;
-    }
-    p {
-      color: $textColour;
-      font-size:$fontsizeBreakPoint;
-      
-      // line-height:$lineHeighttext ;
-      margin-bottom:$marginBottomTextMax1024Px;
-    }
-    .experience-title{
-      margin-top:-400px;
-    }
-    .contact-title{
-      margin-top:-400px;
-    }
-    video{
-      margin-top:5rem;
-      width:800px;
-    }
-  }
-}
-
-
-
-
-@mixin breakPoint1370Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (min-width:1370px) {
-    margin: $marginBreakPoint;
-
-    h1 {
-      font-size: 4rem;
-      margin-bottom:$marginBottom;
-      color: $titleFontColour;
-    }
-    p {
-      color: $textColour;
-      font-size:$fontsizeBreakPoint;    
-      // line-height:$lineHeighttext ;
-      margin-bottom:$marginBottomTextMax1370Px;
-    }
-    .experience-title{
-      margin-top:-100px;
-    }
-    .contact-title{
-      margin-top:-100px;
-    }
-    .portfolio-title{
-      margin-bottom:3rem;
-    }
-    video{
-      margin-top:0.5rem;
-      width:700px;
-    }
-  }
-}
-
-
 //Margin Alignment includes breakPoints
 @mixin marginAlignment{
   margin:$divSectionsMargin;
   //Breakpoint
   @include breakPoint360Px($divSectionMarginMax360px, $fontsizeMobileTextMax360Px);
   @include breakPoint420Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
+  @include breakPoint414Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
   @include breakPoint770Px( $divSectionMarginMax770px,$fontsizeMobileTextMax770Px, $marginBottomTittleMax770Px);
   @include breakPoint1024Px($divSectionMarginMax1024px,$fontsizeMobileTextMax1024Px,$marginBottomTittleMax1024Px);
   @include breakPoint1370Px($divSectionMarginMax1370px,$fontsizeMobileTextMax1370Px,$marginBottomTittleMax1370Px);
+  @include breakPoint1204Width-770Height($divSectionMarginMax1024px,$fontsizeMobileTextMax1024Px,$marginBottomTittleMax1024Px)
 }

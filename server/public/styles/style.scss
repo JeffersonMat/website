@@ -1,5 +1,6 @@
 @import './variables-Functions/variablesStyles';
 @import './variables-Functions/functions';
+@import './variables-Functions/breakPoints';
 @import './navbar';
 @import './experiences';
 @import './contact';
@@ -43,7 +44,7 @@ section{
 //BreakPoints
 
 
- @media screen and (max-width: 1025px){
+ @media screen and (min-width: 1025px){
 
     body{
         font-size:24px;
@@ -56,7 +57,7 @@ section{
  }
 
 
- @media screen and (max-width: 1370px){
+ @media screen and (min-width: 1370px){
 
     body{
         font-size:24px;
