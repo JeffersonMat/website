@@ -208,6 +208,13 @@
       // line-height:$lineHeighttext ;
       margin-bottom:$marginBottomTextMax420Px
     }
+
+     .experience-title{
+      margin-top:-150px;
+    }
+    .contact-title{
+      margin-top:-150px;
+    }
     video{
       margin-top:3rem;  
       width:350px;
@@ -261,12 +268,19 @@
       // line-height:$lineHeighttext ;
       margin-bottom: $marginBottomTextMax350Px;
     }
-    .carousel.carousel-slider .carousel-item .who-i-am p {
-    font-size: 14px; 
+
+     .experience-title{
+      margin-top:-40px;
     }
-    .carousel.carousel-slider .carousel-item p {
-      font-size: 14px;
-      }
+    .contact-title{
+      margin-top:-40px;
+    }
+    .experience-title{
+      margin-top:-40px;
+    }
+    .contact-title{
+      margin-top:-40px;
+    }
 
     ul.indicatores{
       top:590px;
