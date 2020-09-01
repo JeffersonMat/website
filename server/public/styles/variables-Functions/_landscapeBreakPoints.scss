@@ -1,11 +1,8 @@
 @import './variablesStyles';
 
 
-
-
-
 @mixin breakPointLandscape667Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media  screen and (width: 667px) and (orientation: landscape){
+  @media only screen and (width: 667px) and (orientation: landscape){
     
     margin:$marginBreakPoint;
     font-size:$fontsizeBreakPoint;
@@ -29,17 +26,14 @@
     margin-top:0;    
     margin-bottom:1rem;
     }
- .carousel .carousel-item .content-who-i-am p{
-      font-size:12px;
-  }
+  
     .who-i-am-title{
         margin-top: 1rem;
         margin-bottom:1rem;
     }
-         
-    #who-i-am .carousel ul.indicatores.indicator-item{
-      top: 590px;
-    }
+//    ul.indicators{
+//       top: 270px;
+//     }
 
     video{
        margin-top:0.2rem;
@@ -49,8 +43,51 @@
   }
 }
 
+
+@mixin breakPointLandscape684Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media only  screen and (width: 684px) and (orientation: landscape){
+    
+    margin:$marginBreakPoint;
+    font-size:$fontsizeBreakPoint;
+
+    h1 {
+      font-size: 2rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      // line-height:$lineHeighttext ;
+      margin-bottom: $marginBottomTextMaxLp684Px
+    }
+     .experience-title{
+      margin-top:-20px;
+    }
+    .contact-title{
+      margin-top:-20px;
+    }
+    .portfolio-title{
+    margin-top:0;    
+    margin-bottom:1rem;
+    }
+  
+    .who-i-am-title{
+        margin-top: 1rem;
+        margin-bottom:1rem;
+    }
+   ul.indicators{
+      top: 270px;
+    }
+
+    video{
+       margin-top:0.2rem;
+       width:290px;
+     
+    }
+  }
+}
+
   @mixin breakPointLandscape734Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media  screen and (width: 734px) and (orientation: landscape){
+  @media only screen and (width: 734px) and (orientation: landscape){
     
     margin:$marginBreakPoint;
     font-size:$fontsizeBreakPoint;
@@ -82,9 +119,54 @@
         margin-bottom:1rem;
     }
          
-    #who-i-am .carousel ul.indicatores.indicator-item{
-      top: - 600px;
+//  .carousel ul.indicators{
+//       top: 400px;
+//     }
+
+    video{
+       margin-top:0.2rem;
+       width:350px;
+     
     }
+  }
+}
+
+ @mixin breakPointLandscape736Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media only screen and (width: 736px) and (orientation: landscape){
+    
+    margin:$marginBreakPoint;
+    font-size:$fontsizeBreakPoint;
+
+    h1 {
+      font-size: 2rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      // line-height:$lineHeighttext ;
+      margin-bottom: $marginBottomTextMaxLp734Px
+    }
+     .experience-title{
+      margin-top:-20px;
+    }
+    .contact-title{
+      margin-top:-20px;
+    }
+    .portfolio-title{
+    margin-top:0;    
+    margin-bottom:1rem;
+    }
+    .carousel .carousel-item .content-who-i-am p{
+      font-size:12px;
+  }
+    .who-i-am-title{
+        margin-top: 1rem;
+        margin-bottom:1rem;
+    }
+         
+    // .carousel-item .carousel ul.indicators{
+    //   top: 8090px;
+    // }
 
     video{
        margin-top:0.2rem;
@@ -94,8 +176,9 @@
   }
 }
 
- @mixin breakPointLandscape736Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media  screen and (width: 736px) and (orientation: landscape){
+
+ @mixin breakPointLandscape812Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media only screen and (width:812px) and (orientation: landscape){
     
     margin:$marginBreakPoint;
     font-size:$fontsizeBreakPoint;
@@ -107,7 +190,7 @@
     p {
       color: $textColour;
       // line-height:$lineHeighttext ;
-      margin-bottom: $marginBottomTextMaxLp734Px
+      margin-bottom: $marginBottomTextMaxLp812Px
     }
      .experience-title{
       margin-top:-20px;
@@ -127,13 +210,13 @@
         margin-bottom:1rem;
     }
          
-    #who-i-am .carousel ul.indicatores.indicator-item{
-      top: 620px;
-    }
+    // .carousel-item .carousel ul.indicators{
+    //   top: 8090px;
+    // }
 
     video{
        margin-top:0.2rem;
-       width:300px;
+       width:330px;
      
     }
   }

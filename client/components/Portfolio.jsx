@@ -22,7 +22,7 @@ const Portfolio = () => {
       <section id="portfolio-section">
         <div className="carousel carousel-slider center portfolio">
           <div className="carousel-fixed-item center">
-            <a className="btn waves-effect white grey-text darken-text-2">
+            <a className="btn waves-effect white grey-text darken-text-2 portfolio-button">
               button
             </a>
           </div>
