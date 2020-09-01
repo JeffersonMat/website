@@ -25,11 +25,12 @@
   @include breakPoint770Px( $divSectionMarginMax770px,$fontsizeMobileTextMax770Px, $marginBottomTittleMax770Px);
   @include breakPoint1204Width-770Height($divSectionMarginMax1024px,$fontsizeMobileTextMax1024Px,$marginBottomTittleMax1024Px);
   @include breakPoint1370Px($divSectionMarginMax1370px,$fontsizeMobileTextMax1370Px,$marginBottomTittleMax1370Px);
- //Breakpoints Landscape
- @include breakPointLandscape640Px ($divSectionMarginMaxLp640px, $fontsizeMobileTextMaxLp640Px);
+  //Breakpoints Landscape
+  @include breakPointLandscape640Px ($divSectionMarginMaxLp640px, $fontsizeMobileTextMaxLp640Px);
   @include breakPointLandscape667Px ($divSectionMarginMaxLp667px, $fontsizeMobileTextMaxLp667Px);
   @include breakPointLandscape684Px ($divSectionMarginMaxLp684px, $fontsizeMobileTextMaxLp684Px);
-  //These below two are the same difference is in width 734 and 736 -
+  //These below three are the same difference is in width 734 and 736 -
+  @include breakPointLandscape731Px ($divSectionMarginMaxLp734px, $fontsizeMobileTextMaxLp734Px);
   @include breakPointLandscape734Px ($divSectionMarginMaxLp734px, $fontsizeMobileTextMaxLp734Px);
   @include breakPointLandscape736Px ($divSectionMarginMaxLp734px, $fontsizeMobileTextMaxLp734Px);
   ////////////
