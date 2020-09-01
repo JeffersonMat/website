@@ -5,7 +5,7 @@
 
 
 @mixin breakPointLandscape667Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media  screen and (width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2){
+  @media  screen and (width: 667px) and (orientation: landscape){
     
     margin:$marginBreakPoint;
     font-size:$fontsizeBreakPoint;
@@ -38,7 +38,7 @@
     }
          
     #who-i-am .carousel ul.indicatores.indicator-item{
-      top: - 600px;
+      top: 590px;
     }
 
     video{
@@ -128,7 +128,7 @@
     }
          
     #who-i-am .carousel ul.indicatores.indicator-item{
-      top: - 600px;
+      top: 620px;
     }
 
     video{

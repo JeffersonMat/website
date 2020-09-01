@@ -301,7 +301,7 @@ section#experiences {
   }
 }
 
-@media screen and (width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (width: 667px) and (orientation: landscape) {
   .experiences-content {
     margin: 0 1rem 0 1rem;
     font-size: 14px;
@@ -332,7 +332,7 @@ section#experiences {
     margin-bottom: 1rem;
   }
   .experiences-content #who-i-am .carousel ul.indicatores.indicator-item {
-    top: -600px;
+    top: 590px;
   }
   .experiences-content video {
     margin-top: 0.2rem;
@@ -410,7 +410,7 @@ section#experiences {
     margin-bottom: 1rem;
   }
   .experiences-content #who-i-am .carousel ul.indicatores.indicator-item {
-    top: -600px;
+    top: 620px;
   }
   .experiences-content video {
     margin-top: 0.2rem;
@@ -658,7 +658,7 @@ section#contact {
   }
 }
 
-@media screen and (width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (width: 667px) and (orientation: landscape) {
   .contact-content {
     margin: 0 1rem 0 1rem;
     font-size: 14px;
@@ -689,7 +689,7 @@ section#contact {
     margin-bottom: 1rem;
   }
   .contact-content #who-i-am .carousel ul.indicatores.indicator-item {
-    top: -600px;
+    top: 590px;
   }
   .contact-content video {
     margin-top: 0.2rem;
@@ -767,7 +767,7 @@ section#contact {
     margin-bottom: 1rem;
   }
   .contact-content #who-i-am .carousel ul.indicatores.indicator-item {
-    top: -600px;
+    top: 620px;
   }
   .contact-content video {
     margin-top: 0.2rem;
@@ -1026,7 +1026,7 @@ section#who-i-am {
   }
 }
 
-@media screen and (width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (width: 667px) and (orientation: landscape) {
   .carousel .carousel-item .content-who-i-am {
     margin: 0 1rem 0 1rem;
     font-size: 14px;
@@ -1057,7 +1057,7 @@ section#who-i-am {
     margin-bottom: 1rem;
   }
   .carousel .carousel-item .content-who-i-am #who-i-am .carousel ul.indicatores.indicator-item {
-    top: -600px;
+    top: 590px;
   }
   .carousel .carousel-item .content-who-i-am video {
     margin-top: 0.2rem;
@@ -1135,7 +1135,7 @@ section#who-i-am {
     margin-bottom: 1rem;
   }
   .carousel .carousel-item .content-who-i-am #who-i-am .carousel ul.indicatores.indicator-item {
-    top: -600px;
+    top: 620px;
   }
   .carousel .carousel-item .content-who-i-am video {
     margin-top: 0.2rem;
@@ -1392,7 +1392,7 @@ section#portfolio-section {
   }
 }
 
-@media screen and (width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (width: 667px) and (orientation: landscape) {
   .carousel .carousel-item .portfolio-content {
     margin: 0 1rem 0 1rem;
     font-size: 14px;
@@ -1423,7 +1423,7 @@ section#portfolio-section {
     margin-bottom: 1rem;
   }
   .carousel .carousel-item .portfolio-content #who-i-am .carousel ul.indicatores.indicator-item {
-    top: -600px;
+    top: 590px;
   }
   .carousel .carousel-item .portfolio-content video {
     margin-top: 0.2rem;
@@ -1501,7 +1501,7 @@ section#portfolio-section {
     margin-bottom: 1rem;
   }
   .carousel .carousel-item .portfolio-content #who-i-am .carousel ul.indicatores.indicator-item {
-    top: -600px;
+    top: 620px;
   }
   .carousel .carousel-item .portfolio-content video {
     margin-top: 0.2rem;

@@ -27,6 +27,10 @@
   @include breakPoint1370Px($divSectionMarginMax1370px,$fontsizeMobileTextMax1370Px,$marginBottomTittleMax1370Px);
  //Breakpoints Landscape
   @include breakPointLandscape667Px ($divSectionMarginMaxLp667px, $fontsizeMobileTextMaxLp667Px);
+  //These below two are the same difference is in width 734 and 736 -
   @include breakPointLandscape734Px ($divSectionMarginMaxLp734px, $fontsizeMobileTextMaxLp734Px);
   @include breakPointLandscape736Px ($divSectionMarginMaxLp734px, $fontsizeMobileTextMaxLp734Px)
+  ////////////
+
+  
 }
