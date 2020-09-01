@@ -7,8 +7,10 @@
   <meta http-equiv="x-UA-Compatible" content="ie-edge">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet"  type="text/css" href="./styles/style.css">
+
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
   <title>Jefferson's M. Portfolio</title>
 </head>
 
@@ -16,35 +18,27 @@
   <div id="app"></div>
 
   <script src="/bundle.js"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       let elems = document.querySelectorAll('.sidenav');
-     let instances = M.Sidenav.init(elems);
+      let instances = M.Sidenav.init(elems);
     });
 
-    // document.addEventListener('DOMContentLoaded', function () {
-    //     let elems = document.querySelectorAll('.scrollspy');
-    //     let instances = M.ScrollSpy.init(elems);
-    //   });
-
     document.addEventListener('DOMContentLoaded', function () {
-        let elems = document.querySelectorAll('.carousel');
-        
-        let instances = M.Carousel.init(elems, {
+      let elems = document.querySelectorAll('.carousel');
+
+      let instances = M.Carousel.init(elems, {
         fullWidth: true,
         indicators: true
       });
-                // instances.next()
-                // instances.prev();
-      })
-         
-      
-      
-   
-        
+
+    })
+
 
   </script>
+
 </body>
 
 </html>

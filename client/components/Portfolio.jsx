@@ -1,17 +1,9 @@
 import React from "react"
-import data  from "../data"
+import data from "../data"
+import ScrollAnimation from "react-animate-on-scroll"
 
 import PortfolioContent from "./Portfoliovideos/PortfolioContent"
 
-
-// import LifeOtheParty from './Portfoliovideos/LifeOfTheParty'
-// import LostAndFound from "./Portfoliovideos/LostAndFound"
-// import MindEater from "./Portfoliovideos/MindEater"
-// import Pantree from "./Portfoliovideos/Pantree"
-// import Pong from "./Portfoliovideos/Pong"
-// import QuizApp from "./Portfoliovideos/QizzApp"
-// import TaskManager from "./Portfoliovideos/TaskManager"
-// import Website from "./Portfoliovideos/Website"
 
 
 const Portfolio = () => {
@@ -27,14 +19,16 @@ const Portfolio = () => {
             </a>
           </div>
           <div className="carousel-item portfolio-background" href="#one!">
-            <div className="portfolio-content">
+            <div className="portfolio-content animate__fadeInUp">
+              <ScrollAnimation animateIn="fadeInUp" duration="1">
               <h1 className="portfolio-title">Projects</h1>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Repudiandae, at. Magni molestias neque laborum unde reiciendis
-                illo consectetur blanditiis, suscipit sequi quasi possimus.
-                Ipsum voluptatibus deleniti a animi esse veniam.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae, at. Magni molestias neque laborum unde reiciendis
+                  illo consectetur blanditiis, suscipit sequi quasi possimus.
+                  Ipsum voluptatibus deleniti a animi esse veniam.
               </p>
+                </ScrollAnimation>
             </div>
           </div>
           {data.map((content, index) => (
