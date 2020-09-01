@@ -245,6 +245,41 @@
 }
 
 
+@mixin breakPoint350Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media  screen and (max-width: 350px) and (min-width:310px) {
+    
+    margin:$marginBreakPoint;
+    font-size:$fontsizeBreakPoint;
+
+    h1 {
+      font-size: 2rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size:14px;
+      // line-height:$lineHeighttext ;
+      margin-bottom: $marginBottomTextMax350Px;
+    }
+    .carousel.carousel-slider .carousel-item .who-i-am p {
+    font-size: 14px; 
+    }
+    .carousel.carousel-slider .carousel-item p {
+      font-size: 14px;
+      }
+
+    ul.indicatores{
+      top:590px;
+    }
+
+    video{
+       margin-top:1rem;
+       width:290px;
+     
+    }
+  }
+}
+
 
 
 

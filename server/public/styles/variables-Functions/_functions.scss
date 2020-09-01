@@ -16,6 +16,7 @@
 @mixin marginAlignment{
   margin:$divSectionsMargin;
   //Breakpoints Portrait
+  @include breakPoint350Px($divSectionMarginMax350px, $fontsizeMobileTextMax350Px);
   @include breakPoint360Px($divSectionMarginMax360px, $fontsizeMobileTextMax360Px);
   @include breakPoint370Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
   @include breakPoint375Px ($divSectionMarginMax375px, $fontsizeMobileTextMax375Px);
@@ -29,11 +30,12 @@
   @include breakPointLandscape640Px ($divSectionMarginMaxLp640px, $fontsizeMobileTextMaxLp640Px);
   @include breakPointLandscape667Px ($divSectionMarginMaxLp667px, $fontsizeMobileTextMaxLp667Px);
   @include breakPointLandscape684Px ($divSectionMarginMaxLp684px, $fontsizeMobileTextMaxLp684Px);
-  //These below three are the same difference is in width 734 and 736 -
+  //These below three are the same, only difference is  @media width 734 and 736 values are all the same -
   @include breakPointLandscape731Px ($divSectionMarginMaxLp734px, $fontsizeMobileTextMaxLp734Px);
   @include breakPointLandscape734Px ($divSectionMarginMaxLp734px, $fontsizeMobileTextMaxLp734Px);
   @include breakPointLandscape736Px ($divSectionMarginMaxLp734px, $fontsizeMobileTextMaxLp734Px);
-  ////////////
+  ////////////These two below are the same only difference is @media width 812 and 823 values are all the same -
   @include breakPointLandscape812Px ($divSectionMarginMaxLp812px, $fontsizeMobileTextMaxLp812Px);
+  @include breakPointLandscape823Px ($divSectionMarginMaxLp812px, $fontsizeMobileTextMaxLp812Px);
 
 }
