@@ -1,6 +1,8 @@
 //Brekapoints  Functions
+
+
 @mixin breakPoint1370Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (min-width:1360px) and (min-width:900px) {
+  @media only screen and (min-width:1320px) and (max-width:1370px) {
     margin: $marginBreakPoint;
 
     h1 {
@@ -30,42 +32,10 @@
   }
 }
 
-@mixin breakPoint1204Width-770Height($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen   and (max-width:1024) and (min-width:900px) and (orientation: landscape) {
-    margin: $marginBreakPoint;
-
-    h1 {
-      font-size: 4rem;
-      margin-bottom:$marginBottom;
-      color: $titleFontColour;
-    }
-    p {
-      color: $textColour;
-      font-size:$fontsizeBreakPoint;
-      
-      // line-height:$lineHeighttext ;
-      margin-bottom:$marginBottomTextMax770Px;
-    }
-    .experience-title{
-      margin-top:-50px;
-    }
-    .contact-title{
-      margin-top:-50px;
-    }
-    .portfolio-title{
-      margin-bottom:3rem;
-    }
-    video{
-
-      margin-top:0.5rem;
-      width:620px;
-    }
-  }
-}
 
 
 @mixin breakPoint1024Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (max-width: 1024px) and (min-width:900px){
+  @media only screen and (min-width: 900px) and (max-width:1030px){
     margin: $marginBreakPoint;
 
     h1 {
@@ -96,7 +66,7 @@
 
 
 @mixin breakPoint770Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (max-width: 810px) and (min-width:750px) {
+  @media only screen and (min-width: 750px) and (max-width:810px) {
     margin: $marginBreakPoint;
 
     h1 {
@@ -147,7 +117,7 @@
 }
 
 @mixin breakPoint414Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media screen and (max-width: 470px) and (min-width:450px) {
+  @media screen and (min-width: 450px) and (max-width:470px) {
     margin: $marginBreakPoint;
     h1 {
       font-size: 3rem;
@@ -168,7 +138,7 @@
 
 
 @mixin breakPoint375Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media screen and (max-width: 400px) and (min-width:372px){
+  @media screen and (min-width: 372px) and (max-width:400px){
     margin: $marginBreakPoint;
     h1 {
       font-size: 2.5rem;
@@ -196,7 +166,7 @@
 
 
 @mixin breakPoint370Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media screen and (max-width: 420px) and (min-width:380px){
+  @media screen and (min-width: 380px) and (max-width:420px){
     margin: $marginBreakPoint;
     h1 {
       font-size: 3rem;
@@ -224,7 +194,7 @@
 
 
 @mixin breakPoint360Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media  screen and (max-width: 365px) and (min-width:350px) {
+  @media  screen and (min-width: 350px) and (max-width:365px) {
     
     margin:$marginBreakPoint;
     font-size:$fontsizeBreakPoint;
@@ -253,7 +223,7 @@
 
 
 @mixin breakPoint350Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media  screen and (max-width: 350px) and (min-width:310px) {
+  @media  screen and (min-width: 310px) and (max-width:350px) {
     
     margin:$marginBreakPoint;
     font-size:$fontsizeBreakPoint;

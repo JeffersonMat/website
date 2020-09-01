@@ -9,9 +9,9 @@ const WhoIam = () => {
         <div className=" carousel carousel-slider  who-i-am">
           <div className="carousel-item" href="#one!">
             <div className="content-who-i-am">
-              <ScrollAnimation animateIn="fadeInUp" duration="0.40s">
+              <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
                 <h1 className="who-i-am-title">Who I am...</h1>
-        
+
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dicta, aut tempore. Animi, est eum alias dignissimos ullam
@@ -19,7 +19,7 @@ const WhoIam = () => {
                   soluta facere accusantium reiciendis?
                 </p>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeInUp" duration="0.30s">
+              <ScrollAnimation animateIn="fadeInUp" duration={0.50}>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dicta, aut tempore. Animi, est eum alias dignissimos ullam
@@ -27,7 +27,7 @@ const WhoIam = () => {
                   soluta facere accusantium reiciendis?
                 </p>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeInUp" duration="0.30s">
+              <ScrollAnimation animateIn="fadeInUp" duration={0.50}>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dicta, aut tempore. Animi, est eum alias dignissimos ullam
@@ -40,7 +40,7 @@ const WhoIam = () => {
 
           <div className="carousel-item " href="#two!">
             <div className="content-who-i-am">
-              <ScrollAnimation animateIn="fadeInUp" duration="1.5" delay="500">
+              <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
                 <h1 className="who-i-am-title">What I Love...</h1>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -48,13 +48,16 @@ const WhoIam = () => {
                   nihil vero voluptatibus itaque commodi libero a error officiis
                   soluta facere accusantium reiciendis?
                 </p>
-
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="fadeInUp" duration={0.50}>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dicta, aut tempore. Animi, est eum alias dignissimos ullam
                   nihil vero voluptatibus itaque commodi libero a error officiis
                   soluta facere accusantium reiciendis?
                 </p>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="fadeInUp" duration={0.50}>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dicta, aut tempore. Animi, est eum alias dignissimos ullam

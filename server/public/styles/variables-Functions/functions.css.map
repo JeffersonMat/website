@@ -3,7 +3,8 @@
     "mappings": "",
     "sources": [
         "functions.scss",
-        "variablesStyles.scss"
+        "variablesStyles.scss",
+        "desktopBreakpoints.scss"
     ],
     "names": [],
     "file": "functions.css"

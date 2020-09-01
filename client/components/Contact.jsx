@@ -11,7 +11,7 @@ const Contact = () => {
           data-wow-duration="2s"
           data-wow-delay="5s"
         >
-          <ScrollAnimation animateIn="fadeInUp" duration="1">
+          <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
             <h1 className="contact-title">Contact Me</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,

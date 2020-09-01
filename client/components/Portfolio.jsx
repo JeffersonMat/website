@@ -17,7 +17,7 @@ const Portfolio = () => {
           </div>
           <div className="carousel-item portfolio-background" href="#one!">
             <div className="portfolio-content animate__fadeInUp">
-              <ScrollAnimation animateIn="fadeInUp" duration="1">
+              <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
                 <h1 className="portfolio-title">Projects</h1>
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
