@@ -33,7 +33,8 @@ height: 100vh;
 }
 
 .carousel .carousel-item .portfolio-content{
-   @include marginAlignment();   
+   //This function includes all breakpoints as well
+    @include marginAlignment();   
 }
 
 .portfolio-background{

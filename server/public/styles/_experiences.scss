@@ -29,7 +29,7 @@ section#experiences {
     color: $textColour;
     font-family: $textFontFamily;
   }
-  
+  //This function includes all breakpoints as well
 @include marginAlignment();
 }
 

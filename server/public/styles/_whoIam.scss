@@ -21,6 +21,7 @@ section#who-i-am {
   @include flexCenter(center, center, column);
 }
 .carousel .carousel-item  .content-who-i-am{
+  //This function includes all breakpoints as well
   @include marginAlignment();
 }
 

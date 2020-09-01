@@ -24,7 +24,7 @@ $backgroundNavbar:rgba(0,0,0,0.7);
 $backgroundSections: #fffafa;
 
 
-//Breakpoints Variables -------------------->>>>>>>>>--//
+//Breakpoints Variables Portrait --------------------------->>>>>>>>>--//
 
 
 //Variables breakpoint 365px MAX WIDTH 365PX
@@ -75,4 +75,23 @@ $lineHeighttextMax1370Px:1.6rem;
 $marginBottomTextMax1370Px:3rem;
 $marginBottomTittleMax1370Px:5rem;
 $divSectionMarginMax1370px:0 15rem 0 15rem;
+
+
+//Breakpoints Variables Landscape --------------------------->>>>>>>>>--//
+//Lp stands for Landscape--------->>>>>//
+
+//Variables breakpointLp 667px Min WIDTH 375PX
+$fontsizeMobileTextMaxLp667Px:14px;
+$lineHeighttextMaxLp667Px:1.6rem;
+$marginBottomTextMaxLp667Px:0.5rem;
+$marginBottomTittleMaxLp667Px:0.5rem;
+$divSectionMarginMaxLp667px:0 1rem 0 1rem;
+
+//Variables breakpointLp 734px Min WIDTH 734PX
+$fontsizeMobileTextMaxLp734Px:14px;
+$lineHeighttextMaxLp734Px:1.6rem;
+$marginBottomTextMaxLp734Px:0.5rem;
+$marginBottomTittleMaxLp734Px:0.5rem;
+$divSectionMarginMaxLp734px:0 1.5rem 0 1.5rem;
+
 

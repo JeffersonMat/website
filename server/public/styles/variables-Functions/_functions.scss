@@ -1,5 +1,6 @@
 @import './variablesStyles';
 @import './breakPoints';
+@import './landscapeBreakPoints';
 
 //Flex section functions
 
@@ -14,7 +15,7 @@
 //Margin Alignment includes breakPoints
 @mixin marginAlignment{
   margin:$divSectionsMargin;
-  //Breakpoint
+  //Breakpoints Portrait
   @include breakPoint360Px($divSectionMarginMax360px, $fontsizeMobileTextMax360Px);
   @include breakPoint370Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
   @include breakPoint375Px ($divSectionMarginMax375px, $fontsizeMobileTextMax375Px);
@@ -24,4 +25,7 @@
   @include breakPoint770Px( $divSectionMarginMax770px,$fontsizeMobileTextMax770Px, $marginBottomTittleMax770Px);
   @include breakPoint1204Width-770Height($divSectionMarginMax1024px,$fontsizeMobileTextMax1024Px,$marginBottomTittleMax1024Px);
   @include breakPoint1370Px($divSectionMarginMax1370px,$fontsizeMobileTextMax1370Px,$marginBottomTittleMax1370Px);
+ //Breakpoints Landscape
+  @include breakPointLandscape667Px ($divSectionMarginMaxLp667px, $fontsizeMobileTextMaxLp667Px);
+  @include breakPointLandscape734Px ($divSectionMarginMaxLp734px, $fontsizeMobileTextMaxLp734Px);
 }
