@@ -37,5 +37,6 @@
   ////////////These two below are the same only difference is @media width 812 and 823 values are all the same -
   @include breakPointLandscape812Px ($divSectionMarginMaxLp812px, $fontsizeMobileTextMaxLp812Px);
   @include breakPointLandscape823Px ($divSectionMarginMaxLp812px, $fontsizeMobileTextMaxLp812Px);
+  @include breakPointLandscape1024Px ($divSectionMarginMaxLp1024px, $fontsizeMobileTextMaxLp1024Px);
 
 }
