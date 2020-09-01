@@ -15,13 +15,16 @@ const Experiences = () => {
               voluptatibus itaque commodi libero a error officiis soluta facere
               accusantium reiciendis?
             </p>
-
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration="0.30s">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
               aut tempore. Animi, est eum alias dignissimos ullam nihil vero
               voluptatibus itaque commodi libero a error officiis soluta facere
               accusantium reiciendis?
             </p>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" duration="0.30s">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
               aut tempore. Animi, est eum alias dignissimos ullam nihil vero
