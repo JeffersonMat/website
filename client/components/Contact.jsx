@@ -1,7 +1,6 @@
 import React from "react"
 import ScrollAnimation from "react-animate-on-scroll"
 
-
 const Contact = () => {
   return (
     <>
@@ -12,7 +11,6 @@ const Contact = () => {
           data-wow-duration="2s"
           data-wow-delay="5s"
         >
-      
           <ScrollAnimation animateIn="fadeInUp" duration="1">
             <h1 className="contact-title">Contact Me</h1>
             <p>

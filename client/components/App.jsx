@@ -1,25 +1,22 @@
-import React from 'react'
-import { HashRouter as Router} from "react-router-dom"
+import React from "react"
+import { HashRouter as Router } from "react-router-dom"
 
-
-import NavBar from './NavBar/NavBar'
-import WhoIam from './WhoIam'
-import Experiences from './Experiences'
-import Portfolio from './Portfolio';
-import Contact from './Contact'
+import NavBar from "./NavBar/NavBar"
+import WhoIam from "./WhoIam"
+import Experiences from "./Experiences"
+import Portfolio from "./Portfolio"
+import Contact from "./Contact"
 
 const App = () => {
   return (
     <>
- 
-        <NavBar />
-        <Router>
-          <WhoIam />
-          <Experiences />
-          <Portfolio />
-          <Contact />
-        </Router>
-
+      <NavBar />
+      <Router>
+        <WhoIam />
+        <Experiences />
+        <Portfolio />
+        <Contact />
+      </Router>
     </>
   )
 }

@@ -1,45 +1,48 @@
-@import './variables-Functions/variablesStyles.scss';
-
+@import "./variables-Functions/variablesStyles.scss";
 
 nav {
-background-color:#333;   
-background:rgba(0,0,0,0.3);
-z-index:1;
-width: 100%;
-height:60px;
-
-
+  background-color: #333;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  width: 100%;
+  height: 60px;
 }
-.nav-wrapper{
- overflow-y:scroll;  
- scroll-snap-type: y mandatory;  
+.nav-wrapper {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }
 
-.navbar-fixed{   
-background:rgba(0,0,0,0.7);
-z-index:1;
-width: 100%;
-height:60px;
+.navbar-fixed {
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  width: 100%;
+  height: 60px;
 }
 
-
-nav ul{
-    display: flex;
-    list-style:none;
-    width:100%;
-    justify-content: center;
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
 }
 
-nav ul li a{
-    text-decoration:none;
-    text-transform: uppercase;
-    color:$textNavBarColor;
-    padding-left:4rem;
-    padding-right:4rem;
-    text-align: center;
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $textNavBarColor;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-align: center;
 }
 
- nav ul li a:hover{
-    color:skyblue;
+nav ul li a:hover {
+  color: skyblue;
 }
 
+.sidenav{
+     background: rgba(0, 0, 0, 0.7);
+}
+
+.sidenav li>a{
+    color:#fff
+}

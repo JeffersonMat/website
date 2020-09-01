@@ -43,6 +43,14 @@ nav ul li a:hover {
   color: skyblue;
 }
 
+.sidenav {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.sidenav li > a {
+  color: #fff;
+}
+
 .experiences-background {
   background: url("../images/manInOcean.jpg") fixed no-repeat center center/cover;
   width: 100%;
