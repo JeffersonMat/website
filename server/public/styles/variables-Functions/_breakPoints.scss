@@ -96,7 +96,7 @@
 
 
 @mixin breakPoint770Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (max-width: 810px) and (min-width:700px) {
+  @media only screen and (max-width: 810px) and (min-width:750px) {
     margin: $marginBreakPoint;
 
     h1 {

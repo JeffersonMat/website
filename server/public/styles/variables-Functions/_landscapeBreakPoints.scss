@@ -50,7 +50,7 @@
 }
 
   @mixin breakPointLandscape734Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media  screen and (width: 734px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3){
+  @media  screen and (width: 734px) and (orientation: landscape){
     
     margin:$marginBreakPoint;
     font-size:$fontsizeBreakPoint;
@@ -88,7 +88,52 @@
 
     video{
        margin-top:0.2rem;
-       width:280px;
+       width:300px;
+     
+    }
+  }
+}
+
+ @mixin breakPointLandscape736Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media  screen and (width: 736px) and (orientation: landscape){
+    
+    margin:$marginBreakPoint;
+    font-size:$fontsizeBreakPoint;
+
+    h1 {
+      font-size: 2rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      // line-height:$lineHeighttext ;
+      margin-bottom: $marginBottomTextMaxLp734Px
+    }
+     .experience-title{
+      margin-top:-20px;
+    }
+    .contact-title{
+      margin-top:-20px;
+    }
+    .portfolio-title{
+    margin-top:0;    
+    margin-bottom:1rem;
+    }
+    .carousel .carousel-item .content-who-i-am p{
+      font-size:12px;
+  }
+    .who-i-am-title{
+        margin-top: 1rem;
+        margin-bottom:1rem;
+    }
+         
+    #who-i-am .carousel ul.indicatores.indicator-item{
+      top: - 600px;
+    }
+
+    video{
+       margin-top:0.2rem;
+       width:300px;
      
     }
   }

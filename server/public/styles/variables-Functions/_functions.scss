@@ -28,4 +28,5 @@
  //Breakpoints Landscape
   @include breakPointLandscape667Px ($divSectionMarginMaxLp667px, $fontsizeMobileTextMaxLp667Px);
   @include breakPointLandscape734Px ($divSectionMarginMaxLp734px, $fontsizeMobileTextMaxLp734Px);
+  @include breakPointLandscape736Px ($divSectionMarginMaxLp734px, $fontsizeMobileTextMaxLp734Px)
 }
