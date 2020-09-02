@@ -49,7 +49,7 @@ const NavBarMenu = () => {
           offset={-70}
           duration={500}
         >
-          Contact Me
+          Find Me
         </Link>
       </li>
     </ul>

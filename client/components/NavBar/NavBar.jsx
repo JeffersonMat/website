@@ -58,7 +58,7 @@ const NavBar = () => {
                   offset={-70}
                   duration={4000}
                 >
-                  Contact Me
+                Find Me
                 </Link>
               </li>
             </ul>

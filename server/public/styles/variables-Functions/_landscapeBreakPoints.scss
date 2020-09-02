@@ -9,18 +9,19 @@
       font-size: 2rem;
       color: $titleFontColour;
     }
-
-    p {
+ p {
       color: $textColour;
-       font-size:11.5px;
-      // line-height:$lineHeighttext ;
-      margin-bottom: $marginBottomTextMaxLp640Px;
+      font-size:12px; 
+      line-height:18px;
+      letter-spacing:1.2px;
+      margin-bottom:20px;
     }
+   
     .experience-title {
       margin-top: -20px;
     }
     .contact-title {
-      margin-top: -20px;
+      margin-top: 20px;
     }
     .portfolio-title {
       margin-top: 0;
@@ -35,8 +36,17 @@
     .last-p-who-i-am{
       margin-bottom:0;
     }
+   .content-who-i-am, .carousel, .carousel-item{
+
+    height:100%;
+   } 
  .carousel .carousel-item .content-who-i-am p{
    font-size:11px;
+ }
+
+ .carousel .indicators{
+   position: relative;
+   top:270px;
  }
    
     video {
@@ -50,7 +60,7 @@
 @mixin breakPointLandscape640Px($marginBreakPoint, $fontsizeBreakPoint) {
   @media only screen and (min-width: 640px) and (max-width:660px)and (orientation: landscape) {
     margin: $marginBreakPoint;
-    font-size: $fontsizeBreakPoint;
+    
 
     h1 {
       font-size: 2rem;
@@ -58,8 +68,9 @@
     }
     p {
       color: $textColour;
-       font-size:12px;
-      // line-height:$lineHeighttext ;
+      font-size:$fontsizeMobileTextMaxLp640Px;
+      line-height:$lineHeighttextMaxLp640Px;
+      letter-spacing:$letterSpacingMax360Px;
       margin-bottom: $marginBottomTextMaxLp640Px;
     }
     .experience-title {

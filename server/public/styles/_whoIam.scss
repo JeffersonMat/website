@@ -2,23 +2,52 @@
 @import "./variables-Functions/functions";
 
 section.who-i-am-background {
-  background: url("../images/trees.jpg") fixed no-repeat center center/cover;
+  background: url("../images/manInOcean.jpg") fixed no-repeat center center/cover;
   width: 100%;
   height: 60vh;
-  h1{
-    color:$titleFontColour
+  
+  .content-banner h1{
+     color:whitesmoke;
+     margin:0 auto;
+     font-weight: bold;
+
   }
+
+  .content-banner{
+      z-index: 2;
+    background: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .content-banner p.profession-banner{
+    font-size:24px;
+    color:whitesmoke;
+    font-weight: bold;
+    margin:0 auto;
+  }
+}
+
+.banner-title{
+
+  display: flex;
+  height:50vh;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto 0;
+
+  
+
+
 }
 
 section#who-i-am {
   background: $backgroundSections;
   width: 100%;
-  height: 100vh;
- 
+  height: 100vh; 
 }
- .carousel .carousel-slider  .who-i-am{
-   height:100%;
- }
 
 .who-i-am {
  
@@ -26,7 +55,7 @@ section#who-i-am {
 }
 .carousel .carousel-item  .content-who-i-am{
   //This function includes all breakpoints as well
-  height:100%;
+  // height:100%;
   @include marginAlignment();
 }
 

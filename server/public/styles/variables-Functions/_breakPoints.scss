@@ -54,7 +54,7 @@
       margin-top:-500px;
     }
     .contact-title{
-      margin-top:-500px;
+      margin-top:-300px;
     }
     video{
       margin-top:5rem;
@@ -144,17 +144,18 @@
       font-size: 2.5rem;
       color: $titleFontColour;
     }
-    p {
+   p {
       color: $textColour;
-      font-size:$fontsizeBreakPoint;
-      // line-height:$lineHeighttext ;
-      margin-bottom:$marginBottomTextMax375Px
+      font-size:$fontsizeMobileTextMax375Px; 
+      line-height:$lineHeighttextMax375Px;
+      letter-spacing:$letterSpacingMax375Px;
+      margin-bottom:$marginBottomTittleMax375Px;
     }
     .experience-title{
-      margin-top:-230px;
+      margin-top:-60px;
     }
     .contact-title{
-      margin-top:-230px;
+      margin-top:-60px;
     }
     .who-i-am-title{
     margin-top:1rem;
@@ -177,16 +178,23 @@
     }
     p {
       color: $textColour;
-      font-size:$fontsizeBreakPoint;
-      // line-height:$lineHeighttext ;
-      margin-bottom:$marginBottomTextMax420Px
+      font-size:$fontsizeMobileTextMax420Px;
+      line-height:$lineHeighttextMax420Px;
+      letter-spacing:$letterSpacingMax420Px;
+      margin-bottom:$marginBottomTextMax420Px;
     }
 
+    //  color: $textColour;
+    //   font-size:14px; 
+    //   line-height:24px;
+    //   letter-spacing:1.5px;
+    //   margin-bottom:2px;
+
      .experience-title{
-      margin-top:-150px;
+      margin-top:-140px;
     }
     .contact-title{
-      margin-top:-150px;
+      margin-top:-140px;
     }
    
     video{
@@ -201,24 +209,26 @@
   @media  screen and (min-width: 350px) and (max-width:365px) {
     
     margin:$marginBreakPoint;
-    font-size:$fontsizeBreakPoint;
+
 
     h1 {
       font-size: 2rem;
       color: $titleFontColour;
     }
-    p {
+    
+     p {
       color: $textColour;
-      // line-height:$lineHeighttext ;
-      font-size: 12px;
-      margin-bottom: $marginBottomTextMax360Px
+      font-size:$fontsizeMobileTextMax360Px; 
+      line-height:$lineHeighttextMAX360Px;
+      letter-spacing:$letterSpacingMax360Px;
+      margin-bottom:$marginBottomTextMax360Px;
     }
 
      .experience-title{
-      margin-top:-180px;
+      margin-top:-50px;
     }
     .contact-title{
-      margin-top:-180px;
+      margin-top:-50px;
     }
     .who-i-am-title{
     margin-top:1rem;
@@ -241,24 +251,26 @@
   @media  screen and (min-width: 310px) and (max-width:350px) {
     
     margin:$marginBreakPoint;
-    font-size:$fontsizeBreakPoint;
+    
 
     h1 {
       font-size: 2rem;
       color: $titleFontColour;
     }
-    p {
+  
+   p {
       color: $textColour;
-      font-size:12px;
-      // line-height:$lineHeighttext ;
-      margin-bottom: $marginBottomTextMax350Px;
+      font-size:$fontsizeMobileTextMax350Px; 
+      line-height:$lineHeighttextMAX350Px;
+      letter-spacing:$letterSpacingMax350Px;
+      margin-bottom:$marginBottomTextMax350Px;
     }
 
      .experience-title{
       margin-top:-40px;
     }
     .contact-title{
-      margin-top:-40px;
+      margin-top:20px;
     }
      .who-i-am-title{
     margin-top:0rem;

@@ -27,32 +27,36 @@ $backgroundSections: #fffafa;
 //Breakpoints Variables Portrait --------------------------->>>>>>>>>--//
 
 //Variables breakpoint 350px MAX WIDTH 350PX
-$fontsizeMobileTextMax350Px:11px;
-$lineHeighttextMAX350Px:1.6rem;
-$marginBottomTextMax350Px:0.8rem;
+$fontsizeMobileTextMax350Px:12px;
+$lineHeighttextMAX350Px:20px;
+$letterSpacingMax350Px:1.5px;
+$marginBottomTextMax350Px:20px;
 $marginBottomTittleMax350Px:0.2rem;
 $divSectionMarginMax350px: 0 0.8rem 0 0.8rem;
 
 
 //Variables breakpoint 365px MAX WIDTH 365PX
 $fontsizeMobileTextMax360Px:12px;
-$lineHeighttextMAX360Px:1.6rem;
-$marginBottomTextMax360Px:1rem;
+$lineHeighttextMAX360Px:24px;
+$marginBottomTextMax360Px:22px;
+$letterSpacingMax360Px:1.5px;
 $marginBottomTittleMax360Px:1.5rem;
 $divSectionMarginMax360px: 0 1rem 0 1rem;
 
 //Variables breakpoint 420px MAX WIDTH 420PX
-$fontsizeMobileTextMax420Px:13px;
-$lineHeighttextMax420Px:1.6rem;
+$fontsizeMobileTextMax420Px:14px;
+$lineHeighttextMax420Px:21px;
+$letterSpacingMax420Px:2px;
 $marginBottomTextMax420Px:1.2rem;
 $marginBottomTittleMax420Px:1.4rem;
 $divSectionMarginMax420px: 0 1.5rem 0 1.5rem;
 
 //Variables breakpoint 375px MAX WIDTH 375PX
 $fontsizeMobileTextMax375Px:12px;
-$lineHeighttextMax375Px:1.6rem;
-$marginBottomTextMax375Px:1rem;
-$marginBottomTittleMax375Px:1rem;
+$lineHeighttextMax375Px:22px;
+$marginBottomTextMax375Px:24px;
+$marginBottomTittleMax375Px:20px;
+$letterSpacingMax375Px:1.8px;
 $divSectionMarginMax375px: 0 1rem 0 1rem;
 
 //Variables breakpoint 480px  WIDTH 480PX
@@ -91,13 +95,14 @@ $divSectionMarginMax1280px:0 15rem 0 15rem;
 //Variables breakpointLp 600px Min WIDTH 600PX
 $fontsizeMobileTextMaxLp600Px:11px;
 $lineHeighttextMaxLp600Px:1.6rem;
-$marginBottomTextMaxLp600Px:0.5rem;
+$marginBottomTextMaxLp600Px:20px;
 $marginBottomTittleMaxLp600Px:0.5rem;
 $divSectionMarginMaxLp600px:0 1rem 0 1rem;
 
 //Variables breakpointLp 640px Min WIDTH 640PX
 $fontsizeMobileTextMaxLp640Px:12px;
-$lineHeighttextMaxLp640Px:1.6rem;
+$letterSpacingMax360Px:1.4px;
+$lineHeighttextMaxLp640Px:20px;
 $marginBottomTextMaxLp640Px:0.5rem;
 $marginBottomTittleMaxLp640Px:0.5rem;
 $divSectionMarginMaxLp640px:0 0.8rem 0 0.8rem;

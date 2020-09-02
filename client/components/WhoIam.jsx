@@ -4,7 +4,14 @@ import ScrollAnimation from "react-animate-on-scroll"
 const WhoIam = () => {
   return (
     <>
-      <section className="who-i-am-background"></section>
+      <section className="who-i-am-background">
+        <div className="banner-title">
+          <div className="content-banner">
+            <h1>Jefferson M.</h1>
+            <p className="profession-banner">Full Stack Web Developer.</p>
+            </div>
+        </div>
+      </section>
       <section id="who-i-am">
         <div className=" carousel carousel-slider  who-i-am">
           <div className="carousel-item" href="#one!">
@@ -16,10 +23,7 @@ const WhoIam = () => {
                   Over the past year, I've allowed my curiosity and appetite for
                   learning to lead me through the various stages of web
                   development. Initially self-taught, I started my education on
-                  online resources such as Codeacademy, freeCodeCamp, and tech
-                  startup groups before finally landing at EDA. My strengths are
-                  in the front end, and I have a particular interest in UI/UX
-                  design.
+                  online resources such as Codeacademy, freeCodeCamp.
                 </p>
 
                 <p>
@@ -27,20 +31,16 @@ const WhoIam = () => {
                   skills. I believe in lifelong learning and thrive in
                   environments that allow for problem-solving and continuous
                   professional development, which is why I chose web
-                  development. Personally, I enjoy the beauty of building a
-                  functional code that adds value to a project. Code can have a
-                  significant visual impact on the user and has the potential to
-                  shape their experience.
+                  development.
                 </p>
 
-                <p className="last-p-who-i-am">
+                <p >
                   I'm looking for opportunities where I can build on my existing
                   web development skills whilst adding value using the varied
                   knowledge base I already have. Friends and colleagues describe
                   me as self-driven, highly approachable, and would agree that I
-                  bring a unique and positive energy to the workplace. I come
-                  from a diverse professional background across a range of
-                  industries, so I can bring a holistic view to any role.
+                  bring a unique and positive energy to the workplace.
+                 
                 </p>
               </ScrollAnimation>
             </div>
