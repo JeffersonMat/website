@@ -151,10 +151,13 @@
       margin-bottom:$marginBottomTextMax375Px
     }
     .experience-title{
-      margin-top:-40px;
+      margin-top:-230px;
     }
     .contact-title{
-      margin-top:-40px;
+      margin-top:-230px;
+    }
+    .who-i-am-title{
+    margin-top:1rem;
     }
 
     video{
@@ -165,7 +168,7 @@
 }
 
 
-@mixin breakPoint370Px($marginBreakPoint, $fontsizeBreakPoint) {
+@mixin breakPoint420Px($marginBreakPoint, $fontsizeBreakPoint) {
   @media screen and (min-width: 380px) and (max-width:420px){
     margin: $marginBreakPoint;
     h1 {
@@ -185,6 +188,7 @@
     .contact-title{
       margin-top:-150px;
     }
+   
     video{
       margin-top:3rem;  
       width:350px;
@@ -206,7 +210,18 @@
     p {
       color: $textColour;
       // line-height:$lineHeighttext ;
+      font-size: 12px;
       margin-bottom: $marginBottomTextMax360Px
+    }
+
+     .experience-title{
+      margin-top:-180px;
+    }
+    .contact-title{
+      margin-top:-180px;
+    }
+    .who-i-am-title{
+    margin-top:1rem;
     }
 
     ul.indicatores{
@@ -234,7 +249,7 @@
     }
     p {
       color: $textColour;
-      font-size:14px;
+      font-size:12px;
       // line-height:$lineHeighttext ;
       margin-bottom: $marginBottomTextMax350Px;
     }
@@ -245,12 +260,11 @@
     .contact-title{
       margin-top:-40px;
     }
-    .experience-title{
-      margin-top:-40px;
+     .who-i-am-title{
+    margin-top:0rem;
+    margin-bottom:0.5rem;
     }
-    .contact-title{
-      margin-top:-40px;
-    }
+  
 
     ul.indicatores{
       top:590px;

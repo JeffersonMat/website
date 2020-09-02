@@ -6,7 +6,7 @@
 //Flex section functions
 
 @mixin flexCenter($alignContent, $alignItems, $direction) {
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: $alignContent;
   align-items: $alignItems;
@@ -19,7 +19,7 @@
   //Breakpoints Portrait
   @include breakPoint350Px($divSectionMarginMax350px, $fontsizeMobileTextMax350Px);
   @include breakPoint360Px($divSectionMarginMax360px, $fontsizeMobileTextMax360Px);
-  @include breakPoint370Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
+  @include breakPoint420Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
   @include breakPoint375Px ($divSectionMarginMax375px, $fontsizeMobileTextMax375Px);
   @include breakPoint414Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
   @include breakPoint480Px($divSectionMarginMax480px, $fontsizeMobileTextMax480Px);

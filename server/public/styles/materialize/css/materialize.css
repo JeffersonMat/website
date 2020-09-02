@@ -8348,7 +8348,7 @@ input[type=range]::-ms-thumb {
 
 .slider .slides li .caption {
   color: #fff;
-  position: absolute;
+  position:absolute;
   top: 15%;
   left: 15%;
   width: 70%;
@@ -8390,10 +8390,10 @@ input[type=range]::-ms-thumb {
 }
 
 .carousel {
-  overflow: hidden;
+  overflow:hidden ;
   position: relative;
   width: 100%;
-  height: 400px;
+  height:400px;
   -webkit-perspective: 500px;
           perspective: 500px;
   -webkit-transform-style: preserve-3d;
@@ -8441,7 +8441,7 @@ input[type=range]::-ms-thumb {
 .carousel .carousel-item {
   visibility: hidden;
   width: 200px;
-  height: 200px;
+  height:200px;
   position: absolute;
   top: 0;
   left: 0;

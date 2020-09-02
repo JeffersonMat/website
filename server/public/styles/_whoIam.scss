@@ -14,14 +14,19 @@ section#who-i-am {
   background: $backgroundSections;
   width: 100%;
   height: 100vh;
+ 
 }
+ .carousel .carousel-slider  .who-i-am{
+   height:100%;
+ }
 
 .who-i-am {
-  
+ 
   @include flexCenter(center, center, column);
 }
 .carousel .carousel-item  .content-who-i-am{
   //This function includes all breakpoints as well
+  height:100%;
   @include marginAlignment();
 }
 
