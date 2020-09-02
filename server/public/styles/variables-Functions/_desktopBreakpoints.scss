@@ -1,7 +1,7 @@
 @import './variablesStyles';
 
 @mixin breakPoint1900Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (min-width:1800px) and (max-width:2100px) {
+  @media only screen and (min-width:1800px) and (max-width:2400px) {
     margin: $marginBreakPoint;
 
     h1 {
@@ -11,7 +11,7 @@
     }
     p {
       color: $textColour;
-      font-size:27px;    
+      font-size:25px;    
       // line-height:$lineHeighttext ;
       margin-bottom:$marginBottomTextMax1900Px;
     }
@@ -36,13 +36,13 @@
     margin: $marginBreakPoint;
   
     h1 {
-      font-size:4rem;
+      font-size:3rem;
       margin-bottom:$marginBottom;
       color: $titleFontColour;
     }
     p {
       color: $textColour;
-      font-size:21px;    
+      font-size:22px;    
       margin-bottom:$marginBottomTextMax1280Px;
     }
     .experience-title{

@@ -40,8 +40,7 @@ class WhoIam extends React.Component {
                     strengths are in the front end, and I have a particular
                     interest in UI/UX design.
                   </p>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
+           
                   <p>
                     I was drawn to tech thanks to my passion for learning new
                     skills. I believe in lifelong learning and thrive in
@@ -52,9 +51,8 @@ class WhoIam extends React.Component {
                     a significant visual impact on the user and has the
                     potential to shape their experience.
                   </p>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
-                  <p>
+          
+                  <p className="last-p-who-i-am">
                     I'm looking for opportunities where I can build on my
                     existing web development skills whilst adding value using
                     the varied knowledge base I already have. Friends and
@@ -97,16 +95,14 @@ class WhoIam extends React.Component {
                     nihil vero voluptatibus itaque commodi libero a error
                     officiis soluta facere accusantium reiciendis?
                   </p>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
+               
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Dicta, aut tempore. Animi, est eum alias dignissimos ullam
                     nihil vero voluptatibus itaque commodi libero a error
                     officiis soluta facere accusantium reiciendis?
                   </p>
-                </ScrollAnimation>
-                <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
+            
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Dicta, aut tempore. Animi, est eum alias dignissimos ullam
