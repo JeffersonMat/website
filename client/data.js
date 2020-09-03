@@ -34,7 +34,7 @@ module.exports = [
     title: "QuizzApp",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, aut tempore. Animi, est eum alias dignissimos ullamnihil vero voluptatibus itaque commodi libero a error officiis soluta facere accusantium reiciendis?",
-    video: "../viewwe",
+    video: "../../videos/QuizzApp.mp4",
   },
   {
     title: "Task Manager",
