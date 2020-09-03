@@ -10,11 +10,6 @@ const Portfolio = () => {
       <section className="portfolio-background"></section>
       <section id="portfolio-section">
         <div className="carousel carousel-slider center portfolio">
-          <div className="carousel-fixed-item center">
-            <a className="btn waves-effect white grey-text darken-text-2 portfolio-button">
-              button
-            </a>
-          </div>
           <div className="carousel-item portfolio-background" href="#one!">
             <div className="portfolio-content animate__fadeInUp">
               <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
