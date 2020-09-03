@@ -27,11 +27,11 @@ function PortfolioContent(props) {
           <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
             <h1 className="portfolio-title">{props.content.title}</h1>
             <p>{props.content.description}</p>
-            <video width="600" autoPlay controls>
-              {props.content.video}
-              projects I've worked on, meal planner, task manager, pong, life
-              of the party, games, lost and foud pets, pantree, quiz app, mid
-              eater
+            <video width="600" autoPlay loop>
+              <source src={props.content.video} type="video/mp4" />
+            
+              projects I've worked on, meal planner, task manager, pong, life of
+              the party, games, lost and foud pets, pantree, quiz app, mid eater
             </video>
           </ScrollAnimation>
         </div>

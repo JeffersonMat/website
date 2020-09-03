@@ -3,7 +3,9 @@
 @mixin breakPointLandscape600Px($marginBreakPoint, $fontsizeBreakPoint) {
   @media only screen and (min-width:560px) and (max-width:600px)and (orientation: landscape) {
     margin: $marginBreakPoint;
-    // font-size: $fontsizeBreakPoint;
+    *{
+      font-size:12px;
+    }
 
     h1 {
       font-size: 2rem;
@@ -11,10 +13,10 @@
     }
  p {
       color: $textColour;
-      font-size:12px; 
-      line-height:18px;
-      letter-spacing:1.2px;
-      margin-bottom:20px;
+      font-size:$fontsizeMobileTextMaxLp600Px; 
+      line-height:$lineHeighttextMaxLp600Px;
+      letter-spacing:$letterSpacingMax1Lp600Px;
+      margin-bottom:$marginBottomTextMaxLp600Px;
     }
    
     .experience-title {
@@ -102,16 +104,19 @@
 @mixin breakPointLandscape667Px($marginBreakPoint, $fontsizeBreakPoint) {
   @media only screen and (min-width: 667px) and (max-width:675px) and (orientation: landscape) {
     margin: $marginBreakPoint;
-    font-size: $fontsizeBreakPoint;
+     *{
+       font-size:12px;
+     }
 
     h1 {
       font-size: 2rem;
       color: $titleFontColour;
     }
-    p {
+   p {
       color: $textColour;
-      // line-height:$lineHeighttext ;
-      font-size:12px;
+      font-size:$fontsizeMobileTextMaxLp667Px;
+      line-height:$lineHeighttextMaxLp667Px;
+      letter-spacing:$letterSpacingLp667Px;
       margin-bottom: $marginBottomTextMaxLp667Px;
     }
     .experience-title {
@@ -136,9 +141,7 @@
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
-    //    ul.indicators{
-    //       top: 270px;
-    //     }
+  
 
     video {
       margin-top: 0.2rem;
@@ -158,10 +161,12 @@
     }
     p {
       color: $textColour;
-      font-size:12px;
-      // line-height:$lineHeighttext ;
+      font-size:$fontsizeMobileTextMaxLp684Px;
+      line-height:$lineHeighttextMaxLp684Px;
+      letter-spacing:$letterSpacingLp684Px;
       margin-bottom: $marginBottomTextMaxLp684Px;
-    }
+     }
+
     .experience-title {
       margin-top: -20px;
     }
@@ -184,7 +189,7 @@
       margin-bottom:0;
     }
     video {
-      margin-top: 0.2rem;
+      margin-top: 0;
       width: 290px;
     }
   }
@@ -199,12 +204,13 @@
       font-size: 2rem;
       color: $titleFontColour;
     }
-    p {
+   p {
       color: $textColour;
-       font-size:12px;
-      // line-height:$lineHeighttext ;
+      font-size:$fontsizeMobileTextMaxLp734Px;
+      line-height:$lineHeighttextMaxLp734Px;
+      letter-spacing:$letterSpacingLp734Px;
       margin-bottom: $marginBottomTextMaxLp734Px;
-    }
+   }
     .experience-title {
       margin-top: -20px;
     }
@@ -222,10 +228,6 @@
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
-
-    //  .carousel ul.indicators{
-    //       top: 400px;
-    //     }
 
     video {
       margin-top: 0.2rem;
@@ -243,12 +245,14 @@
       font-size: 2rem;
       color: $titleFontColour;
     }
-    p {
+     p {
       color: $textColour;
-       font-size:13px;
-      // line-height:$lineHeighttext ;
+      font-size:$fontsizeMobileTextMaxLp734Px;
+      line-height:$lineHeighttextMaxLp734Px;
+      letter-spacing:$letterSpacingLp734Px;
       margin-bottom: $marginBottomTextMaxLp734Px;
-    }
+   }
+   
     .experience-title {
       margin-top: -20px;
     }
@@ -266,10 +270,6 @@
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
-
-    //  .carousel ul.indicators{
-    //       top: 400px;
-    //     }
 
     video {
       margin-top: 0.2rem;
@@ -283,23 +283,27 @@
 @mixin breakPointLandscape736Px($marginBreakPoint, $fontsizeBreakPoint) {
   @media only screen and (min-width: 736px) and (max-width:739px) and (orientation: landscape) {
     margin: $marginBreakPoint;
-    font-size: $fontsizeBreakPoint;
-
+    
+    *{
+      font-size:13px;
+    }
+     
     h1 {
       font-size: 2rem;
       color: $titleFontColour;
     }
     p {
       color: $textColour;
-      // line-height:$lineHeighttext ;
-       font-size:12px;
+      font-size:$fontsizeMobileTextMaxLp734Px;
+      line-height:$lineHeighttextMaxLp734Px;
+      letter-spacing:$letterSpacingLp734Px;
       margin-bottom: $marginBottomTextMaxLp734Px;
-    }
+   }
     .experience-title {
-      margin-top: -20px;
+      margin-top: -10px;
     }
     .contact-title {
-      margin-top: -20px;
+      margin-top: -10px;
     }
     .portfolio-title {
       margin-top: 0;
@@ -313,12 +317,8 @@
       margin-bottom: 1rem;
     }
 
-    // .carousel-item .carousel ul.indicators{
-    //   top: 8090px;
-    // }
-
     video {
-      margin-top: 0.2rem;
+     margin-top: 0;
       width: 300px;
     }
   }
@@ -327,18 +327,22 @@
 @mixin breakPointLandscape812Px($marginBreakPoint, $fontsizeBreakPoint) {
   @media only screen and (min-width: 812px) and (max-width:822px) and (orientation: landscape) {
     margin: $marginBreakPoint;
-    // font-size: $fontsizeBreakPoint;
+   *{
+     font-size:13px;
+   }
 
     h1 {
       font-size: 2rem;
       color: $titleFontColour;
     }
-    p {
+   
+     p {
       color: $textColour;
-      // line-height:$lineHeighttext ;
-      font-size:14px;
+      font-size:$fontsizeMobileTextMaxLp812Px;
+      line-height:$lineHeighttextMaxLp812Px;
+      letter-spacing:$letterSpacingLp812Px;
       margin-bottom: $marginBottomTextMaxLp812Px;
-    }
+   }
     .experience-title {
       margin-top: -20px;
     }
@@ -359,7 +363,7 @@
 
 
     video {
-      margin-top: 0.2rem;
+      margin-top: 0;
       width: 330px;
     }
   }
@@ -368,18 +372,20 @@
 @mixin breakPointLandscape823Px($marginBreakPoint, $fontsizeBreakPoint) {
   @media only screen and (width: 823px) and (orientation: landscape) {
     margin: $marginBreakPoint;
-    font-size: $fontsizeBreakPoint;
+
 
     h1 {
       font-size: 2rem;
       color: $titleFontColour;
     }
-    p {
+     p {
       color: $textColour;
-       font-size:13px;
-      // line-height:$lineHeighttext ;
+      font-size:$fontsizeMobileTextMaxLp812Px;
+      line-height:$lineHeighttextMaxLp812Px;
+      letter-spacing:$letterSpacingLp812Px;
       margin-bottom: $marginBottomTextMaxLp812Px;
-    }
+   }
+   
     .experience-title {
       margin-top: -20px;
     }
@@ -403,7 +409,7 @@
     }
 
     video {
-      margin-top: 0.2rem;
+      margin-top: 0;
       width: 350px;
     }
   }
@@ -415,14 +421,19 @@
     font-size: $fontsizeBreakPoint;
 
     h1 {
-      font-size: 2rem;
+      font-size: 4rem;
       color: $titleFontColour;
     }
-    p {
-      color: $textColour;
-      // line-height:$lineHeighttext ;
-      margin-bottom: $marginBottomTextMaxLp1024Px;
+    nav ul li a{
+      font-size:24px;
     }
+   p {
+      color: $textColour;
+      font-size:$fontsizeMobileTextMaxLp1024Px;
+      line-height:$lineHeighttextMaxLp1024Px;
+      letter-spacing:$letterSpacingLp1024Px;
+      margin-bottom: $marginBottomTextMaxLp1024Px;
+   }
     .experience-title {
       margin-top: -20px;
       margin-bottom: 2rem;
@@ -444,8 +455,8 @@
     }
 
     video {
-      margin-top: 0.2rem;
-      width: 580px;
+      margin-top: 0;
+      width: 500px;
     }
   }
 }

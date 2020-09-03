@@ -7,7 +7,7 @@ const WhoIam = () => {
       <section className="who-i-am-background">
         <div className="banner-title">
           <div className="content-banner">
-            <h1>Jefferson M.</h1>
+            <h1 className="banner-title-name">Jefferson M.</h1>
             <p className="profession-banner">Full Stack Web Developer.</p>
             </div>
         </div>
