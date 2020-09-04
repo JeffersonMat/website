@@ -1690,6 +1690,11 @@ ul.social-icons li {
   color: whitesmoke;
 }
 
+footer .social-icons li a {
+  padding-right: 3rem;
+  padding-left: 2rem;
+}
+
 .social-icons i.fas {
   font-size: 25px;
 }

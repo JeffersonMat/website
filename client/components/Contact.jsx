@@ -23,10 +23,12 @@ const Contact = () => {
               <h5>FIND ME ONLINE</h5>
               <ul>
                 <li>
-                  <a href="#">Github</a>
+                  <a href="https://github.com/JeffersonMat">Github</a>
                 </li>
                 <li>
-                  <a href="#">Linkedin</a>
+                  <a href="https://www.linkedin.com/in/jeffersonm-189212179">
+                    Linkedin
+                  </a>
                 </li>
               </ul>
             </div>
@@ -36,7 +38,7 @@ const Contact = () => {
         <footer>
           <ul className="social-icons">
             <li>
-              <a href="#">
+              <a href="https://github.com/JeffersonMat">
                 <i className="fab fa-github-square"></i>
               </a>
             </li>
@@ -46,7 +48,7 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/jeffersonm-189212179">
                 <i className="fab fa-linkedin"></i>
               </a>
             </li>
