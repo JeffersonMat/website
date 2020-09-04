@@ -42,7 +42,7 @@ const Contact = () => {
             </li>
             <li>
               <a href="#">
-                <i class="fas fa-smile-wink"></i>
+                <i className="fas fa-smile-wink"></i>
               </a>
             </li>
             <li>

@@ -1691,15 +1691,21 @@ ul.social-icons li {
 }
 
 .social-icons i.fas {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 h5 {
-  font-weight: bolder;
+  font-weight: bold;
 }
 
-a i.fa-github-square:hover, i.fa-linkedin:hover {
-  color: skyblue;
+.contact-container ul li {
+  color: gray;
+  list-style: none;
+}
+
+.contact-container ul li a {
+  text-decoration: none;
+  color: gray;
 }
 
 section.who-i-am-background {
