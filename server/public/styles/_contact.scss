@@ -77,6 +77,12 @@ ul.social-icons li{
    padding-right: 3rem;
    padding-left: 2rem;
  }
+ footer .social-icons li  a i.fab:hover{
+   color: skyblue;
+ }
+footer .social-icons li  a i.fas:hover{
+   color: skyblue;
+ }
 .social-icons i.fas{
   font-size:25px;
 }
@@ -93,4 +99,43 @@ h5{
   text-decoration: none;
   color: gray;
  
+}
+
+.contact-container ul li a:hover{
+  color:skyblue
+}
+
+.contact-container  ul li  a:hover{
+
+  color:skyblue;
+}
+
+#overlay{
+
+  position: fixed;
+  //  background:url("../images/mountains.jpg");
+  // display: none;
+  width:auto;
+  height:auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+
+#overlay-background img{ 
+   position: absolute;
+   z-index:2;
+   margin: auto 0 ;
+   width:50%;
+  //  height:50%;
+   border-radius:50%;
+   top: 53%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
 }

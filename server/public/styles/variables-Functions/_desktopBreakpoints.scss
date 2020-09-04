@@ -1,6 +1,7 @@
 @import './variablesStyles';
 
-@mixin breakPoint1900Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
+
+@mixin breakPointDesktop1900Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
   @media only screen and (min-width:1800px) and (max-width:2400px) {
     margin: $marginBreakPoint;
     font-size:24px;
@@ -9,10 +10,11 @@
        font-size:6rem;
      }
     h1 {
-      // font-size: 6rem;
+    
       margin-bottom:$marginBottom;
       color: $titleFontColour;
     }
+
     p {
       color: $textColour;
       font-size:$fontsizeMobileTextMax1900Px;
@@ -20,7 +22,6 @@
       letter-spacing:$letterSpacingMax1900Px;
       margin-bottom:$marginBottomTextMax1900Px;
     }
-  
     .experience-title{
       margin-top:-320px;
     }
@@ -38,7 +39,9 @@
 }
 
 
-@mixin breakPoint1370Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
+
+
+@mixin breakPointDesktop1370Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
   @media only screen and (min-width:1320px) and (max-width:1370px) {
     margin: $marginBreakPoint;
     font-size:24px;
@@ -72,13 +75,13 @@
 }
 
 
-@mixin breakPoint1280Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
+@mixin breakPointDesktop1800Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
   @media only screen and (min-width:1400px) and (max-width:1800px){
     margin: $marginBreakPoint;
     font-size:24px;
   
     h1 {
-      // font-size:6rem;
+    
       margin-bottom:$marginBottom;
       color: $titleFontColour;
     }
@@ -89,6 +92,7 @@
       letter-spacing:$letterSpacingMax1280Px;
       margin-bottom:$marginBottomTextMax1280Px;
     }
+
     .experience-title{
       margin-top:-50px;
     }
@@ -100,6 +104,40 @@
     }
     video{
       margin-top:0rem;
+      width:700px;
+    }
+  }
+}
+
+
+
+@mixin breakPointDesktop1280Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
+  @media only screen and (min-width:1200px) and (max-width:1300px) {
+    margin: $marginBreakPoint;
+    font-size:24px;
+    h1 {
+      // font-size: 6rem;
+      margin-bottom:$marginBottom;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size:$fontsizeMobileTextMax1280Px;
+      line-height:$lineHeighttextMax1280Px;
+      letter-spacing:$letterSpacingMax1280Px;
+      margin-bottom:$marginBottomTextMax1280Px;
+    }
+    .experience-title{
+      margin-top:-100px;
+    }
+    .contact-title{
+      margin-top:-100px;
+    }
+    .portfolio-title{
+      margin-bottom:3rem;
+    }
+    video{
+      margin-top:0.5rem;
       width:700px;
     }
   }

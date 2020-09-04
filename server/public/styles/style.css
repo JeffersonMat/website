@@ -378,6 +378,37 @@ section#experiences {
   }
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+  .experiences-content {
+    margin: 0 15rem 0 15rem;
+    font-size: 24px;
+  }
+  .experiences-content h1 {
+    margin-bottom: 4rem;
+    color: #333;
+  }
+  .experiences-content p {
+    color: #696969;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 2.8px;
+    margin-bottom: 28px;
+  }
+  .experiences-content .experience-title {
+    margin-top: -100px;
+  }
+  .experiences-content .contact-title {
+    margin-top: -100px;
+  }
+  .experiences-content .portfolio-title {
+    margin-bottom: 3rem;
+  }
+  .experiences-content video {
+    margin-top: 0.5rem;
+    width: 700px;
+  }
+}
+
 @media only screen and (min-width: 1320px) and (max-width: 1370px) {
   .experiences-content {
     margin: 0 15rem 0 15rem;
@@ -1172,6 +1203,37 @@ section#contact {
   }
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+  .contact-content {
+    margin: 0 15rem 0 15rem;
+    font-size: 24px;
+  }
+  .contact-content h1 {
+    margin-bottom: 4rem;
+    color: #333;
+  }
+  .contact-content p {
+    color: #696969;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 2.8px;
+    margin-bottom: 28px;
+  }
+  .contact-content .experience-title {
+    margin-top: -100px;
+  }
+  .contact-content .contact-title {
+    margin-top: -100px;
+  }
+  .contact-content .portfolio-title {
+    margin-bottom: 3rem;
+  }
+  .contact-content video {
+    margin-top: 0.5rem;
+    width: 700px;
+  }
+}
+
 @media only screen and (min-width: 1320px) and (max-width: 1370px) {
   .contact-content {
     margin: 0 15rem 0 15rem;
@@ -1695,6 +1757,14 @@ footer .social-icons li a {
   padding-left: 2rem;
 }
 
+footer .social-icons li a i.fab:hover {
+  color: skyblue;
+}
+
+footer .social-icons li a i.fas:hover {
+  color: skyblue;
+}
+
 .social-icons i.fas {
   font-size: 25px;
 }
@@ -1711,6 +1781,40 @@ h5 {
 .contact-container ul li a {
   text-decoration: none;
   color: gray;
+}
+
+.contact-container ul li a:hover {
+  color: skyblue;
+}
+
+.contact-container ul li a:hover {
+  color: skyblue;
+}
+
+#overlay {
+  position: fixed;
+  width: auto;
+  height: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overlay-background img {
+  position: absolute;
+  z-index: 2;
+  margin: auto 0;
+  width: 50%;
+  border-radius: 50%;
+  top: 53%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 section.who-i-am-background {
@@ -1789,773 +1893,804 @@ section#who-i-am {
           flex-direction: column;
 }
 
-.carousel .carousel-item .content-who-i-am {
+.carousel .carousel-item #content-who-i-am {
   margin: 0 150px 180px 150px;
 }
 
 @media screen and (min-width: 310px) and (max-width: 350px) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 0.8rem 0 0.8rem;
   }
-  .carousel .carousel-item .content-who-i-am * {
+  .carousel .carousel-item #content-who-i-am * {
     font-size: 12px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 2rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 1.5px;
     margin-bottom: 20px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -40px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: 20px;
   }
-  .carousel .carousel-item .content-who-i-am .who-i-am-title {
+  .carousel .carousel-item #content-who-i-am .who-i-am-title {
     margin-top: 0rem;
     margin-bottom: 0.5rem;
   }
-  .carousel .carousel-item .content-who-i-am ul.indicatores {
+  .carousel .carousel-item #content-who-i-am ul.indicatores {
     top: 590px;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 1rem;
     width: 290px;
   }
 }
 
 @media screen and (min-width: 350px) and (max-width: 365px) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 1rem 0 1rem;
   }
-  .carousel .carousel-item .content-who-i-am * {
+  .carousel .carousel-item #content-who-i-am * {
     font-size: 12px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 2rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 12px;
     line-height: 24px;
     letter-spacing: 1.4px;
     margin-bottom: 22px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -50px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -50px;
   }
-  .carousel .carousel-item .content-who-i-am .who-i-am-title {
+  .carousel .carousel-item #content-who-i-am .who-i-am-title {
     margin-top: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am ul.indicatores {
+  .carousel .carousel-item #content-who-i-am ul.indicatores {
     top: 590px;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 1rem;
     width: 320px;
   }
 }
 
 @media screen and (min-width: 380px) and (max-width: 420px) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 1.5rem 0 1.5rem;
   }
-  .carousel .carousel-item .content-who-i-am * {
+  .carousel .carousel-item #content-who-i-am * {
     font-size: 14px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 3rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 14px;
     line-height: 21px;
     letter-spacing: 2px;
     margin-bottom: 20px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -140px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -140px;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 3rem;
     width: 350px;
   }
 }
 
 @media screen and (min-width: 372px) and (max-width: 400px) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 1rem 0 1rem;
   }
-  .carousel .carousel-item .content-who-i-am * {
+  .carousel .carousel-item #content-who-i-am * {
     font-size: 14px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 2.5rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 12px;
     line-height: 22px;
     letter-spacing: 1.8px;
     margin-bottom: 20px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -60px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -60px;
   }
-  .carousel .carousel-item .content-who-i-am .who-i-am-title {
+  .carousel .carousel-item #content-who-i-am .who-i-am-title {
     margin-top: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 3rem;
     width: 300px;
   }
 }
 
 @media screen and (min-width: 450px) and (max-width: 470px) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 1.5rem 0 1.5rem;
   }
-  .carousel .carousel-item .content-who-i-am * {
+  .carousel .carousel-item #content-who-i-am * {
     font-size: 14px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 3rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 14px;
     line-height: 21px;
     letter-spacing: 2px;
     margin-bottom: 20px;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 3rem;
     width: 350px;
   }
 }
 
 @media screen and (width: 480px) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 1rem 0 1rem;
   }
-  .carousel .carousel-item .content-who-i-am * {
+  .carousel .carousel-item #content-who-i-am * {
     font-size: 14px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 3rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 14px;
     line-height: 1.6rem;
     letter-spacing: 2.4px;
     margin-bottom: 22px;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 2rem;
     width: 400px;
   }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1030px) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 3rem 0 3rem;
   }
-  .carousel .carousel-item .content-who-i-am * {
+  .carousel .carousel-item #content-who-i-am * {
     font-size: 24px;
   }
-  .carousel .carousel-item .content-who-i-am h1.banner-title-name {
+  .carousel .carousel-item #content-who-i-am h1.banner-title-name {
     font-size: 6rem;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 4rem;
     margin-bottom: 5rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 22px;
     line-height: 36px;
     letter-spacing: 2.8px;
     margin-bottom: 30px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -500px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -600px;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 5rem;
     width: 700px;
   }
 }
 
 @media only screen and (min-width: 750px) and (max-width: 810px) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 3rem 0 3rem;
   }
-  .carousel .carousel-item .content-who-i-am * {
+  .carousel .carousel-item #content-who-i-am * {
     font-size: 22px;
   }
-  .carousel .carousel-item .content-who-i-am .sidenav li a {
+  .carousel .carousel-item #content-who-i-am .sidenav li a {
     font-size: 22px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 4rem;
     margin-bottom: 4rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 2.6px;
     margin-bottom: 30px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -180px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -180px;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 2rem;
     width: 600px;
   }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1800px) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 15rem 0 15rem;
     font-size: 24px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     margin-bottom: 4rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 18px;
     line-height: 34px;
     letter-spacing: 2.8px;
     margin-bottom: 28px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -50px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -50px;
   }
-  .carousel .carousel-item .content-who-i-am .portfolio-title {
+  .carousel .carousel-item #content-who-i-am .portfolio-title {
     margin-bottom: 2rem;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 0rem;
     width: 700px;
   }
 }
 
-@media only screen and (min-width: 1320px) and (max-width: 1370px) {
-  .carousel .carousel-item .content-who-i-am {
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 15rem 0 15rem;
     font-size: 24px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
+    margin-bottom: 4rem;
+    color: #333;
+  }
+  .carousel .carousel-item #content-who-i-am p {
+    color: #696969;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 2.8px;
+    margin-bottom: 28px;
+  }
+  .carousel .carousel-item #content-who-i-am .experience-title {
+    margin-top: -100px;
+  }
+  .carousel .carousel-item #content-who-i-am .contact-title {
+    margin-top: -100px;
+  }
+  .carousel .carousel-item #content-who-i-am .portfolio-title {
+    margin-bottom: 3rem;
+  }
+  .carousel .carousel-item #content-who-i-am video {
+    margin-top: 0.5rem;
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 1320px) and (max-width: 1370px) {
+  .carousel .carousel-item #content-who-i-am {
+    margin: 0 15rem 0 15rem;
+    font-size: 24px;
+  }
+  .carousel .carousel-item #content-who-i-am h1 {
     margin-bottom: 5rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 18px;
     line-height: 34px;
     letter-spacing: 2.9px;
     margin-bottom: 30px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -100px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -100px;
   }
-  .carousel .carousel-item .content-who-i-am .portfolio-title {
+  .carousel .carousel-item #content-who-i-am .portfolio-title {
     margin-bottom: 3rem;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 0.5rem;
     width: 700px;
   }
 }
 
 @media only screen and (min-width: 1800px) and (max-width: 2400px) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 15rem 0 15rem;
     font-size: 24px;
   }
-  .carousel .carousel-item .content-who-i-am section.who-i-am-background .content-banner h1 {
+  .carousel .carousel-item #content-who-i-am section.who-i-am-background .content-banner h1 {
     font-size: 6rem;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     margin-bottom: 5rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 18px;
     line-height: 34px;
     letter-spacing: 2.8px;
     margin-bottom: 34px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -320px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -320px;
   }
-  .carousel .carousel-item .content-who-i-am .portfolio-title {
+  .carousel .carousel-item #content-who-i-am .portfolio-title {
     margin-bottom: 3rem;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 2rem;
     width: 900px;
   }
 }
 
 @media only screen and (min-width: 560px) and (max-width: 600px) and (orientation: landscape) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 1rem 0 1rem;
   }
-  .carousel .carousel-item .content-who-i-am * {
+  .carousel .carousel-item #content-who-i-am * {
     font-size: 12px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 2rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 1.2px;
     margin-bottom: 20px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: 20px;
   }
-  .carousel .carousel-item .content-who-i-am .portfolio-title {
+  .carousel .carousel-item #content-who-i-am .portfolio-title {
     margin-top: 0;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am .who-i-am-title {
+  .carousel .carousel-item #content-who-i-am .who-i-am-title {
     font-size: 1.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
-  .carousel .carousel-item .content-who-i-am .last-p-who-i-am {
+  .carousel .carousel-item #content-who-i-am .last-p-who-i-am {
     margin-bottom: 0;
   }
-  .carousel .carousel-item .content-who-i-am .content-who-i-am, .carousel .carousel-item .content-who-i-am .carousel, .carousel .carousel-item .content-who-i-am .carousel-item {
+  .carousel .carousel-item #content-who-i-am .content-who-i-am, .carousel .carousel-item #content-who-i-am .carousel, .carousel .carousel-item #content-who-i-am .carousel-item {
     height: 100%;
   }
-  .carousel .carousel-item .content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am .carousel .carousel-item .content-who-i-am p {
     font-size: 11px;
   }
-  .carousel .carousel-item .content-who-i-am .carousel .indicators {
+  .carousel .carousel-item #content-who-i-am .carousel .indicators {
     position: relative;
     top: 270px;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 0.2rem;
     width: 260px;
   }
 }
 
 @media only screen and (min-width: 640px) and (max-width: 660px) and (orientation: landscape) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 0.8rem 0 0.8rem;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 2rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 1.4px;
     margin-bottom: 20px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .portfolio-title {
+  .carousel .carousel-item #content-who-i-am .portfolio-title {
     margin-top: 0;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am .who-i-am-title {
+  .carousel .carousel-item #content-who-i-am .who-i-am-title {
     margin-top: 0.5rem;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am .last-p-who-i-am {
+  .carousel .carousel-item #content-who-i-am .last-p-who-i-am {
     margin-bottom: 0;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 0.2rem;
     width: 260px;
   }
 }
 
 @media only screen and (min-width: 667px) and (max-width: 675px) and (orientation: landscape) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 0.8rem 0 0.8rem;
   }
-  .carousel .carousel-item .content-who-i-am * {
+  .carousel .carousel-item #content-who-i-am * {
     font-size: 12px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 2rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 1.4px;
     margin-bottom: 20px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .portfolio-title {
+  .carousel .carousel-item #content-who-i-am .portfolio-title {
     margin-top: 0;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am section#who-i-am {
+  .carousel .carousel-item #content-who-i-am section#who-i-am {
     height: 130%;
   }
-  .carousel .carousel-item .content-who-i-am section.who-i-am .indicators {
+  .carousel .carousel-item #content-who-i-am section.who-i-am .indicators {
     top: 275px;
   }
-  .carousel .carousel-item .content-who-i-am .who-i-am-title {
+  .carousel .carousel-item #content-who-i-am .who-i-am-title {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 0.2rem;
     width: 280px;
   }
 }
 
 @media only screen and (min-width: 684px) and (max-width: 690px) and (orientation: landscape) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 0.8rem 0 0.8rem;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 2rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 13px;
     line-height: 21px;
     letter-spacing: 1.6px;
     margin-bottom: 20px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .portfolio-title {
+  .carousel .carousel-item #content-who-i-am .portfolio-title {
     margin-top: 0;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am .who-i-am-title {
+  .carousel .carousel-item #content-who-i-am .who-i-am-title {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am .carousel .carousel-item .content-who-i-am p {
     font-size: 12px;
   }
-  .carousel .carousel-item .content-who-i-am .last-p-who-i-am {
+  .carousel .carousel-item #content-who-i-am .last-p-who-i-am {
     margin-bottom: 0;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 0;
     width: 290px;
   }
 }
 
 @media only screen and (min-width: 700px) and (max-width: 731px) and (orientation: landscape) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 1rem 0 1rem;
     font-size: 13px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 2rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 13px;
     line-height: 21px;
     letter-spacing: 1.7px;
     margin-bottom: 22px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .portfolio-title {
+  .carousel .carousel-item #content-who-i-am .portfolio-title {
     margin-top: 0;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am .carousel .carousel-item .content-who-i-am p {
     font-size: 12px;
   }
-  .carousel .carousel-item .content-who-i-am .who-i-am-title {
+  .carousel .carousel-item #content-who-i-am .who-i-am-title {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 0.2rem;
     width: 310px;
   }
 }
 
 @media only screen and (min-width: 734px) and (max-width: 735px) and (orientation: landscape) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 1rem 0 1rem;
     font-size: 13px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 2rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 13px;
     line-height: 21px;
     letter-spacing: 1.7px;
     margin-bottom: 22px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .portfolio-title {
+  .carousel .carousel-item #content-who-i-am .portfolio-title {
     margin-top: 0;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am .carousel .carousel-item .content-who-i-am p {
     font-size: 12px;
   }
-  .carousel .carousel-item .content-who-i-am .who-i-am-title {
+  .carousel .carousel-item #content-who-i-am .who-i-am-title {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 0.2rem;
     width: 320px;
   }
 }
 
 @media only screen and (min-width: 736px) and (max-width: 739px) and (orientation: landscape) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 1rem 0 1rem;
   }
-  .carousel .carousel-item .content-who-i-am * {
+  .carousel .carousel-item #content-who-i-am * {
     font-size: 13px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 2rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 13px;
     line-height: 21px;
     letter-spacing: 1.7px;
     margin-bottom: 22px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -10px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -10px;
   }
-  .carousel .carousel-item .content-who-i-am .portfolio-title {
+  .carousel .carousel-item #content-who-i-am .portfolio-title {
     margin-top: 0;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am .carousel .carousel-item .content-who-i-am p {
     font-size: 12px;
   }
-  .carousel .carousel-item .content-who-i-am .who-i-am-title {
+  .carousel .carousel-item #content-who-i-am .who-i-am-title {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 0;
     width: 300px;
   }
 }
 
 @media only screen and (min-width: 812px) and (max-width: 822px) and (orientation: landscape) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 1.5rem 0 1.5rem;
   }
-  .carousel .carousel-item .content-who-i-am * {
+  .carousel .carousel-item #content-who-i-am * {
     font-size: 13px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 2rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 13px;
     line-height: 22px;
     letter-spacing: 1.7px;
     margin-bottom: 22px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .portfolio-title {
+  .carousel .carousel-item #content-who-i-am .portfolio-title {
     margin-top: 0;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am .carousel .carousel-item .content-who-i-am p {
     font-size: 12px;
   }
-  .carousel .carousel-item .content-who-i-am .who-i-am-title {
+  .carousel .carousel-item #content-who-i-am .who-i-am-title {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 0;
     width: 330px;
   }
 }
 
 @media only screen and (width: 823px) and (orientation: landscape) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 1.5rem 0 1.5rem;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 2rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 13px;
     line-height: 22px;
     letter-spacing: 1.7px;
     margin-bottom: 22px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -20px;
   }
-  .carousel .carousel-item .content-who-i-am .portfolio-title {
+  .carousel .carousel-item #content-who-i-am .portfolio-title {
     margin-top: 0;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am .carousel .carousel-item .content-who-i-am p {
     font-size: 12px;
   }
-  .carousel .carousel-item .content-who-i-am .who-i-am-title {
+  .carousel .carousel-item #content-who-i-am .who-i-am-title {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  .carousel .carousel-item .content-who-i-am section#who-i-am .carousel-item .carousel ul.indicators {
+  .carousel .carousel-item #content-who-i-am section#who-i-am .carousel-item .carousel ul.indicators {
     top: 1000px;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 0;
     width: 350px;
   }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1200px) and (orientation: landscape) {
-  .carousel .carousel-item .content-who-i-am {
+  .carousel .carousel-item #content-who-i-am {
     margin: 0 1.5rem 0 1.5rem;
     font-size: 18px;
   }
-  .carousel .carousel-item .content-who-i-am h1 {
+  .carousel .carousel-item #content-who-i-am h1 {
     font-size: 4rem;
     color: #333;
   }
-  .carousel .carousel-item .content-who-i-am nav ul li a {
+  .carousel .carousel-item #content-who-i-am nav ul li a {
     font-size: 24px;
   }
-  .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am p {
     color: #696969;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 2.1px;
     margin-bottom: 22px;
   }
-  .carousel .carousel-item .content-who-i-am .experience-title {
+  .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -20px;
     margin-bottom: 2rem;
   }
-  .carousel .carousel-item .content-who-i-am .contact-title {
+  .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -20px;
     margin-bottom: 2rem;
   }
-  .carousel .carousel-item .content-who-i-am .portfolio-title {
+  .carousel .carousel-item #content-who-i-am .portfolio-title {
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
-  .carousel .carousel-item .content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  .carousel .carousel-item #content-who-i-am .carousel .carousel-item .content-who-i-am p {
     font-size: 12px;
   }
-  .carousel .carousel-item .content-who-i-am .who-i-am-title {
+  .carousel .carousel-item #content-who-i-am .who-i-am-title {
     margin-top: 4rem;
     margin-bottom: 2rem;
   }
-  .carousel .carousel-item .content-who-i-am video {
+  .carousel .carousel-item #content-who-i-am video {
     margin-top: 0;
     width: 500px;
   }
@@ -2875,6 +3010,37 @@ section#portfolio-section {
   }
   .carousel .carousel-item .portfolio-content video {
     margin-top: 0rem;
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+  .carousel .carousel-item .portfolio-content {
+    margin: 0 15rem 0 15rem;
+    font-size: 24px;
+  }
+  .carousel .carousel-item .portfolio-content h1 {
+    margin-bottom: 4rem;
+    color: #333;
+  }
+  .carousel .carousel-item .portfolio-content p {
+    color: #696969;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 2.8px;
+    margin-bottom: 28px;
+  }
+  .carousel .carousel-item .portfolio-content .experience-title {
+    margin-top: -100px;
+  }
+  .carousel .carousel-item .portfolio-content .contact-title {
+    margin-top: -100px;
+  }
+  .carousel .carousel-item .portfolio-content .portfolio-title {
+    margin-bottom: 3rem;
+  }
+  .carousel .carousel-item .portfolio-content video {
+    margin-top: 0.5rem;
     width: 700px;
   }
 }

@@ -1,62 +1,95 @@
 import React from "react"
 import ScrollAnimation from "react-animate-on-scroll"
 
-const Contact = () => {
-  return (
-    <>
-      <section className="contact-background"></section>
-      <section id="contact">
-        <div
-          className="contact-content"
-          data-wow-duration="2s"
-          data-wow-delay="5s"
-        >
-          <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
-            <h1 className="contact-title">Let's Chat!</h1>
 
-            <div className="contact-container">
-              <h5>GET IN TOUCH</h5>
-              <ul>
-                <li>jeff_08062011@hotmail.com</li>
-                <li>0210445115</li>
-              </ul>
-              <h5>FIND ME ONLINE</h5>
-              <ul>
-                <li>
-                  <a href="https://github.com/JeffersonMat">Github</a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/jeffersonm-189212179">
-                    Linkedin
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </ScrollAnimation>
-        </div>
+class Contact extends React.Component {
+  state = {
+    display: false,
+  }
 
-        <footer>
-          <ul className="social-icons">
-            <li>
-              <a href="https://github.com/JeffersonMat">
-                <i className="fab fa-github-square"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i className="fas fa-smile-wink"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/jeffersonm-189212179">
-                <i className="fab fa-linkedin"></i>
-              </a>
-            </li>
-          </ul>
-        </footer>
-      </section>
-    </>
-  )
+  handleClick = () => {
+    this.setState({ display: true })
+  }
+
+  handleClickOverLay= () => {
+    this.setState({ display:false})
+  }
+
+  render() {
+    return (
+      <>
+        <section className="contact-background"></section>
+        <section id="contact">
+          <div
+            className="contact-content"
+            data-wow-duration="2s"
+            data-wow-delay="5s"
+          >
+            <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
+              <h1 className="contact-title">Let's Chat!</h1>
+
+              <div className="contact-container">
+                <h5>GET IN TOUCH</h5>
+                <ul>
+                  <li>
+                    <a href="mailto:jeff_08062011@hotmail.com">
+                      jeff_08062011@hotmail.com
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:0210445115">0210445115</a>
+                  </li>
+                </ul>
+                <h5>FIND ME ONLINE</h5>
+                <ul>
+                  <li>
+                    <a href="https://github.com/JeffersonMat">Github</a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/jeffersonm-189212179">
+                      Linkedin
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                id="overlay"
+                style={{ display: this.state.display ? "block" : "none" }}
+                onClick={this.handleClickOverLay}
+              >
+                <div
+                  id="overlay-background"
+                  onClick={this.handleClickOverLay}
+                >
+                  <img src="../images/mountains.jpg"/>
+                </div>
+              </div>
+            </ScrollAnimation>
+          </div>
+
+          <footer>
+            <ul className="social-icons">
+              <li>
+                <a href="https://github.com/JeffersonMat">
+                  <i className="fab fa-github-square"></i>
+                </a>
+              </li>
+              <li>
+                <a onClick={this.handleClick}>
+                  <i className="fas fa-smile-wink"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/jeffersonm-189212179">
+                  <i className="fab fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </footer>
+        </section>
+      </>
+    )
+  }
 }
 
 export default Contact

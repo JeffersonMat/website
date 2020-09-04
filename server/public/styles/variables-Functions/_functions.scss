@@ -25,9 +25,10 @@
   @include breakPoint480Px($divSectionMarginMax480px, $fontsizeMobileTextMax480Px);
   @include breakPoint1024Px($divSectionMarginMax1024px,$fontsizeMobileTextMax1024Px,$marginBottomTittleMax1024Px);
   @include breakPoint770Px( $divSectionMarginMax770px,$fontsizeMobileTextMax770Px, $marginBottomTittleMax770Px);
-  @include breakPoint1280Px($divSectionMarginMax1280px,$fontsizeMobileTextMax1280Px,$marginBottomTittleMax1280Px);
-  @include breakPoint1370Px($divSectionMarginMax1370px,$fontsizeMobileTextMax1370Px,$marginBottomTittleMax1370Px);
-  @include breakPoint1900Px($divSectionMarginMax1370px,$fontsizeMobileTextMax1900Px,$marginBottomTittleMax1900Px);
+  @include breakPointDesktop1800Px($divSectionMarginMax1800px,$fontsizeMobileTextMax1800Px,$marginBottomTittleMax1800Px);
+  @include breakPointDesktop1280Px($divSectionMarginMax1280px,$fontsizeMobileTextMax1280Px,$marginBottomTittleMax1280Px);
+  @include breakPointDesktop1370Px($divSectionMarginMax1370px,$fontsizeMobileTextMax1370Px,$marginBottomTittleMax1370Px);
+  @include breakPointDesktop1900Px($divSectionMarginMax1370px,$fontsizeMobileTextMax1900Px,$marginBottomTittleMax1900Px);
   //Breakpoints Landscape
   @include breakPointLandscape600Px ($divSectionMarginMaxLp600px, $fontsizeMobileTextMaxLp600Px);
   @include breakPointLandscape640Px ($divSectionMarginMaxLp640px, $fontsizeMobileTextMaxLp640Px);

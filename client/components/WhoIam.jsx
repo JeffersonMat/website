@@ -1,27 +1,20 @@
 import React from "react"
 import ScrollAnimation from "react-animate-on-scroll"
+import Banner from './banner/Banner'
 
 const WhoIam = () => {
   return (
     <>
-      <section className="who-i-am-background">
-        <div className="banner-title">
-          <ScrollAnimation animateIn="fadeInDown" duration={1.2} delay={500}>
-            <div className="content-banner">
-              <h1 className="banner-title-name">Jefferson M.</h1>
-              <p className="profession-banner">Full Stack Web Developer.</p>
-          
-            </div>
-            </ScrollAnimation>
-        </div>
-      </section>
+      <Banner />
       <section id="who-i-am">
         <div className=" carousel carousel-slider  who-i-am">
           <div className="carousel-item" href="#one!">
-            <div className="content-who-i-am">
-              <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
-                <h1 className="who-i-am-title">Who I am...</h1>
-
+            <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
+              <div id="content-who-i-am">
+                <div>
+                  <h1 className="who-i-am-title">Who I am...</h1>
+                  </div>
+                 <div>
                 <p>
                   Over the past year, I've allowed my curiosity and appetite for
                   learning to lead me through the various stages of web
@@ -44,8 +37,9 @@ const WhoIam = () => {
                   me as self-driven, highly approachable, and would agree that I
                   bring a unique and positive energy to the workplace.
                 </p>
+               </div>
+              </div>
               </ScrollAnimation>
-            </div>
           </div>
 
           <div className="carousel-item " href="#three!">
