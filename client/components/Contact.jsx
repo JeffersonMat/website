@@ -57,35 +57,36 @@ class Contact extends React.Component {
                 style={{ display: this.state.display ? "block" : "none" }}
                 onClick={this.handleClickOverLay}
               >
-                <div
-                  id="overlay-background"
-                  onClick={this.handleClickOverLay}
-                >
-                  <img src="../images/mountains.jpg"/>
+                <div id="overlay-background" onClick={this.handleClickOverLay}>
+                  <img src="../images/mountains.jpg" />
                 </div>
               </div>
             </ScrollAnimation>
           </div>
 
+          
           <footer>
-            <ul className="social-icons">
-              <li>
-                <a href="https://github.com/JeffersonMat">
-                  <i className="fab fa-github-square"></i>
-                </a>
-              </li>
-              <li>
-                <a onClick={this.handleClick}>
-                  <i className="fas fa-smile-wink"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/jeffersonm-189212179">
-                  <i className="fab fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
+              <ul className="social-icons">
+                <li>
+                  <a href="https://github.com/JeffersonMat">
+                    <i className=" fab fa-github-square"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a onClick={this.handleClick}>
+                    <i className="fas fa-smile-wink"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/in/jeffersonm-189212179">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
           </footer>
+         
         </section>
       </>
     )

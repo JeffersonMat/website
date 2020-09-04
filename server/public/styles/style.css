@@ -1753,8 +1753,8 @@ ul.social-icons li {
 }
 
 footer .social-icons li a {
-  padding-right: 3rem;
-  padding-left: 2rem;
+  padding-right: 1.4rem;
+  padding-left: 1.4rem;
 }
 
 footer .social-icons li a i.fab:hover {
@@ -3560,6 +3560,7 @@ body {
   background: #333;
   line-height: 1.6;
   height: 100vh;
+  overflow-y: scroll;
 }
 
 #app {
