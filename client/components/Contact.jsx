@@ -13,35 +13,45 @@ const Contact = () => {
         >
           <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
             <h1 className="contact-title">Let's Chat!</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
-              aut tempore. Animi, est eum alias dignissimos ullam nihil vero
-              voluptatibus itaque commodi libero a error officiis soluta facere
-              accusantium reiciendis? Animi, est eum alias dignissimos ullam
-              nihil vero voluptatibus itaque commodi libero a error officiis
-              soluta facere accusantium reiciendis? Animi, est eum alias
-              dignissimos ullam nihil vero voluptatibus itaque commodi libero a
-              error officiis soluta facere accusantium reiciendis? Animi, est
-              eum alias dignissimos ullam nihil vero voluptatibus itaque commodi
-              libero a error officiis soluta facere accusantium reiciendis?
-            </p>
 
-            {/* <div className="social-container"> */}
-              <ul className="social-icons">
+            <div className="contact-container">
+              <h5>GET IN TOUCH</h5>
+              <ul>
+                <li>jeff_08062011@hotmail.com</li>
+                <li>0210445115</li>
+              </ul>
+              <h5>FIND ME ONLINE</h5>
+              <ul>
                 <li>
-                  <a href="#">
-                    <i className="fab fa-github-square"></i>
-                  </a>
+                  <a href="#">Github</a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fab fa-linkedin"></i>
-                  </a>
+                  <a href="#">Linkedin</a>
                 </li>
               </ul>
-            {/* </div> */}
+             </div>
           </ScrollAnimation>
-        </div>
+          </div>
+     
+        <footer>
+          <ul className="social-icons">
+            <li>
+              <a href="#">
+                <i className="fab fa-github-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-smile-wink"></i>
+              </a>
+            </li>
+          </ul>
+        </footer>
       </section>
     </>
   )

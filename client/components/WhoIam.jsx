@@ -6,10 +6,13 @@ const WhoIam = () => {
     <>
       <section className="who-i-am-background">
         <div className="banner-title">
-          <div className="content-banner">
-            <h1 className="banner-title-name">Jefferson M.</h1>
-            <p className="profession-banner">Full Stack Web Developer.</p>
+          <ScrollAnimation animateIn="fadeInDown" duration={1.2} delay={500}>
+            <div className="content-banner">
+              <h1 className="banner-title-name">Jefferson M.</h1>
+              <p className="profession-banner">Full Stack Web Developer.</p>
+          
             </div>
+            </ScrollAnimation>
         </div>
       </section>
       <section id="who-i-am">
@@ -34,13 +37,12 @@ const WhoIam = () => {
                   development.
                 </p>
 
-                <p >
+                <p>
                   I'm looking for opportunities where I can build on my existing
                   web development skills whilst adding value using the varied
                   knowledge base I already have. Friends and colleagues describe
                   me as self-driven, highly approachable, and would agree that I
                   bring a unique and positive energy to the workplace.
-                 
                 </p>
               </ScrollAnimation>
             </div>
