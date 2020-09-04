@@ -29,10 +29,10 @@ const Contact = () => {
                   <a href="#">Linkedin</a>
                 </li>
               </ul>
-             </div>
+            </div>
           </ScrollAnimation>
-          </div>
-     
+        </div>
+
         <footer>
           <ul className="social-icons">
             <li>
@@ -42,12 +42,12 @@ const Contact = () => {
             </li>
             <li>
               <a href="#">
-                <i className="fab fa-linkedin"></i>
+                <i class="fas fa-smile-wink"></i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fas fa-smile-wink"></i>
+                <i className="fab fa-linkedin"></i>
               </a>
             </li>
           </ul>

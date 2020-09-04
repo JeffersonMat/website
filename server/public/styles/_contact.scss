@@ -62,19 +62,25 @@ ul.social-icons li{
 
   .social-icons a i.fab{
   display: inline-block;  
-  font-size:80px;
+  font-size:30px;
   padding-right: 3rem;
   padding-left:3rem ;
 
  }
 
-  .social-icons a i.fa-github-square{
-  color:gray;
+  .social-icons a i.fab, i.fas{
+  color:whitesmoke;
  }
 
- .social-iconsa a i.fa-linkedin{
-   color:#0e76a8;
- }
+.social-icons i.fas{
+  font-size:30px;
+}
+
+h5{
+  font-weight: bolder;
+}
+
+
  a i.fa-github-square,i.fa-linkedin{
   
   &:hover{
