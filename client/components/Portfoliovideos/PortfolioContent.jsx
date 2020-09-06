@@ -31,9 +31,8 @@ function PortfolioContent(props) {
               width="600"
               autoPlay
               loop
-              playsinline
+              playsInline
               muted
-              webkit-playsinline
               allowFullScreen={true}
             >
               <source src={props.content.video} type="video/mp4" />
