@@ -21,13 +21,21 @@ function PortfolioContent(props) {
   }
 
   return (
-    <>   
+    <>
       <div className="carousel-item portfolio-background" href={`${hrefValue}`}>
         <div className="portfolio-content">
           <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
             <h1 className="portfolio-title">{props.content.title}</h1>
             <p>{props.content.description}</p>
-            <video width="600" autoPlay loop allowFullScreen={true}>
+            <video
+              width="600"
+              autoPlay
+              loop
+              playsinline
+              muted
+              webkit-playsinline
+              allowFullScreen={true}
+            >
               <source src={props.content.video} type="video/mp4" />
               <p>
                 projects I've worked on, meal planner, task manager, pong, life
@@ -35,17 +43,18 @@ function PortfolioContent(props) {
                 eater. Broswer does not support this video format
               </p>
             </video>
-            {props.content.src === '' ? <></>
-              :
+            {props.content.src === "" ? (
+              <></>
+            ) : (
               <div className="button-fixed">
-              <a
-                className="btn waves-effect white grey-text darken-text-2 portfolio-button"
-                href={`${props.content.src}`}
-              >
+                <a
+                  className="btn waves-effect white grey-text darken-text-2 portfolio-button"
+                  href={`${props.content.src}`}
+                >
                   Visit App
-            </a>
-            </div>
-            }
+                </a>
+              </div>
+            )}
           </ScrollAnimation>
         </div>
       </div>

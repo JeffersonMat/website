@@ -4,10 +4,24 @@
 
 
 
+section.contact-background {
+  background: url("../images/mountains.jpg") fixed no-repeat center center/cover;
+  width:100%;
+  height:80vh;
+  width:100%;
+  margin:auto;
+  padding:0;
+   -webkit-background: cover;
+  -moz-background: cover;
+  -o-background: cover;
+  width: 100%;
+  
+}
 section#contact {
   background: $backgroundSections;
   widows: 100%;
   height: 100vh;
+
 }
 
 .contact-content {
@@ -18,12 +32,6 @@ section#contact {
   @include marginAlignment();
 }
 
-section.contact-background {
-  background: url("../images/mountains.jpg") fixed no-repeat center center/cover;
-  width: 100%;
-  height: 70vh;
-  
-}
 
 $timing        : 265ms;
 $iconColor     : lightgray;

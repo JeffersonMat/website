@@ -3,7 +3,7 @@ module.exports = [
     title: "Pantree",
     description:
       "Group Project at EDA. Full-Stack Web-App using CRUD functionality.  React, Redux, Express, Node.js. Meal app planner.",
-    video: "../../videos/Pantree.mp4",
+    video: "../../videos/Pantree1.mp4",
     src: "https://pantree-app.herokuapp.com/#/",
   },
 

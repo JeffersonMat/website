@@ -43,7 +43,7 @@ const WhoIam = () => {
           </div>
 
           <div className="carousel-item " href="#three!">
-            <div className="content-who-i-am">
+            <div id="content-who-i-am">
               <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
                 <h1 className="who-i-am-title">What I Love...</h1>
                 <p>
