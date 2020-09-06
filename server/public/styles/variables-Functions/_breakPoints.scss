@@ -23,14 +23,14 @@
       margin-bottom:$marginBottomTextMax1024Px;
     }
     .experience-title{
-      margin-top:-500px;
+      margin-top:-180px;
     }
     .contact-title{
-      margin-top:-600px;
+      margin-top:-200px;
     }
     video{
-      margin-top:5rem;
-      width:700px;
+      margin-top:2rem;
+      width:500px;
     }
   }
 }
@@ -41,11 +41,11 @@
   @media only screen and (min-width: 750px) and (max-width:810px) {
     margin: $marginBreakPoint;
     *{
-      font-size: 22px;
+      font-size: 16px;
     }
     .sidenav li a{  
    
-     font-size:22px;
+     font-size:16px;
   }
 
     h1 {
@@ -61,19 +61,29 @@
       margin-bottom:$marginBottomTextMax770Px;
     }
     .experience-title{
-      margin-top:-180px;
+      margin-top:-40px;
     }
     .contact-title{
-      margin-top:-180px;
+      margin-top:-80px;
     }
     video{
 
-      margin-top:2rem;
-      width:600px;
+      margin-top:0;
+      width:400px;
     }
   }
 }
 
+
+
+@mixin breakPoint694Px() {
+  @media screen and (min-width:694px) and (max-width:700px){
+    video{
+      margin-top:2rem;
+      width:400px;
+    }
+  }
+}
 
 @mixin breakPoint480Px($marginBreakPoint, $fontsizeBreakPoint) {
   @media screen and (width:480px){
@@ -269,7 +279,7 @@
       margin-top:20px;
     }
      .who-i-am-title{
-    margin-top:0rem;
+    margin-top:2rem;
     margin-bottom:0.5rem;
     }
   

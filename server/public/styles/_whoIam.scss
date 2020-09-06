@@ -2,8 +2,11 @@
 @import "./variables-Functions/functions";
 
 section.who-i-am-background {
-  background: url("../images/manInOcean.jpg") scroll no-repeat center center;
-   background-size:cover;
+  background: url("../images/manInOcean.jpg") no-repeat;
+  background-position:center center;
+  -moz-background-position:center center;
+  -webkit-background-position:center center;
+  background-size:cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;

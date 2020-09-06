@@ -2,7 +2,10 @@
 @import "./variables-Functions/functions";
 
 .experiences-background {
-  background: url("../images/trees.jpg")  no-repeat center center;
+  background: url("../images/trees.jpg")  no-repeat; 
+  background-position:center center;
+  -moz-background-position:center center;
+  -webkit-background-position:center center;
   background-size:cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;

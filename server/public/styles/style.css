@@ -52,7 +52,10 @@ nav ul li a:hover {
 }
 
 .experiences-background {
-  background: url("../images/trees.jpg") no-repeat center center;
+  background: url("../images/trees.jpg") no-repeat;
+  background-position: center center;
+  -moz-background-position: center center;
+  -webkit-background-position: center center;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -130,7 +133,7 @@ section#experiences {
     margin-top: 20px;
   }
   .experiences-content .who-i-am-title {
-    margin-top: 0rem;
+    margin-top: 2rem;
     margin-bottom: 0.5rem;
   }
   .experiences-content ul.indicatores {
@@ -289,6 +292,13 @@ section#experiences {
   }
 }
 
+@media screen and (min-width: 694px) and (max-width: 700px) {
+  .experiences-content video {
+    margin-top: 2rem;
+    width: 400px;
+  }
+}
+
 @media only screen and (min-width: 900px) and (max-width: 1030px) {
   .experiences-content {
     margin: 0 3rem 0 3rem;
@@ -312,14 +322,14 @@ section#experiences {
     margin-bottom: 30px;
   }
   .experiences-content .experience-title {
-    margin-top: -500px;
+    margin-top: -180px;
   }
   .experiences-content .contact-title {
-    margin-top: -600px;
+    margin-top: -200px;
   }
   .experiences-content video {
-    margin-top: 5rem;
-    width: 700px;
+    margin-top: 2rem;
+    width: 500px;
   }
 }
 
@@ -328,32 +338,32 @@ section#experiences {
     margin: 0 3rem 0 3rem;
   }
   .experiences-content * {
-    font-size: 22px;
+    font-size: 16px;
   }
   .experiences-content .sidenav li a {
-    font-size: 22px;
+    font-size: 16px;
   }
   .experiences-content h1 {
     font-size: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     color: #333;
   }
   .experiences-content p {
     color: #696969;
-    font-size: 22px;
-    line-height: 33px;
-    letter-spacing: 2.6px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.2px;
+    margin-bottom: 28px;
   }
   .experiences-content .experience-title {
-    margin-top: -180px;
+    margin-top: -40px;
   }
   .experiences-content .contact-title {
-    margin-top: -180px;
+    margin-top: -80px;
   }
   .experiences-content video {
-    margin-top: 2rem;
-    width: 600px;
+    margin-top: 0;
+    width: 400px;
   }
 }
 
@@ -445,8 +455,8 @@ section#experiences {
     margin-bottom: 3rem;
   }
   .experiences-content video {
-    margin-top: 0.5rem;
-    width: 700px;
+    margin-top: 0;
+    width: 600px;
   }
 }
 
@@ -880,11 +890,11 @@ section#experiences {
     margin-bottom: 22px;
   }
   .experiences-content .experience-title {
-    margin-top: -20px;
+    margin-top: -200px;
     margin-bottom: 2rem;
   }
   .experiences-content .contact-title {
-    margin-top: -20px;
+    margin-top: -100px;
     margin-bottom: 2rem;
   }
   .experiences-content .portfolio-title {
@@ -905,11 +915,14 @@ section#experiences {
 }
 
 section.contact-background {
-  background: url("../images/mountains.jpg") fixed no-repeat center center;
+  background: url("../images/mountains.jpg") fixed no-repeat;
+  background-position: center center;
+  -moz-background-position: center center;
+  -webkit-background-position: center center;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover center;
   background-attachment: fixed;
   -webkit-background-atachment: fixed;
   -moz-background-atachment: fixed;
@@ -922,7 +935,7 @@ section.contact-background {
 
 section#contact {
   background: #fffafa;
-  widows: 100%;
+  width: 100%;
   height: 100vh;
 }
 
@@ -971,7 +984,7 @@ section#contact {
     margin-top: 20px;
   }
   .contact-content .who-i-am-title {
-    margin-top: 0rem;
+    margin-top: 2rem;
     margin-bottom: 0.5rem;
   }
   .contact-content ul.indicatores {
@@ -1130,6 +1143,13 @@ section#contact {
   }
 }
 
+@media screen and (min-width: 694px) and (max-width: 700px) {
+  .contact-content video {
+    margin-top: 2rem;
+    width: 400px;
+  }
+}
+
 @media only screen and (min-width: 900px) and (max-width: 1030px) {
   .contact-content {
     margin: 0 3rem 0 3rem;
@@ -1153,14 +1173,14 @@ section#contact {
     margin-bottom: 30px;
   }
   .contact-content .experience-title {
-    margin-top: -500px;
+    margin-top: -180px;
   }
   .contact-content .contact-title {
-    margin-top: -600px;
+    margin-top: -200px;
   }
   .contact-content video {
-    margin-top: 5rem;
-    width: 700px;
+    margin-top: 2rem;
+    width: 500px;
   }
 }
 
@@ -1169,32 +1189,32 @@ section#contact {
     margin: 0 3rem 0 3rem;
   }
   .contact-content * {
-    font-size: 22px;
+    font-size: 16px;
   }
   .contact-content .sidenav li a {
-    font-size: 22px;
+    font-size: 16px;
   }
   .contact-content h1 {
     font-size: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     color: #333;
   }
   .contact-content p {
     color: #696969;
-    font-size: 22px;
-    line-height: 33px;
-    letter-spacing: 2.6px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.2px;
+    margin-bottom: 28px;
   }
   .contact-content .experience-title {
-    margin-top: -180px;
+    margin-top: -40px;
   }
   .contact-content .contact-title {
-    margin-top: -180px;
+    margin-top: -80px;
   }
   .contact-content video {
-    margin-top: 2rem;
-    width: 600px;
+    margin-top: 0;
+    width: 400px;
   }
 }
 
@@ -1286,8 +1306,8 @@ section#contact {
     margin-bottom: 3rem;
   }
   .contact-content video {
-    margin-top: 0.5rem;
-    width: 700px;
+    margin-top: 0;
+    width: 600px;
   }
 }
 
@@ -1721,11 +1741,11 @@ section#contact {
     margin-bottom: 22px;
   }
   .contact-content .experience-title {
-    margin-top: -20px;
+    margin-top: -200px;
     margin-bottom: 2rem;
   }
   .contact-content .contact-title {
-    margin-top: -20px;
+    margin-top: -100px;
     margin-bottom: 2rem;
   }
   .contact-content .portfolio-title {
@@ -1770,6 +1790,10 @@ ul.social-icons li {
 
 .social-icons a i.fab, i.fas {
   color: whitesmoke;
+}
+
+footer {
+  height: 5vh;
 }
 
 footer .social-icons li a {
@@ -1838,7 +1862,10 @@ h5 {
 }
 
 section.who-i-am-background {
-  background: url("../images/manInOcean.jpg") scroll no-repeat center center;
+  background: url("../images/manInOcean.jpg") no-repeat;
+  background-position: center center;
+  -moz-background-position: center center;
+  -webkit-background-position: center center;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -1952,7 +1979,7 @@ section#who-i-am {
     margin-top: 20px;
   }
   .carousel .carousel-item #content-who-i-am .who-i-am-title {
-    margin-top: 0rem;
+    margin-top: 2rem;
     margin-bottom: 0.5rem;
   }
   .carousel .carousel-item #content-who-i-am ul.indicatores {
@@ -2111,6 +2138,13 @@ section#who-i-am {
   }
 }
 
+@media screen and (min-width: 694px) and (max-width: 700px) {
+  .carousel .carousel-item #content-who-i-am video {
+    margin-top: 2rem;
+    width: 400px;
+  }
+}
+
 @media only screen and (min-width: 900px) and (max-width: 1030px) {
   .carousel .carousel-item #content-who-i-am {
     margin: 0 3rem 0 3rem;
@@ -2134,14 +2168,14 @@ section#who-i-am {
     margin-bottom: 30px;
   }
   .carousel .carousel-item #content-who-i-am .experience-title {
-    margin-top: -500px;
+    margin-top: -180px;
   }
   .carousel .carousel-item #content-who-i-am .contact-title {
-    margin-top: -600px;
+    margin-top: -200px;
   }
   .carousel .carousel-item #content-who-i-am video {
-    margin-top: 5rem;
-    width: 700px;
+    margin-top: 2rem;
+    width: 500px;
   }
 }
 
@@ -2150,32 +2184,32 @@ section#who-i-am {
     margin: 0 3rem 0 3rem;
   }
   .carousel .carousel-item #content-who-i-am * {
-    font-size: 22px;
+    font-size: 16px;
   }
   .carousel .carousel-item #content-who-i-am .sidenav li a {
-    font-size: 22px;
+    font-size: 16px;
   }
   .carousel .carousel-item #content-who-i-am h1 {
     font-size: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     color: #333;
   }
   .carousel .carousel-item #content-who-i-am p {
     color: #696969;
-    font-size: 22px;
-    line-height: 33px;
-    letter-spacing: 2.6px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.2px;
+    margin-bottom: 28px;
   }
   .carousel .carousel-item #content-who-i-am .experience-title {
-    margin-top: -180px;
+    margin-top: -40px;
   }
   .carousel .carousel-item #content-who-i-am .contact-title {
-    margin-top: -180px;
+    margin-top: -80px;
   }
   .carousel .carousel-item #content-who-i-am video {
-    margin-top: 2rem;
-    width: 600px;
+    margin-top: 0;
+    width: 400px;
   }
 }
 
@@ -2267,8 +2301,8 @@ section#who-i-am {
     margin-bottom: 3rem;
   }
   .carousel .carousel-item #content-who-i-am video {
-    margin-top: 0.5rem;
-    width: 700px;
+    margin-top: 0;
+    width: 600px;
   }
 }
 
@@ -2702,11 +2736,11 @@ section#who-i-am {
     margin-bottom: 22px;
   }
   .carousel .carousel-item #content-who-i-am .experience-title {
-    margin-top: -20px;
+    margin-top: -200px;
     margin-bottom: 2rem;
   }
   .carousel .carousel-item #content-who-i-am .contact-title {
-    margin-top: -20px;
+    margin-top: -100px;
     margin-bottom: 2rem;
   }
   .carousel .carousel-item #content-who-i-am .portfolio-title {
@@ -2727,7 +2761,10 @@ section#who-i-am {
 }
 
 section.portfolio-background {
-  background: url("../images/Himalaya.jpg") fixed no-repeat center center;
+  background: url("../images/Himalaya.jpg") fixed no-repeat;
+  background-position: center center;
+  -moz-background-position: center center;
+  -webkit-background-position: center center;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -2796,7 +2833,7 @@ section#portfolio-section {
     margin-top: 20px;
   }
   .carousel .carousel-item .portfolio-content .who-i-am-title {
-    margin-top: 0rem;
+    margin-top: 2rem;
     margin-bottom: 0.5rem;
   }
   .carousel .carousel-item .portfolio-content ul.indicatores {
@@ -2955,6 +2992,13 @@ section#portfolio-section {
   }
 }
 
+@media screen and (min-width: 694px) and (max-width: 700px) {
+  .carousel .carousel-item .portfolio-content video {
+    margin-top: 2rem;
+    width: 400px;
+  }
+}
+
 @media only screen and (min-width: 900px) and (max-width: 1030px) {
   .carousel .carousel-item .portfolio-content {
     margin: 0 3rem 0 3rem;
@@ -2978,14 +3022,14 @@ section#portfolio-section {
     margin-bottom: 30px;
   }
   .carousel .carousel-item .portfolio-content .experience-title {
-    margin-top: -500px;
+    margin-top: -180px;
   }
   .carousel .carousel-item .portfolio-content .contact-title {
-    margin-top: -600px;
+    margin-top: -200px;
   }
   .carousel .carousel-item .portfolio-content video {
-    margin-top: 5rem;
-    width: 700px;
+    margin-top: 2rem;
+    width: 500px;
   }
 }
 
@@ -2994,32 +3038,32 @@ section#portfolio-section {
     margin: 0 3rem 0 3rem;
   }
   .carousel .carousel-item .portfolio-content * {
-    font-size: 22px;
+    font-size: 16px;
   }
   .carousel .carousel-item .portfolio-content .sidenav li a {
-    font-size: 22px;
+    font-size: 16px;
   }
   .carousel .carousel-item .portfolio-content h1 {
     font-size: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     color: #333;
   }
   .carousel .carousel-item .portfolio-content p {
     color: #696969;
-    font-size: 22px;
-    line-height: 33px;
-    letter-spacing: 2.6px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.2px;
+    margin-bottom: 28px;
   }
   .carousel .carousel-item .portfolio-content .experience-title {
-    margin-top: -180px;
+    margin-top: -40px;
   }
   .carousel .carousel-item .portfolio-content .contact-title {
-    margin-top: -180px;
+    margin-top: -80px;
   }
   .carousel .carousel-item .portfolio-content video {
-    margin-top: 2rem;
-    width: 600px;
+    margin-top: 0;
+    width: 400px;
   }
 }
 
@@ -3111,8 +3155,8 @@ section#portfolio-section {
     margin-bottom: 3rem;
   }
   .carousel .carousel-item .portfolio-content video {
-    margin-top: 0.5rem;
-    width: 700px;
+    margin-top: 0;
+    width: 600px;
   }
 }
 
@@ -3546,11 +3590,11 @@ section#portfolio-section {
     margin-bottom: 22px;
   }
   .carousel .carousel-item .portfolio-content .experience-title {
-    margin-top: -20px;
+    margin-top: -200px;
     margin-bottom: 2rem;
   }
   .carousel .carousel-item .portfolio-content .contact-title {
-    margin-top: -20px;
+    margin-top: -100px;
     margin-bottom: 2rem;
   }
   .carousel .carousel-item .portfolio-content .portfolio-title {

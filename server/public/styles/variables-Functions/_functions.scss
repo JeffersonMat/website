@@ -23,6 +23,7 @@
   @include breakPoint375Px ($divSectionMarginMax375px, $fontsizeMobileTextMax375Px);
   @include breakPoint470Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
   @include breakPoint480Px($divSectionMarginMax480px, $fontsizeMobileTextMax480Px);
+  @include breakPoint694Px();
   @include breakPoint1024Px($divSectionMarginMax1024px,$fontsizeMobileTextMax1024Px,$marginBottomTittleMax1024Px);
   @include breakPoint770Px( $divSectionMarginMax770px,$fontsizeMobileTextMax770Px, $marginBottomTittleMax770Px);
   @include breakPointDesktop1800Px($divSectionMarginMax1800px,$fontsizeMobileTextMax1800Px,$marginBottomTittleMax1800Px);
