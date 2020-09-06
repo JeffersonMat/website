@@ -2,10 +2,15 @@
 @import "./variables-Functions/functions";
 
 section.who-i-am-background {
-  background: url("../images/manInOcean.jpg") fixed no-repeat center center/cover;
-  -webkit-background: cover;
-  -moz-background: cover;
-  -o-background: cover;
+  background: url("../images/manInOcean.jpg") scroll no-repeat center center;
+   background-size:cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-atachment:fixed;
+  -moz-background-atachment:fixed;
+  -o-background-atachment: fixed;
   width: 100%;
   height: 80vh;
   margin:auto;
