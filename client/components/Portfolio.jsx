@@ -20,10 +20,10 @@ const Portfolio = () => {
                   illo consectetur blanditiis, suscipit sequi quasi possimus.
                   Ipsum voluptatibus deleniti a animi esse veniam.
                 </p>
-                <a className="btn pulse">
-                  {/* <i class="material-icons">menu</i> */}SWIPE
+                <a className="btn pulse  ">
+                  <i className="material-icons">keyboard_arrow_left</i> <span>SWIPE</span>
+                  <i className="material-icons">keyboard_arrow_right</i>
                 </a>
-                {/* <a class=" waves-effect waves-teal btn-flat pulse">SWIPE</a> */}
               </ScrollAnimation>
             </div>
           </div>
