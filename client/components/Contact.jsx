@@ -18,7 +18,7 @@ class Contact extends React.Component {
   render() {
     return (
       <>
-        <section className="contact-background"></section>
+        <div className="contact-background"></div>
         <section id="contact">
           <div
             className="contact-content"

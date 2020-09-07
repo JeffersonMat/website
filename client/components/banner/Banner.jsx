@@ -3,7 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll"
 
 const Banner = () => {
     return (
-           <section className="who-i-am-background">
+           <div className="who-i-am-background">
       <div className="banner-title">
         <ScrollAnimation animateIn="fadeInDown" duration={1.2} delay={500}>
           <div className="content-banner">
@@ -12,7 +12,7 @@ const Banner = () => {
           </div>
         </ScrollAnimation>
             </div>
-            </section>
+            </div>
     )
 }
 

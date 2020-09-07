@@ -7,7 +7,7 @@ import PortfolioContent from "./Portfoliovideos/PortfolioContent"
 const Portfolio = () => {
   return (
     <>
-      <section className="portfolio-background"></section>
+      <div className="portfolio-background-image"></div>
       <section id="portfolio-section">
         <div className="carousel carousel-slider center portfolio">
           <div className="carousel-item portfolio-background" href="#one!">

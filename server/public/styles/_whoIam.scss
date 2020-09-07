@@ -1,7 +1,8 @@
 @import "./variables-Functions/variablesStyles";
 @import "./variables-Functions/functions";
 
-section.who-i-am-background {
+div.who-i-am-background {
+
   background: url("../images/manInOcean.jpg") no-repeat center center;
   background-position:center center;
   -moz-background-position:center center;
@@ -14,26 +15,19 @@ section.who-i-am-background {
   height: 80vh;
   margin:auto;
   padding:0;
+
   
-
-
+  
+  
   .content-banner h1{
-     color:whitesmoke;
-     margin:0 auto;
-     font-weight: bold;
-
+    color:whitesmoke;
+    margin:0 auto;
+    font-weight: bold;
+    
   }
-
-  .no-touch section.who-i-am-background {
   
-    background-attachment: fixed;
-  -webkit-background-atachment:fixed;
-  -moz-background-atachment:fixed;
-  -o-background-atachment: fixed;
-}
-
   .content-banner{
-      z-index: 2;
+    z-index: 2;
     // background: rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -46,6 +40,17 @@ section.who-i-am-background {
     font-weight: bold;
     margin:0 auto;
   }
+}
+
+  .no-touch div.who-i-am-background {
+  
+   background-attachment: fixed;
+  -webkit-background-atachment:fixed;
+  -moz-background-atachment:fixed;
+  -o-background-atachment: fixed;
+    background-position:center center;
+ -moz-background-position:center center;
+ -webkit-background-position:center center;
 }
 
 .banner-title{

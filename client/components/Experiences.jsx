@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll"
 const Experiences = () => {
   return (
     <>
-      <section className="experiences-background"></section>
+      <div className="experiences-background"></div>
       <section id="experiences">
         <div className="experiences-content">
           <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
