@@ -129,6 +129,10 @@ section#experiences {
     letter-spacing: 1.5px;
     margin-bottom: 20px;
   }
+  .experiences-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .experiences-content .experience-title {
     margin-top: -40px;
   }
@@ -166,6 +170,10 @@ section#experiences {
     letter-spacing: 1.4px;
     margin-bottom: 22px;
   }
+  .experiences-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .experiences-content .experience-title {
     margin-top: -50px;
   }
@@ -202,6 +210,10 @@ section#experiences {
     letter-spacing: 2px;
     margin-bottom: 20px;
   }
+  .experiences-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .experiences-content .experience-title {
     margin-top: -140px;
   }
@@ -231,6 +243,10 @@ section#experiences {
     line-height: 22px;
     letter-spacing: 1.8px;
     margin-bottom: 20px;
+  }
+  .experiences-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .experiences-content .experience-title {
     margin-top: -60px;
@@ -265,6 +281,10 @@ section#experiences {
     letter-spacing: 2px;
     margin-bottom: 20px;
   }
+  .experiences-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .experiences-content video {
     margin-top: 3rem;
     width: 350px;
@@ -288,6 +308,10 @@ section#experiences {
     line-height: 1.6rem;
     letter-spacing: 2.4px;
     margin-bottom: 22px;
+  }
+  .experiences-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .experiences-content video {
     margin-top: 2rem;
@@ -330,6 +354,10 @@ section#experiences {
   .experiences-content .contact-title {
     margin-top: -200px;
   }
+  .experiences-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .experiences-content video {
     margin-top: 2rem;
     width: 500px;
@@ -364,6 +392,10 @@ section#experiences {
   .experiences-content .contact-title {
     margin-top: -80px;
   }
+  .experiences-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .experiences-content video {
     margin-top: 0;
     width: 400px;
@@ -385,6 +417,10 @@ section#experiences {
     line-height: 34px;
     letter-spacing: 2.8px;
     margin-bottom: 28px;
+  }
+  .experiences-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .experiences-content .experience-title {
     margin-top: -50px;
@@ -417,6 +453,10 @@ section#experiences {
     letter-spacing: 2.8px;
     margin-bottom: 28px;
   }
+  .experiences-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .experiences-content .experience-title {
     margin-top: -100px;
   }
@@ -447,6 +487,10 @@ section#experiences {
     line-height: 34px;
     letter-spacing: 2.9px;
     margin-bottom: 30px;
+  }
+  .experiences-content .portfolio-content .swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .experiences-content .experience-title {
     margin-top: -100px;
@@ -481,6 +525,10 @@ section#experiences {
     line-height: 34px;
     letter-spacing: 2.8px;
     margin-bottom: 34px;
+  }
+  .experiences-content .portfolio-content .swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .experiences-content .experience-title {
     margin-top: -320px;
@@ -533,7 +581,9 @@ section#experiences {
   .experiences-content .last-p-who-i-am {
     margin-bottom: 0;
   }
-  .experiences-content .content-who-i-am, .experiences-content .carousel, .experiences-content .carousel-item {
+  .experiences-content .content-who-i-am,
+  .experiences-content .carousel,
+  .experiences-content .carousel-item {
     height: 100%;
   }
   .experiences-content .carousel .carousel-item .content-who-i-am p {
@@ -688,6 +738,10 @@ section#experiences {
     letter-spacing: 1.7px;
     margin-bottom: 22px;
   }
+  .experiences-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .experiences-content .experience-title {
     margin-top: -20px;
   }
@@ -726,6 +780,10 @@ section#experiences {
     line-height: 21px;
     letter-spacing: 1.7px;
     margin-bottom: 22px;
+  }
+  .experiences-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .experiences-content .experience-title {
     margin-top: -20px;
@@ -948,7 +1006,6 @@ section#contact {
 }
 
 .contact-content {
-  widows: 100%;
   height: 100vh;
   height: 100%;
   display: -webkit-box;
@@ -984,6 +1041,10 @@ section#contact {
     line-height: 20px;
     letter-spacing: 1.5px;
     margin-bottom: 20px;
+  }
+  .contact-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .contact-content .experience-title {
     margin-top: -40px;
@@ -1022,6 +1083,10 @@ section#contact {
     letter-spacing: 1.4px;
     margin-bottom: 22px;
   }
+  .contact-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .contact-content .experience-title {
     margin-top: -50px;
   }
@@ -1058,6 +1123,10 @@ section#contact {
     letter-spacing: 2px;
     margin-bottom: 20px;
   }
+  .contact-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .contact-content .experience-title {
     margin-top: -140px;
   }
@@ -1087,6 +1156,10 @@ section#contact {
     line-height: 22px;
     letter-spacing: 1.8px;
     margin-bottom: 20px;
+  }
+  .contact-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .contact-content .experience-title {
     margin-top: -60px;
@@ -1121,6 +1194,10 @@ section#contact {
     letter-spacing: 2px;
     margin-bottom: 20px;
   }
+  .contact-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .contact-content video {
     margin-top: 3rem;
     width: 350px;
@@ -1144,6 +1221,10 @@ section#contact {
     line-height: 1.6rem;
     letter-spacing: 2.4px;
     margin-bottom: 22px;
+  }
+  .contact-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .contact-content video {
     margin-top: 2rem;
@@ -1186,6 +1267,10 @@ section#contact {
   .contact-content .contact-title {
     margin-top: -200px;
   }
+  .contact-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .contact-content video {
     margin-top: 2rem;
     width: 500px;
@@ -1220,6 +1305,10 @@ section#contact {
   .contact-content .contact-title {
     margin-top: -80px;
   }
+  .contact-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .contact-content video {
     margin-top: 0;
     width: 400px;
@@ -1241,6 +1330,10 @@ section#contact {
     line-height: 34px;
     letter-spacing: 2.8px;
     margin-bottom: 28px;
+  }
+  .contact-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .contact-content .experience-title {
     margin-top: -50px;
@@ -1273,6 +1366,10 @@ section#contact {
     letter-spacing: 2.8px;
     margin-bottom: 28px;
   }
+  .contact-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .contact-content .experience-title {
     margin-top: -100px;
   }
@@ -1303,6 +1400,10 @@ section#contact {
     line-height: 34px;
     letter-spacing: 2.9px;
     margin-bottom: 30px;
+  }
+  .contact-content .portfolio-content .swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .contact-content .experience-title {
     margin-top: -100px;
@@ -1337,6 +1438,10 @@ section#contact {
     line-height: 34px;
     letter-spacing: 2.8px;
     margin-bottom: 34px;
+  }
+  .contact-content .portfolio-content .swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .contact-content .experience-title {
     margin-top: -320px;
@@ -1389,7 +1494,9 @@ section#contact {
   .contact-content .last-p-who-i-am {
     margin-bottom: 0;
   }
-  .contact-content .content-who-i-am, .contact-content .carousel, .contact-content .carousel-item {
+  .contact-content .content-who-i-am,
+  .contact-content .carousel,
+  .contact-content .carousel-item {
     height: 100%;
   }
   .contact-content .carousel .carousel-item .content-who-i-am p {
@@ -1544,6 +1651,10 @@ section#contact {
     letter-spacing: 1.7px;
     margin-bottom: 22px;
   }
+  .contact-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .contact-content .experience-title {
     margin-top: -20px;
   }
@@ -1582,6 +1693,10 @@ section#contact {
     line-height: 21px;
     letter-spacing: 1.7px;
     margin-bottom: 22px;
+  }
+  .contact-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .contact-content .experience-title {
     margin-top: -20px;
@@ -1792,6 +1907,7 @@ ul.social-icons li {
 .social-icons a i.fab {
   display: inline-block;
   font-size: 30px;
+  margin-top: 5px;
   padding-right: 3rem;
   padding-left: 3rem;
 }
@@ -1819,6 +1935,7 @@ footer .social-icons li a i.fas:hover {
 
 .social-icons i.fas {
   font-size: 25px;
+  margin-top: 4px;
 }
 
 h5 {
@@ -1845,27 +1962,32 @@ h5 {
 
 #overlay {
   position: fixed;
-  width: auto;
+  -webkit-position: fixed;
+  -o-position: fixed;
+  -moz-position: fixed;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  z-index: 2;
+  width: 100%;
   height: auto;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2;
   cursor: pointer;
 }
 
 #overlay-background img {
   position: absolute;
   z-index: 2;
-  margin: auto 0;
-  width: 50%;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   top: 53%;
   left: 50%;
+  transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
 
@@ -1986,6 +2108,10 @@ section#who-i-am {
     letter-spacing: 1.5px;
     margin-bottom: 20px;
   }
+  .carousel .carousel-item #content-who-i-am .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -40px;
   }
@@ -2023,6 +2149,10 @@ section#who-i-am {
     letter-spacing: 1.4px;
     margin-bottom: 22px;
   }
+  .carousel .carousel-item #content-who-i-am .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -50px;
   }
@@ -2059,6 +2189,10 @@ section#who-i-am {
     letter-spacing: 2px;
     margin-bottom: 20px;
   }
+  .carousel .carousel-item #content-who-i-am .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -140px;
   }
@@ -2088,6 +2222,10 @@ section#who-i-am {
     line-height: 22px;
     letter-spacing: 1.8px;
     margin-bottom: 20px;
+  }
+  .carousel .carousel-item #content-who-i-am .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -60px;
@@ -2122,6 +2260,10 @@ section#who-i-am {
     letter-spacing: 2px;
     margin-bottom: 20px;
   }
+  .carousel .carousel-item #content-who-i-am .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item #content-who-i-am video {
     margin-top: 3rem;
     width: 350px;
@@ -2145,6 +2287,10 @@ section#who-i-am {
     line-height: 1.6rem;
     letter-spacing: 2.4px;
     margin-bottom: 22px;
+  }
+  .carousel .carousel-item #content-who-i-am .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .carousel .carousel-item #content-who-i-am video {
     margin-top: 2rem;
@@ -2187,6 +2333,10 @@ section#who-i-am {
   .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -200px;
   }
+  .carousel .carousel-item #content-who-i-am .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item #content-who-i-am video {
     margin-top: 2rem;
     width: 500px;
@@ -2221,6 +2371,10 @@ section#who-i-am {
   .carousel .carousel-item #content-who-i-am .contact-title {
     margin-top: -80px;
   }
+  .carousel .carousel-item #content-who-i-am .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item #content-who-i-am video {
     margin-top: 0;
     width: 400px;
@@ -2242,6 +2396,10 @@ section#who-i-am {
     line-height: 34px;
     letter-spacing: 2.8px;
     margin-bottom: 28px;
+  }
+  .carousel .carousel-item #content-who-i-am .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -50px;
@@ -2274,6 +2432,10 @@ section#who-i-am {
     letter-spacing: 2.8px;
     margin-bottom: 28px;
   }
+  .carousel .carousel-item #content-who-i-am .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -100px;
   }
@@ -2304,6 +2466,10 @@ section#who-i-am {
     line-height: 34px;
     letter-spacing: 2.9px;
     margin-bottom: 30px;
+  }
+  .carousel .carousel-item #content-who-i-am .portfolio-content .swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -100px;
@@ -2338,6 +2504,10 @@ section#who-i-am {
     line-height: 34px;
     letter-spacing: 2.8px;
     margin-bottom: 34px;
+  }
+  .carousel .carousel-item #content-who-i-am .portfolio-content .swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -320px;
@@ -2390,7 +2560,9 @@ section#who-i-am {
   .carousel .carousel-item #content-who-i-am .last-p-who-i-am {
     margin-bottom: 0;
   }
-  .carousel .carousel-item #content-who-i-am .content-who-i-am, .carousel .carousel-item #content-who-i-am .carousel, .carousel .carousel-item #content-who-i-am .carousel-item {
+  .carousel .carousel-item #content-who-i-am .content-who-i-am,
+  .carousel .carousel-item #content-who-i-am .carousel,
+  .carousel .carousel-item #content-who-i-am .carousel-item {
     height: 100%;
   }
   .carousel .carousel-item #content-who-i-am .carousel .carousel-item .content-who-i-am p {
@@ -2545,6 +2717,10 @@ section#who-i-am {
     letter-spacing: 1.7px;
     margin-bottom: 22px;
   }
+  .carousel .carousel-item #content-who-i-am .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -20px;
   }
@@ -2583,6 +2759,10 @@ section#who-i-am {
     line-height: 21px;
     letter-spacing: 1.7px;
     margin-bottom: 22px;
+  }
+  .carousel .carousel-item #content-who-i-am .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .carousel .carousel-item #content-who-i-am .experience-title {
     margin-top: -20px;
@@ -2840,6 +3020,10 @@ div.portfolio-background-image {
     letter-spacing: 1.5px;
     margin-bottom: 20px;
   }
+  .carousel .carousel-item .portfolio-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item .portfolio-content .experience-title {
     margin-top: -40px;
   }
@@ -2877,6 +3061,10 @@ div.portfolio-background-image {
     letter-spacing: 1.4px;
     margin-bottom: 22px;
   }
+  .carousel .carousel-item .portfolio-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item .portfolio-content .experience-title {
     margin-top: -50px;
   }
@@ -2913,6 +3101,10 @@ div.portfolio-background-image {
     letter-spacing: 2px;
     margin-bottom: 20px;
   }
+  .carousel .carousel-item .portfolio-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item .portfolio-content .experience-title {
     margin-top: -140px;
   }
@@ -2942,6 +3134,10 @@ div.portfolio-background-image {
     line-height: 22px;
     letter-spacing: 1.8px;
     margin-bottom: 20px;
+  }
+  .carousel .carousel-item .portfolio-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .carousel .carousel-item .portfolio-content .experience-title {
     margin-top: -60px;
@@ -2976,6 +3172,10 @@ div.portfolio-background-image {
     letter-spacing: 2px;
     margin-bottom: 20px;
   }
+  .carousel .carousel-item .portfolio-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item .portfolio-content video {
     margin-top: 3rem;
     width: 350px;
@@ -2999,6 +3199,10 @@ div.portfolio-background-image {
     line-height: 1.6rem;
     letter-spacing: 2.4px;
     margin-bottom: 22px;
+  }
+  .carousel .carousel-item .portfolio-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .carousel .carousel-item .portfolio-content video {
     margin-top: 2rem;
@@ -3041,6 +3245,10 @@ div.portfolio-background-image {
   .carousel .carousel-item .portfolio-content .contact-title {
     margin-top: -200px;
   }
+  .carousel .carousel-item .portfolio-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item .portfolio-content video {
     margin-top: 2rem;
     width: 500px;
@@ -3075,6 +3283,10 @@ div.portfolio-background-image {
   .carousel .carousel-item .portfolio-content .contact-title {
     margin-top: -80px;
   }
+  .carousel .carousel-item .portfolio-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item .portfolio-content video {
     margin-top: 0;
     width: 400px;
@@ -3096,6 +3308,10 @@ div.portfolio-background-image {
     line-height: 34px;
     letter-spacing: 2.8px;
     margin-bottom: 28px;
+  }
+  .carousel .carousel-item .portfolio-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .carousel .carousel-item .portfolio-content .experience-title {
     margin-top: -50px;
@@ -3128,6 +3344,10 @@ div.portfolio-background-image {
     letter-spacing: 2.8px;
     margin-bottom: 28px;
   }
+  .carousel .carousel-item .portfolio-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item .portfolio-content .experience-title {
     margin-top: -100px;
   }
@@ -3158,6 +3378,10 @@ div.portfolio-background-image {
     line-height: 34px;
     letter-spacing: 2.9px;
     margin-bottom: 30px;
+  }
+  .carousel .carousel-item .portfolio-content .portfolio-content .swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .carousel .carousel-item .portfolio-content .experience-title {
     margin-top: -100px;
@@ -3192,6 +3416,10 @@ div.portfolio-background-image {
     line-height: 34px;
     letter-spacing: 2.8px;
     margin-bottom: 34px;
+  }
+  .carousel .carousel-item .portfolio-content .portfolio-content .swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .carousel .carousel-item .portfolio-content .experience-title {
     margin-top: -320px;
@@ -3244,7 +3472,9 @@ div.portfolio-background-image {
   .carousel .carousel-item .portfolio-content .last-p-who-i-am {
     margin-bottom: 0;
   }
-  .carousel .carousel-item .portfolio-content .content-who-i-am, .carousel .carousel-item .portfolio-content .carousel, .carousel .carousel-item .portfolio-content .carousel-item {
+  .carousel .carousel-item .portfolio-content .content-who-i-am,
+  .carousel .carousel-item .portfolio-content .carousel,
+  .carousel .carousel-item .portfolio-content .carousel-item {
     height: 100%;
   }
   .carousel .carousel-item .portfolio-content .carousel .carousel-item .content-who-i-am p {
@@ -3399,6 +3629,10 @@ div.portfolio-background-image {
     letter-spacing: 1.7px;
     margin-bottom: 22px;
   }
+  .carousel .carousel-item .portfolio-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
   .carousel .carousel-item .portfolio-content .experience-title {
     margin-top: -20px;
   }
@@ -3437,6 +3671,10 @@ div.portfolio-background-image {
     line-height: 21px;
     letter-spacing: 1.7px;
     margin-bottom: 22px;
+  }
+  .carousel .carousel-item .portfolio-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
   }
   .carousel .carousel-item .portfolio-content .experience-title {
     margin-top: -20px;
@@ -3657,8 +3895,10 @@ div.portfolio-background-image {
   font-weight: bold;
 }
 
-.portfolio-content a.btn.pulse span {
-  margin: 0 8px;
+.portfolio-content .swipe {
+  font-weight: bolder;
+  color: #333;
+  margin: 200px 0 0 0;
 }
 
 * {

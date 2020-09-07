@@ -7,7 +7,7 @@ import PortfolioContent from "./Portfoliovideos/PortfolioContent"
 const Portfolio = () => {
   return (
     <>
-      <div className="portfolio-background-image"></div>
+      <div className="portfolio-background-image" title="Himalaya's Landscape mountains snowcaps - Photographer:Emma Coombe NZ"></div>
       <section id="portfolio-section">
         <div className="carousel carousel-slider center portfolio">
           <div className="carousel-item portfolio-background" href="#one!">
@@ -20,10 +20,8 @@ const Portfolio = () => {
                   illo consectetur blanditiis, suscipit sequi quasi possimus.
                   Ipsum voluptatibus deleniti a animi esse veniam.
                 </p>
-                <a className="btn pulse  ">
-                  <i className="material-icons">keyboard_arrow_left</i> <span>SWIPE</span>
-                  <i className="material-icons">keyboard_arrow_right</i>
-                </a>
+
+                <h6 className="swipe">SWIPE</h6>
               </ScrollAnimation>
             </div>
           </div>

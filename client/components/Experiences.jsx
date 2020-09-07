@@ -4,7 +4,10 @@ import ScrollAnimation from "react-animate-on-scroll"
 const Experiences = () => {
   return (
     <>
-      <div className="experiences-background"></div>
+      <div
+        className="experiences-background"
+        title="Trees Forest - Photographer:Emma Coombe"
+      ></div>
       <section id="experiences">
         <div className="experiences-content">
           <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
@@ -15,7 +18,7 @@ const Experiences = () => {
               voluptatibus itaque commodi libero a error officiis soluta facere
               accusantium reiciendis?
             </p>
-       
+
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
               aut tempore. Animi, est eum alias dignissimos ullam nihil vero

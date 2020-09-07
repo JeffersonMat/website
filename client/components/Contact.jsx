@@ -18,7 +18,10 @@ class Contact extends React.Component {
   render() {
     return (
       <>
-        <div className="contact-background"></div>
+        <div
+          className="contact-background"
+          title="Nepal: Landscape, mountains sunshine - Photographer:Emma Coombe NZ"
+        ></div>
         <section id="contact">
           <div
             className="contact-content"
@@ -43,10 +46,15 @@ class Contact extends React.Component {
                 <h5>FIND ME ONLINE</h5>
                 <ul>
                   <li>
-                    <a href="https://github.com/JeffersonMat">Github</a>
+                    <a target="_blank" href="https://github.com/JeffersonMat">
+                      Github
+                    </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/in/jeffersonm-189212179">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/jeffersonm-189212179"
+                    >
                       Linkedin
                     </a>
                   </li>
@@ -64,29 +72,34 @@ class Contact extends React.Component {
             </ScrollAnimation>
           </div>
 
-          
           <footer>
-              <ul className="social-icons">
-                <li>
-                  <a href="https://github.com/JeffersonMat">
-                    <i className=" fab fa-github-square"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a onClick={this.handleClick}>
-                    <i className="fas fa-smile-wink"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="https://www.linkedin.com/in/jeffersonm-189212179">
-                    <i className="fab fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
+            <ul className="social-icons">
+              <li>
+                <a target="_blank" href="https://github.com/JeffersonMat">
+                  <i className=" fab fa-github-square"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  onClick={
+                    !this.state.display
+                      ? this.handleClick
+                      : this.handleClickOverLay
+                  }
+                >
+                  <i className="fas fa-smile-wink"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/jeffersonm-189212179"
+                >
+                  <i className="fab fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
           </footer>
-         
         </section>
       </>
     )

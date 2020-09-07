@@ -1,122 +1,129 @@
 //Brekapoints  Functions
 
 @mixin breakPoint1024Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (min-width: 900px) and (max-width:1030px){
+  @media only screen and (min-width: 900px) and (max-width: 1030px) {
     margin: $marginBreakPoint;
-   *{
-     font-size: 24px;
-  }
-    h1.banner-title-name{
-       font-size:6rem;
-     }
+    * {
+      font-size: 24px;
+    }
+    h1.banner-title-name {
+      font-size: 6rem;
+    }
 
     h1 {
       font-size: 4rem;
-      margin-bottom:$marginBottom;
-      color: $titleFontColour;
-    }
-     p {
-      color: $textColour;
-      font-size:$fontsizeMobileTextMax1024Px;
-      line-height:$lineHeighttextMax1024Px;
-      letter-spacing:$letterSpacingMax1024Px;
-      margin-bottom:$marginBottomTextMax1024Px;
-    }
-    .experience-title{
-      margin-top:-180px;
-    }
-    .contact-title{
-      margin-top:-200px;
-    }
-    video{
-      margin-top:2rem;
-      width:500px;
-    }
-  }
-}
-
-
-
-@mixin breakPoint770Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (min-width: 750px) and (max-width:810px) {
-    margin: $marginBreakPoint;
-    *{
-      font-size: 16px;
-    }
-    .sidenav li a{  
-   
-     font-size:16px;
-  }
-
-    h1 {
-      font-size: 4rem;
-      margin-bottom:$marginBottom;
+      margin-bottom: $marginBottom;
       color: $titleFontColour;
     }
     p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMax770Px;
-      line-height:$lineHeighttextMax770Px;
-      letter-spacing:$letterSpacingMax770Px;
-      margin-bottom:$marginBottomTextMax770Px;
+      font-size: $fontsizeMobileTextMax1024Px;
+      line-height: $lineHeighttextMax1024Px;
+      letter-spacing: $letterSpacingMax1024Px;
+      margin-bottom: $marginBottomTextMax1024Px;
     }
-    .experience-title{
-      margin-top:-40px;
+    .experience-title {
+      margin-top: -180px;
     }
-    .contact-title{
-      margin-top:-80px;
+    .contact-title {
+      margin-top: -200px;
     }
-    video{
+    .portfolio-content p.swipe {
+      font-weight: bolder;
+      color: #333;
+    }
 
-      margin-top:0;
-      width:400px;
+    video {
+      margin-top: 2rem;
+      width: 500px;
     }
   }
 }
 
+@mixin breakPoint770Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
+  @media only screen and (min-width: 750px) and (max-width: 810px) {
+    margin: $marginBreakPoint;
+    * {
+      font-size: 16px;
+    }
+    .sidenav li a {
+      font-size: 16px;
+    }
 
+    h1 {
+      font-size: 4rem;
+      margin-bottom: $marginBottom;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size: $fontsizeMobileTextMax770Px;
+      line-height: $lineHeighttextMax770Px;
+      letter-spacing: $letterSpacingMax770Px;
+      margin-bottom: $marginBottomTextMax770Px;
+    }
+    .experience-title {
+      margin-top: -40px;
+    }
+    .contact-title {
+      margin-top: -80px;
+    }
+      .portfolio-content p.swipe {
+      font-weight: bolder;
+      color: #333;
+    }
+
+    video {
+      margin-top: 0;
+      width: 400px;
+    }
+  }
+}
 
 @mixin breakPoint694Px() {
-  @media screen and (min-width:694px) and (max-width:700px){
-    video{
-      margin-top:2rem;
-      width:400px;
+  @media screen and (min-width: 694px) and (max-width: 700px) {
+    video {
+      margin-top: 2rem;
+      width: 400px;
     }
   }
 }
 
 @mixin breakPoint480Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media screen and (width:480px){
-    
+  @media screen and (width: 480px) {
     margin: $marginBreakPoint;
-   *{ 
-     font-size:14px;
-   }
+    * {
+      font-size: 14px;
+    }
     h1 {
       font-size: 3rem;
       color: $titleFontColour;
     }
-      p {
+    p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMax480Px;
-      line-height:$lineHeighttextMax480Px;
-      letter-spacing:$letterSpacingMax480Px;
-      margin-bottom:$marginBottomTextMax480Px;
+      font-size: $fontsizeMobileTextMax480Px;
+      line-height: $lineHeighttextMax480Px;
+      letter-spacing: $letterSpacingMax480Px;
+      margin-bottom: $marginBottomTextMax480Px;
     }
-  
-    video{
-      margin-top:2rem;
-      width:400px;
+      .portfolio-content p.swipe {
+      font-weight: bolder;
+      color: #333;
+    }
+
+    video {
+      margin-top: 2rem;
+      width: 400px;
     }
   }
 }
 
 @mixin breakPoint470Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media screen and (min-width: 450px) and (max-width:470px) {
+  @media screen and (min-width: 450px) and (max-width: 470px) {
     margin: $marginBreakPoint;
-    
-    *{
-      font-size:14px;
+
+    * {
+      font-size: 14px;
     }
     h1 {
       font-size: 3rem;
@@ -125,59 +132,65 @@
 
     p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMax420Px;
-      line-height:$lineHeighttextMax420Px;
-      letter-spacing:$letterSpacingMax420Px;
-      margin-bottom:$marginBottomTextMax420Px;
+      font-size: $fontsizeMobileTextMax420Px;
+      line-height: $lineHeighttextMax420Px;
+      letter-spacing: $letterSpacingMax420Px;
+      margin-bottom: $marginBottomTextMax420Px;
     }
-    video{
-      margin-top:3rem;
-      width:350px;
+      .portfolio-content p.swipe {
+      font-weight: bolder;
+      color: #333;
+    }
+    video {
+      margin-top: 3rem;
+      width: 350px;
     }
   }
 }
 
-
 @mixin breakPoint375Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media screen and (min-width: 372px) and (max-width:400px){
+  @media screen and (min-width: 372px) and (max-width: 400px) {
     margin: $marginBreakPoint;
-    *{
-      font-size:14px;
+    * {
+      font-size: 14px;
     }
     h1 {
       font-size: 2.5rem;
       color: $titleFontColour;
     }
-   p {
+    p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMax375Px; 
-      line-height:$lineHeighttextMax375Px;
-      letter-spacing:$letterSpacingMax375Px;
-      margin-bottom:$marginBottomTittleMax375Px;
+      font-size: $fontsizeMobileTextMax375Px;
+      line-height: $lineHeighttextMax375Px;
+      letter-spacing: $letterSpacingMax375Px;
+      margin-bottom: $marginBottomTittleMax375Px;
     }
-    .experience-title{
-      margin-top:-60px;
+      .portfolio-content p.swipe {
+      font-weight: bolder;
+      color: #333;
     }
-    .contact-title{
-      margin-top:-60px;
+    .experience-title {
+      margin-top: -60px;
     }
-    .who-i-am-title{
-    margin-top:1rem;
+    .contact-title {
+      margin-top: -60px;
+    }
+    .who-i-am-title {
+      margin-top: 1rem;
     }
 
-    video{
-      margin-top:3rem;  
-      width:300px;
+    video {
+      margin-top: 3rem;
+      width: 300px;
     }
   }
 }
 
-
 @mixin breakPoint420Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media screen and (min-width: 380px) and (max-width:420px){
+  @media screen and (min-width: 380px) and (max-width: 420px) {
     margin: $marginBreakPoint;
-    *{
-      font-size:14px;
+    * {
+      font-size: 14px;
     }
     h1 {
       font-size: 3rem;
@@ -185,129 +198,118 @@
     }
     p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMax420Px;
-      line-height:$lineHeighttextMax420Px;
-      letter-spacing:$letterSpacingMax420Px;
-      margin-bottom:$marginBottomTextMax420Px;
+      font-size: $fontsizeMobileTextMax420Px;
+      line-height: $lineHeighttextMax420Px;
+      letter-spacing: $letterSpacingMax420Px;
+      margin-bottom: $marginBottomTextMax420Px;
+    }
+      .portfolio-content p.swipe {
+      font-weight: bolder;
+      color: #333;
     }
 
-     .experience-title{
-      margin-top:-140px;
+    .experience-title {
+      margin-top: -140px;
     }
-    .contact-title{
-      margin-top:-140px;
+    .contact-title {
+      margin-top: -140px;
     }
-   
-    video{
-      margin-top:3rem;  
-      width:350px;
+
+    video {
+      margin-top: 3rem;
+      width: 350px;
     }
   }
 }
-
 
 @mixin breakPoint360Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media  screen and (min-width: 350px) and (max-width:365px) {
-    
-    margin:$marginBreakPoint;
-   *{ 
-     font-size:12px;
-  }
+  @media screen and (min-width: 350px) and (max-width: 365px) {
+    margin: $marginBreakPoint;
+    * {
+      font-size: 12px;
+    }
 
     h1 {
       font-size: 2rem;
       color: $titleFontColour;
     }
-    
-     p {
+
+    p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMax360Px; 
-      line-height:$lineHeighttextMAX360Px;
-      letter-spacing:$letterSpacingMax360Px;
-      margin-bottom:$marginBottomTextMax360Px;
+      font-size: $fontsizeMobileTextMax360Px;
+      line-height: $lineHeighttextMAX360Px;
+      letter-spacing: $letterSpacingMax360Px;
+      margin-bottom: $marginBottomTextMax360Px;
+    }
+    .portfolio-content p.swipe {
+      font-weight: bolder;
+      color: #333;
     }
 
-     .experience-title{
-      margin-top:-50px;
+    .experience-title {
+      margin-top: -50px;
     }
-    .contact-title{
-      margin-top:-50px;
+    .contact-title {
+      margin-top: -50px;
     }
-    .who-i-am-title{
-    margin-top:1rem;
-    }
-
-    ul.indicatores{
-      top:590px;
+    .who-i-am-title {
+      margin-top: 1rem;
     }
 
-    video{
-       margin-top:1rem;
-       width:320px;
-     
+    ul.indicatores {
+      top: 590px;
+    }
+
+    video {
+      margin-top: 1rem;
+      width: 320px;
     }
   }
 }
-
 
 @mixin breakPoint350Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media  screen and (min-width: 310px) and (max-width:350px) {
-    
-    margin:$marginBreakPoint;
-  *{  
-    font-size:12px;
-  }
-    
+  @media screen and (min-width: 310px) and (max-width: 350px) {
+    margin: $marginBreakPoint;
+    * {
+      font-size: 12px;
+    }
 
     h1 {
       font-size: 2rem;
       color: $titleFontColour;
     }
-  
-   p {
+
+    p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMax350Px; 
-      line-height:$lineHeighttextMAX350Px;
-      letter-spacing:$letterSpacingMax350Px;
-      margin-bottom:$marginBottomTextMax350Px;
+      font-size: $fontsizeMobileTextMax350Px;
+      line-height: $lineHeighttextMAX350Px;
+      letter-spacing: $letterSpacingMax350Px;
+      margin-bottom: $marginBottomTextMax350Px;
     }
 
-     .experience-title{
-      margin-top:-40px;
-    }
-    .contact-title{
-      margin-top:20px;
-    }
-     .who-i-am-title{
-    margin-top:2rem;
-    margin-bottom:0.5rem;
-    }
-  
-
-    ul.indicatores{
-      top:590px;
+      .portfolio-content p.swipe {
+      font-weight: bolder;
+      color: #333;
     }
 
-    video{
-       margin-top:1rem;
-       width:290px;
-     
+    .experience-title {
+      margin-top: -40px;
+    }
+    .contact-title {
+      margin-top: 20px;
+    }
+    .who-i-am-title {
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    ul.indicatores {
+      top: 590px;
+    }
+
+    video {
+      margin-top: 1rem;
+      width: 290px;
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

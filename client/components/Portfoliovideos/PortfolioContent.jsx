@@ -47,8 +47,9 @@ function PortfolioContent(props) {
             ) : (
               <div className="button-fixed">
                 <a
-                  className="btn waves-effect white grey-text darken-text-2 portfolio-button"
-                  href={`${props.content.src}`}
+                    className="btn waves-effect white grey-text darken-text-2 portfolio-button"
+                    target="_blank"
+                    href={`${props.content.src}`}
                 >
                   Visit App
                 </a>

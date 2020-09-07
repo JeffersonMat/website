@@ -1,24 +1,24 @@
 @import "./variablesStyles";
 
 @mixin breakPointLandscape600Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media only screen and (min-width:560px) and (max-width:600px)and (orientation: landscape) {
+  @media only screen and (min-width: 560px) and (max-width: 600px) and (orientation: landscape) {
     margin: $marginBreakPoint;
-    *{
-      font-size:12px;
+    * {
+      font-size: 12px;
     }
 
     h1 {
       font-size: 2rem;
       color: $titleFontColour;
     }
- p {
+    p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMaxLp600Px; 
-      line-height:$lineHeighttextMaxLp600Px;
-      letter-spacing:$letterSpacingMax1Lp600Px;
-      margin-bottom:$marginBottomTextMaxLp600Px;
+      font-size: $fontsizeMobileTextMaxLp600Px;
+      line-height: $lineHeighttextMaxLp600Px;
+      letter-spacing: $letterSpacingMax1Lp600Px;
+      margin-bottom: $marginBottomTextMaxLp600Px;
     }
-   
+
     .experience-title {
       margin-top: -20px;
     }
@@ -31,26 +31,27 @@
     }
 
     .who-i-am-title {
-      font-size:1.5rem;
-      margin-top:0.5rem;
-      margin-bottom:0.5rem;
+      font-size: 1.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
     }
-    .last-p-who-i-am{
-      margin-bottom:0;
+    .last-p-who-i-am {
+      margin-bottom: 0;
     }
-   .content-who-i-am, .carousel, .carousel-item{
+    .content-who-i-am,
+    .carousel,
+    .carousel-item {
+      height: 100%;
+    }
+    .carousel .carousel-item .content-who-i-am p {
+      font-size: 11px;
+    }
 
-    height:100%;
-   } 
- .carousel .carousel-item .content-who-i-am p{
-   font-size:11px;
- }
+    .carousel .indicators {
+      position: relative;
+      top: 270px;
+    }
 
- .carousel .indicators{
-   position: relative;
-   top:270px;
- }
-   
     video {
       margin-top: 0.2rem;
       width: 260px;
@@ -58,11 +59,9 @@
   }
 }
 
-
 @mixin breakPointLandscape640Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media only screen and (min-width: 640px) and (max-width:660px)and (orientation: landscape) {
+  @media only screen and (min-width: 640px) and (max-width: 660px) and (orientation: landscape) {
     margin: $marginBreakPoint;
-    
 
     h1 {
       font-size: 2rem;
@@ -70,9 +69,9 @@
     }
     p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMaxLp640Px;
-      line-height:$lineHeighttextMaxLp640Px;
-      letter-spacing:$letterSpacingMax360Px;
+      font-size: $fontsizeMobileTextMaxLp640Px;
+      line-height: $lineHeighttextMaxLp640Px;
+      letter-spacing: $letterSpacingMax360Px;
       margin-bottom: $marginBottomTextMaxLp640Px;
     }
     .experience-title {
@@ -87,13 +86,13 @@
     }
 
     .who-i-am-title {
-      margin-top:0.5rem;
+      margin-top: 0.5rem;
       margin-bottom: 1rem;
     }
-    .last-p-who-i-am{
-      margin-bottom:0;
+    .last-p-who-i-am {
+      margin-bottom: 0;
     }
-   
+
     video {
       margin-top: 0.2rem;
       width: 260px;
@@ -102,21 +101,21 @@
 }
 
 @mixin breakPointLandscape667Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media only screen and (min-width: 667px) and (max-width:675px) and (orientation: landscape) {
+  @media only screen and (min-width: 667px) and (max-width: 675px) and (orientation: landscape) {
     margin: $marginBreakPoint;
-     *{
-       font-size:12px;
-     }
+    * {
+      font-size: 12px;
+    }
 
     h1 {
       font-size: 2rem;
       color: $titleFontColour;
     }
-   p {
+    p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMaxLp667Px;
-      line-height:$lineHeighttextMaxLp667Px;
-      letter-spacing:$letterSpacingLp667Px;
+      font-size: $fontsizeMobileTextMaxLp667Px;
+      line-height: $lineHeighttextMaxLp667Px;
+      letter-spacing: $letterSpacingLp667Px;
       margin-bottom: $marginBottomTextMaxLp667Px;
     }
     .experience-title {
@@ -129,19 +128,18 @@
       margin-top: 0;
       margin-bottom: 1rem;
     }
-   section#who-i-am{
-     height:130%;
-   }
-   
+    section#who-i-am {
+      height: 130%;
+    }
+
     section.who-i-am .indicators {
       top: 275px;
     }
-   
+
     .who-i-am-title {
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
-  
 
     video {
       margin-top: 0.2rem;
@@ -151,7 +149,7 @@
 }
 
 @mixin breakPointLandscape684Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media only screen and (min-width: 684px) and (max-width:690px) and (orientation: landscape) {
+  @media only screen and (min-width: 684px) and (max-width: 690px) and (orientation: landscape) {
     margin: $marginBreakPoint;
     // font-size: $fontsizeBreakPoint;
 
@@ -161,11 +159,11 @@
     }
     p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMaxLp684Px;
-      line-height:$lineHeighttextMaxLp684Px;
-      letter-spacing:$letterSpacingLp684Px;
+      font-size: $fontsizeMobileTextMaxLp684Px;
+      line-height: $lineHeighttextMaxLp684Px;
+      letter-spacing: $letterSpacingLp684Px;
       margin-bottom: $marginBottomTextMaxLp684Px;
-     }
+    }
 
     .experience-title {
       margin-top: -20px;
@@ -185,8 +183,8 @@
     .carousel .carousel-item .content-who-i-am p {
       font-size: 12px;
     }
-    .last-p-who-i-am{
-      margin-bottom:0;
+    .last-p-who-i-am {
+      margin-bottom: 0;
     }
     video {
       margin-top: 0;
@@ -196,7 +194,7 @@
 }
 
 @mixin breakPointLandscape731Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media only screen and (min-width:700px) and (max-width: 731px) and (orientation: landscape) {
+  @media only screen and (min-width: 700px) and (max-width: 731px) and (orientation: landscape) {
     margin: $marginBreakPoint;
     font-size: $fontsizeBreakPoint;
 
@@ -204,13 +202,17 @@
       font-size: 2rem;
       color: $titleFontColour;
     }
-   p {
+    p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMaxLp734Px;
-      line-height:$lineHeighttextMaxLp734Px;
-      letter-spacing:$letterSpacingLp734Px;
+      font-size: $fontsizeMobileTextMaxLp734Px;
+      line-height: $lineHeighttextMaxLp734Px;
+      letter-spacing: $letterSpacingLp734Px;
       margin-bottom: $marginBottomTextMaxLp734Px;
-   }
+    }
+    .portfolio-content p.swipe {
+      font-weight: bolder;
+      color: #333;
+    }
     .experience-title {
       margin-top: -20px;
     }
@@ -237,7 +239,7 @@
 }
 
 @mixin breakPointLandscape734Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media only screen and (min-width: 734px) and (max-width:735px) and (orientation: landscape) {
+  @media only screen and (min-width: 734px) and (max-width: 735px) and (orientation: landscape) {
     margin: $marginBreakPoint;
     font-size: $fontsizeBreakPoint;
 
@@ -245,14 +247,19 @@
       font-size: 2rem;
       color: $titleFontColour;
     }
-     p {
+    p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMaxLp734Px;
-      line-height:$lineHeighttextMaxLp734Px;
-      letter-spacing:$letterSpacingLp734Px;
+      font-size: $fontsizeMobileTextMaxLp734Px;
+      line-height: $lineHeighttextMaxLp734Px;
+      letter-spacing: $letterSpacingLp734Px;
       margin-bottom: $marginBottomTextMaxLp734Px;
-   }
-   
+    }
+
+    .portfolio-content p.swipe {
+      font-weight: bolder;
+      color: #333;
+    }
+
     .experience-title {
       margin-top: -20px;
     }
@@ -278,27 +285,25 @@
   }
 }
 
-
-
 @mixin breakPointLandscape736Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media only screen and (min-width: 736px) and (max-width:739px) and (orientation: landscape) {
+  @media only screen and (min-width: 736px) and (max-width: 739px) and (orientation: landscape) {
     margin: $marginBreakPoint;
-    
-    *{
-      font-size:13px;
+
+    * {
+      font-size: 13px;
     }
-     
+
     h1 {
       font-size: 2rem;
       color: $titleFontColour;
     }
     p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMaxLp734Px;
-      line-height:$lineHeighttextMaxLp734Px;
-      letter-spacing:$letterSpacingLp734Px;
+      font-size: $fontsizeMobileTextMaxLp734Px;
+      line-height: $lineHeighttextMaxLp734Px;
+      letter-spacing: $letterSpacingLp734Px;
       margin-bottom: $marginBottomTextMaxLp734Px;
-   }
+    }
     .experience-title {
       margin-top: -10px;
     }
@@ -318,31 +323,31 @@
     }
 
     video {
-     margin-top: 0;
+      margin-top: 0;
       width: 300px;
     }
   }
 }
 
 @mixin breakPointLandscape812Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media only screen and (min-width: 812px) and (max-width:822px) and (orientation: landscape) {
+  @media only screen and (min-width: 812px) and (max-width: 822px) and (orientation: landscape) {
     margin: $marginBreakPoint;
-   *{
-     font-size:13px;
-   }
+    * {
+      font-size: 13px;
+    }
 
     h1 {
       font-size: 2rem;
       color: $titleFontColour;
     }
-   
-     p {
+
+    p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMaxLp812Px;
-      line-height:$lineHeighttextMaxLp812Px;
-      letter-spacing:$letterSpacingLp812Px;
+      font-size: $fontsizeMobileTextMaxLp812Px;
+      line-height: $lineHeighttextMaxLp812Px;
+      letter-spacing: $letterSpacingLp812Px;
       margin-bottom: $marginBottomTextMaxLp812Px;
-   }
+    }
     .experience-title {
       margin-top: -20px;
     }
@@ -360,7 +365,6 @@
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
-
 
     video {
       margin-top: 0;
@@ -373,19 +377,18 @@
   @media only screen and (width: 823px) and (orientation: landscape) {
     margin: $marginBreakPoint;
 
-
     h1 {
       font-size: 2rem;
       color: $titleFontColour;
     }
-     p {
+    p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMaxLp812Px;
-      line-height:$lineHeighttextMaxLp812Px;
-      letter-spacing:$letterSpacingLp812Px;
+      font-size: $fontsizeMobileTextMaxLp812Px;
+      line-height: $lineHeighttextMaxLp812Px;
+      letter-spacing: $letterSpacingLp812Px;
       margin-bottom: $marginBottomTextMaxLp812Px;
-   }
-   
+    }
+
     .experience-title {
       margin-top: -20px;
     }
@@ -404,7 +407,7 @@
       margin-bottom: 1rem;
     }
 
-    section#who-i-am .carousel-item .carousel ul.indicators{
+    section#who-i-am .carousel-item .carousel ul.indicators {
       top: 1000px;
     }
 
@@ -416,7 +419,7 @@
 }
 
 @mixin breakPointLandscape1024Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media only screen and (min-width: 1024px) and (max-width:1200px) and (orientation: landscape) {
+  @media only screen and (min-width: 1024px) and (max-width: 1200px) and (orientation: landscape) {
     margin: $marginBreakPoint;
     font-size: $fontsizeBreakPoint;
 
@@ -424,16 +427,16 @@
       font-size: 4rem;
       color: $titleFontColour;
     }
-    nav ul li a{
-      font-size:24px;
+    nav ul li a {
+      font-size: 24px;
     }
-   p {
+    p {
       color: $textColour;
-      font-size:$fontsizeMobileTextMaxLp1024Px;
-      line-height:$lineHeighttextMaxLp1024Px;
-      letter-spacing:$letterSpacingLp1024Px;
+      font-size: $fontsizeMobileTextMaxLp1024Px;
+      line-height: $lineHeighttextMaxLp1024Px;
+      letter-spacing: $letterSpacingLp1024Px;
       margin-bottom: $marginBottomTextMaxLp1024Px;
-   }
+    }
     .experience-title {
       margin-top: -200px;
       margin-bottom: 2rem;
