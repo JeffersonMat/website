@@ -5,17 +5,16 @@
 
 
 div.contact-background {
-  background:url("../images/mountains.jpg") fixed no-repeat;
+  background:url("../images/mountains.jpg") no-repeat center center;
   background-position:center center;
   -moz-background-position:center center;
   -webkit-background-position:center center;
   background-size:cover;
  -moz-background-size: cover;
  -webkit-background-size: cover;
- -o-background-size: cover center;
+ -o-background-size: cover;
   width:100%;
   height:80vh;
-  margin:auto;
   padding:0;  
 }
 
