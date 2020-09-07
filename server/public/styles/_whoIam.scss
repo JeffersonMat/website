@@ -10,21 +10,27 @@ section.who-i-am-background {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  background-attachment: fixed;
-  -webkit-background-atachment:fixed;
-  -moz-background-atachment:fixed;
-  -o-background-atachment: fixed;
-  width: 100%;
+  width: 100vw;
   height: 80vh;
   margin:auto;
   padding:0;
   
+
+
   .content-banner h1{
      color:whitesmoke;
      margin:0 auto;
      font-weight: bold;
 
   }
+
+  .no-touch section.who-i-am-background {
+  
+    background-attachment: fixed;
+  -webkit-background-atachment:fixed;
+  -moz-background-atachment:fixed;
+  -o-background-atachment: fixed;
+}
 
   .content-banner{
       z-index: 2;

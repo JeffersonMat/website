@@ -13,14 +13,18 @@ section.contact-background {
  -moz-background-size: cover;
  -webkit-background-size: cover;
  -o-background-size: cover center;
-  background-attachment: fixed;
- -webkit-background-atachment:fixed;
- -moz-background-atachment:fixed;
- -o-background-atachment: fixed;
-  width:100%;
+  width:100vw;
   height:80vh;
   margin:auto;
   padding:0;  
+}
+
+  .no-touch section.contact-background {
+ 
+   background-attachment: fixed;
+  -webkit-background-atachment:fixed;
+  -moz-background-atachment:fixed;
+  -o-background-atachment: fixed;
 }
 
 section#contact {
