@@ -21,7 +21,7 @@ const Portfolio = () => {
                   Ipsum voluptatibus deleniti a animi esse veniam.
                 </p>
 
-                <h6 className="swipe">SWIPE</h6>
+                <h6 className="swipe">SWIPE TO SEE PROJECTS</h6>
               </ScrollAnimation>
             </div>
           </div>

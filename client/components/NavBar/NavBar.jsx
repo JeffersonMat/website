@@ -22,7 +22,7 @@ const NavBar = () => {
                   offset={-70}
                   duration={2000}
                 >
-                  Who I Am
+                About
                 </Link>
               </li>
               <li>
@@ -58,7 +58,7 @@ const NavBar = () => {
                   offset={-70}
                   duration={4000}
                 >
-                Find Me
+             Contact
                 </Link>
               </li>
             </ul>

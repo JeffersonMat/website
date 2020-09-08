@@ -12,63 +12,73 @@ const WhoIam = () => {
             <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
               <div id="content-who-i-am">
                 <div>
-                  <h1 className="who-i-am-title">Who I am...</h1>
-                  </div>
-                 <div>
-                <p>
-                  Over the past year, I've allowed my curiosity and appetite for
-                  learning to lead me through the various stages of web
-                  development. Initially self-taught, I started my education on
-                  online resources such as Codeacademy, freeCodeCamp.
-                </p>
+                  <h1 className="who-i-am-title">Hello. I'm Jefferson.</h1>
+                </div>
+                <div>
+                  <p>
+                    A Colombian with an intrepid spirit and a creative mind. I
+                    believe technology has the potential to transform our world
+                    for the better. I do what I do because I love using
+                    technology to solve problems and do good.
+                  </p>
 
-                <p>
-                  I was drawn to tech thanks to my passion for learning new
-                  skills. I believe in lifelong learning and thrive in
-                  environments that allow for problem-solving and continuous
-                  professional development, which is why I chose web
-                  development.
-                </p>
+                  <p>
+                    People describe me as a go-getter. I’m not afraid to travel
+                    off the beaten track if that means a breakthrough is just
+                    around the corner. I’m an innovator, a creator, and a
+                    lifelong learner. And I make a mean empanada.
+                  </p>
 
-                <p>
-                  I'm looking for opportunities where I can build on my existing
-                  web development skills whilst adding value using the varied
-                  knowledge base I already have. Friends and colleagues describe
-                  me as self-driven, highly approachable, and would agree that I
-                  bring a unique and positive energy to the workplace.
-                </p>
-               </div>
+                  <p>
+                    When it comes to life, my motto is simple; never stop
+                    learning. It was this enthusiasm for learning and growth
+                    that lead me to tech—an industry of constant innovation and
+                    adaptability.
+                  </p>
+                </div>
               </div>
-              </ScrollAnimation>
+            </ScrollAnimation>
           </div>
 
-          <div className="carousel-item " href="#three!">
+          <div className="carousel-item " href="#two!">
             <div id="content-who-i-am">
               <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
-                <h1 className="who-i-am-title">What I Love...</h1>
+                <h1 className="who-i-am-title">A few things about me.</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dicta, aut tempore. Animi, est eum alias dignissimos ullam
-                  nihil vero voluptatibus itaque commodi libero a error officiis
-                  soluta facere accusantium reiciendis?
+                  I call Lyall Bay home. I love a fresh hop IPA. I once climbed
+                  the highest peak in the Colombian West Andes. I support
+                  Manchester United. Don’t talk to me about rugby; football and
+                  rugby are no comparison.
                 </p>
 
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dicta, aut tempore. Animi, est eum alias dignissimos ullam
-                  nihil vero voluptatibus itaque commodi libero a error officiis
-                  soluta facere accusantium reiciendis?
+                  I love taking photos. I once had a chocolate labrador called
+                  Coffee. I live with my Kiwi partner and fiancé. I don’t like
+                  cricket. Mountains over beach. Camping over hotels. Hiking
+                  over swimming.
                 </p>
 
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dicta, aut tempore. Animi, est eum alias dignissimos ullam
-                  nihil vero voluptatibus itaque commodi libero a error officiis
-                  soluta facere accusantium reiciendis?
+                  I’ve seen The Matrix nine times. I love black coffee. I play
+                  FIFA like a boss. I box. My favourite food is bacon. I can
+                  quote all the lyrics to Pink Floyd’s Pulse album. I’m a
+                  terrible singer.
                 </p>
               </ScrollAnimation>
             </div>
           </div>
+          <button
+            className=" indicators indicator-item"
+            style={{ color: "red" }}
+          >
+            Click
+          </button>
+          <button
+            className=" indicators indicator-item"
+            style={{ color: "red" }}
+          >
+            Click
+          </button>
         </div>
       </section>
     </>

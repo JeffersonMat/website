@@ -13,7 +13,7 @@ const NavBarMenu = () => {
           offset={-70}
           duration={500}
         >
-          Who I Am
+       About
         </Link>
       </li>
       <li>
@@ -49,7 +49,7 @@ const NavBarMenu = () => {
           offset={-70}
           duration={500}
         >
-          Find Me
+         Contact
         </Link>
       </li>
     </ul>
