@@ -7,8 +7,9 @@ const WhoIam = () => {
     <>
       <Banner />
       <section id="who-i-am">
-        <div className=" carousel carousel-slider  who-i-am">
-          <div className="carousel-item" href="#one!">
+ <div className="container">
+        <div className=" carousel-who-i-am  who-i-am">
+          <div className="slider-who-i-am" href="#one!">
             <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
               <div id="content-who-i-am">
                 <div>
@@ -37,14 +38,13 @@ const WhoIam = () => {
                   </p>
                 </div>
               </div>
-            </ScrollAnimation>
-          </div>
-
-          <div className="carousel-item " href="#two!">
-            <div id="content-who-i-am">
-              <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
+              </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
+              <div id="content-who-i-am">
+                  <div>
                 <h1 className="who-i-am-title">A few things about me.</h1>
-                <p>
+                    </div>
+                  <p>
                   I call Lyall Bay home. I love a fresh hop IPA. I once climbed
                   the highest peak in the Colombian West Andes. I support
                   Manchester United. Don’t talk to me about rugby; football and
@@ -64,22 +64,25 @@ const WhoIam = () => {
                   quote all the lyrics to Pink Floyd’s Pulse album. I’m a
                   terrible singer.
                 </p>
-              </ScrollAnimation>
+              </div>
+            </ScrollAnimation>
+            <div className="control">
+              <span className="arrow left">
+                <i className="material-icons">keyboard_arrow_left</i>
+              </span>
+              <span className="arrow right">
+                <i className="material-icons">keyboard_arrow_right</i>
+              </span>
+              <ul>
+                <li className="selected"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
             </div>
           </div>
-          <button
-            className=" indicators indicator-item"
-            style={{ color: "red" }}
-          >
-            Click
-          </button>
-          <button
-            className=" indicators indicator-item"
-            style={{ color: "red" }}
-          >
-            Click
-          </button>
-        </div>
+          </div>
+          </div>
       </section>
     </>
   )

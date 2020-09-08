@@ -16,14 +16,10 @@ div.who-i-am-background {
   margin:auto;
   padding:0;
 
-  
-  
-  
   .content-banner h1{
     color:whitesmoke;
     margin:0 auto;
-    font-weight: bold;
-    
+    font-weight: bold;    
   }
   
   .content-banner{
@@ -61,11 +57,8 @@ div.who-i-am-background {
   justify-content: center;
   align-content: center;
   margin: auto 0;
-
-  
-
-
 }
+
 
 section#who-i-am {
   background: $backgroundSections;
@@ -73,13 +66,75 @@ section#who-i-am {
   height: 100vh; 
 }
 
-.who-i-am {
- 
-  @include flexCenter(center, center, column);
-}
-.carousel .carousel-item  #content-who-i-am{
-  //This function includes all breakpoints as well
-  // height:100%;
-  @include marginAlignment();
+//Slider section sytling
+
+.control ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  transform: translate(-50%);
 }
 
+.control ul li {
+  width: 8px;
+  height: 8px;
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 50px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.slider-who-i-am{
+  display: flex;
+  height:100vh;
+  width:200%;
+}
+
+.container {
+  width: 100%;
+  margin:0px auto;
+}
+
+.carousel-who-i-am {
+  height:100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left, .right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrow i {
+  font-size: 30px;
+  -webkit-user-select: none;
+  color:black;
+}
+.left {
+  left: -4px;
+}
+.right {
+  right: -4px;
+}
+
+// .slider-who-i-am{
+
+//   justify-content: center;
+//   align-items: center;
+//   display: flex;
+// }
+
+#content-who-i-am { 
+  @include flexCenter(center, center, column);
+  @include marginAlignment();
+}
