@@ -1,4 +1,7 @@
 const path = require('path')
+// const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const CompressionPlugin = require("compression-webpack-plugin")
+
 
 module.exports = {
   entry: './client/index.js',
@@ -11,11 +14,14 @@ module.exports = {
     rules: [{
       test: /\.jsx?$/,
       loader: 'babel-loader',
-      exclude: /node_modules/
-    }]
+      exclude: /node_modules/,
+      
+    },    
+    ]
   },
+  plugins:[new CompressionPlugin()],
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx', 'css']
   },
   devtool: 'source-map',
   devServer: {
