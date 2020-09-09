@@ -16,11 +16,12 @@
       font-size: $fontsizeMobileTextMaxLp600Px;
       line-height: $lineHeighttextMaxLp600Px;
       letter-spacing: $letterSpacingMax1Lp600Px;
+      word-spacing:$wordSpacingMax1Lp600Px ;
       margin-bottom: $marginBottomTextMaxLp600Px;
     }
 
     .experience-title {
-      margin-top: -20px;
+      margin-top: 10px;
     }
     .contact-title {
       margin-top: 20px;
@@ -32,26 +33,11 @@
 
     .who-i-am-title {
       font-size: 1.5rem;
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem;
+      margin-top: 10px;
+      margin-bottom:20px;
+    
     }
-    .last-p-who-i-am {
-      margin-bottom: 0;
-    }
-    .content-who-i-am,
-    .carousel,
-    .carousel-item {
-      height: 100%;
-    }
-    .carousel .carousel-item .content-who-i-am p {
-      font-size: 11px;
-    }
-
-    .carousel .indicators {
-      position: relative;
-      top: 270px;
-    }
-
+  
     video {
       margin-top: 0.2rem;
       width: 260px;
@@ -71,7 +57,8 @@
       color: $textColour;
       font-size: $fontsizeMobileTextMaxLp640Px;
       line-height: $lineHeighttextMaxLp640Px;
-      letter-spacing: $letterSpacingMax360Px;
+      letter-spacing: $letterSpacingMax640Px;
+      word-spacing:$wordSpacingMax1Lp640Px ;
       margin-bottom: $marginBottomTextMaxLp640Px;
     }
     .experience-title {
@@ -116,6 +103,7 @@
       font-size: $fontsizeMobileTextMaxLp667Px;
       line-height: $lineHeighttextMaxLp667Px;
       letter-spacing: $letterSpacingLp667Px;
+      word-spacing:$wordSpacingMax1Lp667Px ;
       margin-bottom: $marginBottomTextMaxLp667Px;
     }
     .experience-title {
@@ -137,8 +125,8 @@
     }
 
     .who-i-am-title {
-      margin-top: 1rem;
-      margin-bottom: 1rem;
+      margin-top: -1rem;
+      margin-bottom: 2rem;
     }
 
     video {
