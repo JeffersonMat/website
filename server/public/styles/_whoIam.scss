@@ -109,7 +109,6 @@ section#who-i-am {
   width: 100%;
   overflow: hidden;
   position: relative;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .left, .right {
@@ -124,6 +123,19 @@ section#who-i-am {
   -webkit-user-select: none;
   color:black;
 }
+
+
+.arrow i:hover {
+  color:skyblue;
+}
+
+.arrow i:focus {
+  color:skyblue;
+}
+.arrow i:active {
+  color:skyblue;
+}
+
 .left {
   left: -4px;
 }
@@ -131,6 +143,7 @@ section#who-i-am {
   right: -4px;
   
 }
+
 
 
 // .slider-who-i-am{

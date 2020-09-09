@@ -34,7 +34,7 @@ class  WhoIam extends React.Component {
      switch (index) {
      
        case 0:
-         return {transform: 'translateX(' + (index) * -50 + '%)'}
+         return {transform: "translateX(" + index * -50 + "%)"}
      
        case 1:
          return {transform: 'translateX(' + (index) * -50 + '%)'} 
@@ -58,10 +58,8 @@ class  WhoIam extends React.Component {
               >
                 <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
                   <div id="content-who-i-am">
-                    <div>
-                      <h1 className="who-i-am-title">Hello. I'm Jefferson.</h1>
-                    </div>
-                    <div>
+                    <h1 className="who-i-am-title">Hello. I'm Jefferson.</h1>            
+  
                       <p>
                         A Colombian with an intrepid spirit and a creative mind.
                         I believe technology has the potential to transform our
@@ -82,14 +80,14 @@ class  WhoIam extends React.Component {
                         that lead me to tech—an industry of constant innovation
                         and adaptability.
                       </p>
-                    </div>
+                 
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
-                  <div id="content-who-i-am">
-                    <div>
+                  < div id="content-who-i-am">
+                    <div id="tite-who-i-am">
                       <h1 className="who-i-am-title">A few things about me.</h1>
-                    </div>
+                  </div>
                     <p>
                       I call Lyall Bay home. I love a fresh hop IPA. I once
                       climbed the highest peak in the Colombian West Andes. I

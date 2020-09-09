@@ -2131,8 +2131,6 @@ section#who-i-am {
   width: 100%;
   overflow: hidden;
   position: relative;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .left, .right {
@@ -2147,6 +2145,18 @@ section#who-i-am {
   font-size: 25px;
   -webkit-user-select: none;
   color: black;
+}
+
+.arrow i:hover {
+  color: skyblue;
+}
+
+.arrow i:focus {
+  color: skyblue;
+}
+
+.arrow i:active {
+  color: skyblue;
 }
 
 .left {
