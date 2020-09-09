@@ -21,6 +21,7 @@
       line-height: $lineHeighttextMax1024Px;
       letter-spacing: $letterSpacingMax1024Px;
       margin-bottom: $marginBottomTextMax1024Px;
+      word-spacing:$wordSpacingMax1024Px ;
     }
     .experience-title {
       margin-top: -180px;
@@ -41,7 +42,7 @@
 }
 
 @mixin breakPoint770Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
-  @media only screen and (min-width: 750px) and (max-width: 810px) {
+  @media only screen and (min-width: 750px) and (max-width: 840px) {
     margin: $marginBreakPoint;
     * {
       font-size: 16px;
@@ -60,6 +61,7 @@
       font-size: $fontsizeMobileTextMax770Px;
       line-height: $lineHeighttextMax770Px;
       letter-spacing: $letterSpacingMax770Px;
+       word-spacing:$wordSpacingMax770Px ;
       margin-bottom: $marginBottomTextMax770Px;
     }
     .experience-title {
@@ -71,6 +73,9 @@
       .portfolio-content p.swipe {
       font-weight: bolder;
       color: #333;
+    }
+        .who-i-am-title {
+      margin-top: -10rem;
     }
 
     video {
@@ -104,6 +109,7 @@
       font-size: $fontsizeMobileTextMax480Px;
       line-height: $lineHeighttextMax480Px;
       letter-spacing: $letterSpacingMax480Px;
+      word-spacing:$wordSpacingMax480Px;
       margin-bottom: $marginBottomTextMax480Px;
     }
       .portfolio-content p.swipe {
@@ -135,6 +141,7 @@
       font-size: $fontsizeMobileTextMax420Px;
       line-height: $lineHeighttextMax420Px;
       letter-spacing: $letterSpacingMax420Px;
+      word-spacing:$wordSpacingMax420Px ;
       margin-bottom: $marginBottomTextMax420Px;
     }
       .portfolio-content p.swipe {
@@ -163,6 +170,7 @@
       font-size: $fontsizeMobileTextMax375Px;
       line-height: $lineHeighttextMax375Px;
       letter-spacing: $letterSpacingMax375Px;
+      word-spacing:$wordSpacingMax375Px ;
       margin-bottom: $marginBottomTittleMax375Px;
     }
       .portfolio-content p.swipe {
@@ -201,6 +209,7 @@
       font-size: $fontsizeMobileTextMax420Px;
       line-height: $lineHeighttextMax420Px;
       letter-spacing: $letterSpacingMax420Px;
+      word-spacing:$wordSpacingMax420Px ;
       margin-bottom: $marginBottomTextMax420Px;
     }
       .portfolio-content p.swipe {
@@ -215,8 +224,12 @@
       margin-top: -140px;
     }
      .who-i-am-title {
-      margin-top: -8rem;
+      margin-top: -5rem;
     }
+      .control ul{
+       margin: 0 0 10px 0;
+     }
+
 
     video {
       margin-top: 3rem;
@@ -242,6 +255,7 @@
       font-size: $fontsizeMobileTextMax360Px;
       line-height: $lineHeighttextMAX360Px;
       letter-spacing: $letterSpacingMax360Px;
+      word-spacing:$wordSpacingMax360Px ;
       margin-bottom: $marginBottomTextMax360Px;
     }
     .portfolio-content p.swipe {
@@ -250,18 +264,19 @@
     }
 
     .experience-title {
-      margin-top: -50px;
+      margin-top: 10px;
     }
     .contact-title {
-      margin-top: -50px;
+      margin-top: 10px;
     }
     .who-i-am-title {
       margin-top: 1rem;
     }
 
-    ul.indicatores {
-      top: 590px;
-    }
+    .control ul{
+       margin: 0 0 10px 0;
+     }
+
 
     video {
       margin-top: 1rem;
@@ -287,6 +302,7 @@
       font-size: $fontsizeMobileTextMax350Px;
       line-height: $lineHeighttextMAX350Px;
       letter-spacing: $letterSpacingMax350Px;
+      word-spacing:$wordSpacingMax350Px ;
       margin-bottom: $marginBottomTextMax350Px;
     }
 
@@ -296,7 +312,7 @@
     }
 
     .experience-title {
-      margin-top: -40px;
+      margin-top: 10px;
     }
     .contact-title {
       margin-top: 20px;
@@ -305,9 +321,9 @@
      margin: 10px 0 2rem 0;
     }
 
-    ul.indicatores {
-      top: 590px;
-    }
+     .control ul{
+       margin: 0 0 5px 0;
+     }
 
     video {
       margin-top: 1rem;
