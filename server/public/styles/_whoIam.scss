@@ -93,6 +93,10 @@ section#who-i-am {
   display: flex;
   height:100vh;
   width:200%;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition:all 1s; 
+  -o-transition: all 1s;
 }
 
 .container {
@@ -125,7 +129,9 @@ section#who-i-am {
 }
 .right {
   right: -4px;
+  
 }
+
 
 // .slider-who-i-am{
 
