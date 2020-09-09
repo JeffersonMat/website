@@ -5,42 +5,41 @@ import Banner from './banner/Banner'
 class  WhoIam extends React.Component {
   
   state = {
-    selected: false,
     slide: false,
-    index:0
+    index: 0,
+    next: true,
+    prevs:false,
     
   }
   
 
-  handleClickNext=() => {
+  handleClickNext = () => {
  
     this.setState({
-    selected: false,
       slider: true,
-      index: 1
-   }) 
+      index: this.state.index + 1,
+      prevs: true,
+      next:false
+    }) 
   }
   
   handleClickPrev = () => {
         this.setState({
-          selected: false,
           slider: true,
-          index: 0,
-        }) 
+          index: this.state.index - 1,
+          prevs:false,
+          next:true,
+        })     
   }
 
    slideStyling = (index) => {
  
      switch (index) {
-     
-       case 0:
-         return {transform: "translateX(" + index * -50 + "%)"}
-     
        case 1:
-         return {transform: 'translateX(' + (index) * -50 + '%)'} 
-    }
+         return {transform: "translateX(" + index * -50 + "%)"}
+     }
   }
-  
+
   
   
   render() {
@@ -58,36 +57,35 @@ class  WhoIam extends React.Component {
               >
                 <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
                   <div id="content-who-i-am">
-                    <h1 className="who-i-am-title">Hello. I'm Jefferson.</h1>            
-  
-                      <p>
-                        A Colombian with an intrepid spirit and a creative mind.
-                        I believe technology has the potential to transform our
-                        world for the better. I do what I do because I love
-                        using technology to solve problems and do good.
-                      </p>
+                    <h1 className="who-i-am-title">Hello. I'm Jefferson.</h1>
 
-                      <p>
-                        People describe me as a go-getter. I’m not afraid to
-                        travel off the beaten track if that means a breakthrough
-                        is just around the corner. I’m an innovator, a creator,
-                        and a lifelong learner. And I make a mean empanada.
-                      </p>
+                    <p>
+                      A Colombian with an intrepid spirit and a creative mind. I
+                      believe technology has the potential to transform our
+                      world for the better. I do what I do because I love using
+                      technology to solve problems and do good.
+                    </p>
 
-                      <p>
-                        When it comes to life, my motto is simple; never stop
-                        learning. It was this enthusiasm for learning and growth
-                        that lead me to tech—an industry of constant innovation
-                        and adaptability.
-                      </p>
-                 
+                    <p>
+                      People describe me as a go-getter. I’m not afraid to
+                      travel off the beaten track if that means a breakthrough
+                      is just around the corner. I’m an innovator, a creator,
+                      and a lifelong learner. And I make a mean empanada.
+                    </p>
+
+                    <p>
+                      When it comes to life, my motto is simple; never stop
+                      learning. It was this enthusiasm for learning and growth
+                      that lead me to tech—an industry of constant innovation
+                      and adaptability.
+                    </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
-                  < div id="content-who-i-am">
+                  <div id="content-who-i-am">
                     <div id="tite-who-i-am">
                       <h1 className="who-i-am-title">A few things about me.</h1>
-                  </div>
+                    </div>
                     <p>
                       I call Lyall Bay home. I love a fresh hop IPA. I once
                       climbed the highest peak in the Colombian West Andes. I
@@ -137,8 +135,22 @@ class  WhoIam extends React.Component {
                   </i>
                 </span>
                 <ul>
-                  <li className="selected"></li>
-                  <li></li>
+                  <li
+                    className={this.state.index == 1 && "selected"  }
+                    onClick={
+                      this.state.index == 0
+                        ? this.handleClickNext
+                        : this.handleClickPrev
+                    }
+                  ></li>
+                  <li
+                    className={this.state.index == 0 && "selected"}
+                    onClick={
+                      this.state.index == 0
+                        ? this.handleClickNext
+                        : this.handleClickPrev
+                    }
+                  ></li>
                 </ul>
               </div>
             </div>

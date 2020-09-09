@@ -2167,6 +2167,10 @@ section#who-i-am {
   right: -4px;
 }
 
+.control ul li.selected {
+  background: transparent;
+}
+
 #content-who-i-am {
   height: 100vh;
   display: -webkit-box;

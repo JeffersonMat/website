@@ -144,14 +144,11 @@ section#who-i-am {
   
 }
 
+.control ul li.selected {
+  background: transparent;
+}
 
 
-// .slider-who-i-am{
-
-//   justify-content: center;
-//   align-items: center;
-//   display: flex;
-// }
 
 #content-who-i-am { 
   @include flexCenter(center, center, column);
