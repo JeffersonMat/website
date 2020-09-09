@@ -136,7 +136,7 @@ class  WhoIam extends React.Component {
                 </span>
                 <ul>
                   <li
-                    className={this.state.index == 1 && "selected"  }
+                    className={this.state.index == 0 && "selected"  }
                     onClick={
                       this.state.index == 0
                         ? this.handleClickNext
@@ -144,7 +144,7 @@ class  WhoIam extends React.Component {
                     }
                   ></li>
                   <li
-                    className={this.state.index == 0 && "selected"}
+                    className={this.state.index == 1 && "selected"}
                     onClick={
                       this.state.index == 0
                         ? this.handleClickNext
