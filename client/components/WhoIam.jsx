@@ -83,9 +83,9 @@ class  WhoIam extends React.Component {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
                   <div id="content-who-i-am">
-                    <div id="tite-who-i-am">
+                    
                       <h1 className="who-i-am-title">A few things about me.</h1>
-                    </div>
+                    
                     <p>
                       I call Lyall Bay home. I love a fresh hop IPA. I once
                       climbed the highest peak in the Colombian West Andes. I
@@ -136,7 +136,7 @@ class  WhoIam extends React.Component {
                 </span>
                 <ul>
                   <li
-                    className={this.state.index == 0 && "selected"  }
+                    className={ this.state.index == 0 ? "selected": "" }
                     onClick={
                       this.state.index == 0
                         ? this.handleClickNext
@@ -144,7 +144,7 @@ class  WhoIam extends React.Component {
                     }
                   ></li>
                   <li
-                    className={this.state.index == 1 && "selected"}
+                    className={this.state.index == 1 ? "selected" : ""}
                     onClick={
                       this.state.index == 0
                         ? this.handleClickNext

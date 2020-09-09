@@ -49,3 +49,89 @@ section#experiences {
   //This function includes all breakpoints as well
   @include marginAlignment();
 }
+
+
+//Slides Styling
+
+.control-experiences ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0 0 15px 0;
+  padding: 0;
+  transform: translate(-50%);
+}
+
+.control-experiences ul li {
+  width: 8px;
+  height: 8px;
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 50px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.slider-experiences{
+  display: flex;
+  height:100vh;
+  width:200%;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition:all 1s; 
+  -o-transition: all 1s;
+}
+
+.container-experiences {
+  width: 100%;
+  margin:0px auto;
+}
+
+.carousel-experiences {
+  height:100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.left-experiences, .right-experiences {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrow-experiences i {
+  font-size: 25px;
+  -webkit-user-select: none;
+  color:black;
+}
+
+
+.arrow-experiences i:hover {
+  color:skyblue;
+}
+
+.arrow-experiences i:focus {
+  color:skyblue;
+}
+.arrow-experiences i:active {
+  color:skyblue;
+}
+
+.left-experiences {
+  left: -4px;
+}
+.right-experiences {
+  right: -4px;
+  
+}
+
+.control ul li.selected-experiences {
+  background: transparent;
+}
+.who-i-am-title{
+  align-self: start;
+}
