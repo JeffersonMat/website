@@ -79,6 +79,7 @@ section#experiences {
   background: #fffafa;
   width: 100%;
   height: 100vh;
+  overflow-x: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -163,7 +164,7 @@ section#experiences {
 }
 
 .right-experiences {
-  right: -4px;
+  right: 8px;
 }
 
 .control ul li.selected-experiences {
@@ -192,11 +193,12 @@ section#experiences {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 150px 180px 150px;
+  margin: 0;
 }
 
 @media screen and (min-width: 310px) and (max-width: 350px) {
   .experiences-content {
-    margin: 0 1.2rem 0 1.2rem;
+    margin: 0 1rem 0 1rem;
   }
   .experiences-content * {
     font-size: 12px;
@@ -207,15 +209,11 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 20px;
     letter-spacing: 1.6px;
     word-spacing: 2.2px;
     margin-bottom: 22px;
-  }
-  .experiences-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .experiences-content .experience-title {
     margin-top: 10px;
@@ -225,9 +223,6 @@ section#experiences {
   }
   .experiences-content .who-i-am-title {
     margin: 10px 0 2rem 0;
-  }
-  .experiences-content .experiences-content {
-    margin: 0 1rem 0 1rem;
   }
   .experiences-content .control ul {
     margin: 0 0 5px 0;
@@ -251,15 +246,11 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 24px;
     letter-spacing: 1.5px;
     word-spacing: 2.2px;
     margin-bottom: 22px;
-  }
-  .experiences-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .experiences-content .experience-title {
     margin-top: 10px;
@@ -292,15 +283,11 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 21px;
     letter-spacing: 2px;
     word-spacing: 2.2px;
     margin-bottom: 28px;
-  }
-  .experiences-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .experiences-content .experience-title {
     margin-top: -140px;
@@ -333,7 +320,7 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 22px;
     letter-spacing: 1.8px;
     word-spacing: 2.2px;
@@ -371,15 +358,11 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 21px;
     letter-spacing: 2px;
     word-spacing: 2.2px;
     margin-bottom: 28px;
-  }
-  .experiences-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .experiences-content video {
     margin-top: 3rem;
@@ -400,15 +383,11 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.6rem;
     letter-spacing: 2.4px;
     word-spacing: 2.2px;
     margin-bottom: 22px;
-  }
-  .experiences-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .experiences-content video {
     margin-top: 2rem;
@@ -452,10 +431,6 @@ section#experiences {
   .experiences-content .contact-title {
     margin-top: -200px;
   }
-  .experiences-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
-  }
   .experiences-content video {
     margin-top: 2rem;
     width: 500px;
@@ -490,10 +465,6 @@ section#experiences {
   }
   .experiences-content .contact-title {
     margin-top: -80px;
-  }
-  .experiences-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .experiences-content .who-i-am-title {
     margin-top: -8rem;
@@ -1120,7 +1091,7 @@ section#contact {
 
 @media screen and (min-width: 310px) and (max-width: 350px) {
   .contact-content {
-    margin: 0 1.2rem 0 1.2rem;
+    margin: 0 1rem 0 1rem;
   }
   .contact-content * {
     font-size: 12px;
@@ -1131,15 +1102,11 @@ section#contact {
   }
   .contact-content p {
     color: #696969;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 20px;
     letter-spacing: 1.6px;
     word-spacing: 2.2px;
     margin-bottom: 22px;
-  }
-  .contact-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .contact-content .experience-title {
     margin-top: 10px;
@@ -1149,9 +1116,6 @@ section#contact {
   }
   .contact-content .who-i-am-title {
     margin: 10px 0 2rem 0;
-  }
-  .contact-content .experiences-content {
-    margin: 0 1rem 0 1rem;
   }
   .contact-content .control ul {
     margin: 0 0 5px 0;
@@ -1175,15 +1139,11 @@ section#contact {
   }
   .contact-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 24px;
     letter-spacing: 1.5px;
     word-spacing: 2.2px;
     margin-bottom: 22px;
-  }
-  .contact-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .contact-content .experience-title {
     margin-top: 10px;
@@ -1216,15 +1176,11 @@ section#contact {
   }
   .contact-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 21px;
     letter-spacing: 2px;
     word-spacing: 2.2px;
     margin-bottom: 28px;
-  }
-  .contact-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .contact-content .experience-title {
     margin-top: -140px;
@@ -1257,7 +1213,7 @@ section#contact {
   }
   .contact-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 22px;
     letter-spacing: 1.8px;
     word-spacing: 2.2px;
@@ -1295,15 +1251,11 @@ section#contact {
   }
   .contact-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 21px;
     letter-spacing: 2px;
     word-spacing: 2.2px;
     margin-bottom: 28px;
-  }
-  .contact-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .contact-content video {
     margin-top: 3rem;
@@ -1324,15 +1276,11 @@ section#contact {
   }
   .contact-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.6rem;
     letter-spacing: 2.4px;
     word-spacing: 2.2px;
     margin-bottom: 22px;
-  }
-  .contact-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .contact-content video {
     margin-top: 2rem;
@@ -1376,10 +1324,6 @@ section#contact {
   .contact-content .contact-title {
     margin-top: -200px;
   }
-  .contact-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
-  }
   .contact-content video {
     margin-top: 2rem;
     width: 500px;
@@ -1414,10 +1358,6 @@ section#contact {
   }
   .contact-content .contact-title {
     margin-top: -80px;
-  }
-  .contact-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .contact-content .who-i-am-title {
     margin-top: -8rem;
@@ -2172,6 +2112,7 @@ section#who-i-am {
   background: #fffafa;
   width: 100%;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .control ul {
@@ -2287,7 +2228,7 @@ section#who-i-am {
 
 @media screen and (min-width: 310px) and (max-width: 350px) {
   #content-who-i-am {
-    margin: 0 1.2rem 0 1.2rem;
+    margin: 0 1rem 0 1rem;
   }
   #content-who-i-am * {
     font-size: 12px;
@@ -2298,15 +2239,11 @@ section#who-i-am {
   }
   #content-who-i-am p {
     color: #696969;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 20px;
     letter-spacing: 1.6px;
     word-spacing: 2.2px;
     margin-bottom: 22px;
-  }
-  #content-who-i-am .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   #content-who-i-am .experience-title {
     margin-top: 10px;
@@ -2316,9 +2253,6 @@ section#who-i-am {
   }
   #content-who-i-am .who-i-am-title {
     margin: 10px 0 2rem 0;
-  }
-  #content-who-i-am .experiences-content {
-    margin: 0 1rem 0 1rem;
   }
   #content-who-i-am .control ul {
     margin: 0 0 5px 0;
@@ -2342,15 +2276,11 @@ section#who-i-am {
   }
   #content-who-i-am p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 24px;
     letter-spacing: 1.5px;
     word-spacing: 2.2px;
     margin-bottom: 22px;
-  }
-  #content-who-i-am .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   #content-who-i-am .experience-title {
     margin-top: 10px;
@@ -2383,15 +2313,11 @@ section#who-i-am {
   }
   #content-who-i-am p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 21px;
     letter-spacing: 2px;
     word-spacing: 2.2px;
     margin-bottom: 28px;
-  }
-  #content-who-i-am .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   #content-who-i-am .experience-title {
     margin-top: -140px;
@@ -2424,7 +2350,7 @@ section#who-i-am {
   }
   #content-who-i-am p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 22px;
     letter-spacing: 1.8px;
     word-spacing: 2.2px;
@@ -2462,15 +2388,11 @@ section#who-i-am {
   }
   #content-who-i-am p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 21px;
     letter-spacing: 2px;
     word-spacing: 2.2px;
     margin-bottom: 28px;
-  }
-  #content-who-i-am .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   #content-who-i-am video {
     margin-top: 3rem;
@@ -2491,15 +2413,11 @@ section#who-i-am {
   }
   #content-who-i-am p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.6rem;
     letter-spacing: 2.4px;
     word-spacing: 2.2px;
     margin-bottom: 22px;
-  }
-  #content-who-i-am .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   #content-who-i-am video {
     margin-top: 2rem;
@@ -2543,10 +2461,6 @@ section#who-i-am {
   #content-who-i-am .contact-title {
     margin-top: -200px;
   }
-  #content-who-i-am .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
-  }
   #content-who-i-am video {
     margin-top: 2rem;
     width: 500px;
@@ -2581,10 +2495,6 @@ section#who-i-am {
   }
   #content-who-i-am .contact-title {
     margin-top: -80px;
-  }
-  #content-who-i-am .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   #content-who-i-am .who-i-am-title {
     margin-top: -8rem;
@@ -3188,6 +3098,10 @@ section#portfolio-section {
   background: #fffafa;
   width: 100%;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: hidden;
 }
 
 .portfolio-background {
@@ -3235,8 +3149,9 @@ section#portfolio-section {
   left: 50%;
   margin: 0 0 15px 0;
   padding: 0;
+  transform: translate(-50%);
   -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+  -moz-transform: translate(-50%);
 }
 
 .control-portfolio ul li {
@@ -3334,7 +3249,7 @@ section#portfolio-section {
 
 @media screen and (min-width: 310px) and (max-width: 350px) {
   .portfolio-content {
-    margin: 0 1.2rem 0 1.2rem;
+    margin: 0 1rem 0 1rem;
   }
   .portfolio-content * {
     font-size: 12px;
@@ -3345,15 +3260,11 @@ section#portfolio-section {
   }
   .portfolio-content p {
     color: #696969;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 20px;
     letter-spacing: 1.6px;
     word-spacing: 2.2px;
     margin-bottom: 22px;
-  }
-  .portfolio-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .portfolio-content .experience-title {
     margin-top: 10px;
@@ -3363,9 +3274,6 @@ section#portfolio-section {
   }
   .portfolio-content .who-i-am-title {
     margin: 10px 0 2rem 0;
-  }
-  .portfolio-content .experiences-content {
-    margin: 0 1rem 0 1rem;
   }
   .portfolio-content .control ul {
     margin: 0 0 5px 0;
@@ -3389,15 +3297,11 @@ section#portfolio-section {
   }
   .portfolio-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 24px;
     letter-spacing: 1.5px;
     word-spacing: 2.2px;
     margin-bottom: 22px;
-  }
-  .portfolio-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .portfolio-content .experience-title {
     margin-top: 10px;
@@ -3430,15 +3334,11 @@ section#portfolio-section {
   }
   .portfolio-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 21px;
     letter-spacing: 2px;
     word-spacing: 2.2px;
     margin-bottom: 28px;
-  }
-  .portfolio-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .portfolio-content .experience-title {
     margin-top: -140px;
@@ -3471,7 +3371,7 @@ section#portfolio-section {
   }
   .portfolio-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 22px;
     letter-spacing: 1.8px;
     word-spacing: 2.2px;
@@ -3509,15 +3409,11 @@ section#portfolio-section {
   }
   .portfolio-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 21px;
     letter-spacing: 2px;
     word-spacing: 2.2px;
     margin-bottom: 28px;
-  }
-  .portfolio-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .portfolio-content video {
     margin-top: 3rem;
@@ -3538,15 +3434,11 @@ section#portfolio-section {
   }
   .portfolio-content p {
     color: #696969;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.6rem;
     letter-spacing: 2.4px;
     word-spacing: 2.2px;
     margin-bottom: 22px;
-  }
-  .portfolio-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .portfolio-content video {
     margin-top: 2rem;
@@ -3590,10 +3482,6 @@ section#portfolio-section {
   .portfolio-content .contact-title {
     margin-top: -200px;
   }
-  .portfolio-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
-  }
   .portfolio-content video {
     margin-top: 2rem;
     width: 500px;
@@ -3628,10 +3516,6 @@ section#portfolio-section {
   }
   .portfolio-content .contact-title {
     margin-top: -80px;
-  }
-  .portfolio-content .portfolio-content p.swipe {
-    font-weight: bolder;
-    color: #333;
   }
   .portfolio-content .who-i-am-title {
     margin-top: -8rem;

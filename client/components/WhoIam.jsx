@@ -36,7 +36,12 @@ class  WhoIam extends React.Component {
  
      switch (index) {
        case 1:
-         return {transform: "translateX(" + index * -50 + "%)"}
+         return {
+           transform: "translateX(" + index * -50 + "%)",
+           WebKitTransform: "translateX(" + index * -50 + "%)",
+           MozTransform: "translateX(" + index * -50 + "%)",
+           OTransform: "translateX(" + index * -50 + "%)",
+         }
      }
   }
 

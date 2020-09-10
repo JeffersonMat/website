@@ -36,7 +36,12 @@ class Portfolio extends React.Component {
   slideStyling = (index) => {
     switch (index) {
       case index:
-        return { transform: "translateX(" + index * -14.2857143 + "%)" }
+        return {
+          transform: "translateX(" + index * -14.2857143 + "%)",
+          WebKitTransform: "translateX(" + index * -14.2857143 + "%)",
+          MozTransform: "translateX(" + index * -14.2857143 + "%)",
+          OTransform: "translateX(" + index * -14.2857143 + "%)",
+        }
     }
   }
 
