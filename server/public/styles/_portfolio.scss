@@ -31,55 +31,32 @@ div.portfolio-background-image {
 }
 
 
-// section#portfolio-section {
-//   width: 100%;
-//   height:100vh;
 
-
-
-
-// }
-.portfolio {
+section#portfolio-section {
+  background: $backgroundSections;
   width: 100%;
-  height: 100vh;
+  height: 100vh; 
 }
 
-.carousel {
-  width: 100%;
-  height: 100vh;
-}
 
-.portfolio .carousel-item {
-  display: flex;
-  flex-direction: column;
-}
-
-.carousel .carousel-item .portfolio-content {
-  //This function includes all breakpoints as well
-  @include marginAlignment();
-}
-
-// .portfolio-content p{
-//   color:#FFF
-// }
 
 .portfolio-background {
   background: $backgroundSections;
-
+  
 }
 
 .button-fixed{
- display:flex;
- flex-direction: column;
- text-align: center;
- justify-content: center;
- width:30%;
- margin:50px auto; 
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width:30%;
+  margin:50px auto; 
 }
 
 
 .portfolio-content a.btn.pulse{
-
+  
   margin-top:200px;
   padding:0;
   background:#fdf3f3; 
@@ -88,8 +65,99 @@ div.portfolio-background-image {
   font-weight:bold;
 }
 
-.portfolio-content .swipe{
-font-weight: bolder;
-color: #333;
- margin:200px 0 0 0;
+
+//Slider section sytling
+
+.container-portfolio {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
 }
+.control-portfolio ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0 0 15px 0;
+  padding: 0;
+  transform: translate(-50%);
+}
+
+.control-portfolio ul li {
+  width: 8px;
+  height: 8px;
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 50px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.slider-portfolio{
+  display: flex;
+  height:100vh;
+  width:700%;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition:all 1s; 
+  -o-transition: all 1s;
+}
+
+
+
+.carousel-portfolio {
+  height:100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.left-portfolio, .right-portfolio {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrow-portfolio i {
+  font-size: 25px;
+  -webkit-user-select: none;
+  color:black;
+}
+
+
+.arrow-portfolio i:hover {
+  color:skyblue;
+}
+
+.arrow-portfolio i:focus {
+  color:skyblue;
+}
+.arrow-portfolio i:active {
+  color:skyblue;
+}
+
+.left-portfolio {
+  left: -4px;
+}
+.right-portfolio {
+  right: -4px;
+  
+}
+
+.control-portfolio ul li.selected-portfolio {
+  background: transparent;
+}
+
+
+ .portfolio-content {
+  //This function includes all breakpoints as well
+  @include flexCenter(center, center, column);
+  @include marginAlignment();
+  width: 100%;
+}
+
+// .who-i-am-title{
+//   align-self: start;
+// }

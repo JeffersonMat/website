@@ -1,5 +1,14 @@
 module.exports = [
   {
+    id: 1,
+    title: "Projects",
+    description:
+      "My work speaks for itself. Here you’ll find a selection of group, pair, and solo projects I’ve worked on using a variety of front end and back end skills. Feel free to try a sample of my work, like you might enjoy a fresh hops IPA on a warm summer’s day.",
+    video: "",
+    src: "",
+  },
+  {
+    id: 2,
     title: "Pantree",
     description:
       "Group Project at EDA. Full-Stack Web-App using CRUD functionality.  React, Redux, Express, Node.js. Meal app planner.",
@@ -8,32 +17,29 @@ module.exports = [
   },
 
   {
+    id: 3,
     title: "Life of the Party",
     description: "Group Project at EDA. Full-Stack Web-App. Drinking game.",
     video: "../../videos/L.O.T.P.mp4",
     src: "https://life-of-the-party.herokuapp.com",
   },
-  // {
-  //   title: "Lost and Found",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, aut tempore. Animi, est eum alias dignissimos ullamnihil vero voluptatibus itaque commodi libero a error officiis soluta facere accusantium reiciendis?",
-  //   video: "../viewwe",
-  //   src: "",
-  // },
+
   {
+    id: 4,
     title: "Mind Eater",
     description: "Group Project at EDA. - HandleBars, Full-Stack. Game.",
-
     video: "../../videos/mind-eater.mp4",
     src: "http://mind-eater.herokuapp.com/",
   },
   {
+    id: 5,
     title: "Pong",
     description: "Group Poject at EDA. -Vanilla js-. Pong Game",
     video: "../videos/pong.mp4",
     src: "",
   },
   {
+    id: 6,
     title: "QuizzApp",
     description:
       "Personal Project as part of my self lead learning Vue.js. Using external API. Quiz Web-App. Quiz night app, why not?",
@@ -41,6 +47,7 @@ module.exports = [
     src: "",
   },
   {
+    id: 7,
     title: "Task Manager",
     description:
       "Personal Project at EDA. -Full-Stack Web App using CRUD functionality. React, Redux, Express, Node.js. Task Manager.",

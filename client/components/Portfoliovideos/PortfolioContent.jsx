@@ -2,31 +2,33 @@ import React from "react"
 import ScrollAnimation from "react-animate-on-scroll"
 
 function PortfolioContent(props) {
-  function hrefValue() {
-    let array = [
-      "#two",
-      "#three",
-      "#four",
-      "#five",
-      "#six",
-      "#even",
-      "#eight",
-      "#nine",
-    ]
-    let sortedArray
-    array.map((value) => {
-      return (sortedArray = value)
-    })
-    return sortedArray
-  }
+  // function hrefValue() {
+  //   let array = [
+  //     "#two",
+  //     "#three",
+  //     "#four",
+  //     "#five",
+  //     "#six",
+  //     "#even",
+  //     "#eight",
+  //     "#nine",
+  //   ]
+  //   let sortedArray
+  //   array.map((value) => {
+  //     return (sortedArray = value)
+  //   })
+  //   return sortedArray
+  // }
 
   return (
     <>
-      <div className="carousel-item portfolio-background" href={`${hrefValue}`}>
+     
         <div className="portfolio-content">
           <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
             <h1 className="portfolio-title">{props.content.title}</h1>
-            <p>{props.content.description}</p>
+          <p>{props.content.description}</p>
+          {props.content.video === "" ? <></> :
+            
             <video
               width="600"
               autoPlay
@@ -42,6 +44,7 @@ function PortfolioContent(props) {
                 eater. Broswer does not support this video format
               </p>
             </video>
+          }
             {props.content.src === "" ? (
               <></>
             ) : (
@@ -57,7 +60,7 @@ function PortfolioContent(props) {
             )}
           </ScrollAnimation>
         </div>
-      </div>
+   
     </>
   )
 }

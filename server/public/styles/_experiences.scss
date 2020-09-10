@@ -35,20 +35,7 @@ section#experiences {
   display: flex;
 }
 
-.experiences-content {
-  @include flexCenter(center, center, column);
 
-  h1 {
-    color: $titleFontColour;
-  }
-
-  p {
-    color: $textColour;
-    font-family: $textFontFamily;
-  }
-  //This function includes all breakpoints as well
-  @include marginAlignment();
-}
 
 
 //Slides Styling
@@ -132,6 +119,14 @@ section#experiences {
 .control ul li.selected-experiences {
   background: transparent;
 }
-.who-i-am-title{
+
+
+.experience-title{
   align-self: start;
+}
+
+.experiences-content {
+  @include flexCenter(center, center, column);
+  //This function includes all breakpoints as well
+  @include marginAlignment();
 }

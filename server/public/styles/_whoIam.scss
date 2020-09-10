@@ -66,8 +66,8 @@ section#who-i-am {
   height: 100vh; 
 }
 
-//Slider section sytling
 
+//Slider section sytling
 .control ul {
   list-style: none;
   display: flex;
@@ -101,6 +101,7 @@ section#who-i-am {
 
 .container {
   width: 100%;
+  height: 100vh;
   margin:0px auto;
 }
 
@@ -147,11 +148,11 @@ section#who-i-am {
 .control ul li.selected {
   background: transparent;
 }
-.experience-title{
+
+
+.who-i-am-title{
   align-self: start;
 }
-
-
 
 
 #content-who-i-am { 
