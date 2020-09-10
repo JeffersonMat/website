@@ -151,11 +151,16 @@ section#portfolio-section {
 }
 
 
+.portfolio-content video{
+  align-self: center;
+}
+
  .portfolio-content {
   //This function includes all breakpoints as well
   @include flexCenter(center, center, column);
   @include marginAlignment();
   width: 100%;
+  margin: 0 auto 0 auto;
 }
 
 // .who-i-am-title{

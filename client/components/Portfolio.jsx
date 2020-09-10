@@ -7,7 +7,7 @@ import PortfolioContent from "./Portfoliovideos/PortfolioContent"
 class Portfolio extends React.Component {
   state = {
     slide: false,
-    index: 1,
+    index: 0,
     next: true,
     prevs: false,
   }
@@ -25,8 +25,9 @@ class Portfolio extends React.Component {
     this.setState({
       slider: true,
       index:
-        (this.state.index > 1 || this.state.index === 6) &&
-        this.state.index - 1,
+        this.state.index >= 1 && this.state.index >= 0
+          ? this.state.index - 1
+          : this.state.index + 6,
       prevs: false,
       next: true,
     })
@@ -75,7 +76,7 @@ class Portfolio extends React.Component {
                         <li
                           key={index}
                           className={
-                            this.state.index == value.id ? "selected-portfolio" : ""
+                            this.state.index == index ? "selected-portfolio" : ""
                           }
                           onClick={
                             this.state.index === index

@@ -3306,6 +3306,12 @@ section#portfolio-section {
   background: transparent;
 }
 
+.portfolio-content video {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 .portfolio-content {
   height: 100vh;
   display: -webkit-box;
@@ -3323,6 +3329,7 @@ section#portfolio-section {
           flex-direction: column;
   margin: 0 150px 180px 150px;
   width: 100%;
+  margin: 0 auto 0 auto;
 }
 
 @media screen and (min-width: 310px) and (max-width: 350px) {
