@@ -1,6 +1,6 @@
 const path = require('path')
 const express = require('express')
-const compression = require("compression")
+const compression = require('compression-webpack-plugin')
 
 
 const server = express()
