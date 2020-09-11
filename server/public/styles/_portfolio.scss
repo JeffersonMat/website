@@ -38,6 +38,7 @@ section#portfolio-section {
   height: 100vh; 
   display: flex;
   overflow-x: hidden;
+  position: relative;
 }
 
 
@@ -76,6 +77,11 @@ section#portfolio-section {
   width: 100%;
   height: 100vh;
   margin: 0 auto;
+   overflow-x:scroll;
+  scroll-snap-type: x mandatory; 
+  -webkit-scroll-snap-type: x mandatory;
+  -moz-scroll-snap-type: x mandatory;
+  -o-scroll-snap-type: x mandatory;
 }
 .control-portfolio ul {
   list-style: none;
@@ -115,7 +121,6 @@ section#portfolio-section {
 .carousel-portfolio {
   height:100vh;
   width: 100%;
-  overflow: hidden;
   position: relative;
 }
 
@@ -162,6 +167,8 @@ section#portfolio-section {
 }
 
  .portfolio-content {
+   align-self:center;
+  scroll-snap-align:center;
   //This function includes all breakpoints as well
   @include flexCenter(center, center, column);
   @include marginAlignment();
@@ -169,6 +176,4 @@ section#portfolio-section {
   margin: 0 auto 0 auto;
 }
 
-// .who-i-am-title{
-//   align-self: start;
-// }
+

@@ -64,37 +64,35 @@ class Portfolio extends React.Component {
                   <PortfolioContent content={content} key={index} />
                 ))}
               </div>
-
-              <div className="control-portfolio">
-                <span className="arrow-portfolio left-portfolio">
-                  <i className="material-icons" onClick={this.handleClickPrev}>
-                    keyboard_arrow_left
-                  </i>
-                </span>
-                <span className="arrow-portfolio right-portfolio">
-                  <i className="material-icons" onClick={this.handleClickNext}>
-                    keyboard_arrow_right
-                  </i>
-                </span>
-                <ul>
-                  {data.map((value, index) => (          
-                        <li
-                          key={index}
-                          className={
-                            this.state.index == index ? "selected-portfolio" : ""
-                          }
-                          onClick={
-                            this.state.index === index
-                              ? this.handleClickNext
-                              : this.handleClickPrev
-                          }
-                        ></li>
-                 
-                 
-                  ))}
-                </ul>
-              </div>
             </div>
+          </div>
+
+          <div className="control-portfolio">
+            <span className="arrow-portfolio left-portfolio">
+              <i className="material-icons" onClick={this.handleClickPrev}>
+                keyboard_arrow_left
+              </i>
+            </span>
+            <span className="arrow-portfolio right-portfolio">
+              <i className="material-icons" onClick={this.handleClickNext}>
+                keyboard_arrow_right
+              </i>
+            </span>
+            <ul>
+              {data.map((value, index) => (
+                <li
+                  key={index}
+                  className={
+                    this.state.index == index ? "selected-portfolio" : ""
+                  }
+                  onClick={
+                    this.state.index === index
+                      ? this.handleClickNext
+                      : this.handleClickPrev
+                  }
+                ></li>
+              ))}
+            </ul>
           </div>
         </section>
       </>

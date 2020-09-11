@@ -2411,6 +2411,8 @@ section#who-i-am {
       align-self: center;
   scroll-snap-align: center;
   -webkit-scroll-snap-align: center;
+  -moz-scroll-snap-align: center;
+  -o-scroll-snap-align: center;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3390,6 +3392,7 @@ section#portfolio-section {
   display: -ms-flexbox;
   display: flex;
   overflow-x: hidden;
+  position: relative;
 }
 
 .portfolio-background {
@@ -3425,6 +3428,12 @@ section#portfolio-section {
   width: 100%;
   height: 100vh;
   margin: 0 auto;
+  overflow-x: scroll;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  -webkit-scroll-snap-type: x mandatory;
+  -moz-scroll-snap-type: x mandatory;
+  -o-scroll-snap-type: x mandatory;
 }
 
 .control-portfolio ul {
@@ -3467,7 +3476,6 @@ section#portfolio-section {
 .carousel-portfolio {
   height: 100vh;
   width: 100%;
-  overflow: hidden;
   position: relative;
 }
 
@@ -3516,6 +3524,9 @@ section#portfolio-section {
 }
 
 .portfolio-content {
+  -ms-flex-item-align: center;
+      align-self: center;
+  scroll-snap-align: center;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
