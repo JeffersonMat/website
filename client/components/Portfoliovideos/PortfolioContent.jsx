@@ -5,13 +5,21 @@ function PortfolioContent(props) {
 
   return (
     <>
-     
-        <div className="portfolio-content">
-          <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
-            <h1 className="portfolio-title">{props.content.title}</h1>
+      <div className="portfolio-content">
+        <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
+          <h1
+            className={
+              props.content.title === "Projects"
+                ? "project-title"
+                : "portfolio-title"
+            }
+          >
+            {props.content.title}
+          </h1>
           <p>{props.content.description}</p>
-          {props.content.video === "" ? <></> :
-            
+          {props.content.video === "" ? (
+            <></>
+          ) : (
             <video
               width="600"
               autoPlay
@@ -27,23 +35,22 @@ function PortfolioContent(props) {
                 eater. Broswer does not support this video format
               </p>
             </video>
-          }
-            {props.content.src === "" ? (
-              <></>
-            ) : (
-              <div className="button-fixed">
-                <a
-                    className="btn waves-effect white grey-text darken-text-2 portfolio-button"
-                    target="_blank"
-                    href={`${props.content.src}`}
-                >
-                  Visit App
-                </a>
-              </div>
-            )}
-          </ScrollAnimation>
-        </div>
-   
+          )}
+          {props.content.src === "" ? (
+            <></>
+          ) : (
+            <div className="button-fixed">
+              <a
+                className="btn waves-effect white grey-text darken-text-2 portfolio-button"
+                target="_blank"
+                href={`${props.content.src}`}
+              >
+                Visit App
+              </a>
+            </div>
+          )}
+        </ScrollAnimation>
+      </div>
     </>
   )
 }

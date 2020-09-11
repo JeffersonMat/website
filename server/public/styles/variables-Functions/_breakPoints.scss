@@ -141,6 +141,52 @@
   }
 }
 
+
+@mixin breakPoint420Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media screen and (min-width: 380px) and (max-width: 420px) {
+    margin: $marginBreakPoint;
+    * {
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 3rem;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size: $fontsizeMobileTextMax420Px;
+      line-height: $lineHeighttextMax420Px;
+      letter-spacing: $letterSpacingMax420Px;
+      word-spacing:$wordSpacingMax420Px ;
+      margin-bottom: $marginBottomTextMax420Px;
+    }
+    
+    .experience-title {
+      margin-top: -80px;
+    }
+    .contact-title {
+      margin-top: -140px;
+    }
+    .who-i-am-title {
+      margin-top: -5rem;
+    }
+    .control ul{
+      margin: 0 0 10px 0;
+    }
+    
+    .experience-second-title{
+      
+      margin-top:-50px
+    }
+    
+    
+    video {
+      margin-top: 3rem;
+      width: 350px;
+    }
+  }
+}
+
 @mixin breakPoint375Px($marginBreakPoint, $fontsizeBreakPoint) {
   @media screen and (min-width: 372px) and (max-width: 400px) {
     margin: $marginBreakPoint;
@@ -166,12 +212,26 @@
     .experience-title {
       margin-top: -60px;
     }
+
+    .experience-second-title{
+      margin-top:10px;   
+    }
+
+     h5{
+
+   margin-top:5px;
+   margin-bottom: 10px;
+}
     .contact-title {
       margin-top: -60px;
     }
     .who-i-am-title {
       margin-top: 1rem;
     }
+      .experience-second-title{
+      
+        margin-top:-0px;
+      }
 
     video {
       margin-top: 3rem;
@@ -180,42 +240,52 @@
   }
 }
 
-@mixin breakPoint420Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media screen and (min-width: 380px) and (max-width: 420px) {
+
+@mixin breakPoint375AndHeight812Px($marginBreakPoint, $fontsizeBreakPoint) {
+  @media screen and (height:812px) and (width:375px) {
     margin: $marginBreakPoint;
     * {
       font-size: 14px;
     }
     h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       color: $titleFontColour;
     }
     p {
       color: $textColour;
-      font-size: $fontsizeMobileTextMax420Px;
-      line-height: $lineHeighttextMax420Px;
-      letter-spacing: $letterSpacingMax420Px;
-      word-spacing:$wordSpacingMax420Px ;
-      margin-bottom: $marginBottomTextMax420Px;
+      font-size: $fontsizeMobileTextMax375AndHeight812Px;
+      line-height: $lineHeighttextMax375AndHeight812Px;
+      letter-spacing: $letterSpacingMax375AndHeight812Px;
+      word-spacing:$wordSpacingMax375AndHeight812Px ;
+      margin-bottom: $marginBottomTittleMax375AndHeight812Px;
     }
-  
+      .portfolio-content p.swipe {
+      font-weight: bolder;
+      color: #333;
+    }
     .experience-title {
-      margin-top: -140px;
+      margin-top: -180px;
     }
-    .contact-title {
-      margin-top: -140px;
-    }
-     .who-i-am-title {
-      margin-top: -5rem;
-    }
-      .control ul{
-       margin: 0 0 10px 0;
-     }
 
+     h5{
+
+   margin-top:5px;
+   margin-bottom: 10px;
+}
+    .contact-title {
+      margin-top: -60px;
+    }
+    .who-i-am-title {
+      margin-top: 1rem;
+    }
+      .experience-second-title{
+      
+        margin-top:-120px;
+      }
 
     video {
       margin-top: 3rem;
-      width: 350px;
+      width: 300px;
     }
   }
 }
@@ -250,6 +320,13 @@
     .who-i-am-title {
       margin-top: 1rem;
     }
+    .portfolio-title{
+      margin-top:-40px;
+    }
+    .project-title{
+     margin-top:-50px;
+     margin-bottom:30px;
+    }
 
     .control ul{
        margin: 0 0 10px 0;
@@ -258,7 +335,7 @@
     video {
       margin-top: 1rem;
       align-self: center;
-      padding-left:3rem;
+      // padding-left:3rem;
       width: 320px;
     }
   }

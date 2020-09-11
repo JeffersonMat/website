@@ -21,6 +21,7 @@
   @include breakPoint360Px($divSectionMarginMax360px, $fontsizeMobileTextMax360Px);
   @include breakPoint420Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
   @include breakPoint375Px ($divSectionMarginMax375px, $fontsizeMobileTextMax375Px);
+  @include breakPoint375AndHeight812Px ($divSectionMarginMax375AndHeight812px, $fontsizeMobileTextMax375AndHeight812Px);
   @include breakPoint470Px($divSectionMarginMax420px, $fontsizeMobileTextMax420Px);
   @include breakPoint480Px($divSectionMarginMax480px, $fontsizeMobileTextMax480Px);
   @include breakPoint694Px();

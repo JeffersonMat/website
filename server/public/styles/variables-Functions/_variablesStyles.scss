@@ -43,7 +43,7 @@ $marginBottomTextMax360Px:22px;
 $letterSpacingMax360Px:1.5px;
 $wordSpacingMax360Px:2px;
 $marginBottomTittleMax360Px:1.4rem;
-$divSectionMarginMax360px: 0 1.8rem 0 1.8rem;
+$divSectionMarginMax360px: 0 1.5rem 0 1.5rem;
 
 //Variables breakpoint 420px MAX WIDTH 420PX
 $fontsizeMobileTextMax420Px:13px;
@@ -55,13 +55,22 @@ $marginBottomTittleMax420Px:1.4rem;
 $divSectionMarginMax420px: 0 2rem 0 2rem;
 
 //Variables breakpoint 375px MAX WIDTH 375PX
-$fontsizeMobileTextMax375Px:13px;
-$lineHeighttextMax375Px:22px;
+$fontsizeMobileTextMax375Px:12px;
+$lineHeighttextMax375Px:20px;
 $marginBottomTextMax375Px:24px;
-$marginBottomTittleMax375Px:20px;
-$letterSpacingMax375Px:1.8px;
-$wordSpacingMax375Px:2.2px;
+$marginBottomTittleMax375Px:18px;
+$letterSpacingMax375Px:1.6px;
+$wordSpacingMax375Px:2px;
 $divSectionMarginMax375px: 0 2rem 0 2rem;
+
+//Variables breakpoint 375px and height 812px IphoneX
+$fontsizeMobileTextMax375AndHeight812Px:14px;
+$lineHeighttextMax375AndHeight812Px:20px;
+$marginBottomTextMax375AndHeight812Px:24px;
+$marginBottomTittleMax375AndHeight812Px:18px;
+$letterSpacingMax375AndHeight812Px:1.6px;
+$wordSpacingMax375AndHeight812Px:2px;
+$divSectionMarginMax375AndHeight812px: 0 2rem 0 2rem;
 
 //Variables breakpoint 480px  WIDTH 480PX
 $fontsizeMobileTextMax480Px:13px;

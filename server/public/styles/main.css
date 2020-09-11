@@ -279,7 +279,7 @@ section#experiences {
 
 @media screen and (min-width: 350px) and (max-width: 365px) {
   .experiences-content {
-    margin: 0 1.8rem 0 1.8rem;
+    margin: 0 1.5rem 0 1.5rem;
   }
   .experiences-content * {
     font-size: 12px;
@@ -305,6 +305,13 @@ section#experiences {
   .experiences-content .who-i-am-title {
     margin-top: 1rem;
   }
+  .experiences-content .portfolio-title {
+    margin-top: -40px;
+  }
+  .experiences-content .project-title {
+    margin-top: -50px;
+    margin-bottom: 30px;
+  }
   .experiences-content .control ul {
     margin: 0 0 10px 0;
   }
@@ -313,7 +320,6 @@ section#experiences {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    padding-left: 3rem;
     width: 320px;
   }
 }
@@ -338,7 +344,7 @@ section#experiences {
     margin-bottom: 28px;
   }
   .experiences-content .experience-title {
-    margin-top: -140px;
+    margin-top: -80px;
   }
   .experiences-content .contact-title {
     margin-top: -140px;
@@ -348,6 +354,9 @@ section#experiences {
   }
   .experiences-content .control ul {
     margin: 0 0 10px 0;
+  }
+  .experiences-content .experience-second-title {
+    margin-top: -50px;
   }
   .experiences-content video {
     margin-top: 3rem;
@@ -368,11 +377,11 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 13px;
-    line-height: 22px;
-    letter-spacing: 1.8px;
-    word-spacing: 2.2px;
-    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1.6px;
+    word-spacing: 2px;
+    margin-bottom: 18px;
   }
   .experiences-content .portfolio-content p.swipe {
     font-weight: bolder;
@@ -381,11 +390,66 @@ section#experiences {
   .experiences-content .experience-title {
     margin-top: -60px;
   }
+  .experiences-content .experience-second-title {
+    margin-top: 10px;
+  }
+  .experiences-content h5 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
   .experiences-content .contact-title {
     margin-top: -60px;
   }
   .experiences-content .who-i-am-title {
     margin-top: 1rem;
+  }
+  .experiences-content .experience-second-title {
+    margin-top: -0px;
+  }
+  .experiences-content video {
+    margin-top: 3rem;
+    width: 300px;
+  }
+}
+
+@media screen and (height: 812px) and (width: 375px) {
+  .experiences-content {
+    margin: 0 2rem 0 2rem;
+  }
+  .experiences-content * {
+    font-size: 14px;
+  }
+  .experiences-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  .experiences-content p {
+    color: #696969;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.6px;
+    word-spacing: 2px;
+    margin-bottom: 18px;
+  }
+  .experiences-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
+  .experiences-content .experience-title {
+    margin-top: -180px;
+  }
+  .experiences-content h5 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .experiences-content .contact-title {
+    margin-top: -60px;
+  }
+  .experiences-content .who-i-am-title {
+    margin-top: 1rem;
+  }
+  .experiences-content .experience-second-title {
+    margin-top: -120px;
   }
   .experiences-content video {
     margin-top: 3rem;
@@ -1261,7 +1325,7 @@ section#contact {
 
 @media screen and (min-width: 350px) and (max-width: 365px) {
   .contact-content {
-    margin: 0 1.8rem 0 1.8rem;
+    margin: 0 1.5rem 0 1.5rem;
   }
   .contact-content * {
     font-size: 12px;
@@ -1287,6 +1351,13 @@ section#contact {
   .contact-content .who-i-am-title {
     margin-top: 1rem;
   }
+  .contact-content .portfolio-title {
+    margin-top: -40px;
+  }
+  .contact-content .project-title {
+    margin-top: -50px;
+    margin-bottom: 30px;
+  }
   .contact-content .control ul {
     margin: 0 0 10px 0;
   }
@@ -1295,7 +1366,6 @@ section#contact {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    padding-left: 3rem;
     width: 320px;
   }
 }
@@ -1320,7 +1390,7 @@ section#contact {
     margin-bottom: 28px;
   }
   .contact-content .experience-title {
-    margin-top: -140px;
+    margin-top: -80px;
   }
   .contact-content .contact-title {
     margin-top: -140px;
@@ -1330,6 +1400,9 @@ section#contact {
   }
   .contact-content .control ul {
     margin: 0 0 10px 0;
+  }
+  .contact-content .experience-second-title {
+    margin-top: -50px;
   }
   .contact-content video {
     margin-top: 3rem;
@@ -1350,11 +1423,11 @@ section#contact {
   }
   .contact-content p {
     color: #696969;
-    font-size: 13px;
-    line-height: 22px;
-    letter-spacing: 1.8px;
-    word-spacing: 2.2px;
-    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1.6px;
+    word-spacing: 2px;
+    margin-bottom: 18px;
   }
   .contact-content .portfolio-content p.swipe {
     font-weight: bolder;
@@ -1363,11 +1436,66 @@ section#contact {
   .contact-content .experience-title {
     margin-top: -60px;
   }
+  .contact-content .experience-second-title {
+    margin-top: 10px;
+  }
+  .contact-content h5 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
   .contact-content .contact-title {
     margin-top: -60px;
   }
   .contact-content .who-i-am-title {
     margin-top: 1rem;
+  }
+  .contact-content .experience-second-title {
+    margin-top: -0px;
+  }
+  .contact-content video {
+    margin-top: 3rem;
+    width: 300px;
+  }
+}
+
+@media screen and (height: 812px) and (width: 375px) {
+  .contact-content {
+    margin: 0 2rem 0 2rem;
+  }
+  .contact-content * {
+    font-size: 14px;
+  }
+  .contact-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  .contact-content p {
+    color: #696969;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.6px;
+    word-spacing: 2px;
+    margin-bottom: 18px;
+  }
+  .contact-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
+  .contact-content .experience-title {
+    margin-top: -180px;
+  }
+  .contact-content h5 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .contact-content .contact-title {
+    margin-top: -60px;
+  }
+  .contact-content .who-i-am-title {
+    margin-top: 1rem;
+  }
+  .contact-content .experience-second-title {
+    margin-top: -120px;
   }
   .contact-content video {
     margin-top: 3rem;
@@ -2501,7 +2629,7 @@ section#who-i-am {
 
 @media screen and (min-width: 350px) and (max-width: 365px) {
   #content-who-i-am {
-    margin: 0 1.8rem 0 1.8rem;
+    margin: 0 1.5rem 0 1.5rem;
   }
   #content-who-i-am * {
     font-size: 12px;
@@ -2527,6 +2655,13 @@ section#who-i-am {
   #content-who-i-am .who-i-am-title {
     margin-top: 1rem;
   }
+  #content-who-i-am .portfolio-title {
+    margin-top: -40px;
+  }
+  #content-who-i-am .project-title {
+    margin-top: -50px;
+    margin-bottom: 30px;
+  }
   #content-who-i-am .control ul {
     margin: 0 0 10px 0;
   }
@@ -2535,7 +2670,6 @@ section#who-i-am {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    padding-left: 3rem;
     width: 320px;
   }
 }
@@ -2560,7 +2694,7 @@ section#who-i-am {
     margin-bottom: 28px;
   }
   #content-who-i-am .experience-title {
-    margin-top: -140px;
+    margin-top: -80px;
   }
   #content-who-i-am .contact-title {
     margin-top: -140px;
@@ -2570,6 +2704,9 @@ section#who-i-am {
   }
   #content-who-i-am .control ul {
     margin: 0 0 10px 0;
+  }
+  #content-who-i-am .experience-second-title {
+    margin-top: -50px;
   }
   #content-who-i-am video {
     margin-top: 3rem;
@@ -2590,11 +2727,11 @@ section#who-i-am {
   }
   #content-who-i-am p {
     color: #696969;
-    font-size: 13px;
-    line-height: 22px;
-    letter-spacing: 1.8px;
-    word-spacing: 2.2px;
-    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1.6px;
+    word-spacing: 2px;
+    margin-bottom: 18px;
   }
   #content-who-i-am .portfolio-content p.swipe {
     font-weight: bolder;
@@ -2603,11 +2740,66 @@ section#who-i-am {
   #content-who-i-am .experience-title {
     margin-top: -60px;
   }
+  #content-who-i-am .experience-second-title {
+    margin-top: 10px;
+  }
+  #content-who-i-am h5 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
   #content-who-i-am .contact-title {
     margin-top: -60px;
   }
   #content-who-i-am .who-i-am-title {
     margin-top: 1rem;
+  }
+  #content-who-i-am .experience-second-title {
+    margin-top: -0px;
+  }
+  #content-who-i-am video {
+    margin-top: 3rem;
+    width: 300px;
+  }
+}
+
+@media screen and (height: 812px) and (width: 375px) {
+  #content-who-i-am {
+    margin: 0 2rem 0 2rem;
+  }
+  #content-who-i-am * {
+    font-size: 14px;
+  }
+  #content-who-i-am h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  #content-who-i-am p {
+    color: #696969;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.6px;
+    word-spacing: 2px;
+    margin-bottom: 18px;
+  }
+  #content-who-i-am .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
+  #content-who-i-am .experience-title {
+    margin-top: -180px;
+  }
+  #content-who-i-am h5 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  #content-who-i-am .contact-title {
+    margin-top: -60px;
+  }
+  #content-who-i-am .who-i-am-title {
+    margin-top: 1rem;
+  }
+  #content-who-i-am .experience-second-title {
+    margin-top: -120px;
   }
   #content-who-i-am video {
     margin-top: 3rem;
@@ -3545,8 +3737,6 @@ section#portfolio-section {
 }
 
 .portfolio-content {
-  -ms-flex-item-align: center;
-      align-self: center;
   scroll-snap-align: center;
   height: 100vh;
   display: -webkit-box;
@@ -3619,7 +3809,7 @@ section#portfolio-section {
 
 @media screen and (min-width: 350px) and (max-width: 365px) {
   .portfolio-content {
-    margin: 0 1.8rem 0 1.8rem;
+    margin: 0 1.5rem 0 1.5rem;
   }
   .portfolio-content * {
     font-size: 12px;
@@ -3645,6 +3835,13 @@ section#portfolio-section {
   .portfolio-content .who-i-am-title {
     margin-top: 1rem;
   }
+  .portfolio-content .portfolio-title {
+    margin-top: -40px;
+  }
+  .portfolio-content .project-title {
+    margin-top: -50px;
+    margin-bottom: 30px;
+  }
   .portfolio-content .control ul {
     margin: 0 0 10px 0;
   }
@@ -3653,7 +3850,6 @@ section#portfolio-section {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    padding-left: 3rem;
     width: 320px;
   }
 }
@@ -3678,7 +3874,7 @@ section#portfolio-section {
     margin-bottom: 28px;
   }
   .portfolio-content .experience-title {
-    margin-top: -140px;
+    margin-top: -80px;
   }
   .portfolio-content .contact-title {
     margin-top: -140px;
@@ -3688,6 +3884,9 @@ section#portfolio-section {
   }
   .portfolio-content .control ul {
     margin: 0 0 10px 0;
+  }
+  .portfolio-content .experience-second-title {
+    margin-top: -50px;
   }
   .portfolio-content video {
     margin-top: 3rem;
@@ -3708,11 +3907,11 @@ section#portfolio-section {
   }
   .portfolio-content p {
     color: #696969;
-    font-size: 13px;
-    line-height: 22px;
-    letter-spacing: 1.8px;
-    word-spacing: 2.2px;
-    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1.6px;
+    word-spacing: 2px;
+    margin-bottom: 18px;
   }
   .portfolio-content .portfolio-content p.swipe {
     font-weight: bolder;
@@ -3721,11 +3920,66 @@ section#portfolio-section {
   .portfolio-content .experience-title {
     margin-top: -60px;
   }
+  .portfolio-content .experience-second-title {
+    margin-top: 10px;
+  }
+  .portfolio-content h5 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
   .portfolio-content .contact-title {
     margin-top: -60px;
   }
   .portfolio-content .who-i-am-title {
     margin-top: 1rem;
+  }
+  .portfolio-content .experience-second-title {
+    margin-top: -0px;
+  }
+  .portfolio-content video {
+    margin-top: 3rem;
+    width: 300px;
+  }
+}
+
+@media screen and (height: 812px) and (width: 375px) {
+  .portfolio-content {
+    margin: 0 2rem 0 2rem;
+  }
+  .portfolio-content * {
+    font-size: 14px;
+  }
+  .portfolio-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  .portfolio-content p {
+    color: #696969;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.6px;
+    word-spacing: 2px;
+    margin-bottom: 18px;
+  }
+  .portfolio-content .portfolio-content p.swipe {
+    font-weight: bolder;
+    color: #333;
+  }
+  .portfolio-content .experience-title {
+    margin-top: -180px;
+  }
+  .portfolio-content h5 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .portfolio-content .contact-title {
+    margin-top: -60px;
+  }
+  .portfolio-content .who-i-am-title {
+    margin-top: 1rem;
+  }
+  .portfolio-content .experience-second-title {
+    margin-top: -120px;
   }
   .portfolio-content video {
     margin-top: 3rem;
