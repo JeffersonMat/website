@@ -164,13 +164,15 @@ section#experiences {
 
 .left-experiences {
   left: -4px;
+  z-index: 5;
 }
 
 .right-experiences {
   right: 8px;
+  z-index: 5;
 }
 
-.control ul li.selected-experiences {
+.control-experiences ul li.selected-experiences {
   background: transparent;
 }
 
@@ -253,6 +255,9 @@ section#experiences {
   .experiences-content .who-i-am-title {
     margin: 10px 0 2rem 0;
   }
+  .experiences-content .portfolio-title {
+    margin-top: -3rem;
+  }
   .experiences-content .control ul {
     margin: 0 0 5px 0;
   }
@@ -274,7 +279,7 @@ section#experiences {
 
 @media screen and (min-width: 350px) and (max-width: 365px) {
   .experiences-content {
-    margin: 0 2rem 0 2rem;
+    margin: 0 1.8rem 0 1.8rem;
   }
   .experiences-content * {
     font-size: 12px;
@@ -285,10 +290,10 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 13px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 22px;
     letter-spacing: 1.5px;
-    word-spacing: 2.2px;
+    word-spacing: 2px;
     margin-bottom: 22px;
   }
   .experiences-content .experience-title {
@@ -308,7 +313,7 @@ section#experiences {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    padding-left: 2rem;
+    padding-left: 3rem;
     width: 320px;
   }
 }
@@ -1232,6 +1237,9 @@ section#contact {
   .contact-content .who-i-am-title {
     margin: 10px 0 2rem 0;
   }
+  .contact-content .portfolio-title {
+    margin-top: -3rem;
+  }
   .contact-content .control ul {
     margin: 0 0 5px 0;
   }
@@ -1253,7 +1261,7 @@ section#contact {
 
 @media screen and (min-width: 350px) and (max-width: 365px) {
   .contact-content {
-    margin: 0 2rem 0 2rem;
+    margin: 0 1.8rem 0 1.8rem;
   }
   .contact-content * {
     font-size: 12px;
@@ -1264,10 +1272,10 @@ section#contact {
   }
   .contact-content p {
     color: #696969;
-    font-size: 13px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 22px;
     letter-spacing: 1.5px;
-    word-spacing: 2.2px;
+    word-spacing: 2px;
     margin-bottom: 22px;
   }
   .contact-content .experience-title {
@@ -1287,7 +1295,7 @@ section#contact {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    padding-left: 2rem;
+    padding-left: 3rem;
     width: 320px;
   }
 }
@@ -2399,10 +2407,12 @@ section#who-i-am {
 
 .left {
   left: -4px;
+  z-index: 5;
 }
 
 .right {
   right: -4px;
+  z-index: 5;
 }
 
 .control ul li.selected {
@@ -2467,6 +2477,9 @@ section#who-i-am {
   #content-who-i-am .who-i-am-title {
     margin: 10px 0 2rem 0;
   }
+  #content-who-i-am .portfolio-title {
+    margin-top: -3rem;
+  }
   #content-who-i-am .control ul {
     margin: 0 0 5px 0;
   }
@@ -2488,7 +2501,7 @@ section#who-i-am {
 
 @media screen and (min-width: 350px) and (max-width: 365px) {
   #content-who-i-am {
-    margin: 0 2rem 0 2rem;
+    margin: 0 1.8rem 0 1.8rem;
   }
   #content-who-i-am * {
     font-size: 12px;
@@ -2499,10 +2512,10 @@ section#who-i-am {
   }
   #content-who-i-am p {
     color: #696969;
-    font-size: 13px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 22px;
     letter-spacing: 1.5px;
-    word-spacing: 2.2px;
+    word-spacing: 2px;
     margin-bottom: 22px;
   }
   #content-who-i-am .experience-title {
@@ -2522,7 +2535,7 @@ section#who-i-am {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    padding-left: 2rem;
+    padding-left: 3rem;
     width: 320px;
   }
 }
@@ -3513,10 +3526,12 @@ section#portfolio-section {
 
 .left-portfolio {
   left: -4px;
+  z-index: 5;
 }
 
 .right-portfolio {
   right: -4px;
+  z-index: 5;
 }
 
 .control-portfolio ul li.selected-portfolio {
@@ -3580,6 +3595,9 @@ section#portfolio-section {
   .portfolio-content .who-i-am-title {
     margin: 10px 0 2rem 0;
   }
+  .portfolio-content .portfolio-title {
+    margin-top: -3rem;
+  }
   .portfolio-content .control ul {
     margin: 0 0 5px 0;
   }
@@ -3601,7 +3619,7 @@ section#portfolio-section {
 
 @media screen and (min-width: 350px) and (max-width: 365px) {
   .portfolio-content {
-    margin: 0 2rem 0 2rem;
+    margin: 0 1.8rem 0 1.8rem;
   }
   .portfolio-content * {
     font-size: 12px;
@@ -3612,10 +3630,10 @@ section#portfolio-section {
   }
   .portfolio-content p {
     color: #696969;
-    font-size: 13px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 22px;
     letter-spacing: 1.5px;
-    word-spacing: 2.2px;
+    word-spacing: 2px;
     margin-bottom: 22px;
   }
   .portfolio-content .experience-title {
@@ -3635,7 +3653,7 @@ section#portfolio-section {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    padding-left: 2rem;
+    padding-left: 3rem;
     width: 320px;
   }
 }

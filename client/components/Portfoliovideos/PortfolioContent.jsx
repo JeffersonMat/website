@@ -2,23 +2,6 @@ import React from "react"
 import ScrollAnimation from "react-animate-on-scroll"
 
 function PortfolioContent(props) {
-  // function hrefValue() {
-  //   let array = [
-  //     "#two",
-  //     "#three",
-  //     "#four",
-  //     "#five",
-  //     "#six",
-  //     "#even",
-  //     "#eight",
-  //     "#nine",
-  //   ]
-  //   let sortedArray
-  //   array.map((value) => {
-  //     return (sortedArray = value)
-  //   })
-  //   return sortedArray
-  // }
 
   return (
     <>

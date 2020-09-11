@@ -114,13 +114,14 @@ section#experiences {
 
 .left-experiences {
   left: -4px;
+  z-index:5;
 }
 .right-experiences {
   right: 8px;
-  
+  z-index:5;
 }
 
-.control ul li.selected-experiences {
+.control-experiences ul li.selected-experiences {
   background: transparent;
 }
 

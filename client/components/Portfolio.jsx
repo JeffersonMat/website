@@ -25,9 +25,9 @@ class Portfolio extends React.Component {
     this.setState({
       slider: true,
       index:
-        this.state.index >= 1 && this.state.index >= 0
+        ((this.state.index >= 1 && this.state.index >= 0)
           ? this.state.index - 1
-          : this.state.index + 6,
+          : this.state.index + 6),
       prevs: false,
       next: true,
     })
@@ -86,7 +86,7 @@ class Portfolio extends React.Component {
                     this.state.index == index ? "selected-portfolio" : ""
                   }
                   onClick={
-                    this.state.index === index
+                    this.state.index < index
                       ? this.handleClickNext
                       : this.handleClickPrev
                   }

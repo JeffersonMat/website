@@ -147,10 +147,11 @@ section#who-i-am {
 
 .left {
   left: -4px;
+  z-index:5;
 }
 .right {
   right: -4px;
-  
+ z-index:5;
 }
 
 .control ul li.selected {
