@@ -21,7 +21,7 @@
       line-height: $lineHeighttextMax1024Px;
       letter-spacing: $letterSpacingMax1024Px;
       margin-bottom: $marginBottomTextMax1024Px;
-      word-spacing:$wordSpacingMax1024Px ;
+      word-spacing: $wordSpacingMax1024Px;
     }
     .experience-title {
       margin-top: -180px;
@@ -29,14 +29,14 @@
     .contact-title {
       margin-top: -200px;
     }
-   
+
     video {
       margin-top: 2rem;
-      width: 500px;
+      margin: 30px 0 10px 80px;
+      width: 800px;
     }
   }
 }
-
 @mixin breakPoint770Px($marginBreakPoint, $fontsizeBreakPoint, $marginBottom) {
   @media only screen and (min-width: 750px) and (max-width: 840px) {
     margin: $marginBreakPoint;
@@ -57,7 +57,7 @@
       font-size: $fontsizeMobileTextMax770Px;
       line-height: $lineHeighttextMax770Px;
       letter-spacing: $letterSpacingMax770Px;
-       word-spacing:$wordSpacingMax770Px ;
+      word-spacing: $wordSpacingMax770Px;
       margin-bottom: $marginBottomTextMax770Px;
     }
     .experience-title {
@@ -66,13 +66,26 @@
     .contact-title {
       margin-top: -80px;
     }
-      
-        .who-i-am-title {
+    .who-i-am-title {
       margin-top: -8rem;
     }
 
+    .portfolio-title{
+      margin-top:80px;
+      margin-bottom:20px;
+    }
+
+    .button-fixed .portfolio-button{
+      margin-bottom:60px;
+    }
+    div.control-experiences .left-experiences{
+      left:10px;
+    }
+    div.control-experiences .right-experiences{
+      right:10px; 
+    }
     video {
-      margin-top: 0;
+      margin: 20px 0 10px 120px;
       width: 400px;
     }
   }
@@ -81,6 +94,7 @@
 @mixin breakPoint694Px() {
   @media screen and (min-width: 694px) and (max-width: 700px) {
     video {
+      align-self: flex-end;
       margin-top: 2rem;
       width: 400px;
     }
@@ -102,10 +116,10 @@
       font-size: $fontsizeMobileTextMax480Px;
       line-height: $lineHeighttextMax480Px;
       letter-spacing: $letterSpacingMax480Px;
-      word-spacing:$wordSpacingMax480Px;
+      word-spacing: $wordSpacingMax480Px;
       margin-bottom: $marginBottomTextMax480Px;
     }
-     
+
     video {
       margin-top: 2rem;
       width: 400px;
@@ -130,17 +144,16 @@
       font-size: $fontsizeMobileTextMax420Px;
       line-height: $lineHeighttextMax420Px;
       letter-spacing: $letterSpacingMax420Px;
-      word-spacing:$wordSpacingMax420Px ;
+      word-spacing: $wordSpacingMax420Px;
       margin-bottom: $marginBottomTextMax420Px;
     }
-  
+
     video {
       margin-top: 3rem;
       width: 350px;
     }
   }
 }
-
 
 @mixin breakPoint420Px($marginBreakPoint, $fontsizeBreakPoint) {
   @media screen and (min-width: 380px) and (max-width: 420px) {
@@ -157,10 +170,10 @@
       font-size: $fontsizeMobileTextMax420Px;
       line-height: $lineHeighttextMax420Px;
       letter-spacing: $letterSpacingMax420Px;
-      word-spacing:$wordSpacingMax420Px ;
+      word-spacing: $wordSpacingMax420Px;
       margin-bottom: $marginBottomTextMax420Px;
     }
-    
+
     .experience-title {
       margin-top: -80px;
     }
@@ -170,16 +183,14 @@
     .who-i-am-title {
       margin-top: -5rem;
     }
-    .control ul{
+    .control ul {
       margin: 0 0 10px 0;
     }
-    
-    .experience-second-title{
-      
-      margin-top:-50px
+
+    .experience-second-title {
+      margin-top: -50px;
     }
-    
-    
+
     video {
       margin-top: 3rem;
       width: 350px;
@@ -202,10 +213,10 @@
       font-size: $fontsizeMobileTextMax375Px;
       line-height: $lineHeighttextMax375Px;
       letter-spacing: $letterSpacingMax375Px;
-      word-spacing:$wordSpacingMax375Px ;
+      word-spacing: $wordSpacingMax375Px;
       margin-bottom: $marginBottomTittleMax375Px;
     }
-      .portfolio-content p.swipe {
+    .portfolio-content p.swipe {
       font-weight: bolder;
       color: #333;
     }
@@ -213,25 +224,23 @@
       margin-top: -60px;
     }
 
-    .experience-second-title{
-      margin-top:10px;   
+    .experience-second-title {
+      margin-top: 10px;
     }
 
-     h5{
-
-   margin-top:5px;
-   margin-bottom: 10px;
-}
+    h5 {
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
     .contact-title {
       margin-top: -60px;
     }
     .who-i-am-title {
       margin-top: 1rem;
     }
-      .experience-second-title{
-      
-        margin-top:-0px;
-      }
+    .experience-second-title {
+      margin-top: -0px;
+    }
 
     video {
       margin-top: 3rem;
@@ -240,9 +249,8 @@
   }
 }
 
-
 @mixin breakPoint375AndHeight812Px($marginBreakPoint, $fontsizeBreakPoint) {
-  @media screen and (height:812px) and (width:375px) {
+  @media screen and (height: 812px) and (width: 375px) {
     margin: $marginBreakPoint;
     * {
       font-size: 14px;
@@ -256,10 +264,10 @@
       font-size: $fontsizeMobileTextMax375AndHeight812Px;
       line-height: $lineHeighttextMax375AndHeight812Px;
       letter-spacing: $letterSpacingMax375AndHeight812Px;
-      word-spacing:$wordSpacingMax375AndHeight812Px ;
+      word-spacing: $wordSpacingMax375AndHeight812Px;
       margin-bottom: $marginBottomTittleMax375AndHeight812Px;
     }
-      .portfolio-content p.swipe {
+    .portfolio-content p.swipe {
       font-weight: bolder;
       color: #333;
     }
@@ -267,21 +275,19 @@
       margin-top: -180px;
     }
 
-     h5{
-
-   margin-top:5px;
-   margin-bottom: 10px;
-}
+    h5 {
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
     .contact-title {
       margin-top: -60px;
     }
     .who-i-am-title {
       margin-top: 1rem;
     }
-      .experience-second-title{
-      
-        margin-top:-120px;
-      }
+    .experience-second-title {
+      margin-top: -120px;
+    }
 
     video {
       margin-top: 3rem;
@@ -307,10 +313,10 @@
       font-size: $fontsizeMobileTextMax360Px;
       line-height: $lineHeighttextMAX360Px;
       letter-spacing: $letterSpacingMax360Px;
-      word-spacing:$wordSpacingMax360Px ;
+      word-spacing: $wordSpacingMax360Px;
       margin-bottom: $marginBottomTextMax360Px;
     }
-   
+
     .experience-title {
       margin-top: 10px;
     }
@@ -320,17 +326,17 @@
     .who-i-am-title {
       margin-top: 1rem;
     }
-    .portfolio-title{
-      margin-top:-40px;
+    .portfolio-title {
+      margin-top: -40px;
     }
-    .project-title{
-     margin-top:-50px;
-     margin-bottom:30px;
+    .project-title {
+      margin-top: -50px;
+      margin-bottom: 30px;
     }
 
-    .control ul{
-       margin: 0 0 10px 0;
-     }
+    .control ul {
+      margin: 0 0 10px 0;
+    }
 
     video {
       margin-top: 1rem;
@@ -358,7 +364,7 @@
       font-size: $fontsizeMobileTextMax350Px;
       line-height: $lineHeighttextMAX350Px;
       letter-spacing: $letterSpacingMax350Px;
-      word-spacing:$wordSpacingMax350Px ;
+      word-spacing: $wordSpacingMax350Px;
       margin-bottom: $marginBottomTextMax350Px;
     }
     .experience-title {
@@ -368,33 +374,31 @@
       margin-top: 20px;
     }
     .who-i-am-title {
-     margin: 10px 0 2rem 0;
-    }
-     
-    .portfolio-title{
-      margin-top:-3rem;
+      margin: 10px 0 2rem 0;
     }
 
-     .control ul{
-       margin: 0 0 5px 0;
-     }
+    .portfolio-title {
+      margin-top: -3rem;
+    }
 
-      .experience-second-title{
-      
-        margin:5px 0 1rem 0;
-      }
+    .control ul {
+      margin: 0 0 5px 0;
+    }
 
-     h5{
+    .experience-second-title {
+      margin: 5px 0 1rem 0;
+    }
+
+    h5 {
       font-weight: bolder;
-      margin-top:5px;
-      margin-bottom:5px;
-     }
-
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
 
     video {
       margin-top: 1rem;
       align-self: center;
-      padding-left:2rem;
+      padding-left: 2rem;
       width: 290px;
     }
   }

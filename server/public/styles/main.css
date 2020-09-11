@@ -511,6 +511,8 @@ section#experiences {
 
 @media screen and (min-width: 694px) and (max-width: 700px) {
   .experiences-content video {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
     margin-top: 2rem;
     width: 400px;
   }
@@ -547,7 +549,8 @@ section#experiences {
   }
   .experiences-content video {
     margin-top: 2rem;
-    width: 500px;
+    margin: 30px 0 10px 80px;
+    width: 800px;
   }
 }
 
@@ -583,8 +586,21 @@ section#experiences {
   .experiences-content .who-i-am-title {
     margin-top: -8rem;
   }
+  .experiences-content .portfolio-title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  .experiences-content .button-fixed .portfolio-button {
+    margin-bottom: 60px;
+  }
+  .experiences-content div.control-experiences .left-experiences {
+    left: 10px;
+  }
+  .experiences-content div.control-experiences .right-experiences {
+    right: 10px;
+  }
   .experiences-content video {
-    margin-top: 0;
+    margin: 20px 0 10px 120px;
     width: 400px;
   }
 }
@@ -699,7 +715,7 @@ section#experiences {
 
 @media only screen and (min-width: 1320px) and (max-width: 1370px) {
   .experiences-content {
-    margin: 0 15rem 0 15rem;
+    margin: 0 14rem 0 14rem;
     font-size: 24px;
   }
   .experiences-content h1 {
@@ -753,7 +769,7 @@ section#experiences {
 
 @media only screen and (min-width: 1800px) and (max-width: 2400px) {
   .experiences-content {
-    margin: 0 15rem 0 15rem;
+    margin: 0 14rem 0 14rem;
     font-size: 24px;
   }
   .experiences-content section.who-i-am-background .content-banner h1 {
@@ -1559,6 +1575,8 @@ section#contact {
 
 @media screen and (min-width: 694px) and (max-width: 700px) {
   .contact-content video {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
     margin-top: 2rem;
     width: 400px;
   }
@@ -1595,7 +1613,8 @@ section#contact {
   }
   .contact-content video {
     margin-top: 2rem;
-    width: 500px;
+    margin: 30px 0 10px 80px;
+    width: 800px;
   }
 }
 
@@ -1631,8 +1650,21 @@ section#contact {
   .contact-content .who-i-am-title {
     margin-top: -8rem;
   }
+  .contact-content .portfolio-title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  .contact-content .button-fixed .portfolio-button {
+    margin-bottom: 60px;
+  }
+  .contact-content div.control-experiences .left-experiences {
+    left: 10px;
+  }
+  .contact-content div.control-experiences .right-experiences {
+    right: 10px;
+  }
   .contact-content video {
-    margin-top: 0;
+    margin: 20px 0 10px 120px;
     width: 400px;
   }
 }
@@ -1747,7 +1779,7 @@ section#contact {
 
 @media only screen and (min-width: 1320px) and (max-width: 1370px) {
   .contact-content {
-    margin: 0 15rem 0 15rem;
+    margin: 0 14rem 0 14rem;
     font-size: 24px;
   }
   .contact-content h1 {
@@ -1801,7 +1833,7 @@ section#contact {
 
 @media only screen and (min-width: 1800px) and (max-width: 2400px) {
   .contact-content {
-    margin: 0 15rem 0 15rem;
+    margin: 0 14rem 0 14rem;
     font-size: 24px;
   }
   .contact-content section.who-i-am-background .content-banner h1 {
@@ -2865,6 +2897,8 @@ section#who-i-am {
 
 @media screen and (min-width: 694px) and (max-width: 700px) {
   #content-who-i-am video {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
     margin-top: 2rem;
     width: 400px;
   }
@@ -2901,7 +2935,8 @@ section#who-i-am {
   }
   #content-who-i-am video {
     margin-top: 2rem;
-    width: 500px;
+    margin: 30px 0 10px 80px;
+    width: 800px;
   }
 }
 
@@ -2937,8 +2972,21 @@ section#who-i-am {
   #content-who-i-am .who-i-am-title {
     margin-top: -8rem;
   }
+  #content-who-i-am .portfolio-title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  #content-who-i-am .button-fixed .portfolio-button {
+    margin-bottom: 60px;
+  }
+  #content-who-i-am div.control-experiences .left-experiences {
+    left: 10px;
+  }
+  #content-who-i-am div.control-experiences .right-experiences {
+    right: 10px;
+  }
   #content-who-i-am video {
-    margin-top: 0;
+    margin: 20px 0 10px 120px;
     width: 400px;
   }
 }
@@ -3053,7 +3101,7 @@ section#who-i-am {
 
 @media only screen and (min-width: 1320px) and (max-width: 1370px) {
   #content-who-i-am {
-    margin: 0 15rem 0 15rem;
+    margin: 0 14rem 0 14rem;
     font-size: 24px;
   }
   #content-who-i-am h1 {
@@ -3107,7 +3155,7 @@ section#who-i-am {
 
 @media only screen and (min-width: 1800px) and (max-width: 2400px) {
   #content-who-i-am {
-    margin: 0 15rem 0 15rem;
+    margin: 0 14rem 0 14rem;
     font-size: 24px;
   }
   #content-who-i-am section.who-i-am-background .content-banner h1 {
@@ -4047,6 +4095,8 @@ section#portfolio-section {
 
 @media screen and (min-width: 694px) and (max-width: 700px) {
   .portfolio-content video {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
     margin-top: 2rem;
     width: 400px;
   }
@@ -4083,7 +4133,8 @@ section#portfolio-section {
   }
   .portfolio-content video {
     margin-top: 2rem;
-    width: 500px;
+    margin: 30px 0 10px 80px;
+    width: 800px;
   }
 }
 
@@ -4119,8 +4170,21 @@ section#portfolio-section {
   .portfolio-content .who-i-am-title {
     margin-top: -8rem;
   }
+  .portfolio-content .portfolio-title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  .portfolio-content .button-fixed .portfolio-button {
+    margin-bottom: 60px;
+  }
+  .portfolio-content div.control-experiences .left-experiences {
+    left: 10px;
+  }
+  .portfolio-content div.control-experiences .right-experiences {
+    right: 10px;
+  }
   .portfolio-content video {
-    margin-top: 0;
+    margin: 20px 0 10px 120px;
     width: 400px;
   }
 }
@@ -4235,7 +4299,7 @@ section#portfolio-section {
 
 @media only screen and (min-width: 1320px) and (max-width: 1370px) {
   .portfolio-content {
-    margin: 0 15rem 0 15rem;
+    margin: 0 14rem 0 14rem;
     font-size: 24px;
   }
   .portfolio-content h1 {
@@ -4289,7 +4353,7 @@ section#portfolio-section {
 
 @media only screen and (min-width: 1800px) and (max-width: 2400px) {
   .portfolio-content {
-    margin: 0 15rem 0 15rem;
+    margin: 0 14rem 0 14rem;
     font-size: 24px;
   }
   .portfolio-content section.who-i-am-background .content-banner h1 {
