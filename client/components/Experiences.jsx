@@ -1,6 +1,8 @@
 import React from "react"
 import ScrollAnimation from "react-animate-on-scroll"
 
+import BannerExperiences from "./banners/BannerExperiences"
+
 
 class Experiences extends React.Component {
  
@@ -45,10 +47,7 @@ class Experiences extends React.Component {
   render() {
     return (
       <>
-        <div
-          className="experiences-background"
-          title="Trees Forest - Photographer:Emma Coombe"
-        ></div>
+       <BannerExperiences/>
         <section id="experiences">
           <div id="container-experiences">
             <div className="carousel-experiences">
@@ -86,7 +85,9 @@ class Experiences extends React.Component {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
                   <div className="experiences-content">
-                    <h1 className="experience-title experience-second-title">My tech toolbelt.</h1>
+                    <h1 className="experience-title experience-second-title">
+                      My tech toolbelt.
+                    </h1>
                     <p>
                       I have just completed an 18-week intensive bootcamp at
                       Enspiral Dev Academy where I trained as a full stack
@@ -118,63 +119,59 @@ class Experiences extends React.Component {
 
                     <h5>Currently learning</h5>
                     <ul>
-                    <li>Typescript</li>
-                    <li>Vue.js</li>
-                    <li>.Net</li>
-                     </ul>
+                      <li>Typescript</li>
+                      <li>Vue.js</li>
+                      <li>.Net</li>
+                    </ul>
                   </div>
                 </ScrollAnimation>
               </div>
-
-              <div className="control-experiences">
-                <span className="arrow-experiences left-experiences">
-                  <i
-                    className="material-icons"
-                    onClick={
-                      this.state.index == 0
-                        ? this.handleClickNext
-                        : this.handleClickPrev
-                    }
-                  >
-                    keyboard_arrow_left
-                  </i>
-                </span>
-                <span className="arrow-experiences right-experiences">
-                  <i
-                    className="material-icons"
-                    onClick={
-                      this.state.index == 0
-                        ? this.handleClickNext
-                        : this.handleClickPrev
-                    }
-                  >
-                    keyboard_arrow_right
-                  </i>
-                </span>
-                <ul>
-                  <li
-                    className={
-                      this.state.index == 0 ? "selected-experiences" : ""
-                    }
-                    onClick={
-                      this.state.index == 0
-                        ? this.handleClickNext
-                        : this.handleClickPrev
-                    }
-                  ></li>
-                  <li
-                    className={
-                      this.state.index == 1 ? "selected-experiences" : ""
-                    }
-                    onClick={
-                      this.state.index == 0
-                        ? this.handleClickNext
-                        : this.handleClickPrev
-                    }
-                  ></li>
-                </ul>
-              </div>
             </div>
+          </div>
+
+          <div className="control-experiences">
+            <span className="arrow-experiences left-experiences">
+              <i
+                className="material-icons"
+                onClick={
+                  this.state.index == 0
+                    ? this.handleClickNext
+                    : this.handleClickPrev
+                }
+              >
+                keyboard_arrow_left
+              </i>
+            </span>
+            <span className="arrow-experiences right-experiences">
+              <i
+                className="material-icons"
+                onClick={
+                  this.state.index == 0
+                    ? this.handleClickNext
+                    : this.handleClickPrev
+                }
+              >
+                keyboard_arrow_right
+              </i>
+            </span>
+            <ul>
+              <li
+                className={this.state.index == 0 ? "selected-experiences" : ""}
+                onClick={
+                  this.state.index == 0
+                    ? this.handleClickNext
+                    : this.handleClickPrev
+                }
+              ></li>
+              <li
+                className={this.state.index == 1 ? "selected-experiences" : ""}
+                onClick={
+                  this.state.index == 0
+                    ? this.handleClickNext
+                    : this.handleClickPrev
+                }
+              ></li>
+            </ul>
           </div>
         </section>
       </>

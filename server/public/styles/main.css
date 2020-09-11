@@ -80,9 +80,7 @@ section#experiences {
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
 }
 
 .control-experiences ul {
@@ -121,15 +119,20 @@ section#experiences {
   -o-transition: all 1s;
 }
 
-.container-experiences {
+#container-experiences {
   width: 100%;
   margin: 0px auto;
+  overflow-x: scroll;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  -webkit-scroll-snap-type: x mandatory;
+  -moz-scroll-snap-type: x mandatory;
+  -o-scroll-snap-type: x mandatory;
 }
 
 .carousel-experiences {
   height: 100vh;
   width: 100%;
-  overflow: hidden;
   position: relative;
 }
 
@@ -177,7 +180,33 @@ section#experiences {
       align-self: start;
 }
 
+.experiences-content h5 {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
+.experiences-content ul {
+  padding: 0;
+  margin-left: 30px;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
+.experiences-content ul li {
+  margin: 0;
+  padding: 0;
+  list-style: circle;
+}
+
 .experiences-content {
+  -ms-flex-item-align: center;
+      align-self: center;
+  scroll-snap-align: center;
+  -webkit-scroll-snap-align: center;
+  -moz-scroll-snap-align: center;
+  -o-scroll-snap-align: center;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1124,26 +1153,6 @@ section#experiences {
     margin-top: 0;
     width: 500px;
   }
-}
-
-.experiences-content h5 {
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
-}
-
-.experiences-content ul {
-  padding: 0;
-  margin-left: 30px;
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
-}
-
-.experiences-content ul li {
-  margin: 0;
-  padding: 0;
-  list-style: circle;
 }
 
 div.contact-background {
@@ -3388,9 +3397,6 @@ section#portfolio-section {
   background: #fffafa;
   width: 100%;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   overflow-x: hidden;
   position: relative;
 }

@@ -1,6 +1,6 @@
 import React from "react"
 import ScrollAnimation from "react-animate-on-scroll"
-import Banner from "./banner/Banner"
+import Banner from "./banners/Banner"
 
 class WhoIam extends React.Component {
   state = {
