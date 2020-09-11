@@ -240,11 +240,11 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 20px;
     letter-spacing: 1.6px;
-    word-spacing: 2.2px;
-    margin-bottom: 22px;
+    word-spacing: 2px;
+    margin-bottom: 18px;
   }
   .experiences-content .experience-title {
     margin-top: 10px;
@@ -262,10 +262,12 @@ section#experiences {
     margin: 0 0 5px 0;
   }
   .experiences-content .experience-second-title {
-    margin: -5px 0 1rem 0;
+    margin: 5px 0 1rem 0;
   }
-  .experiences-content .experiences-content h5 {
-    margin-bottom: 0;
+  .experiences-content h5 {
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .experiences-content video {
     margin-top: 1rem;
@@ -1286,11 +1288,11 @@ section#contact {
   }
   .contact-content p {
     color: #696969;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 20px;
     letter-spacing: 1.6px;
-    word-spacing: 2.2px;
-    margin-bottom: 22px;
+    word-spacing: 2px;
+    margin-bottom: 18px;
   }
   .contact-content .experience-title {
     margin-top: 10px;
@@ -1308,10 +1310,12 @@ section#contact {
     margin: 0 0 5px 0;
   }
   .contact-content .experience-second-title {
-    margin: -5px 0 1rem 0;
+    margin: 5px 0 1rem 0;
   }
-  .contact-content .experiences-content h5 {
-    margin-bottom: 0;
+  .contact-content h5 {
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .contact-content video {
     margin-top: 1rem;
@@ -2590,11 +2594,11 @@ section#who-i-am {
   }
   #content-who-i-am p {
     color: #696969;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 20px;
     letter-spacing: 1.6px;
-    word-spacing: 2.2px;
-    margin-bottom: 22px;
+    word-spacing: 2px;
+    margin-bottom: 18px;
   }
   #content-who-i-am .experience-title {
     margin-top: 10px;
@@ -2612,10 +2616,12 @@ section#who-i-am {
     margin: 0 0 5px 0;
   }
   #content-who-i-am .experience-second-title {
-    margin: -5px 0 1rem 0;
+    margin: 5px 0 1rem 0;
   }
-  #content-who-i-am .experiences-content h5 {
-    margin-bottom: 0;
+  #content-who-i-am h5 {
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   #content-who-i-am video {
     margin-top: 1rem;
@@ -3770,11 +3776,11 @@ section#portfolio-section {
   }
   .portfolio-content p {
     color: #696969;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 20px;
     letter-spacing: 1.6px;
-    word-spacing: 2.2px;
-    margin-bottom: 22px;
+    word-spacing: 2px;
+    margin-bottom: 18px;
   }
   .portfolio-content .experience-title {
     margin-top: 10px;
@@ -3792,10 +3798,12 @@ section#portfolio-section {
     margin: 0 0 5px 0;
   }
   .portfolio-content .experience-second-title {
-    margin: -5px 0 1rem 0;
+    margin: 5px 0 1rem 0;
   }
-  .portfolio-content .experiences-content h5 {
-    margin-bottom: 0;
+  .portfolio-content h5 {
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .portfolio-content video {
     margin-top: 1rem;
