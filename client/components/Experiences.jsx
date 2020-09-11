@@ -1,6 +1,6 @@
 import React from "react"
 import ScrollAnimation from "react-animate-on-scroll"
-import { render } from "enzyme"
+
 
 class Experiences extends React.Component {
  
@@ -86,7 +86,7 @@ class Experiences extends React.Component {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
                   <div className="experiences-content">
-                    <h1 className="experience-title">My tech toolbelt.</h1>
+                    <h1 className="experience-title experience-second-title">My tech toolbelt.</h1>
                     <p>
                       I have just completed an 18-week intensive bootcamp at
                       Enspiral Dev Academy where I trained as a full stack
@@ -95,20 +95,33 @@ class Experiences extends React.Component {
                       self-awareness and improved my ability to deliver and
                       receive feedback.
                     </p>
-                    <h5>I work with:</h5>
-                    <p>GIT - Version Control and npm.</p>
+                    {/* <h5>I work with:</h5>
+                    <ul>
+                      <li>GIT - Version Control</li>
+                      <li>npm</li>
+                    </ul> */}
+
                     <h5>Front-end:</h5>
-                    <p>
-                      HTML, CSS (includes: Materialize, Bootstrap, Bootstrap
-                      Vue), Javascript, React, React-Redux.
-                    </p>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS(includes (includes: Materialize, Bootstrap)</li>
+                      <li>Javascript</li>
+                      <li>React, React-Redux, Redux-Thunk</li>
+                    </ul>
                     <h5>Back-end:</h5>
-                    <p>
-                      Node.js, Knex, Express. I’m currently learning Typescript,
-                      Vue.js, and .Net.
-                    </p>
-                    <h5>currently adding to my tech toolbelt</h5>
-                    <p>Typescript, Vue.js, and .Net.</p>
+                    <ul>
+                      <li>Node.js</li>
+                      <li>Knex</li>
+                      <li>Express</li>
+                      <li>RESTful API</li>
+                    </ul>
+
+                    <h5>Currently learning</h5>
+                    <ul>
+                    <li>Typescript</li>
+                    <li>Vue.js</li>
+                    <li>.Net</li>
+                     </ul>
                   </div>
                 </ScrollAnimation>
               </div>

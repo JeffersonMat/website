@@ -132,3 +132,21 @@ section#experiences {
   @include marginAlignment();
   margin:0;
 }
+
+.experiences-content h5{
+
+align-self: start;
+}
+
+.experiences-content ul{
+  padding:0;
+  margin-left:30px;
+  align-self: start;
+}
+
+.experiences-content ul li{
+  margin:0;
+  padding: 0;
+  list-style: circle ;
+}
+

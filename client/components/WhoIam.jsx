@@ -1,55 +1,102 @@
 import React from "react"
 import ScrollAnimation from "react-animate-on-scroll"
-import Banner from './banner/Banner'
+import Banner from "./banner/Banner"
 
-class  WhoIam extends React.Component {
-  
+class WhoIam extends React.Component {
   state = {
     slide: false,
     index: 0,
     next: true,
-    prevs:false,
-    
+    prevs: false,
+    intialPosition: null,
+    moving: false,
+    transform: 0,
+    activatePointer: false,
+    diff: null,
   }
-  
 
   handleClickNext = () => {
- 
     this.setState({
       slider: true,
       index: this.state.index + 1,
       prevs: true,
-      next:false
-    }) 
+      next: false,
+    })
   }
-  
+
   handleClickPrev = () => {
-        this.setState({
-          slider: true,
-          index: this.state.index - 1,
-          prevs:false,
-          next:true,
-        })     
+    this.setState({
+      slider: true,
+      index: this.state.index - 1,
+      prevs: false,
+      next: true,
+    })
   }
 
-   slideStyling = (index) => {
- 
-     switch (index) {
-       case 1:
-         return {
-           transform: "translateX(" + index * -50 + "%)",
-           WebKitTransform: "translateX(" + index * -50 + "%)",
-           MozTransform: "translateX(" + index * -50 + "%)",
-           OTransform: "translateX(" + index * -50 + "%)",
-         }
-     }
+  handleGestureStart = (event) => {
+    const slider = document.querySelector(".slider-who-i-am")
+    const transformMatrix = window.getComputedStyle(slider).getPropertyValue("transform")
+    const initialPosition = event.pageX
+    console.log(transformMatrix, "testing fucnt")
+    console.log(initialPosition, "initial position")
+
+    if (transformMatrix !== "none") {
+      this.setState({
+        transform: parseInt(transformMatrix.split(",")[4].trim()),
+      })
+    }
+    this.setState({
+      intialPosition: initialPosition,
+      moving: true,
+    })
+
+    if (window.PointerEvent) {
+      this.setState({ activatePointer: true })
+    }
   }
 
-  
-  
+  handleGestureMove = (event) => {
+    const slider = document.querySelector(".slider-who-i-am")
+    if (this.state.moving) {
+      const currentPosition = event.pageX
+      this.setState({ diff: currentPosition - this.state.intialPosition })
+      slider.style.transform =`translateX(${transform + diff}px)`
+    }
+  }
+
+  handleGestureEnd = () => {
+    this.setState({ moving: false })
+  }
+
+  slideStylingTouch = (index) => {
+    let transform = this.state.transform
+    let diff = this.state.diff
+    switch (index) {
+      case 1:
+        return {
+          transform: `translateX(${transform + diff}px)`,
+          WebKitTransform: `translateX(${transform + diff}px)`,
+          MozTransform: `translateX(${transform + diff}px)`,
+          OTransform: `translateX(${transform + diff}px)`,
+        }
+    }
+  }
+
+  slideStyling = (index) => {
+    switch (index) {
+      case 1:
+        return {
+          transform: "translateX(" + index * -50 + "%)",
+          WebKitTransform: "translateX(" + index * -50 + "%)",
+          MozTransform: "translateX(" + index * -50 + "%)",
+          OTransform: "translateX(" + index * -50 + "%)",
+        }
+    }
+  }
+
   render() {
-    
-
+    const activatePointer = this.state.activatePointer
+    console.log(this.state.diff, "checking")
     return (
       <>
         <Banner />
@@ -88,9 +135,8 @@ class  WhoIam extends React.Component {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
                   <div id="content-who-i-am">
-                    
-                      <h1 className="who-i-am-title">A few things about me.</h1>
-                    
+                    <h1 className="who-i-am-title">A few things about me.</h1>
+
                     <p>
                       I call Lyall Bay home. I love a fresh hop IPA. I once
                       climbed the highest peak in the Colombian West Andes. I
@@ -114,51 +160,51 @@ class  WhoIam extends React.Component {
                   </div>
                 </ScrollAnimation>
               </div>
-              <div className="control">
-                <span className="arrow left">
-                  <i
-                    className="material-icons"
-                    onClick={
-                      this.state.index == 0
-                        ? this.handleClickNext
-                        : this.handleClickPrev
-                    }
-                  >
-                    keyboard_arrow_left
-                  </i>
-                </span>
-                <span className="arrow right">
-                  <i
-                    className="material-icons"
-                    onClick={
-                      this.state.index == 0
-                        ? this.handleClickNext
-                        : this.handleClickPrev
-                    }
-                  >
-                    keyboard_arrow_right
-                  </i>
-                </span>
-                <ul>
-                  <li
-                    className={ this.state.index == 0 ? "selected": "" }
-                    onClick={
-                      this.state.index == 0
-                        ? this.handleClickNext
-                        : this.handleClickPrev
-                    }
-                  ></li>
-                  <li
-                    className={this.state.index == 1 ? "selected" : ""}
-                    onClick={
-                      this.state.index == 0
-                        ? this.handleClickNext
-                        : this.handleClickPrev
-                    }
-                  ></li>
-                </ul>
-              </div>
             </div>
+          </div>
+          <div className="control">
+            <span className="arrow left">
+              <i
+                className="material-icons"
+                onClick={
+                  this.state.index == 0
+                    ? this.handleClickNext
+                    : this.handleClickPrev
+                }
+              >
+                keyboard_arrow_left
+              </i>
+            </span>
+            <span className="arrow right">
+              <i
+                className="material-icons"
+                onClick={
+                  this.state.index == 0
+                    ? this.handleClickNext
+                    : this.handleClickPrev
+                }
+              >
+                keyboard_arrow_right
+              </i>
+            </span>
+            <ul>
+              <li
+                className={this.state.index == 0 ? "selected" : ""}
+                onClick={
+                  this.state.index == 0
+                    ? this.handleClickNext
+                    : this.handleClickPrev
+                }
+              ></li>
+              <li
+                className={this.state.index == 1 ? "selected" : ""}
+                onClick={
+                  this.state.index == 0
+                    ? this.handleClickNext
+                    : this.handleClickPrev
+                }
+              ></li>
+            </ul>
           </div>
         </section>
       </>

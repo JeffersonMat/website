@@ -65,14 +65,17 @@ section#who-i-am {
   width: 100%;
   height: 100vh; 
   overflow-x: hidden;
+  position: relative;
+  
 }
+
 
 
 //Slider section sytling
 .control ul {
   list-style: none;
   display: flex;
-  position: absolute;
+  position:absolute;
   bottom: 0;
   left: 50%;
   margin: 0 0 15px 0;
@@ -93,7 +96,7 @@ section#who-i-am {
 .slider-who-i-am{
   display: flex;
   height:100vh;
-  width:200%;
+  width:200%; 
   transition: all 1s;
   -webkit-transition: all 1s;
   -moz-transition:all 1s; 
@@ -104,17 +107,22 @@ section#who-i-am {
   width: 100%;
   height: 100vh;
   margin:0px auto;
+  
+  overflow-x:scroll;
+  scroll-snap-type: x mandatory; 
+  -webkit-scroll-snap-type: x mandatory;
+  -moz-scroll-snap-type: x mandatory;
+  -o-scroll-snap-type: x mandatory;
 }
 
 .carousel-who-i-am {
   height:100vh;
   width: 100%;
-  overflow: hidden;
-  position: relative;
+  position:relative;
 }
 
 .left, .right {
-  position: absolute;
+  position:absolute;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
@@ -152,11 +160,14 @@ section#who-i-am {
 
 
 .who-i-am-title{
-  align-self: start;
+  align-self: left;
 }
 
 
 #content-who-i-am { 
+   align-self:center;
+  scroll-snap-align:center;
+  -webkit-scroll-snap-align:center;
   @include flexCenter(center, center, column);
   @include marginAlignment();
 }

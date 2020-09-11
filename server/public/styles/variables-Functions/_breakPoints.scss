@@ -257,6 +257,8 @@
 
     video {
       margin-top: 1rem;
+      align-self: center;
+      padding-left:2rem;
       width: 320px;
     }
   }
@@ -296,8 +298,22 @@
        margin: 0 0 5px 0;
      }
 
+      .experience-second-title{
+      
+        margin:-5px 0 1rem 0;
+      }
+
+     .experiences-content h5{
+      
+      margin-bottom: 0;
+
+     }
+
+
     video {
       margin-top: 1rem;
+      align-self: center;
+      padding-left:2rem;
       width: 290px;
     }
   }
