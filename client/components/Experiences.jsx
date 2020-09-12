@@ -47,7 +47,7 @@ class Experiences extends React.Component {
   render() {
     return (
       <>
-       <BannerExperiences/>
+        <BannerExperiences />
         <section id="experiences">
           <div id="container-experiences">
             <div className="carousel-experiences">
@@ -96,20 +96,14 @@ class Experiences extends React.Component {
                       self-awareness and improved my ability to deliver and
                       receive feedback.
                     </p>
-                    {/* <h5>I work with:</h5>
-                    <ul>
-                      <li>GIT - Version Control</li>
-                      <li>npm</li>
-                    </ul> */}
 
-                    <h5>Front-end:</h5>
+                    <h5>Front-end</h5>
                     <ul>
-                      <li>HTML</li>
-                      <li>CSS(includes (includes: Materialize, Bootstrap)</li>
+                      <li>HTML, custom CSS —Materialize, Bootstrap</li> 
                       <li>Javascript</li>
                       <li>React, React-Redux, Redux-Thunk</li>
                     </ul>
-                    <h5>Back-end:</h5>
+                    <h5>Back-end</h5>
                     <ul>
                       <li>Node.js</li>
                       <li>Knex</li>

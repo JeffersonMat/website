@@ -162,14 +162,9 @@ section#portfolio-section {
   background: transparent;
 }
 
-
-.portfolio-content video{
-  align-self: center;
-}
-
- .portfolio-content {
-  
+.portfolio-content {
   scroll-snap-align:center;
+   
   //This function includes all breakpoints as well
   @include flexCenter(center, center, column);
   @include marginAlignment();

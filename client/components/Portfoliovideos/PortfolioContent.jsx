@@ -27,6 +27,10 @@ function PortfolioContent(props) {
               playsInline
               muted
               allowFullScreen={true}
+              className={
+                props.content.title === "Pantree" ? "pantree-video" : props.content.title === "Task Manager" ? "pantree-video" : props.content.title === "QuizzApp" ? "pantree-video" : ""
+              }
+           
             >
               <source src={props.content.video} type="video/mp4" />
               <p>

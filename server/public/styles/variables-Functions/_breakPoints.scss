@@ -61,7 +61,7 @@
       margin-bottom: $marginBottomTextMax770Px;
     }
     .experience-title {
-      margin-top: -40px;
+      margin-top: -20px;
     }
     .contact-title {
       margin-top: -80px;
@@ -74,9 +74,18 @@
       margin-top:80px;
       margin-bottom:20px;
     }
+    .experience-second-title{
+     margin-top:50px;
+     margin-bottom:20px;
+    }
+     
+    h5{
+      margin-top:0;
+    }
 
     .button-fixed .portfolio-button{
       margin-bottom:60px;
+      margin-bottom: 0;
     }
     div.control-experiences .left-experiences{
       left:10px;

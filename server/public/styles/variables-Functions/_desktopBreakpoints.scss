@@ -39,30 +39,28 @@
     .portfolio-title {
       margin-bottom: 3rem;
     }
-  .left {
-      left: 12px;
+     .experience-second-title{
+       margin-top:-80px;
+     }
+    video {      
+      margin-top: 2rem; 
+      width: 900px;  
+      align-self: start;  
     }
+    .pantree-video{
+      position: relative;;
+      margin-left:180px;
+      align-self:center;
+      -webkit-align-self:center;
+      transform:translate(20%);
+      -webkit-transform:translate(20%);
+    }
+  
+ 
 
-    .left-experiences {
-      left: 12px;
-    }
-
-    .left-portfolio {
-      left: 12px;
-    }
-    .right-experiences {
-      right: 12px;
-    }
-    .right-portfolio {
-      right: 12px;
-    }
-
-    .right {
-      right: 12px;
-    }
-    video {
-      margin-top: 2rem;
-      width: 900px;
+     
+    .portfolio-content{
+      display: flex;      
     }
   }
 }
@@ -76,7 +74,6 @@
     margin: $marginBreakPoint;
     font-size: 24px;
     h1 {
-      // font-size: 6rem;
       margin-bottom: $marginBottom;
       color: $titleFontColour;
     }
@@ -88,12 +85,10 @@
       word-spacing: $wordSpacingMax1370Px;
       margin-bottom: $marginBottomTextMax1370Px;
     }
-
     .portfolio-content .swipe {
       font-weight: bolder;
       color: #333;
     }
-
     .experience-title {
       margin-top: -100px;
     }
@@ -104,30 +99,29 @@
       margin-bottom: 3rem;
     }
 
-  .left {
-      left: 12px;
+    .experience-second-title{
+      margin-top:30px;
+      margin-bottom:20px;
     }
-
-    .left-experiences {
-      left: 12px;
+    h5{
+      margin-top:0;
+      margin-bottom:5px;
     }
-
-    .left-portfolio {
-      left: 12px;
-    }
-    .right-experiences {
-      right: 12px;
-    }
-    .right-portfolio {
-      right: 12px;
-    }
-
-    .right {
-      right: 12px;
-    }
+   div.slider-experiences div.experiences-content ul{
+     margin-left: 50px;
+   }
     video {
-      margin-top: 0;
+      align-self: center;
+      margin-left:30px;
       width: 600px;
+    }
+    .portfolio-content video{
+      align-content: center;
+    }
+    .pantree-video{
+      margin-left:140px;
+       transform:translate(10%);
+      -webkit-transform:translate(10%);
     }
   }
 }

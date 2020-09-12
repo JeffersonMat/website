@@ -44,5 +44,6 @@
   @include breakPointLandscape812Px ($divSectionMarginMaxLp812px, $fontsizeMobileTextMaxLp812Px);
   @include breakPointLandscape823Px ($divSectionMarginMaxLp812px, $fontsizeMobileTextMaxLp812Px);
   @include breakPointLandscape1024Px ($divSectionMarginMaxLp1024px, $fontsizeMobileTextMaxLp1024Px);
+  @include breakPointLandscape1024andHeightPx ($divSectionMarginMaxLp1024pxAndHeight768Px, $fontsizeMobileTextMaxLp1024PxAndHeight768Px);
 
 }
