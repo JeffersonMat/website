@@ -67,6 +67,16 @@
     .portfolio-content {
       display: flex;
     }
+
+
+    #columns{
+       float: left;
+      }
+
+    .portfolio-content::after{
+    display: table;
+    clear: both;
+    }
   }
 }
 
@@ -160,10 +170,6 @@
       margin-bottom: $marginBottomTextMax1280Px;
     }
 
-    .portfolio-content p.swipe {
-      font-weight: bolder;
-      color: #333;
-    }
 
     .experience-title {
       margin-top: -50px;
@@ -196,10 +202,39 @@
     .right {
       right: 12px;
     }
+   
+   .portfolio-content{
+     display:table;
+    }
+    div#columns{
+     float: left;
+
+     }
+
+     .content-portfolio-title{
+       width: 30%;
+       padding-right:30px
+     }
+     .content-portfolio-video{
+     width: 40%;
+     position:relative;
+     }
+     .button-fixed{
+       text-align: center;
+       align-self: center;
+       position:relative;
+     }
+    .pantree-video{
+       margin-top: 0;
+       transform:translate(20%);
+      -webkit-transform:translate(20%);
+    }
     video {
       margin-top: 0rem;
       width: 700px;
     }
+
+
   }
 }
 
@@ -261,6 +296,21 @@
       right: 12px;
     }
 
+    #columns{
+       float: left;
+      }
+
+    .portfolio-content::after{
+      content: "";
+    display: table;
+    clear: both;
+    }
+   
+    .pantree-video{
+       margin-top: 0;
+       transform:translate(50%);
+      -webkit-transform:translate(50%);
+    }
   
 
     video {

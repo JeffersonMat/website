@@ -38,14 +38,26 @@ section#portfolio-section {
   height: 100vh; 
   overflow-x: hidden;
   position: relative;
+
 }
 
 
 
+.portfolio-content {
+  scroll-snap-align:center;
+   
+  //This function includes all breakpoints as well
+  @include flexCenter(center, center, column);
+  @include marginAlignment();
+  width: 100%;
+  height:100vh;
+  margin: 0 auto 0 auto;
+}
 
 
 .portfolio-background {
   background: $backgroundSections;
+
   
 }
 
@@ -81,6 +93,7 @@ section#portfolio-section {
   -webkit-scroll-snap-type: x mandatory;
   -moz-scroll-snap-type: x mandatory;
   -o-scroll-snap-type: x mandatory;
+
 }
 .control-portfolio ul {
   list-style: none;
@@ -162,15 +175,5 @@ section#portfolio-section {
   background: transparent;
 }
 
-.portfolio-content {
-  scroll-snap-align:center;
-   
-  //This function includes all breakpoints as well
-  @include flexCenter(center, center, column);
-  @include marginAlignment();
-  width: 100%;
-  height:100vh;
-  margin: 0 auto 0 auto;
-}
 
 

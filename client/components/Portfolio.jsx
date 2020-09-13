@@ -3,6 +3,7 @@ import data from "../data"
 // import ScrollAnimation from "react-animate-on-scroll"
 
 import PortfolioContent from "./Portfoliovideos/PortfolioContent"
+import ButtonLink from "./Portfoliovideos/ButtonLink"
 
 class Portfolio extends React.Component {
   state = {
@@ -13,24 +14,39 @@ class Portfolio extends React.Component {
   }
 
   handleClickNext = () => {
+
     this.setState({
       slider: true,
-      index: ((this.state.index < 6) && this.state.index + 1 )  , 
+      index: ((this.state.index < 6) && this.state.index + 1 || currentIndex), 
       prevs: true,
       next: false,
     })
+
+    if (this.props.data.id != this.state.index) {
+      this.setState({index:this.props.data.id})
+    }
+
+     
   }
 
   handleClickPrev = () => {
+    let currentIndex = this.props.data.id
     this.setState({
       slider: true,
       index:
         ((this.state.index >= 1 && this.state.index >= 0)
           ? this.state.index - 1
-          : this.state.index + 6),
+          : this.state.index + 6 || currentIndex
+         ),
+        
       prevs: false,
       next: true,
     })
+        if (this.props.data.id != this.state.index) {
+          this.setState({ index: this.props.data.id })
+        }
+   
+ 
   }
 
   slideStyling = (index) => {
@@ -61,7 +77,10 @@ class Portfolio extends React.Component {
                 style={this.slideStyling(this.state.index)}
               >
                 {data.map((content, index) => (
-                  <PortfolioContent content={content} key={index} />
+                  <>
+                  <PortfolioContent content={content} key={index} />                   
+                    <ButtonLink content={content} key={index}/>
+                  </>
                 ))}
               </div>
             </div>
@@ -77,7 +96,8 @@ class Portfolio extends React.Component {
               <i className="material-icons" onClick={this.handleClickNext}>
                 keyboard_arrow_right
               </i>
-            </span>
+            </span>   
+
             <ul>
               {data.map((value, index) => (
                 <li

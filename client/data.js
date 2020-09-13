@@ -3,7 +3,7 @@ module.exports = [
     id: 1,
     title: "Projects",
     description:
-      "My work speaks for itself. Here you’ll find a selection of group, pair, and solo projects I’ve worked on using a variety of front end and back end skills. Feel free to try a sample of my work, like you might enjoy a fresh hops IPA on a warm summer’s day.",
+      "My work is a blend of tech and creativity. Here you’ll find a selection of group, pair, and solo projects I’ve worked on using a variety of front end and back end skills. Feel free to try a sample of my work, like you might enjoy a fresh hops IPA on a warm summer’s day.",
     video: "",
     src: "",
   },
