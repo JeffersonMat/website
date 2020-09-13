@@ -42,6 +42,14 @@
     .experience-second-title {
       margin-top: -80px;
     }
+
+ section#who-iam ul.control .arrow .left {
+      left: 15px;
+    }
+
+  section#who-i-am ul.control .arrow .right {
+      left: 15px;
+    }
     video {
       margin-top: 2rem;
       width: 900px;
@@ -99,6 +107,13 @@
     .experience-second-title {
       margin-top: 30px;
       margin-bottom: 20px;
+    }
+ section#who-iam ul.control .arrow .left {
+      left: 15px;
+    }
+
+  section#who-i-am ul.control .arrow .right {
+      left: 15px;
     }
     h5 {
       margin-top: 0;
@@ -160,12 +175,12 @@
       margin-bottom: 2rem;
     }
 
-    .left {
-      left: 12px;
+ section#who-iam ul.control .arrow .left {
+      left: 15px;
     }
 
-    .left-experiences {
-      left: 12px;
+  section#who-i-am ul.control .arrow .right {
+      left: 15px;
     }
 
     .left-portfolio {
@@ -224,8 +239,12 @@
       margin-bottom: 3rem;
     }
 
-    .left {
-      left: 12px;
+     section#who-iam ul.control .left {
+      left: 15px;
+    }
+
+  section#who-i-am ul.control .right {
+      left: 15px;
     }
 
     .left-experiences {
@@ -242,9 +261,7 @@
       right: 12px;
     }
 
-    .right {
-      right: 12px;
-    }
+  
 
     video {
       margin-top: 0.5rem;
