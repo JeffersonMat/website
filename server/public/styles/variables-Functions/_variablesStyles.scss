@@ -27,7 +27,7 @@ $backgroundSections: #fffafa;
 //Breakpoints Variables Portrait --------------------------->>>>>>>>>--//
 
 //Variables breakpoint 350px MAX WIDTH 350PX
-$fontsizeMobileTextMax350Px:11px;
+$fontsizeMobileTextMax350Px:12px;
 $lineHeighttextMAX350Px:20px;
 $letterSpacingMax350Px:1.6px;
 $wordSpacingMax350Px:2px;
@@ -38,7 +38,7 @@ $divSectionMarginMax350px: 0 1rem 0 1rem;
 
 //Variables breakpoint 365px MAX WIDTH 365PX
 $fontsizeMobileTextMax360Px:12px;
-$lineHeighttextMAX360Px:22px;
+$lineHeighttextMAX360Px:19px;
 $marginBottomTextMax360Px:22px;
 $letterSpacingMax360Px:1.5px;
 $wordSpacingMax360Px:2px;
@@ -47,44 +47,44 @@ $divSectionMarginMax360px: 0 1.5rem 0 1.5rem;
 
 //Variables breakpoint 420px MAX WIDTH 420PX
 $fontsizeMobileTextMax420Px:13px;
-$lineHeighttextMax420Px:21px;
+$lineHeighttextMax420Px:20px;
 $letterSpacingMax420Px:2px;
-$wordSpacingMax420Px:2.2px;
-$marginBottomTextMax420Px:28px;
+$wordSpacingMax420Px:2px;
+$marginBottomTextMax420Px:26px;
 $marginBottomTittleMax420Px:1.4rem;
 $divSectionMarginMax420px: 0 2rem 0 2rem;
 
 //Variables breakpoint 375px MAX WIDTH 375PX
 $fontsizeMobileTextMax375Px:12px;
-$lineHeighttextMax375Px:20px;
+$lineHeighttextMax375Px:19px;
 $marginBottomTextMax375Px:24px;
 $marginBottomTittleMax375Px:18px;
-$letterSpacingMax375Px:1.6px;
-$wordSpacingMax375Px:2px;
+$letterSpacingMax375Px:1.5px;
+$wordSpacingMax375Px:1.8px;
 $divSectionMarginMax375px: 0 2rem 0 2rem;
 
 //Variables breakpoint 375px and height 812px IphoneX
-$fontsizeMobileTextMax375AndHeight812Px:14px;
+$fontsizeMobileTextMax375AndHeight812Px:13px;
 $lineHeighttextMax375AndHeight812Px:20px;
 $marginBottomTextMax375AndHeight812Px:24px;
 $marginBottomTittleMax375AndHeight812Px:18px;
-$letterSpacingMax375AndHeight812Px:1.6px;
+$letterSpacingMax375AndHeight812Px:2px;
 $wordSpacingMax375AndHeight812Px:2px;
 $divSectionMarginMax375AndHeight812px: 0 2rem 0 2rem;
 
 //Variables breakpoint 480px  WIDTH 480PX
 $fontsizeMobileTextMax480Px:13px;
-$lineHeighttextMax480Px:22px;
-$letterSpacingMax480Px:2.4px;
+$lineHeighttextMax480Px:20px;
+$letterSpacingMax480Px:2px;
 $wordSpacingMax480Px:2.2px;
-$lineHeighttextMax480Px:1.6rem;
-$marginBottomTextMax480Px:22px;
+$lineHeighttextMax480Px:20px;
+$marginBottomTextMax480Px:24px;
 $marginBottomTittleMax480Px:2rem;
 $divSectionMarginMax480px: 0 2rem 0 2rem;
 
 //Variables breakpoint 770px MAX WIDTH 770PX
 $fontsizeMobileTextMax770Px:16px;
-$lineHeighttextMax770Px:26px;
+$lineHeighttextMax770Px:24px;
 $marginBottomTextMax770Px:28px;
 $letterSpacingMax770Px:2.2px;
 $wordSpacingMax770Px:2.5px;
@@ -92,11 +92,11 @@ $marginBottomTittleMax770Px:4rem;
 $divSectionMarginMax770px:0 3.8rem 0 3.8rem;
 
 //Variables breakpoint 1024px MAX WIDTH 1024PX
-$fontsizeMobileTextMax1024Px:22px;
-$lineHeighttextMax1024Px:36px;
-$marginBottomTextMax1024Px:44px;
+$fontsizeMobileTextMax1024Px:16px;
+$lineHeighttextMax1024Px:24px;
+$marginBottomTextMax1024Px:32px;
 $letterSpacingMax1024Px:2.8px;
-$wordSpacingMax1024Px:3.5px;
+$wordSpacingMax1024Px:3px;
 $marginBottomTittleMax1024Px:5rem;
 $divSectionMarginMax1024px:0 5rem 0 5rem;
 
@@ -119,7 +119,7 @@ $divSectionMarginMaxLp600px:0 2rem 0 2rem;
 //Variables breakpointLp 640px Min WIDTH 640PX
 $fontsizeMobileTextMaxLp640Px:12px;
 $letterSpacingMax640Px:1.4px;
-$lineHeighttextMaxLp640Px:20px;
+$lineHeighttextMaxLp640Px:18px;
 $wordSpacingMax1Lp640Px:1.9;
 $marginBottomTextMaxLp640Px:20px;
 $marginBottomTittleMaxLp640Px:0.5rem;
@@ -127,9 +127,9 @@ $divSectionMarginMaxLp640px:0 2rem 0 2rem;
 
 //Variables breakpointLp 667px Min WIDTH 667PX
 $fontsizeMobileTextMaxLp667Px:12px;
-$lineHeighttextMaxLp667Px:20px;
+$lineHeighttextMaxLp667Px:18px;
 $letterSpacingLp667Px:1.4px;
-$wordSpacingMax1Lp667Px:1.9px;
+$wordSpacingMax1Lp667Px:2px;
 $marginBottomTextMaxLp667Px:24px;
 $marginBottomTittleMaxLp667Px:0.5rem;
 $divSectionMarginMaxLp667px: 0 2.5rem 0 2.5rem;
@@ -163,20 +163,20 @@ $divSectionMarginMaxLp812px:0 3rem 0 3rem;
 
 
 //Variables breakpointLp 1024px HeightPX
-$fontsizeMobileTextMaxLp1024PxAndHeight768Px:18px;
-$lineHeighttextMaxLp1024PxAndHeight768Px:25px;
-$marginBottomTextMaxLp1024PxAndHeight768Px:25px;
-$letterSpacingLp1024PxAndHeight768Px:2.10px;
-$wordSpacingMax1Lp812PxAndHeight768Px:2.8px;
+$fontsizeMobileTextMaxLp1024PxAndHeight768Px:16px;
+$lineHeighttextMaxLp1024PxAndHeight768Px:24px;
+$marginBottomTextMaxLp1024PxAndHeight768Px:32px;
+$letterSpacingLp1024PxAndHeight768Px:1.9px;
+$wordSpacingMax1Lp812PxAndHeight768Px:2.6px;
 $marginBottomTittleMaxLp1024PxAndHeight768Px:2rem;
 $divSectionMarginMaxLp1024pxAndHeight768Px:0 4rem 0 4rem;
 
 //Variables breakpointLp 1024px Min WIDTH 1024PX
-$fontsizeMobileTextMaxLp1024Px:20px;
-$lineHeighttextMaxLp1024Px:25px;
-$marginBottomTextMaxLp1024Px:25px;
-$letterSpacingLp1024Px:2.10px;
-$wordSpacingMax1Lp812Px:2.8px;
+$fontsizeMobileTextMaxLp1024Px:16px;
+$lineHeighttextMaxLp1024Px:24px;
+$marginBottomTextMaxLp1024Px:32px;
+$letterSpacingLp1024Px:1.9px;
+$wordSpacingMax1Lp812Px:2.6px;
 $marginBottomTittleMaxLp1024Px:2rem;
 $divSectionMarginMaxLp1024px:0 4rem 0 4rem;
 
@@ -188,36 +188,36 @@ $divSectionMarginMaxLp1024px:0 4rem 0 4rem;
 
 //Variables breakpoint 1370px MAX WIDTH 1370PX
 $fontsizeMobileTextMax1370Px:16px;
-$lineHeighttextMax1370Px:34px;
-$letterSpacingMax1370Px:2.9px;
-$wordSpacingMax1370Px:2.2px;
-$marginBottomTextMax1370Px:30px;
+$lineHeighttextMax1370Px:24px;
+$letterSpacingMax1370Px:2px;
+$wordSpacingMax1370Px:2.8px;
+$marginBottomTextMax1370Px:32px;
 $marginBottomTittleMax1370Px:5rem;
 $divSectionMarginMax1370px:0 12rem 0 12rem;
 
 //Variables breakpoint 1280px MAX WIDTH 1280PX
 $fontsizeMobileTextMax1280Px:16px;
-$lineHeighttextMax1280Px:34px;
-$letterSpacingMax1280Px:2.8px;
-$wordSpacingMax1280Px:2.2px;
-$marginBottomTextMax1280Px:28px;
+$lineHeighttextMax1280Px:24px;
+$letterSpacingMax1280Px:2px;
+$wordSpacingMax1280Px:2.8px;
+$marginBottomTextMax1280Px:32px;
 $marginBottomTittleMax1280Px:4rem;
 $divSectionMarginMax1280px:0 15rem 0 15rem;
 
 //Variables breakpoint 1800px MAX WIDTH 1280PX
 $fontsizeMobileTextMax1800Px:16px;
-$lineHeighttextMax1800Px:34px;
-$letterSpacingMax1800Px:2.8px;
-$wordSpacingMax1800Px:2.2px;
-$marginBottomTextMax1800Px:28px;
+$lineHeighttextMax1800Px:24px;
+$letterSpacingMax1800Px:2px;
+$wordSpacingMax1800Px:2.8px;
+$marginBottomTextMax1800Px:32px;
 $marginBottomTittleMax1800Px:4rem;
 $divSectionMarginMax1800px:0 15rem 0 15rem;
 
 //Variables breakpoint 19000px MAX WIDTH 2400PX
 $fontsizeMobileTextMax1900Px:18px;
-$lineHeighttextMax1900Px:34px;
-$letterSpacingMax1900Px:2.8px;
-$wordSpacingMax1900Px:2.2px;
-$marginBottomTextMax1900Px:34px;
+$lineHeighttextMax1900Px:28px;
+$letterSpacingMax1900Px:2.5px;
+$wordSpacingMax1900Px:3px;
+$marginBottomTextMax1900Px:36px;
 $marginBottomTittleMax1900Px:5rem;
-$divSectionMarginMax1900px:0 18rem 0 18rem;
+$divSectionMarginMax1900px:0 16rem 0 16rem;

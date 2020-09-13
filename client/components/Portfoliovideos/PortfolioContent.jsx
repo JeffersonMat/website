@@ -1,6 +1,8 @@
 import React from "react"
 import ScrollAnimation from "react-animate-on-scroll"
 
+import ButtonLink from "./ButtonLink"
+
 function PortfolioContent(props) {
 
   return (
@@ -54,9 +56,9 @@ function PortfolioContent(props) {
                   app, mid eater. Broswer does not support this video format
                 </p>
               </video>
+              <ButtonLink content={props.content} />
             </div>
           )}
-        
         </ScrollAnimation>
       </div>
     </>

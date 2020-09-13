@@ -22,9 +22,7 @@ class Portfolio extends React.Component {
       next: false,
     })
 
-    if (this.props.data.id != this.state.index) {
-      this.setState({index:this.props.data.id})
-    }
+  
 
      
   }
@@ -42,11 +40,6 @@ class Portfolio extends React.Component {
       prevs: false,
       next: true,
     })
-        if (this.props.data.id != this.state.index) {
-          this.setState({ index: this.props.data.id })
-        }
-   
- 
   }
 
   slideStyling = (index) => {
@@ -62,6 +55,7 @@ class Portfolio extends React.Component {
   }
 
   render() {
+  
     return (
       <>
         <div
@@ -78,14 +72,14 @@ class Portfolio extends React.Component {
               >
                 {data.map((content, index) => (
                   <>
-                  <PortfolioContent content={content} key={index} />                   
-                    <ButtonLink content={content} key={index}/>
+                    <PortfolioContent content={content} key={index} />
                   </>
-                ))}
+                ))}               
               </div>
             </div>
           </div>
 
+                  
           <div className="control-portfolio">
             <span className="arrow-portfolio left-portfolio">
               <i className="material-icons" onClick={this.handleClickPrev}>
@@ -96,7 +90,7 @@ class Portfolio extends React.Component {
               <i className="material-icons" onClick={this.handleClickNext}>
                 keyboard_arrow_right
               </i>
-            </span>   
+            </span>
 
             <ul>
               {data.map((value, index) => (

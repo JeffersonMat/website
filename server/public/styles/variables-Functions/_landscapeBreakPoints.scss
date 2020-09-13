@@ -569,8 +569,8 @@
       margin-bottom: 2rem;
     }
     .portfolio-title {
-      margin-top: 3rem;
-      margin-bottom: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
     }
     .carousel .carousel-item .content-who-i-am p {
       font-size: 12px;
@@ -584,16 +584,18 @@
       margin-top:0;
     }
     .pantree-video{
-      margin-top:30px;
-      transform:translate(20%);
-      -webkit-transform:translate(20%);
-       width: 700px; 
+      margin-top:0;
+      margin-bottom: 0;
+      transform:translate(30%);
+      -webkit-transform:translate(30%);
+       width: 600px; 
       }
     video {
-      margin-top: 30px;
+      margin-top:0;
+      margin-bottom: 0;
       // transform:translate(50%);
       // -webkit-transform:translate(50%);
-      width: 700px;  
+      width: 600px;  
         } 
   }
 }
@@ -608,15 +610,16 @@
 
   .pantree-video{
       margin-top:30px;
-      transform:translate(20%);
-      -webkit-transform:translate(20%);
-      width:500px;
+      transform:translate(30%);
+      -webkit-transform:translate(30%);
+      width:400px;
       }
     video {
       margin-top: 30px;
+      margin-bottom: 0;
       // transform:translate(20%);
       // -webkit-transform:translate(20%);
-      width: 500px;  
+      width: 400px;  
         } 
   }
 }
