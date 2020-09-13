@@ -6,6 +6,7 @@ const NavBarMenu = () => {
     <ul className="sidenav" id="mobile-demo">
       <li>
         <Link
+          className="link-tags"
           activeClass="active"
           to="who-i-am"
           spy={true}
@@ -13,11 +14,12 @@ const NavBarMenu = () => {
           offset={-70}
           duration={500}
         >
-       About
+          About
         </Link>
       </li>
       <li>
         <Link
+          className="link-tags"
           activeClass="active"
           to="experiences"
           spy={true}
@@ -30,6 +32,7 @@ const NavBarMenu = () => {
       </li>
       <li>
         <Link
+          className="link-tags"
           activeClass="active"
           to="portfolio"
           spy={true}
@@ -42,6 +45,7 @@ const NavBarMenu = () => {
       </li>
       <li>
         <Link
+          className="link-tags"
           activeClass="active"
           to="contact"
           spy={false}
@@ -49,7 +53,7 @@ const NavBarMenu = () => {
           offset={-70}
           duration={500}
         >
-         Contact
+          Contact
         </Link>
       </li>
     </ul>

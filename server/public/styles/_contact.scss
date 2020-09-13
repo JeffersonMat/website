@@ -44,13 +44,13 @@ section#contact {
 }
 
 
-$timing        : 265ms;
-$iconColor     : lightgray;
-$accent        : lightgray;
-$bluefade      : lightgray;
-$gradient      :lightgray;
-$iconColorHover :skyblue ;
-$accentHover    :skyblue;
+// $timing        : 265ms;
+// $iconColor     : lightgray;
+// $accent        : lightgray;
+// $bluefade      : lightgray;
+// $gradient      :lightgray;
+// $iconColorHover :skyblue ;
+// $accentHover    :skyblue;
 
 
 // .social-container{
@@ -69,21 +69,26 @@ $accentHover    :skyblue;
   display: flex;
   text-align: center;
   justify-content: center;
-  border-top: solid 1px #fff;
+  border-top: solid 2px skyblue ;
   margin: 0 auto 20px  auto;
   position: relative;
   top:10%;
   width:300px;
 }
 .container-credit{
-// position: absolute;
 text-align: center;
-
 }
+.container-credit a {
+  color:skyblue
+}
+
 .credit-footer{
   color:#fff;
-  margin:30px auto 5px auto;
-  
+  margin:30px auto 5px auto; 
+}
+
+#copy-right{
+  color:skyblue
 }
 
 

@@ -15,6 +15,7 @@ const NavBar = () => {
             <ul id="nav-mobile" className="center hide-on-med-and-down">
               <li>
                 <Link
+                  className="link-tags"
                   activeClass="active"
                   to="who-i-am"
                   // spy={true}
@@ -22,11 +23,12 @@ const NavBar = () => {
                   offset={-70}
                   duration={2000}
                 >
-                About
+                  About
                 </Link>
               </li>
               <li>
                 <Link
+                  className="link-tags"
                   activeClass="active"
                   to="experiences"
                   // spy={true}
@@ -39,6 +41,7 @@ const NavBar = () => {
               </li>
               <li>
                 <Link
+                  className="link-tags"
                   activeClass="active"
                   to="portfolio"
                   // spy={true}
@@ -51,6 +54,7 @@ const NavBar = () => {
               </li>
               <li>
                 <Link
+                  className="link-tags"
                   activeClass="active"
                   to="contact"
                   // spy={true}
@@ -58,7 +62,7 @@ const NavBar = () => {
                   offset={-70}
                   duration={4000}
                 >
-             Contact
+                  Contact
                 </Link>
               </li>
             </ul>

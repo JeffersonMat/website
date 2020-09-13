@@ -27,20 +27,39 @@
       margin-top: 20px;
     }
     .portfolio-title {
-      margin-top: 0;
+      margin-top: 70px;
       margin-bottom: 1rem;
     }
 
     .who-i-am-title {
+      align-self: flex-start;
       font-size: 1.5rem;
       margin-top: 10px;
       margin-bottom:20px;
     
     }
+     .experience-second-title{
+      margin-top:20px;
+      margin-bottom:5px;
+    }
+    h5{
+      margin-top:0;
+      margin-bottom: 0;
+    }
+
+    .pantree-video{
+       margin-top: 0;
+       transform:translate(50%);
+      -webkit-transform:translate(50%);
+    }
   
     video {
       margin-top: 0.2rem;
+      margin-bottom: 0;
       width: 260px;
+       margin-top: 0;
+       transform:translate(30%);
+      -webkit-transform:translate(30%);
     }
   }
 }
@@ -62,27 +81,44 @@
       margin-bottom: $marginBottomTextMaxLp640Px;
     }
     .experience-title {
-      margin-top: -20px;
+      margin-top: 10px;
     }
     .contact-title {
       margin-top: -20px;
     }
     .portfolio-title {
-      margin-top: 0;
+      margin-top: 30px;
       margin-bottom: 1rem;
     }
 
     .who-i-am-title {
+       align-self: flex-start;
       margin-top: 0.5rem;
       margin-bottom: 1rem;
     }
     .last-p-who-i-am {
       margin-bottom: 0;
     }
+    .experience-second-title{
+      margin-top:20px;
+      margin-bottom:5px;
+    }
+    h5{
+      margin-top:0;
+      margin-bottom: 0;
+    }
+
+    .pantree-video{
+       margin-top: 0;
+       transform:translate(50%);
+      -webkit-transform:translate(50%);
+    }
 
     video {
       margin-top: 0.2rem;
       width: 260px;
+      transform:translate(20%);
+      -webkit-transform:translate(20%);
     }
   }
 }
@@ -107,13 +143,13 @@
       margin-bottom: $marginBottomTextMaxLp667Px;
     }
     .experience-title {
-      margin-top: -20px;
+      margin-top: 10px;
     }
     .contact-title {
       margin-top: -20px;
     }
     .portfolio-title {
-      margin-top: 0;
+      margin-top: 50px;
       margin-bottom: 1rem;
     }
     section#who-i-am {
@@ -125,13 +161,30 @@
     }
 
     .who-i-am-title {
+       align-self: flex-start;
       margin-top: -1rem;
       margin-bottom: 2rem;
+    }
+    .experience-second-title{
+      margin-top:10px;
+      margin-bottom:5px;
+    }
+    h5{
+      margin-top:0;
+      margin-bottom: 0;
+    }
+
+    .pantree-video{
+       margin-top: 0;
+       transform:translate(50%);
+      -webkit-transform:translate(50%);
     }
 
     video {
       margin-top: 0.2rem;
       width: 280px;
+      transform:translate(20%);
+      -webkit-transform:translate(20%);
     }
   }
 }
@@ -165,6 +218,7 @@
     }
 
     .who-i-am-title {
+       align-self: flex-start;
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
@@ -174,9 +228,25 @@
     .last-p-who-i-am {
       margin-bottom: 0;
     }
+    .experience-second-title{
+      margin-top:10px;
+      margin-bottom:5px;
+    }
+    h5{
+      margin-top:0;
+      margin-bottom: 0;
+    }
+
+    .pantree-video{
+       margin-top: 0;
+       transform:translate(50%);
+      -webkit-transform:translate(50%);
+    }
     video {
       margin-top: 0;
       width: 290px;
+      transform:translate(20%);
+      -webkit-transform:translate(20%);
     }
   }
 }
@@ -208,20 +278,37 @@
       margin-top: -20px;
     }
     .portfolio-title {
-      margin-top: 0;
+      margin-top: 40px;
       margin-bottom: 1rem;
     }
     .carousel .carousel-item .content-who-i-am p {
       font-size: 12px;
     }
     .who-i-am-title {
+       align-self: flex-start;
       margin-top: 1rem;
       margin-bottom: 1rem;
+    }
+    .experience-second-title{
+      margin-top:10px;
+      margin-bottom:5px;
+    }
+    h5{
+      margin-top:0;
+      margin-bottom: 0;
+    }
+
+    .pantree-video{
+       margin-top: 0;
+       transform:translate(60%);
+      -webkit-transform:translate(60%);
     }
 
     video {
       margin-top: 0.2rem;
       width: 310px;
+      transform:translate(25%);
+      -webkit-transform:translate(25%);
     }
   }
 }
@@ -262,13 +349,30 @@
       font-size: 12px;
     }
     .who-i-am-title {
+       align-self: flex-start;
       margin-top: 1rem;
       margin-bottom: 1rem;
+    }
+    .experience-second-title{
+      margin-top:10px;
+      margin-bottom:5px;
+    }
+    h5{
+      margin-top:0;
+      margin-bottom: 0;
+    }
+
+    .pantree-video{
+       margin-top: 0;
+       transform:translate(60%);
+      -webkit-transform:translate(60%);
     }
 
     video {
       margin-top: 0.2rem;
       width: 320px;
+      transform:translate(25%);
+      -webkit-transform:translate(25%);
     }
   }
 }
@@ -299,20 +403,38 @@
       margin-top: -10px;
     }
     .portfolio-title {
-      margin-top: 0;
+      margin-top:20px;
       margin-bottom: 1rem;
     }
     .carousel .carousel-item .content-who-i-am p {
       font-size: 12px;
     }
     .who-i-am-title {
+       align-self: flex-start;
       margin-top: 1rem;
       margin-bottom: 1rem;
+    }
+     
+    .experience-second-title{
+      margin-top:10px;
+      margin-bottom:5px;
+    }
+    h5{
+      margin-top:0;
+      margin-bottom: 0;
+    }
+
+    .pantree-video{
+       margin-top: 0;
+       transform:translate(60%);
+      -webkit-transform:translate(60%);
     }
 
     video {
       margin-top: 0;
       width: 300px;
+      transform:translate(30%);
+      -webkit-transform:translate(30%);
     }
   }
 }
@@ -350,6 +472,7 @@
       font-size: 12px;
     }
     .who-i-am-title {
+       align-self: flex-start;
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
@@ -384,13 +507,14 @@
       margin-top: -20px;
     }
     .portfolio-title {
-      margin-top: 0;
-      margin-bottom: 1rem;
+      margin-top: 80px;
+      margin-bottom:10px;
     }
     .carousel .carousel-item .content-who-i-am p {
       font-size: 12px;
     }
-    .who-i-am-title {
+    .who-i-am-title { 
+      align-self: flex-start;
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
@@ -398,10 +522,21 @@
     section#who-i-am .carousel-item .carousel ul.indicators {
       top: 1000px;
     }
+    .experience-second-title{
+      margin-top:0;
+    }
+    .pantree-video{
+    
+      transform:translate(20%);
+      -webkit-transform:translate(20%);
+       width: 350px; 
+      }
 
     video {
       margin-top: 0;
       width: 350px;
+       transform:translate(-10%);
+      -webkit-transform:translate(-10%);
     }
   }
 }
@@ -441,6 +576,7 @@
       font-size: 12px;
     }
     .who-i-am-title {
+      align-self: flex-start;
       margin-top: 4rem;
       margin-bottom: 2rem;
     }

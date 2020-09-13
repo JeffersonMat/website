@@ -169,6 +169,7 @@ section#portfolio-section {
   @include flexCenter(center, center, column);
   @include marginAlignment();
   width: 100%;
+  height:100vh;
   margin: 0 auto 0 auto;
 }
 
