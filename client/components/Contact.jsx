@@ -73,6 +73,12 @@ class Contact extends React.Component {
           </div>
 
           <footer>
+            <div className="container-credit">
+              <p className="credit-footer">
+                &copy; all rights reserved Jefferson Matamba - Photography:Emma
+                Coombe <a href="emmacoombe.com" target="_blank">Visit</a>
+              </p>
+            </div>
             <ul className="social-icons">
               <li>
                 <a target="_blank" href="https://github.com/JeffersonMat">

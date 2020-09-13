@@ -2392,6 +2392,7 @@ section#contact {
 }
 
 .social-icons {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2399,7 +2400,20 @@ section#contact {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 auto;
+  border-top: solid 1px #fff;
+  margin: 0 auto 20px  auto;
+  position: relative;
+  top: 10%;
+  width: 300px;
+}
+
+.container-credit {
+  text-align: center;
+}
+
+.credit-footer {
+  color: #fff;
+  margin: 30px auto 5px auto;
 }
 
 ul.social-icons li {
@@ -2420,12 +2434,21 @@ ul.social-icons li {
 }
 
 footer {
-  height: 5vh;
+  height: 12vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 footer .social-icons li a {
   padding-right: 1.4rem;
   padding-left: 1.4rem;
+  margin: auto 0 auto 0;
 }
 
 footer .social-icons li a i.fab:hover {

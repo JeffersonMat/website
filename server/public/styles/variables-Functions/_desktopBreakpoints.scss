@@ -39,28 +39,25 @@
     .portfolio-title {
       margin-bottom: 3rem;
     }
-     .experience-second-title{
-       margin-top:-80px;
-     }
-    video {      
-      margin-top: 2rem; 
-      width: 900px;  
-      align-self: start;  
+    .experience-second-title {
+      margin-top: -80px;
     }
-    .pantree-video{
-      position: relative;;
-      margin-left:180px;
-      align-self:center;
-      -webkit-align-self:center;
-      transform:translate(20%);
-      -webkit-transform:translate(20%);
+    video {
+      margin-top: 2rem;
+      width: 900px;
+      align-self: start;
     }
-  
- 
+    .pantree-video {
+      position: relative;
+      margin-left: 180px;
+      align-self: center;
+      -webkit-align-self: center;
+      transform: translate(20%);
+      -webkit-transform: translate(20%);
+    }
 
-     
-    .portfolio-content{
-      display: flex;      
+    .portfolio-content {
+      display: flex;
     }
   }
 }
@@ -98,30 +95,30 @@
     .portfolio-title {
       margin-bottom: 3rem;
     }
-
-    .experience-second-title{
-      margin-top:30px;
-      margin-bottom:20px;
+  
+    .experience-second-title {
+      margin-top: 30px;
+      margin-bottom: 20px;
     }
-    h5{
-      margin-top:0;
-      margin-bottom:5px;
+    h5 {
+      margin-top: 0;
+      margin-bottom: 5px;
     }
-   div.slider-experiences div.experiences-content ul{
-     margin-left: 50px;
-   }
+    div.slider-experiences div.experiences-content ul {
+      margin-left: 50px;
+    }
     video {
       align-self: center;
-      margin-left:30px;
+      margin-left: 30px;
       width: 600px;
     }
-    .portfolio-content video{
+    .portfolio-content video {
       align-content: center;
     }
-    .pantree-video{
-      margin-left:140px;
-       transform:translate(10%);
-      -webkit-transform:translate(10%);
+    .pantree-video {
+      margin-left: 140px;
+      transform: translate(10%);
+      -webkit-transform: translate(10%);
     }
   }
 }
