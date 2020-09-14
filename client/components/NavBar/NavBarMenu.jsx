@@ -12,7 +12,7 @@ const NavBarMenu = () => {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={500}
+          duration={400}
         >
           About
         </Link>
@@ -25,7 +25,7 @@ const NavBarMenu = () => {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={500}
+          duration={400}
         >
           Experience
         </Link>
@@ -34,11 +34,11 @@ const NavBarMenu = () => {
         <Link
           className="link-tags"
           activeClass="active"
-          to="portfolio"
+          to="portfolio-section"
           spy={true}
           smooth={true}
           offset={-70}
-          duration={500}
+          duration={400}
         >
           Portfolio
         </Link>
@@ -51,7 +51,7 @@ const NavBarMenu = () => {
           spy={false}
           smooth={true}
           offset={-70}
-          duration={500}
+          duration={400}
         >
           Contact
         </Link>

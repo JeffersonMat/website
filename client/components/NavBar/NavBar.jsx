@@ -43,7 +43,7 @@ const NavBar = () => {
                 <Link
                   className="link-tags"
                   activeClass="active"
-                  to="portfolio"
+                  to="portfolio-section"
                   // spy={true}
                   smooth={true}
                   offset={-70}

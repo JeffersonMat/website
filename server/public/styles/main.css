@@ -442,7 +442,7 @@ section#experiences {
     color: #333;
   }
   .experiences-content .experience-title {
-    margin-top: -180px;
+    margin-top: -80px;
   }
   .experiences-content h5 {
     margin-top: 5px;
@@ -455,7 +455,7 @@ section#experiences {
     margin-top: 1rem;
   }
   .experiences-content .experience-second-title {
-    margin-top: -120px;
+    margin-top: -80px;
   }
   .experiences-content video {
     margin-top: 3rem;
@@ -1801,7 +1801,7 @@ section#contact {
     color: #333;
   }
   .contact-content .experience-title {
-    margin-top: -180px;
+    margin-top: -80px;
   }
   .contact-content h5 {
     margin-top: 5px;
@@ -1814,7 +1814,7 @@ section#contact {
     margin-top: 1rem;
   }
   .contact-content .experience-second-title {
-    margin-top: -120px;
+    margin-top: -80px;
   }
   .contact-content video {
     margin-top: 3rem;
@@ -3455,7 +3455,7 @@ section#who-i-am {
     color: #333;
   }
   #content-who-i-am .experience-title {
-    margin-top: -180px;
+    margin-top: -80px;
   }
   #content-who-i-am h5 {
     margin-top: 5px;
@@ -3468,7 +3468,7 @@ section#who-i-am {
     margin-top: 1rem;
   }
   #content-who-i-am .experience-second-title {
-    margin-top: -120px;
+    margin-top: -80px;
   }
   #content-who-i-am video {
     margin-top: 3rem;
@@ -4819,7 +4819,7 @@ section#portfolio-section {
     color: #333;
   }
   .portfolio-content .experience-title {
-    margin-top: -180px;
+    margin-top: -80px;
   }
   .portfolio-content h5 {
     margin-top: 5px;
@@ -4832,7 +4832,7 @@ section#portfolio-section {
     margin-top: 1rem;
   }
   .portfolio-content .experience-second-title {
-    margin-top: -120px;
+    margin-top: -80px;
   }
   .portfolio-content video {
     margin-top: 3rem;

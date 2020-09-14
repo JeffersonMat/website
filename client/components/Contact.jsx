@@ -70,7 +70,7 @@ class Contact extends React.Component {
               </div>
             </ScrollAnimation>
           </div>
-
+  
           <footer>
             <div className="container-credit">
               <p className="credit-footer">
@@ -106,8 +106,10 @@ class Contact extends React.Component {
                   <i className="fab fa-linkedin"></i>
                 </a>
               </li>
-            </ul>
-          </footer>
+              </ul>
+         
+            </footer>
+          
         </section>
       </>
     )
