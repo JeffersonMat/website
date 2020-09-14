@@ -8,7 +8,7 @@ module.exports = [
         fewThingsTitle: {
             paragraphOne: "I call Lyall Bay home. I love a fresh hop IPA. I once climbed the highest peak in the Colombian West Andes. I support Manchester United. Don’t talk to me about rugby; football and rugby are no comparison.",
             paragraphTwo: "I love taking photos. I once had a chocolate labrador called Coffee. I live with my Kiwi partner and fiancé. I don’t like cricket. Mountains over beach. Camping over hotels. Hiking over swimming.",
-            paragraphThree: "I’ve seen The Matrix nine times. I love black coffee. I play FIFA like a boss. I box. My favourite food is bacon. I can quote all the lyrics to Pink Floyd’s Pulse album.I’m a terrible singer."
+            paragraphThree: "I’ve seen The Matrix nine times. I love black coffee. I play FIFA like a boss. I box. My favourite food is bacon. I can quote all the lyrics to Pink Floyd’s Pulse album. I’m a terrible singer."
         }
     }
 ]

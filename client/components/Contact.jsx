@@ -65,7 +65,7 @@ class Contact extends React.Component {
                 onClick={this.handleClickOverLay}
               >
                 <div id="overlay-background" onClick={this.handleClickOverLay}>
-                  <img src="../images/mountains.jpg" />
+                  <img src="../images/Jefferson.png" />
                 </div>
               </div>
             </ScrollAnimation>
@@ -75,13 +75,13 @@ class Contact extends React.Component {
             <div className="container-credit">
               <p className="credit-footer">
                 <span id="copy-right">&copy;</span> by Jefferson Matamba -
-                Photography by{" "}
-                <a href="emmacoombe.com" target="_blank">
-                  Emma Coombe
+                Photography by
+                <a id="link-emma-site" href="emmacoombe.com" target="_blank">
+                   Emma Coombe
                 </a>
               </p>
             </div>
-            <ul className="social-icons">
+            <ul className="social-icons" id="social-icons">
               <li>
                 <a target="_blank" href="https://github.com/JeffersonMat">
                   <i className=" fab fa-github-square"></i>

@@ -6,7 +6,7 @@ module.exports = [
       ParagraphTwo:
         "Working in customer service exposed me to a kaleidoscope of critical situations. Being empathetic meant I could face these situations head-on, with an innate understanding that we all come from different backgrounds and experiences.",
       ParagraphThree:
-        "I have a deep love of teaching. My experience as a volunteer home English tutor with former refugees has not only strengthened my English, but my teaching skills as well. In the context of coding, I love learning from andteaching others, always with a view of strengthening a team’s capabilities.",
+        "I have a deep love of teaching. My experience as a volunteer home English tutor with former refugees has not only strengthened my English, but my teaching skills as well. In the context of coding, I love learning from and teaching others, always with a view of strengthening a team’s capabilities.",
     },
     techToolBelt: {
       Paragraph:

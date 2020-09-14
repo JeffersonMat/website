@@ -160,12 +160,12 @@ right: -4px;
 
 
 .who-i-am-title{
-  align-self: left;
+  align-self:flex-start;
 }
 
 
 #content-who-i-am { 
-  align-self:center;
+  // align-self:center;
   scroll-snap-align:center;
   -webkit-scroll-snap-align:center;
   -moz-scroll-snap-align:center;

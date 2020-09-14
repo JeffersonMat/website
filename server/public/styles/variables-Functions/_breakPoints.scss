@@ -29,6 +29,7 @@
     .contact-title {
       margin-top: -200px;
     }
+  
 
     video {
       margin-top: 2rem;
@@ -70,28 +71,28 @@
       margin-top: -8rem;
     }
 
-    .portfolio-title{
-      margin-top:80px;
-      margin-bottom:20px;
+    .portfolio-title {
+      margin-top: 80px;
+      margin-bottom: 20px;
     }
-    .experience-second-title{
-     margin-top:50px;
-     margin-bottom:20px;
-    }
-     
-    h5{
-      margin-top:0;
+    .experience-second-title {
+      margin-top: 50px;
+      margin-bottom: 20px;
     }
 
-    .button-fixed .portfolio-button{
-      margin-bottom:60px;
+    h5 {
+      margin-top: 0;
+    }
+
+    .button-fixed .portfolio-button {
+      margin-bottom: 60px;
       margin-bottom: 0;
     }
-    div.control-experiences .left-experiences{
-      left:10px;
+    div.control-experiences .left-experiences {
+      left: 10px;
     }
-    div.control-experiences .right-experiences{
-      right:10px; 
+    div.control-experiences .right-experiences {
+      right: 10px;
     }
     video {
       margin: 20px 0 10px 120px;
@@ -199,7 +200,6 @@
     .experience-second-title {
       margin-top: -50px;
     }
-
     video {
       margin-top: 3rem;
       width: 350px;
@@ -250,7 +250,7 @@
     .experience-second-title {
       margin-top: -0px;
     }
-
+   
     video {
       margin-top: 3rem;
       width: 300px;
@@ -297,7 +297,7 @@
     .experience-second-title {
       margin-top: -120px;
     }
-
+   
     video {
       margin-top: 3rem;
       width: 300px;
@@ -347,12 +347,14 @@
       margin: 0 0 10px 0;
     }
 
+
     video {
       margin-top: 1rem;
       align-self: center;
       // padding-left:3rem;
       width: 320px;
     }
+   
   }
 }
 
@@ -362,7 +364,7 @@
     * {
       font-size: 12px;
     }
-
+   
     h1 {
       font-size: 2rem;
       color: $titleFontColour;
@@ -411,5 +413,7 @@
       padding-left: 2rem;
       width: 290px;
     }
+
+   
   }
 }

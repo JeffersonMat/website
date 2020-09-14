@@ -620,7 +620,6 @@ section#experiences {
 @media only screen and (min-width: 1400px) and (max-width: 1800px) {
   .experiences-content {
     margin: 0 15rem 0 15rem;
-    font-size: 24px;
   }
   .experiences-content h1 {
     margin-bottom: 4rem;
@@ -699,6 +698,9 @@ section#experiences {
     margin-top: 0rem;
     width: 700px;
   }
+  .experiences-content .experiences-content ul li {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
@@ -774,12 +776,14 @@ section#experiences {
     margin-top: 0.5rem;
     width: 700px;
   }
+  .experiences-content .experiences-content ul li {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 1320px) and (max-width: 1370px) {
   .experiences-content {
     margin: 0 12rem 0 12rem;
-    font-size: 24px;
   }
   .experiences-content h1 {
     margin-bottom: 5rem;
@@ -855,12 +859,14 @@ section#experiences {
     transform: translate(10%);
     -webkit-transform: translate(10%);
   }
+  .experiences-content .experiences-content ul li {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 1800px) and (max-width: 2400px) {
   .experiences-content {
     margin: 0 12rem 0 12rem;
-    font-size: 24px;
   }
   .experiences-content section.who-i-am-background .content-banner h1 {
     font-size: 6rem;
@@ -943,6 +949,9 @@ section#experiences {
   .experiences-content .portfolio-content::after {
     display: table;
     clear: both;
+  }
+  .experiences-content .experiences-content ul li {
+    font-size: 18px;
   }
 }
 
@@ -1970,7 +1979,6 @@ section#contact {
 @media only screen and (min-width: 1400px) and (max-width: 1800px) {
   .contact-content {
     margin: 0 15rem 0 15rem;
-    font-size: 24px;
   }
   .contact-content h1 {
     margin-bottom: 4rem;
@@ -2049,6 +2057,9 @@ section#contact {
     margin-top: 0rem;
     width: 700px;
   }
+  .contact-content .experiences-content ul li {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
@@ -2124,12 +2135,14 @@ section#contact {
     margin-top: 0.5rem;
     width: 700px;
   }
+  .contact-content .experiences-content ul li {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 1320px) and (max-width: 1370px) {
   .contact-content {
     margin: 0 12rem 0 12rem;
-    font-size: 24px;
   }
   .contact-content h1 {
     margin-bottom: 5rem;
@@ -2205,12 +2218,14 @@ section#contact {
     transform: translate(10%);
     -webkit-transform: translate(10%);
   }
+  .contact-content .experiences-content ul li {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 1800px) and (max-width: 2400px) {
   .contact-content {
     margin: 0 12rem 0 12rem;
-    font-size: 24px;
   }
   .contact-content section.who-i-am-background .content-banner h1 {
     font-size: 6rem;
@@ -2293,6 +2308,9 @@ section#contact {
   .contact-content .portfolio-content::after {
     display: table;
     clear: both;
+  }
+  .contact-content .experiences-content ul li {
+    font-size: 18px;
   }
 }
 
@@ -2880,7 +2898,15 @@ section#contact {
   }
 }
 
-.social-icons {
+.container-credit {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 55%;
+}
+
+#social-icons {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2889,24 +2915,25 @@ section#contact {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-top: solid 0.5px skyblue;
   margin: 0 auto 20px  auto;
   position: relative;
   top: 10%;
-  width: 300px;
-}
-
-.container-credit {
-  text-align: center;
 }
 
 .container-credit a {
   color: skyblue;
 }
 
+#link-emma-site {
+  margin-left: 5px;
+}
+
 .credit-footer {
   color: #fff;
-  margin: 30px auto 5px auto;
+  margin: 5px auto 5px auto;
+  border-bottom: solid 1px skyblue;
+  padding-bottom: 15px;
+  width: 70%;
 }
 
 #copy-right {
@@ -2922,8 +2949,8 @@ ul.social-icons li {
   display: inline-block;
   font-size: 30px;
   margin-top: 5px;
-  padding-right: 3rem;
-  padding-left: 3rem;
+  padding-right: 3.5rem;
+  padding-left: 3.5rem;
 }
 
 .social-icons a i.fab, i.fas {
@@ -2943,8 +2970,6 @@ footer {
 }
 
 footer .social-icons li a {
-  padding-right: 1.4rem;
-  padding-left: 1.4rem;
   margin: auto 0 auto 0;
 }
 
@@ -2954,11 +2979,13 @@ footer .social-icons li a i.fab:hover {
 
 footer .social-icons li a i.fas:hover {
   color: skyblue;
+  cursor: pointer;
 }
 
 .social-icons i.fas {
-  font-size: 25px;
-  margin-top: 4px;
+  font-size: 20px;
+  padding-top: 8px;
+  margin-top: 0;
 }
 
 h5 {
@@ -3004,8 +3031,8 @@ h5 {
 #overlay-background img {
   position: absolute;
   z-index: 2;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   top: 53%;
   left: 50%;
@@ -3189,14 +3216,11 @@ section#who-i-am {
 }
 
 .who-i-am-title {
-  -ms-flex-item-align: left;
-      -ms-grid-row-align: left;
-      align-self: left;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 #content-who-i-am {
-  -ms-flex-item-align: center;
-      align-self: center;
   scroll-snap-align: center;
   -webkit-scroll-snap-align: center;
   -moz-scroll-snap-align: center;
@@ -3609,7 +3633,6 @@ section#who-i-am {
 @media only screen and (min-width: 1400px) and (max-width: 1800px) {
   #content-who-i-am {
     margin: 0 15rem 0 15rem;
-    font-size: 24px;
   }
   #content-who-i-am h1 {
     margin-bottom: 4rem;
@@ -3688,6 +3711,9 @@ section#who-i-am {
     margin-top: 0rem;
     width: 700px;
   }
+  #content-who-i-am .experiences-content ul li {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
@@ -3763,12 +3789,14 @@ section#who-i-am {
     margin-top: 0.5rem;
     width: 700px;
   }
+  #content-who-i-am .experiences-content ul li {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 1320px) and (max-width: 1370px) {
   #content-who-i-am {
     margin: 0 12rem 0 12rem;
-    font-size: 24px;
   }
   #content-who-i-am h1 {
     margin-bottom: 5rem;
@@ -3844,12 +3872,14 @@ section#who-i-am {
     transform: translate(10%);
     -webkit-transform: translate(10%);
   }
+  #content-who-i-am .experiences-content ul li {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 1800px) and (max-width: 2400px) {
   #content-who-i-am {
     margin: 0 12rem 0 12rem;
-    font-size: 24px;
   }
   #content-who-i-am section.who-i-am-background .content-banner h1 {
     font-size: 6rem;
@@ -3932,6 +3962,9 @@ section#who-i-am {
   #content-who-i-am .portfolio-content::after {
     display: table;
     clear: both;
+  }
+  #content-who-i-am .experiences-content ul li {
+    font-size: 18px;
   }
 }
 
@@ -4964,7 +4997,6 @@ section#portfolio-section {
 @media only screen and (min-width: 1400px) and (max-width: 1800px) {
   .portfolio-content {
     margin: 0 15rem 0 15rem;
-    font-size: 24px;
   }
   .portfolio-content h1 {
     margin-bottom: 4rem;
@@ -5043,6 +5075,9 @@ section#portfolio-section {
     margin-top: 0rem;
     width: 700px;
   }
+  .portfolio-content .experiences-content ul li {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
@@ -5118,12 +5153,14 @@ section#portfolio-section {
     margin-top: 0.5rem;
     width: 700px;
   }
+  .portfolio-content .experiences-content ul li {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 1320px) and (max-width: 1370px) {
   .portfolio-content {
     margin: 0 12rem 0 12rem;
-    font-size: 24px;
   }
   .portfolio-content h1 {
     margin-bottom: 5rem;
@@ -5199,12 +5236,14 @@ section#portfolio-section {
     transform: translate(10%);
     -webkit-transform: translate(10%);
   }
+  .portfolio-content .experiences-content ul li {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 1800px) and (max-width: 2400px) {
   .portfolio-content {
     margin: 0 12rem 0 12rem;
-    font-size: 24px;
   }
   .portfolio-content section.who-i-am-background .content-banner h1 {
     font-size: 6rem;
@@ -5287,6 +5326,9 @@ section#portfolio-section {
   .portfolio-content .portfolio-content::after {
     display: table;
     clear: both;
+  }
+  .portfolio-content .experiences-content ul li {
+    font-size: 18px;
   }
 }
 

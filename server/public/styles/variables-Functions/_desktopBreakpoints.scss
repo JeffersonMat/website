@@ -7,7 +7,7 @@
 ) {
   @media only screen and (min-width: 1800px) and (max-width: 2400px) {
     margin: $marginBreakPoint;
-    font-size: 24px;
+
 
     section.who-i-am-background .content-banner h1 {
       font-size: 6rem;
@@ -93,6 +93,9 @@
       display: table;
       clear: both;
     }
+    .experiences-content ul li{
+      font-size:$fontsizeMobileTextMax1900Px
+    }
   }
 }
 
@@ -103,7 +106,7 @@
 ) {
   @media only screen and (min-width: 1320px) and (max-width: 1370px) {
     margin: $marginBreakPoint;
-    font-size: 24px;
+
     h1 {
       margin-bottom: $marginBottom;
       color: $titleFontColour;
@@ -178,6 +181,9 @@
       transform: translate(10%);
       -webkit-transform: translate(10%);
     }
+       .experiences-content ul li{
+       font-size: $fontsizeMobileTextMax1370Px
+    }
   }
 }
 
@@ -188,7 +194,7 @@
 ) {
   @media only screen and (min-width: 1400px) and (max-width: 1800px) {
     margin: $marginBreakPoint;
-    font-size: 24px;
+
 
     h1 {
       margin-bottom: $marginBottom;
@@ -273,6 +279,9 @@
     video {
       margin-top: 0rem;
       width: 700px;
+    }
+       .experiences-content ul li{
+       font-size:$fontsizeMobileTextMax1280Px
     }
   }
 }
@@ -362,6 +371,9 @@
     video {
       margin-top: 0.5rem;
       width: 700px;
+    }
+        .experiences-content ul li{
+       font-size:$fontsizeMobileTextMax1280Px
     }
   }
 }
