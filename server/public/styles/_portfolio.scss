@@ -45,6 +45,9 @@ section#portfolio-section {
 
 .portfolio-content {
   scroll-snap-align:center;
+  -webkit-scroll-snap-align:center;
+  -moz-scroll-snap-align:center;
+  -o-scroll-snap-align:center;
    
   //This function includes all breakpoints as well
   @include flexCenter(center, center, column);
