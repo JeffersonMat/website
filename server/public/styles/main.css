@@ -3029,8 +3029,8 @@ h5 {
 #overlay-background img {
   position: absolute;
   z-index: 2;
-  width: 400px;
-  height: 400px;
+  width: 380px;
+  height: 380px;
   border-radius: 50%;
   top: 53%;
   left: 50%;
