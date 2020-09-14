@@ -26,7 +26,7 @@ class Portfolio extends React.Component {
       slider: true,
       index:((this.state.index >= 1 && this.state.index >= 0)
           ? this.state.index - 1
-          : this.state.index + 6 || currentIndex
+          : this.state.index + 6 
          ), 
       prevs: false,
       next: true,
@@ -46,7 +46,6 @@ class Portfolio extends React.Component {
   }
 
   render() {
-    console.log(data, "tetst")
     return (
       <>
         <div

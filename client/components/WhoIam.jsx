@@ -7,12 +7,7 @@ class WhoIam extends React.Component {
     slide: false,
     index: 0,
     next: true,
-    prevs: false,
-    intialPosition: null,
-    moving: false,
-    transform: 0,
-    activatePointer: false,
-    diff: null,
+    prevs: false
   }
 
   handleClickNext = () => {
@@ -33,54 +28,6 @@ class WhoIam extends React.Component {
     })
   }
 
-  handleGestureStart = (event) => {
-    const slider = document.querySelector(".slider-who-i-am")
-    const transformMatrix = window.getComputedStyle(slider).getPropertyValue("transform")
-    const initialPosition = event.pageX
-    console.log(transformMatrix, "testing fucnt")
-    console.log(initialPosition, "initial position")
-
-    if (transformMatrix !== "none") {
-      this.setState({
-        transform: parseInt(transformMatrix.split(",")[4].trim()),
-      })
-    }
-    this.setState({
-      intialPosition: initialPosition,
-      moving: true,
-    })
-
-    if (window.PointerEvent) {
-      this.setState({ activatePointer: true })
-    }
-  }
-
-  handleGestureMove = (event) => {
-    const slider = document.querySelector(".slider-who-i-am")
-    if (this.state.moving) {
-      const currentPosition = event.pageX
-      this.setState({ diff: currentPosition - this.state.intialPosition })
-      slider.style.transform =`translateX(${transform + diff}px)`
-    }
-  }
-
-  handleGestureEnd = () => {
-    this.setState({ moving: false })
-  }
-
-  slideStylingTouch = (index) => {
-    let transform = this.state.transform
-    let diff = this.state.diff
-    switch (index) {
-      case 1:
-        return {
-          transform: `translateX(${transform + diff}px)`,
-          WebKitTransform: `translateX(${transform + diff}px)`,
-          MozTransform: `translateX(${transform + diff}px)`,
-          OTransform: `translateX(${transform + diff}px)`,
-        }
-    }
-  }
 
   slideStyling = (index) => {
     switch (index) {
@@ -95,8 +42,7 @@ class WhoIam extends React.Component {
   }
 
   render() {
-    const activatePointer = this.state.activatePointer
-    console.log(this.state.diff, "checking")
+  
     return (
       <>
         <Banner />
@@ -109,7 +55,7 @@ class WhoIam extends React.Component {
               >
                 <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
                   <div id="content-who-i-am">
-                    <h1 className="who-i-am-title">Hello. I'm Jefferson.</h1>
+                    <h1 className="who-i-am-title">Kia ora. I'm Jefferson.</h1>
 
                     <p>
                       A Colombian with an intrepid spirit and a creative mind. I
@@ -189,7 +135,7 @@ class WhoIam extends React.Component {
             </span>
             <ul>
               <li
-                className={this.state.index == 0 ? "selected" : ""}
+                className={this.state.index == 0 ? "selected" : "" }
                 onClick={
                   this.state.index == 0
                     ? this.handleClickNext
