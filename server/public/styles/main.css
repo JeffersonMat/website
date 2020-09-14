@@ -575,7 +575,7 @@ section#experiences {
   }
   .experiences-content p {
     color: #696969;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 2.2px;
     word-spacing: 2.5px;
@@ -595,7 +595,7 @@ section#experiences {
     margin-bottom: 20px;
   }
   .experiences-content .experience-second-title {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 20px;
   }
   .experiences-content h5 {
@@ -603,7 +603,6 @@ section#experiences {
   }
   .experiences-content .button-fixed .portfolio-button {
     margin-bottom: 60px;
-    margin-bottom: 0;
   }
   .experiences-content div.control-experiences .left-experiences {
     left: 10px;
@@ -1934,7 +1933,7 @@ section#contact {
   }
   .contact-content p {
     color: #696969;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 2.2px;
     word-spacing: 2.5px;
@@ -1954,7 +1953,7 @@ section#contact {
     margin-bottom: 20px;
   }
   .contact-content .experience-second-title {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 20px;
   }
   .contact-content h5 {
@@ -1962,7 +1961,6 @@ section#contact {
   }
   .contact-content .button-fixed .portfolio-button {
     margin-bottom: 60px;
-    margin-bottom: 0;
   }
   .contact-content div.control-experiences .left-experiences {
     left: 10px;
@@ -3588,7 +3586,7 @@ section#who-i-am {
   }
   #content-who-i-am p {
     color: #696969;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 2.2px;
     word-spacing: 2.5px;
@@ -3608,7 +3606,7 @@ section#who-i-am {
     margin-bottom: 20px;
   }
   #content-who-i-am .experience-second-title {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 20px;
   }
   #content-who-i-am h5 {
@@ -3616,7 +3614,6 @@ section#who-i-am {
   }
   #content-who-i-am .button-fixed .portfolio-button {
     margin-bottom: 60px;
-    margin-bottom: 0;
   }
   #content-who-i-am div.control-experiences .left-experiences {
     left: 10px;
@@ -4952,7 +4949,7 @@ section#portfolio-section {
   }
   .portfolio-content p {
     color: #696969;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 2.2px;
     word-spacing: 2.5px;
@@ -4972,7 +4969,7 @@ section#portfolio-section {
     margin-bottom: 20px;
   }
   .portfolio-content .experience-second-title {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 20px;
   }
   .portfolio-content h5 {
@@ -4980,7 +4977,6 @@ section#portfolio-section {
   }
   .portfolio-content .button-fixed .portfolio-button {
     margin-bottom: 60px;
-    margin-bottom: 0;
   }
   .portfolio-content div.control-experiences .left-experiences {
     left: 10px;
