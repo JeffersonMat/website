@@ -1,12 +1,10 @@
 import React from "react"
 import ScrollAnimation from "react-animate-on-scroll"
+import experiences, { keys } from "../experiences"
 
 import BannerExperiences from "./banners/BannerExperiences"
 
-
 class Experiences extends React.Component {
- 
- 
   state = {
     slide: false,
     index: 0,
@@ -39,7 +37,7 @@ class Experiences extends React.Component {
           transform: "translateX(" + index * -50 + "%)",
           WebKitTransform: "translateX(" + index * -50 + "%)",
           MozTransform: "translateX(" + index * -50 + "%)",
-          OTransform: "translateX(" + index * -50 + "%)"
+          OTransform: "translateX(" + index * -50 + "%)",
         }
     }
   }
@@ -58,29 +56,15 @@ class Experiences extends React.Component {
                 <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
                   <div className="experiences-content">
                     <h1 className="experience-title">My Journey</h1>
-                    <p>
-                      I hit the ground running as soon as my feet touched NZ
-                      soil three years ago. I quickly adapted to a new culture
-                      and worked my way up from a front-of-house role at a
-                      winery to a retail store manager at a craft brewery (all
-                      within my second language—no biggie).
-                    </p>
-
-                    <p>
-                      Working in customer service exposed me to a kaleidoscope
-                      of critical situations. Being empathetic meant I could
-                      face these situations head-on, with an innate
-                      understanding that we all come from different backgrounds
-                      and experiences.
-                    </p>
-                    <p>
-                      I have a deep love of teaching. My experience as a
-                      volunteer home English tutor with former refugees has not
-                      only strengthened my English, but my teaching skills as
-                      well. In the context of coding, I love learning from and
-                      teaching others, always with a view of strengthening a
-                      team’s capabilities.
-                    </p>
+                    {experiences.map((value, index) => {
+                      return (
+                        <>
+                          <p>{value.myJourney.ParagraphOne}</p>
+                          <p>{value.myJourney.ParagraphTwo}</p>
+                          <p>{value.myJourney.ParagraphThree}</p>
+                        </>
+                      )
+                    })}
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
@@ -99,7 +83,7 @@ class Experiences extends React.Component {
 
                     <h5>Front-end</h5>
                     <ul>
-                      <li>HTML, custom CSS —Materialize, Bootstrap</li> 
+                      <li>HTML, custom CSS —Materialize, Bootstrap</li>
                       <li>Javascript</li>
                       <li>React, React-Redux, Redux-Thunk</li>
                     </ul>

@@ -1,7 +1,6 @@
 import React from "react"
 import ScrollAnimation from "react-animate-on-scroll"
 
-
 class Contact extends React.Component {
   state = {
     display: false,
@@ -11,8 +10,8 @@ class Contact extends React.Component {
     this.setState({ display: true })
   }
 
-  handleClickOverLay= () => {
-    this.setState({ display:false})
+  handleClickOverLay = () => {
+    this.setState({ display: false })
   }
 
   render() {
@@ -75,8 +74,8 @@ class Contact extends React.Component {
           <footer>
             <div className="container-credit">
               <p className="credit-footer">
-                <span id="copy-right">&copy;</span> by
-                Jefferson Matamba - Photography by{" "}
+                <span id="copy-right">&copy;</span> by Jefferson Matamba -
+                Photography by{" "}
                 <a href="emmacoombe.com" target="_blank">
                   Emma Coombe
                 </a>

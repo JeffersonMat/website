@@ -1,6 +1,5 @@
 import React from "react"
 import data from "../data"
-// import ScrollAnimation from "react-animate-on-scroll"
 
 import PortfolioContent from "./Portfoliovideos/PortfolioContent"
 
@@ -15,7 +14,7 @@ class Portfolio extends React.Component {
   handleClickNext = (e) => {
     this.setState({
       slider: true,
-      index: e.target.value || (this.state.index < 6) && this.state.index + 1,
+      index: e.target.value || (this.state.index < 6 && this.state.index + 1),
       prevs: true,
       next: false,
     })
@@ -24,10 +23,10 @@ class Portfolio extends React.Component {
   handleClickPrev = (e) => {
     this.setState({
       slider: true,
-      index:((this.state.index >= 1 && this.state.index >= 0)
+      index:
+        this.state.index >= 1 && this.state.index >= 0
           ? this.state.index - 1
-          : this.state.index + 6 
-         ), 
+          : this.state.index + 6,
       prevs: false,
       next: true,
     })
