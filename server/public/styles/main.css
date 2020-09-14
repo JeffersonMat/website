@@ -682,6 +682,14 @@ section#experiences {
         align-self: center;
     position: relative;
   }
+  .experiences-content #columns {
+    float: left;
+  }
+  .experiences-content .portfolio-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   .experiences-content .pantree-video {
     margin-top: 0;
     transform: translate(20%);
@@ -740,6 +748,14 @@ section#experiences {
   }
   .experiences-content .right-portfolio {
     right: 12px;
+  }
+  .experiences-content .content-portfolio-title {
+    width: 30%;
+    padding-right: 30px;
+  }
+  .experiences-content .content-portfolio-video {
+    width: 40%;
+    position: relative;
   }
   .experiences-content #columns {
     float: left;
@@ -807,6 +823,22 @@ section#experiences {
   .experiences-content div.slider-experiences div.experiences-content ul {
     margin-left: 50px;
   }
+  .experiences-content .content-portfolio-title {
+    width: 30%;
+    padding-right: 30px;
+  }
+  .experiences-content .content-portfolio-video {
+    width: 40%;
+    position: relative;
+  }
+  .experiences-content #columns {
+    float: left;
+  }
+  .experiences-content .portfolio-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   .experiences-content video {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -867,6 +899,14 @@ section#experiences {
   .experiences-content section#who-i-am ul.control .arrow .right {
     left: 15px;
   }
+  .experiences-content #columns {
+    float: left;
+  }
+  .experiences-content .portfolio-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   .experiences-content video {
     margin-top: 2rem;
     width: 900px;
@@ -888,6 +928,14 @@ section#experiences {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .experiences-content .content-portfolio-title {
+    width: 30%;
+    padding-right: 30px;
+  }
+  .experiences-content .content-portfolio-video {
+    width: 40%;
+    position: relative;
   }
   .experiences-content #columns {
     float: left;
@@ -1984,6 +2032,14 @@ section#contact {
         align-self: center;
     position: relative;
   }
+  .contact-content #columns {
+    float: left;
+  }
+  .contact-content .portfolio-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   .contact-content .pantree-video {
     margin-top: 0;
     transform: translate(20%);
@@ -2042,6 +2098,14 @@ section#contact {
   }
   .contact-content .right-portfolio {
     right: 12px;
+  }
+  .contact-content .content-portfolio-title {
+    width: 30%;
+    padding-right: 30px;
+  }
+  .contact-content .content-portfolio-video {
+    width: 40%;
+    position: relative;
   }
   .contact-content #columns {
     float: left;
@@ -2109,6 +2173,22 @@ section#contact {
   .contact-content div.slider-experiences div.experiences-content ul {
     margin-left: 50px;
   }
+  .contact-content .content-portfolio-title {
+    width: 30%;
+    padding-right: 30px;
+  }
+  .contact-content .content-portfolio-video {
+    width: 40%;
+    position: relative;
+  }
+  .contact-content #columns {
+    float: left;
+  }
+  .contact-content .portfolio-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   .contact-content video {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -2169,6 +2249,14 @@ section#contact {
   .contact-content section#who-i-am ul.control .arrow .right {
     left: 15px;
   }
+  .contact-content #columns {
+    float: left;
+  }
+  .contact-content .portfolio-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   .contact-content video {
     margin-top: 2rem;
     width: 900px;
@@ -2190,6 +2278,14 @@ section#contact {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .contact-content .content-portfolio-title {
+    width: 30%;
+    padding-right: 30px;
+  }
+  .contact-content .content-portfolio-video {
+    width: 40%;
+    position: relative;
   }
   .contact-content #columns {
     float: left;
@@ -3575,6 +3671,14 @@ section#who-i-am {
         align-self: center;
     position: relative;
   }
+  #content-who-i-am #columns {
+    float: left;
+  }
+  #content-who-i-am .portfolio-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   #content-who-i-am .pantree-video {
     margin-top: 0;
     transform: translate(20%);
@@ -3633,6 +3737,14 @@ section#who-i-am {
   }
   #content-who-i-am .right-portfolio {
     right: 12px;
+  }
+  #content-who-i-am .content-portfolio-title {
+    width: 30%;
+    padding-right: 30px;
+  }
+  #content-who-i-am .content-portfolio-video {
+    width: 40%;
+    position: relative;
   }
   #content-who-i-am #columns {
     float: left;
@@ -3700,6 +3812,22 @@ section#who-i-am {
   #content-who-i-am div.slider-experiences div.experiences-content ul {
     margin-left: 50px;
   }
+  #content-who-i-am .content-portfolio-title {
+    width: 30%;
+    padding-right: 30px;
+  }
+  #content-who-i-am .content-portfolio-video {
+    width: 40%;
+    position: relative;
+  }
+  #content-who-i-am #columns {
+    float: left;
+  }
+  #content-who-i-am .portfolio-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   #content-who-i-am video {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -3760,6 +3888,14 @@ section#who-i-am {
   #content-who-i-am section#who-i-am ul.control .arrow .right {
     left: 15px;
   }
+  #content-who-i-am #columns {
+    float: left;
+  }
+  #content-who-i-am .portfolio-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   #content-who-i-am video {
     margin-top: 2rem;
     width: 900px;
@@ -3781,6 +3917,14 @@ section#who-i-am {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  #content-who-i-am .content-portfolio-title {
+    width: 30%;
+    padding-right: 30px;
+  }
+  #content-who-i-am .content-portfolio-video {
+    width: 40%;
+    position: relative;
   }
   #content-who-i-am #columns {
     float: left;
@@ -4882,6 +5026,14 @@ section#portfolio-section {
         align-self: center;
     position: relative;
   }
+  .portfolio-content #columns {
+    float: left;
+  }
+  .portfolio-content .portfolio-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   .portfolio-content .pantree-video {
     margin-top: 0;
     transform: translate(20%);
@@ -4940,6 +5092,14 @@ section#portfolio-section {
   }
   .portfolio-content .right-portfolio {
     right: 12px;
+  }
+  .portfolio-content .content-portfolio-title {
+    width: 30%;
+    padding-right: 30px;
+  }
+  .portfolio-content .content-portfolio-video {
+    width: 40%;
+    position: relative;
   }
   .portfolio-content #columns {
     float: left;
@@ -5007,6 +5167,22 @@ section#portfolio-section {
   .portfolio-content div.slider-experiences div.experiences-content ul {
     margin-left: 50px;
   }
+  .portfolio-content .content-portfolio-title {
+    width: 30%;
+    padding-right: 30px;
+  }
+  .portfolio-content .content-portfolio-video {
+    width: 40%;
+    position: relative;
+  }
+  .portfolio-content #columns {
+    float: left;
+  }
+  .portfolio-content .portfolio-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   .portfolio-content video {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -5067,6 +5243,14 @@ section#portfolio-section {
   .portfolio-content section#who-i-am ul.control .arrow .right {
     left: 15px;
   }
+  .portfolio-content #columns {
+    float: left;
+  }
+  .portfolio-content .portfolio-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   .portfolio-content video {
     margin-top: 2rem;
     width: 900px;
@@ -5088,6 +5272,14 @@ section#portfolio-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .portfolio-content .content-portfolio-title {
+    width: 30%;
+    padding-right: 30px;
+  }
+  .portfolio-content .content-portfolio-video {
+    width: 40%;
+    position: relative;
   }
   .portfolio-content #columns {
     float: left;

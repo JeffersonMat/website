@@ -43,12 +43,21 @@
       margin-top: -80px;
     }
 
- section#who-iam ul.control .arrow .left {
+    section#who-iam ul.control .arrow .left {
       left: 15px;
     }
 
-  section#who-i-am ul.control .arrow .right {
+    section#who-i-am ul.control .arrow .right {
       left: 15px;
+    }
+    #columns {
+      float: left;
+    }
+
+    .portfolio-content::after {
+      content: "";
+      display: table;
+      clear: both;
     }
     video {
       margin-top: 2rem;
@@ -67,15 +76,22 @@
     .portfolio-content {
       display: flex;
     }
+    .content-portfolio-title {
+      width: 30%;
+      padding-right: 30px;
+    }
+    .content-portfolio-video {
+      width: 40%;
+      position: relative;
+    }
 
+    #columns {
+      float: left;
+    }
 
-    #columns{
-       float: left;
-      }
-
-    .portfolio-content::after{
-    display: table;
-    clear: both;
+    .portfolio-content::after {
+      display: table;
+      clear: both;
     }
   }
 }
@@ -113,16 +129,16 @@
     .portfolio-title {
       margin-bottom: 3rem;
     }
-  
+
     .experience-second-title {
       margin-top: 30px;
       margin-bottom: 20px;
     }
- section#who-iam ul.control .arrow .left {
+    section#who-iam ul.control .arrow .left {
       left: 15px;
     }
 
-  section#who-i-am ul.control .arrow .right {
+    section#who-i-am ul.control .arrow .right {
       left: 15px;
     }
     h5 {
@@ -131,6 +147,23 @@
     }
     div.slider-experiences div.experiences-content ul {
       margin-left: 50px;
+    }
+    .content-portfolio-title {
+      width: 30%;
+      padding-right: 30px;
+    }
+    .content-portfolio-video {
+      width: 40%;
+      position: relative;
+    }
+    #columns {
+      float: left;
+    }
+
+    .portfolio-content::after {
+      content: "";
+      display: table;
+      clear: both;
     }
     video {
       align-self: center;
@@ -170,7 +203,6 @@
       margin-bottom: $marginBottomTextMax1280Px;
     }
 
-
     .experience-title {
       margin-top: -50px;
     }
@@ -181,11 +213,11 @@
       margin-bottom: 2rem;
     }
 
- section#who-iam ul.control .arrow .left {
+    section#who-iam ul.control .arrow .left {
       left: 15px;
     }
 
-  section#who-i-am ul.control .arrow .right {
+    section#who-i-am ul.control .arrow .right {
       left: 15px;
     }
 
@@ -202,39 +234,46 @@
     .right {
       right: 12px;
     }
-   
-   .portfolio-content{
-     display:table;
+
+    .portfolio-content {
+      display: table;
     }
-    div#columns{
-     float: left;
+    div#columns {
+      float: left;
+    }
 
-     }
+    .content-portfolio-title {
+      width: 30%;
+      padding-right: 30px;
+    }
+    .content-portfolio-video {
+      width: 40%;
+      position: relative;
+    }
+    .button-fixed {
+      text-align: center;
+      align-self: center;
+      position: relative;
+    }
+    #columns {
+      float: left;
+    }
 
-     .content-portfolio-title{
-       width: 30%;
-       padding-right:30px
-     }
-     .content-portfolio-video{
-     width: 40%;
-     position:relative;
-     }
-     .button-fixed{
-       text-align: center;
-       align-self: center;
-       position:relative;
-     }
-    .pantree-video{
-       margin-top: 0;
-       transform:translate(20%);
-      -webkit-transform:translate(20%);
+    .portfolio-content::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .pantree-video {
+      margin-top: 0;
+      transform: translate(20%);
+      -webkit-transform: translate(20%);
     }
     video {
       margin-top: 0rem;
       width: 700px;
     }
-
-
   }
 }
 
@@ -274,11 +313,11 @@
       margin-bottom: 3rem;
     }
 
-     section#who-iam ul.control .left {
+    section#who-iam ul.control .left {
       left: 15px;
     }
 
-  section#who-i-am ul.control .right {
+    section#who-i-am ul.control .right {
       left: 15px;
     }
 
@@ -295,23 +334,30 @@
     .right-portfolio {
       right: 12px;
     }
+    .content-portfolio-title {
+      width: 30%;
+      padding-right: 30px;
+    }
+    .content-portfolio-video {
+      width: 40%;
+      position: relative;
+    }
 
-    #columns{
-       float: left;
-      }
+    #columns {
+      float: left;
+    }
 
-    .portfolio-content::after{
+    .portfolio-content::after {
       content: "";
-    display: table;
-    clear: both;
+      display: table;
+      clear: both;
     }
-   
-    .pantree-video{
-       margin-top: 0;
-       transform:translate(50%);
-      -webkit-transform:translate(50%);
+
+    .pantree-video {
+      margin-top: 0;
+      transform: translate(50%);
+      -webkit-transform: translate(50%);
     }
-  
 
     video {
       margin-top: 0.5rem;

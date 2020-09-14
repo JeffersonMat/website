@@ -56,7 +56,7 @@ function PortfolioContent(props) {
                   app, mid eater. Broswer does not support this video format
                 </p>
               </video>
-              <ButtonLink content={props.content} />
+                <ButtonLink content={props.content} key={props.content.id}/>
             </div>
           )}
         </ScrollAnimation>

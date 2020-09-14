@@ -3,7 +3,6 @@ import data from "../data"
 // import ScrollAnimation from "react-animate-on-scroll"
 
 import PortfolioContent from "./Portfoliovideos/PortfolioContent"
-import ButtonLink from "./Portfoliovideos/ButtonLink"
 
 class Portfolio extends React.Component {
   state = {
@@ -13,30 +12,22 @@ class Portfolio extends React.Component {
     prevs: false,
   }
 
-  handleClickNext = () => {
-
+  handleClickNext = (e) => {
     this.setState({
       slider: true,
-      index: ((this.state.index < 6) && this.state.index + 1 || currentIndex), 
+      index: e.target.value || (this.state.index < 6) && this.state.index + 1,
       prevs: true,
       next: false,
     })
-
-  
-
-     
   }
 
-  handleClickPrev = () => {
-    let currentIndex = this.props.data.id
+  handleClickPrev = (e) => {
     this.setState({
       slider: true,
-      index:
-        ((this.state.index >= 1 && this.state.index >= 0)
+      index:((this.state.index >= 1 && this.state.index >= 0)
           ? this.state.index - 1
           : this.state.index + 6 || currentIndex
-         ),
-        
+         ), 
       prevs: false,
       next: true,
     })
@@ -55,7 +46,7 @@ class Portfolio extends React.Component {
   }
 
   render() {
-  
+    console.log(data, "tetst")
     return (
       <>
         <div
@@ -74,12 +65,11 @@ class Portfolio extends React.Component {
                   <>
                     <PortfolioContent content={content} key={index} />
                   </>
-                ))}               
+                ))}
               </div>
             </div>
           </div>
 
-                  
           <div className="control-portfolio">
             <span className="arrow-portfolio left-portfolio">
               <i className="material-icons" onClick={this.handleClickPrev}>
@@ -95,15 +85,12 @@ class Portfolio extends React.Component {
             <ul>
               {data.map((value, index) => (
                 <li
+                  value={index}
                   key={index}
                   className={
                     this.state.index == index ? "selected-portfolio" : ""
                   }
-                  onClick={
-                    this.state.index < index
-                      ? this.handleClickNext
-                      : this.handleClickPrev
-                  }
+                  onClick={this.handleClickNext}
                 ></li>
               ))}
             </ul>
