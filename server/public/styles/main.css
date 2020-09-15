@@ -857,7 +857,7 @@ section#experiences {
         align-content: center;
   }
   .experiences-content .pantree-video {
-    margin-left: 140px;
+    margin-left: 80px;
     transform: translate(10%);
     -webkit-transform: translate(10%);
   }
@@ -916,7 +916,6 @@ section#experiences {
   }
   .experiences-content .pantree-video {
     position: relative;
-    margin-left: 180px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -2210,7 +2209,7 @@ section#contact {
         align-content: center;
   }
   .contact-content .pantree-video {
-    margin-left: 140px;
+    margin-left: 80px;
     transform: translate(10%);
     -webkit-transform: translate(10%);
   }
@@ -2269,7 +2268,6 @@ section#contact {
   }
   .contact-content .pantree-video {
     position: relative;
-    margin-left: 180px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -3858,7 +3856,7 @@ section#who-i-am {
         align-content: center;
   }
   #content-who-i-am .pantree-video {
-    margin-left: 140px;
+    margin-left: 80px;
     transform: translate(10%);
     -webkit-transform: translate(10%);
   }
@@ -3917,7 +3915,6 @@ section#who-i-am {
   }
   #content-who-i-am .pantree-video {
     position: relative;
-    margin-left: 180px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -5219,7 +5216,7 @@ section#portfolio-section {
         align-content: center;
   }
   .portfolio-content .pantree-video {
-    margin-left: 140px;
+    margin-left: 80px;
     transform: translate(10%);
     -webkit-transform: translate(10%);
   }
@@ -5278,7 +5275,6 @@ section#portfolio-section {
   }
   .portfolio-content .pantree-video {
     position: relative;
-    margin-left: 180px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -5920,7 +5916,7 @@ section#portfolio-section {
 }
 
 .container-portfolio {
-  max-width: 1280px;
+  max-width: 2000px;
   height: 100vh;
   margin: 0 auto;
   overflow-x: scroll;
