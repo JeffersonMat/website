@@ -85,10 +85,10 @@ section#portfolio-section {
 //Slider section sytling
 
 .container-portfolio {
-  width: 100%;
+  max-width:1280px;
   height: 100vh;
   margin: 0 auto;
-   overflow-x:scroll;
+  overflow-x:scroll;
   scroll-snap-type: x mandatory; 
   -webkit-scroll-snap-type: x mandatory;
   -moz-scroll-snap-type: x mandatory;

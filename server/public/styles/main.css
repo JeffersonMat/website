@@ -5920,7 +5920,7 @@ section#portfolio-section {
 }
 
 .container-portfolio {
-  width: 100%;
+  max-width: 1280px;
   height: 100vh;
   margin: 0 auto;
   overflow-x: scroll;
