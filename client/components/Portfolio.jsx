@@ -11,16 +11,25 @@ class Portfolio extends React.Component {
     prevs: false,
   }
 
-  handleClickNext = (e) => {
+  handleClick = (e) => {
+     this.setState({
+       slider: true,
+       index: e.target.value,
+       prevs: true,
+       next: false,
+     })
+  }
+
+  handleClickNext = () => {
     this.setState({
       slider: true,
-      index: e.target.value || (this.state.index < 6 && this.state.index + 1),
+      index:(this.state.index < 6 && this.state.index + 1),
       prevs: true,
       next: false,
     })
   }
 
-  handleClickPrev = (e) => {
+  handleClickPrev = () => {
     this.setState({
       slider: true,
       index:
@@ -88,7 +97,7 @@ class Portfolio extends React.Component {
                   className={
                     this.state.index == index ? "selected-portfolio" : ""
                   }
-                  onClick={this.handleClickNext}
+                  onClick={this.handleClick}
                 ></li>
               ))}
             </ul>
