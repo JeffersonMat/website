@@ -225,6 +225,7 @@
       word-spacing: $wordSpacingMax375Px;
       margin-bottom: $marginBottomTittleMax375Px;
     }
+   
     .portfolio-content p.swipe {
       font-weight: bolder;
       color: #333;
@@ -250,9 +251,12 @@
     .experience-second-title {
       margin-top: -0px;
     }
+    .portfolio-title{
+      margin-top:0
+    }
    
     video {
-      margin-top: 3rem;
+      margin-top: 2rem;
       width: 300px;
     }
   }

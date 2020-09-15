@@ -71,7 +71,7 @@ section#experiences {
 }
 
 #container-experiences {
-  width: 100%;
+ max-width:1280px;
   margin:0px auto;
   overflow-x:scroll;
   scroll-snap-type: x mandatory; 

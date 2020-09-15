@@ -29,7 +29,6 @@
       font-weight: bolder;
       color: #333;
     }
-
     .experience-title {
       margin-top: -320px;
     }
@@ -49,15 +48,6 @@
 
     section#who-i-am ul.control .arrow .right {
       left: 15px;
-    }
-    #columns {
-      float: left;
-    }
-
-    .portfolio-content::after {
-      content: "";
-      display: table;
-      clear: both;
     }
     video {
       margin-top: 2rem;
@@ -84,11 +74,9 @@
       width: 40%;
       position: relative;
     }
-
     #columns {
       float: left;
     }
-
     .portfolio-content::after {
       display: table;
       clear: both;
