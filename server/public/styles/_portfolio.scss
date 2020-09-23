@@ -7,93 +7,81 @@
 
 div.portfolio-background-image {
   background: url("../images/Himalaya.jpg") no-repeat center center;
-  background-position:center center;
- -moz-background-position:center center;
- -webkit-background-position:center center;
-  background-size:cover;
- -moz-background-size: cover;
- -webkit-background-size: cover;
- -o-background-size: cover;
+  background-position: center center;
+  -moz-background-position: center center;
+  -webkit-background-position: center center;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
   width: 100%;
   height: 80vh;
-  padding:0;
+  padding: 0;
 }
 
-  .no-touch div.portfolio-background-image{
-    
-    background-attachment: fixed;
-  -webkit-background-atachment:fixed;
-  -moz-background-atachment:fixed;
+.no-touch div.portfolio-background-image {
+  background-attachment: fixed;
+  -webkit-background-atachment: fixed;
+  -moz-background-atachment: fixed;
   -o-background-atachment: fixed;
-   background-position:center center;
- -moz-background-position:center center;
- -webkit-background-position:center center;
+  background-position: center center;
+  -moz-background-position: center center;
+  -webkit-background-position: center center;
 }
-
-
 
 section#portfolio-section {
   background: $backgroundSections;
   width: 100%;
-  height: 100vh; 
+  height: 100vh;
   overflow-x: hidden;
   position: relative;
-
 }
 
-
-
 .portfolio-content {
-  scroll-snap-align:center;
-  -webkit-scroll-snap-align:center;
-  -moz-scroll-snap-align:center;
-  -o-scroll-snap-align:center;
-   
+  scroll-snap-align: center;
+  -webkit-scroll-snap-align: center;
+  -moz-scroll-snap-align: center;
+  -o-scroll-snap-align: center;
+
   //This function includes all breakpoints as well
   @include flexCenter(center, center, column);
   @include marginAlignment();
   width: 100%;
-  height:100vh;
+  height: 100vh;
   margin: 0 auto 0 auto;
 }
 
-
 .portfolio-background {
   background: $backgroundSections;
-
-  
 }
 
-.button-fixed{
-
+.button-fixed {
   text-align: center;
   justify-content: center;
   display: flex;
-  position: relative;;
+  position: relative;
   margin: 100px auto 0 auto;
   padding: 0;
-  transform:translateY(80%);
-  -webkit-transform:translateY(80%)
+  transform: translateY(80%);
+  -webkit-transform: translateY(80%);
 }
 
-.button-fixed a{
-
-  width:40%;
+.button-fixed a {
+  width: 40%;
   text-align: center;
 }
 
 //Slider section sytling
 
 .container-portfolio {
-  max-width:2000px;
-  height:100vh;
-  margin:0 auto;
-  overflow-x:scroll;
-  scroll-snap-type: x mandatory; 
+  max-width: 2000px;
+  height: 100vh;
+  margin: 0 auto;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
   -webkit-scroll-snap-type: x mandatory;
   -moz-scroll-snap-type: x mandatory;
   -o-scroll-snap-type: x mandatory;
-
 }
 .control-portfolio ul {
   list-style: none;
@@ -118,25 +106,24 @@ section#portfolio-section {
   cursor: pointer;
 }
 
-.slider-portfolio{
+.slider-portfolio {
   display: flex;
-  height:100vh;
-  width:700%;
+  height: 100vh;
+  width: 700%;
   transition: all 1s;
   -webkit-transition: all 1s;
-  -moz-transition:all 1s; 
+  -moz-transition: all 1s;
   -o-transition: all 1s;
 }
 
-
-
 .carousel-portfolio {
-  height:100vh;
+  height: 100vh;
   width: 100%;
   position: relative;
 }
 
-.left-portfolio, .right-portfolio {
+.left-portfolio,
+.right-portfolio {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -144,36 +131,36 @@ section#portfolio-section {
 }
 
 .arrow-portfolio i {
-  font-size: 25px;
+  font-size: 30px;
+  border: solid 2px black;
+  border-radius: 50%;
   -webkit-user-select: none;
-  color:black;
+  color: black;
 }
 
-
 .arrow-portfolio i:hover {
-  color:skyblue;
+  color: skyblue;
 }
 
 .arrow-portfolio i:focus {
-  color:skyblue;
+  color: skyblue;
 }
 .arrow-portfolio i:active {
-  color:skyblue;
+  color: skyblue;
 }
 
 .left-portfolio {
-  left: -4px;
-  z-index:5;
+
+  left: 4px;
+  z-index: 5;
 }
 .right-portfolio {
-  right: -4px;
-  z-index:5;
-  
+
+
+  right: 4px;
+  z-index: 5;
 }
 
 .control-portfolio ul li.selected-portfolio {
   background: transparent;
 }
-
-
-

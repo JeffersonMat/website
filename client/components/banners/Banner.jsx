@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div
       className="who-i-am-background"
-      title="Man in the ocean. - Photographer:Emma Coombe NZ"
+      title=""
     >
       <div className="banner-title">
         <ScrollAnimation animateIn="fadeInDown" duration={1.2} delay={500}>

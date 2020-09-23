@@ -66,7 +66,7 @@ class WhoIam extends React.Component {
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" duration={1.2}>
-                  <div id="content-who-i-am">
+                  <div id="content-who-i-am-second-section">
                     <h1 className="who-i-am-title">A few things about me.</h1>
 
                     {whoIam.map((value) => {
@@ -82,9 +82,7 @@ class WhoIam extends React.Component {
                 </ScrollAnimation>
               </div>
             </div>
-          </div>
-          <div className="control">
-            <span className="arrow left">
+            <span className="arrow" id="left-who-i-am">
               <i
                 className="material-icons"
                 onClick={
@@ -96,7 +94,7 @@ class WhoIam extends React.Component {
                 keyboard_arrow_left
               </i>
             </span>
-            <span className="arrow right">
+            <span className="arrow"  id="right-who-i-am">
               <i
                 className="material-icons"
                 onClick={
@@ -108,6 +106,8 @@ class WhoIam extends React.Component {
                 keyboard_arrow_right
               </i>
             </span>
+          </div>
+          <div className="control">
             <ul>
               <li
                 className={this.state.index == 0 ? "selected" : ""}

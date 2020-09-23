@@ -8,7 +8,6 @@
   @media only screen and (min-width: 1800px) and (max-width: 2400px) {
     margin: $marginBreakPoint;
 
-
     section.who-i-am-background .content-banner h1 {
       font-size: 6rem;
     }
@@ -80,8 +79,91 @@
       display: table;
       clear: both;
     }
-    .experiences-content ul li{
-      font-size:$fontsizeMobileTextMax1900Px
+    .experiences-content ul li {
+      font-size: $fontsizeMobileTextMax1900Px;
+    }
+  }
+}
+
+@mixin breakPointDesktop1800Px(
+  $marginBreakPoint,
+  $fontsizeBreakPoint,
+  $marginBottom
+) {
+  @media only screen and (min-width: 1400px) and (max-width: 1800px) {
+    margin: $marginBreakPoint;
+
+    h1 {
+      margin-bottom: $marginBottom;
+      color: $titleFontColour;
+    }
+    p {
+      color: $textColour;
+      font-size: $fontsizeMobileTextMax1280Px;
+      line-height: $lineHeighttextMax1280Px;
+      letter-spacing: $letterSpacingMax1280Px;
+      word-spacing: $wordSpacingMax1280Px;
+      margin-bottom: $marginBottomTextMax1280Px;
+    }
+
+    .experience-title {
+      margin-top: -50px;
+    }
+    .contact-title {
+      margin-top: -50px;
+    }
+    .portfolio-title {
+      margin-bottom: 2rem;
+    }
+
+    .portfolio-content {
+      display: table;
+    }
+    div#columns {
+      float: left;
+    }
+
+    .content-portfolio-title {
+      width: 30%;
+      padding-right: 30px;
+    }
+    .content-portfolio-video {
+      width: 40%;
+      position: relative;
+    }
+    .button-fixed {
+      text-align: center;
+      align-self: center;
+      position: relative;
+    }
+    #columns {
+      float: left;
+    }
+
+    .portfolio-content::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .pantree-video {
+      margin-top: 0;
+      transform: translate(20%);
+      -webkit-transform: translate(20%);
+    }
+    video {
+      margin-top: 0rem;
+      width: 700px;
+    }
+    .experiences-content ul li {
+      font-size: $fontsizeMobileTextMax1280Px;
+    }
+    #left-who-i-am {
+      left: 100px !important;
+    }
+
+    #right-who-i-am {
+      right: 100px !important;
     }
   }
 }
@@ -168,107 +250,8 @@
       transform: translate(10%);
       -webkit-transform: translate(10%);
     }
-       .experiences-content ul li{
-       font-size: $fontsizeMobileTextMax1370Px
-    }
-  }
-}
-
-@mixin breakPointDesktop1800Px(
-  $marginBreakPoint,
-  $fontsizeBreakPoint,
-  $marginBottom
-) {
-  @media only screen and (min-width: 1400px) and (max-width: 1800px) {
-    margin: $marginBreakPoint;
-
-
-    h1 {
-      margin-bottom: $marginBottom;
-      color: $titleFontColour;
-    }
-    p {
-      color: $textColour;
-      font-size: $fontsizeMobileTextMax1280Px;
-      line-height: $lineHeighttextMax1280Px;
-      letter-spacing: $letterSpacingMax1280Px;
-      word-spacing: $wordSpacingMax1280Px;
-      margin-bottom: $marginBottomTextMax1280Px;
-    }
-
-    .experience-title {
-      margin-top: -50px;
-    }
-    .contact-title {
-      margin-top: -50px;
-    }
-    .portfolio-title {
-      margin-bottom: 2rem;
-    }
-
-    section#who-iam ul.control .arrow .left {
-      left: 15px;
-    }
-
-    section#who-i-am ul.control .arrow .right {
-      left: 15px;
-    }
-
-    .left-portfolio {
-      left: 12px;
-    }
-    .right-experiences {
-      right: 12px;
-    }
-    .right-portfolio {
-      right: 12px;
-    }
-
-    .right {
-      right: 12px;
-    }
-
-    .portfolio-content {
-      display: table;
-    }
-    div#columns {
-      float: left;
-    }
-
-    .content-portfolio-title {
-      width: 30%;
-      padding-right: 30px;
-    }
-    .content-portfolio-video {
-      width: 40%;
-      position: relative;
-    }
-    .button-fixed {
-      text-align: center;
-      align-self: center;
-      position: relative;
-    }
-    #columns {
-      float: left;
-    }
-
-    .portfolio-content::after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-
-    .pantree-video {
-      margin-top: 0;
-      transform: translate(20%);
-      -webkit-transform: translate(20%);
-    }
-    video {
-      margin-top: 0rem;
-      width: 700px;
-    }
-       .experiences-content ul li{
-       font-size:$fontsizeMobileTextMax1280Px
+    .experiences-content ul li {
+      font-size: $fontsizeMobileTextMax1370Px;
     }
   }
 }
@@ -359,8 +342,8 @@
       margin-top: 0.5rem;
       width: 700px;
     }
-        .experiences-content ul li{
-       font-size:$fontsizeMobileTextMax1280Px
+    .experiences-content ul li {
+      font-size: $fontsizeMobileTextMax1280Px;
     }
   }
 }

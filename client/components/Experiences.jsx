@@ -108,7 +108,14 @@ class Experiences extends React.Component {
           </div>
 
           <div className="control-experiences">
-            <span className="arrow-experiences left-experiences">
+            <span
+              className="arrow-experiences left-experiences"
+              onClick={
+                this.state.index == 0
+                  ? this.handleClickNext
+                  : this.handleClickPrev
+              }
+            >
               <i
                 className="material-icons"
                 onClick={
@@ -120,7 +127,14 @@ class Experiences extends React.Component {
                 keyboard_arrow_left
               </i>
             </span>
-            <span className="arrow-experiences right-experiences">
+            <span
+              className="arrow-experiences right-experiences"
+              onClick={
+                this.state.index == 0
+                  ? this.handleClickNext
+                  : this.handleClickPrev
+              }
+            >
               <i
                 className="material-icons"
                 onClick={

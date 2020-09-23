@@ -337,7 +337,7 @@
       margin-top: 10px;
     }
     .who-i-am-title {
-      margin-top: 1rem;
+      margin-top: -1rem;
     }
     .portfolio-title {
       margin-top: -40px;
@@ -346,16 +346,27 @@
       margin-top: -50px;
       margin-bottom: 30px;
     }
-
+     
     .control ul {
       margin: 0 0 10px 0;
     }
+
+    .portfolio-content{
+      margin: 0 1.5rem 0 1.5rem;
+    }
+
+    span i{
+      font-size: 25px;
+    }
+
+#content-who-i-am-second-section{
+  margin: 0 3.8rem 0 3rem;;
+}
 
 
     video {
       margin-top: 1rem;
       align-self: center;
-      // padding-left:3rem;
       width: 320px;
     }
    
@@ -365,6 +376,10 @@
 @mixin breakPoint350Px($marginBreakPoint, $fontsizeBreakPoint) {
   @media screen and (min-width: 310px) and (max-width: 350px) {
     margin: $marginBreakPoint;
+     .arrow i{
+      font-size: 15px;
+      
+    }
     * {
       font-size: 12px;
     }
@@ -410,6 +425,8 @@
       margin-top: 5px;
       margin-bottom: 5px;
     }
+    
+   
 
     video {
       margin-top: 1rem;

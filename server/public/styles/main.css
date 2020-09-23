@@ -40,7 +40,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: skyblue;
+  color: #6fa2e5;
 }
 
 .sidenav {
@@ -79,7 +79,7 @@ section#experiences {
   background: #fffafa;
   width: 100%;
   height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
 }
 
@@ -122,6 +122,7 @@ section#experiences {
 #container-experiences {
   max-width: 1280px;
   margin: 0px auto;
+  overflow-y: hidden;
   overflow-x: scroll;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
@@ -145,30 +146,36 @@ section#experiences {
 }
 
 .arrow-experiences i {
-  font-size: 25px;
+  font-size: 30px;
+  border: solid 2px black;
+  border-radius: 50%;
   -webkit-user-select: none;
   color: black;
 }
 
+.arrow-experiences .arrow-experiences:hover {
+  color: #6fa2e5;
+}
+
 .arrow-experiences i:hover {
-  color: skyblue;
+  color: #6fa2e5;
 }
 
 .arrow-experiences i:focus {
-  color: skyblue;
+  color: s #6fa2e5;
 }
 
 .arrow-experiences i:active {
-  color: skyblue;
+  color: #6fa2e5;
 }
 
 .left-experiences {
-  left: -4px;
+  left: 4px;
   z-index: 5;
 }
 
 .right-experiences {
-  right: 8px;
+  right: 4px;
   z-index: 5;
 }
 
@@ -233,6 +240,9 @@ section#experiences {
   .experiences-content {
     margin: 0 1rem 0 1rem;
   }
+  .experiences-content .arrow i {
+    font-size: 15px;
+  }
   .experiences-content * {
     font-size: 12px;
   }
@@ -285,7 +295,7 @@ section#experiences {
 
 @media screen and (min-width: 350px) and (max-width: 365px) {
   .experiences-content {
-    margin: 0 1.5rem 0 1.5rem;
+    margin: 0 3rem 0 3.8rem;
   }
   .experiences-content * {
     font-size: 12px;
@@ -309,7 +319,7 @@ section#experiences {
     margin-top: 10px;
   }
   .experiences-content .who-i-am-title {
-    margin-top: 1rem;
+    margin-top: -1rem;
   }
   .experiences-content .portfolio-title {
     margin-top: -40px;
@@ -320,6 +330,15 @@ section#experiences {
   }
   .experiences-content .control ul {
     margin: 0 0 10px 0;
+  }
+  .experiences-content .portfolio-content {
+    margin: 0 1.5rem 0 1.5rem;
+  }
+  .experiences-content span i {
+    font-size: 25px;
+  }
+  .experiences-content #content-who-i-am-second-section {
+    margin: 0 3.8rem 0 3rem;
   }
   .experiences-content video {
     margin-top: 1rem;
@@ -644,24 +663,6 @@ section#experiences {
   .experiences-content .portfolio-title {
     margin-bottom: 2rem;
   }
-  .experiences-content section#who-iam ul.control .arrow .left {
-    left: 15px;
-  }
-  .experiences-content section#who-i-am ul.control .arrow .right {
-    left: 15px;
-  }
-  .experiences-content .left-portfolio {
-    left: 12px;
-  }
-  .experiences-content .right-experiences {
-    right: 12px;
-  }
-  .experiences-content .right-portfolio {
-    right: 12px;
-  }
-  .experiences-content .right {
-    right: 12px;
-  }
   .experiences-content .portfolio-content {
     display: table;
   }
@@ -702,6 +703,12 @@ section#experiences {
   }
   .experiences-content .experiences-content ul li {
     font-size: 16px;
+  }
+  .experiences-content #left-who-i-am {
+    left: 100px !important;
+  }
+  .experiences-content #right-who-i-am {
+    right: 100px !important;
   }
 }
 
@@ -1585,6 +1592,9 @@ section#contact {
   .contact-content {
     margin: 0 1rem 0 1rem;
   }
+  .contact-content .arrow i {
+    font-size: 15px;
+  }
   .contact-content * {
     font-size: 12px;
   }
@@ -1637,7 +1647,7 @@ section#contact {
 
 @media screen and (min-width: 350px) and (max-width: 365px) {
   .contact-content {
-    margin: 0 1.5rem 0 1.5rem;
+    margin: 0 3rem 0 3.8rem;
   }
   .contact-content * {
     font-size: 12px;
@@ -1661,7 +1671,7 @@ section#contact {
     margin-top: 10px;
   }
   .contact-content .who-i-am-title {
-    margin-top: 1rem;
+    margin-top: -1rem;
   }
   .contact-content .portfolio-title {
     margin-top: -40px;
@@ -1672,6 +1682,15 @@ section#contact {
   }
   .contact-content .control ul {
     margin: 0 0 10px 0;
+  }
+  .contact-content .portfolio-content {
+    margin: 0 1.5rem 0 1.5rem;
+  }
+  .contact-content span i {
+    font-size: 25px;
+  }
+  .contact-content #content-who-i-am-second-section {
+    margin: 0 3.8rem 0 3rem;
   }
   .contact-content video {
     margin-top: 1rem;
@@ -1996,24 +2015,6 @@ section#contact {
   .contact-content .portfolio-title {
     margin-bottom: 2rem;
   }
-  .contact-content section#who-iam ul.control .arrow .left {
-    left: 15px;
-  }
-  .contact-content section#who-i-am ul.control .arrow .right {
-    left: 15px;
-  }
-  .contact-content .left-portfolio {
-    left: 12px;
-  }
-  .contact-content .right-experiences {
-    right: 12px;
-  }
-  .contact-content .right-portfolio {
-    right: 12px;
-  }
-  .contact-content .right {
-    right: 12px;
-  }
   .contact-content .portfolio-content {
     display: table;
   }
@@ -2054,6 +2055,12 @@ section#contact {
   }
   .contact-content .experiences-content ul li {
     font-size: 16px;
+  }
+  .contact-content #left-who-i-am {
+    left: 100px !important;
+  }
+  .contact-content #right-who-i-am {
+    right: 100px !important;
   }
 }
 
@@ -2907,7 +2914,7 @@ section#contact {
 }
 
 .container-credit a {
-  color: skyblue;
+  color: #6fa2e5;
 }
 
 #link-emma-site {
@@ -2917,13 +2924,13 @@ section#contact {
 .credit-footer {
   color: #fff;
   margin: 5px auto 5px auto;
-  border-bottom: solid 1px skyblue;
+  border-bottom: solid 1px #6fa2e5;
   padding-bottom: 15px;
   width: 70%;
 }
 
 #copy-right {
-  color: skyblue;
+  color: #6fa2e5;
 }
 
 ul.social-icons li {
@@ -2960,11 +2967,11 @@ footer .social-icons li a {
 }
 
 footer .social-icons li a i.fab:hover {
-  color: skyblue;
+  color: #6fa2e5;
 }
 
 footer .social-icons li a i.fas:hover {
-  color: skyblue;
+  color: #6fa2e5;
   cursor: pointer;
 }
 
@@ -2989,11 +2996,11 @@ h5 {
 }
 
 .contact-container ul li a:hover {
-  color: skyblue;
+  color: #6fa2e5;
 }
 
 .contact-container ul li a:hover {
-  color: skyblue;
+  color: #6fa2e5;
 }
 
 #overlay {
@@ -3028,7 +3035,7 @@ h5 {
 }
 
 div.who-i-am-background {
-  background: url("../images/manInOcean.jpg") no-repeat center center;
+  background: url("../images/tablet.png") no-repeat center center;
   background-position: center center;
   -moz-background-position: center center;
   -webkit-background-position: center center;
@@ -3037,7 +3044,7 @@ div.who-i-am-background {
   -webkit-background-size: cover;
   -o-background-size: cover;
   width: 100vw;
-  height: 80vh;
+  height: 85vh;
   margin: auto;
   padding: 0;
 }
@@ -3086,7 +3093,7 @@ div.who-i-am-background .content-banner p.profession-banner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 80vh;
+  height: 85vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -3103,7 +3110,7 @@ section#who-i-am {
   background: #fffafa;
   width: 100%;
   height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
 }
 
@@ -3147,6 +3154,7 @@ section#who-i-am {
   width: 100%;
   height: 100vh;
   margin: 0px auto;
+  overflow-y: hidden;
   overflow-x: scroll;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
@@ -3161,16 +3169,19 @@ section#who-i-am {
   position: relative;
 }
 
-.left, .right {
+#left-who-i-am,
+#right-who-i-am {
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
   cursor: pointer;
 }
 
 .arrow i {
-  font-size: 25px;
+  font-size: 30px;
+  border: solid 2px black;
+  border-radius: 50%;
   -webkit-user-select: none;
   color: black;
 }
@@ -3187,13 +3198,13 @@ section#who-i-am {
   color: skyblue;
 }
 
-.left {
-  left: -4px;
+#left-who-i-am {
+  left: 4px;
   z-index: 5;
 }
 
-.right {
-  right: -4px;
+#right-who-i-am {
+  right: 4px;
   z-index: 5;
 }
 
@@ -3206,7 +3217,8 @@ section#who-i-am {
       align-self: flex-start;
 }
 
-#content-who-i-am {
+#content-who-i-am,
+#content-who-i-am-second-section {
   scroll-snap-align: center;
   -webkit-scroll-snap-align: center;
   -moz-scroll-snap-align: center;
@@ -3229,17 +3241,25 @@ section#who-i-am {
 }
 
 @media screen and (min-width: 310px) and (max-width: 350px) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 1rem 0 1rem;
   }
-  #content-who-i-am * {
+  #content-who-i-am .arrow i,
+  #content-who-i-am-second-section .arrow i {
+    font-size: 15px;
+  }
+  #content-who-i-am *,
+  #content-who-i-am-second-section * {
     font-size: 12px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 2rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 12px;
     line-height: 20px;
@@ -3247,32 +3267,40 @@ section#who-i-am {
     word-spacing: 2px;
     margin-bottom: 18px;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: 10px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: 20px;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin: 10px 0 2rem 0;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-top: -3rem;
   }
-  #content-who-i-am .control ul {
+  #content-who-i-am .control ul,
+  #content-who-i-am-second-section .control ul {
     margin: 0 0 5px 0;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin: 5px 0 1rem 0;
   }
-  #content-who-i-am h5 {
+  #content-who-i-am h5,
+  #content-who-i-am-second-section h5 {
     font-weight: bolder;
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 1rem;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -3283,17 +3311,21 @@ section#who-i-am {
 }
 
 @media screen and (min-width: 350px) and (max-width: 365px) {
-  #content-who-i-am {
-    margin: 0 1.5rem 0 1.5rem;
+  #content-who-i-am,
+  #content-who-i-am-second-section {
+    margin: 0 3rem 0 3.8rem;
   }
-  #content-who-i-am * {
+  #content-who-i-am *,
+  #content-who-i-am-second-section * {
     font-size: 12px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 2rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 12px;
     line-height: 19px;
@@ -3301,26 +3333,45 @@ section#who-i-am {
     word-spacing: 2px;
     margin-bottom: 22px;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: 10px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: 10px;
   }
-  #content-who-i-am .who-i-am-title {
-    margin-top: 1rem;
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
+    margin-top: -1rem;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-top: -40px;
   }
-  #content-who-i-am .project-title {
+  #content-who-i-am .project-title,
+  #content-who-i-am-second-section .project-title {
     margin-top: -50px;
     margin-bottom: 30px;
   }
-  #content-who-i-am .control ul {
+  #content-who-i-am .control ul,
+  #content-who-i-am-second-section .control ul {
     margin: 0 0 10px 0;
   }
-  #content-who-i-am video {
+  #content-who-i-am .portfolio-content,
+  #content-who-i-am-second-section .portfolio-content {
+    margin: 0 1.5rem 0 1.5rem;
+  }
+  #content-who-i-am span i,
+  #content-who-i-am-second-section span i {
+    font-size: 25px;
+  }
+  #content-who-i-am #content-who-i-am-second-section,
+  #content-who-i-am-second-section #content-who-i-am-second-section {
+    margin: 0 3.8rem 0 3rem;
+  }
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 1rem;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -3330,17 +3381,21 @@ section#who-i-am {
 }
 
 @media screen and (min-width: 380px) and (max-width: 420px) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 2rem 0 2rem;
   }
-  #content-who-i-am * {
+  #content-who-i-am *,
+  #content-who-i-am-second-section * {
     font-size: 14px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 3rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 13px;
     line-height: 20px;
@@ -3348,39 +3403,49 @@ section#who-i-am {
     word-spacing: 2px;
     margin-bottom: 26px;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -80px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -140px;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     margin-top: -5rem;
   }
-  #content-who-i-am .control ul {
+  #content-who-i-am .control ul,
+  #content-who-i-am-second-section .control ul {
     margin: 0 0 10px 0;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: -50px;
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 3rem;
     width: 350px;
   }
 }
 
 @media screen and (min-width: 372px) and (max-width: 400px) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 2rem 0 2rem;
   }
-  #content-who-i-am * {
+  #content-who-i-am *,
+  #content-who-i-am-second-section * {
     font-size: 14px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 2.5rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 12px;
     line-height: 19px;
@@ -3388,50 +3453,63 @@ section#who-i-am {
     word-spacing: 1.8px;
     margin-bottom: 18px;
   }
-  #content-who-i-am .portfolio-content p.swipe {
+  #content-who-i-am .portfolio-content p.swipe,
+  #content-who-i-am-second-section .portfolio-content p.swipe {
     font-weight: bolder;
     color: #333;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -60px;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: 10px;
   }
-  #content-who-i-am h5 {
+  #content-who-i-am h5,
+  #content-who-i-am-second-section h5 {
     margin-top: 5px;
     margin-bottom: 10px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -60px;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     margin-top: 1rem;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: -0px;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-top: 0;
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 2rem;
     width: 300px;
   }
 }
 
 @media screen and (height: 812px) and (width: 375px) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 2rem 0 2rem;
   }
-  #content-who-i-am * {
+  #content-who-i-am *,
+  #content-who-i-am-second-section * {
     font-size: 14px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 2.5rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 13px;
     line-height: 20px;
@@ -3439,44 +3517,55 @@ section#who-i-am {
     word-spacing: 2px;
     margin-bottom: 18px;
   }
-  #content-who-i-am .portfolio-content p.swipe {
+  #content-who-i-am .portfolio-content p.swipe,
+  #content-who-i-am-second-section .portfolio-content p.swipe {
     font-weight: bolder;
     color: #333;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -80px;
   }
-  #content-who-i-am h5 {
+  #content-who-i-am h5,
+  #content-who-i-am-second-section h5 {
     margin-top: 5px;
     margin-bottom: 10px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -60px;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     margin-top: 1rem;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: -80px;
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 3rem;
     width: 300px;
   }
 }
 
 @media screen and (min-width: 450px) and (max-width: 470px) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 2rem 0 2rem;
   }
-  #content-who-i-am * {
+  #content-who-i-am *,
+  #content-who-i-am-second-section * {
     font-size: 14px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 3rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 13px;
     line-height: 20px;
@@ -3484,24 +3573,29 @@ section#who-i-am {
     word-spacing: 2px;
     margin-bottom: 26px;
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 3rem;
     width: 350px;
   }
 }
 
 @media screen and (width: 480px) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 2rem 0 2rem;
   }
-  #content-who-i-am * {
+  #content-who-i-am *,
+  #content-who-i-am-second-section * {
     font-size: 14px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 3rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 13px;
     line-height: 20px;
@@ -3509,14 +3603,16 @@ section#who-i-am {
     word-spacing: 2.2px;
     margin-bottom: 24px;
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 2rem;
     width: 400px;
   }
 }
 
 @media screen and (min-width: 694px) and (max-width: 700px) {
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     -ms-flex-item-align: end;
         align-self: flex-end;
     margin-top: 2rem;
@@ -3525,21 +3621,26 @@ section#who-i-am {
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1030px) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 5rem 0 5rem;
   }
-  #content-who-i-am * {
+  #content-who-i-am *,
+  #content-who-i-am-second-section * {
     font-size: 24px;
   }
-  #content-who-i-am h1.banner-title-name {
+  #content-who-i-am h1.banner-title-name,
+  #content-who-i-am-second-section h1.banner-title-name {
     font-size: 6rem;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 4rem;
     margin-bottom: 5rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 16px;
     line-height: 24px;
@@ -3547,13 +3648,16 @@ section#who-i-am {
     margin-bottom: 32px;
     word-spacing: 3px;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -180px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -200px;
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 2rem;
     margin: 30px 0 10px 80px;
     width: 800px;
@@ -3561,21 +3665,26 @@ section#who-i-am {
 }
 
 @media only screen and (min-width: 750px) and (max-width: 840px) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 3.8rem 0 3.8rem;
   }
-  #content-who-i-am * {
+  #content-who-i-am *,
+  #content-who-i-am-second-section * {
     font-size: 16px;
   }
-  #content-who-i-am .sidenav li a {
+  #content-who-i-am .sidenav li a,
+  #content-who-i-am-second-section .sidenav li a {
     font-size: 16px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 4rem;
     margin-bottom: 4rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 14px;
     line-height: 24px;
@@ -3583,50 +3692,63 @@ section#who-i-am {
     word-spacing: 2.5px;
     margin-bottom: 28px;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -20px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -80px;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     margin-top: -8rem;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-top: 80px;
     margin-bottom: 20px;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: 30px;
     margin-bottom: 20px;
   }
-  #content-who-i-am h5 {
+  #content-who-i-am h5,
+  #content-who-i-am-second-section h5 {
     margin-top: 0;
   }
-  #content-who-i-am .button-fixed .portfolio-button {
+  #content-who-i-am .button-fixed .portfolio-button,
+  #content-who-i-am-second-section .button-fixed .portfolio-button {
     margin-bottom: 60px;
   }
-  #content-who-i-am div.control-experiences .left-experiences {
+  #content-who-i-am div.control-experiences .left-experiences,
+  #content-who-i-am-second-section div.control-experiences .left-experiences {
     left: 10px;
   }
-  #content-who-i-am div.control-experiences .right-experiences {
+  #content-who-i-am div.control-experiences .right-experiences,
+  #content-who-i-am-second-section div.control-experiences .right-experiences {
     right: 10px;
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin: 20px 0 10px 120px;
     width: 400px;
   }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1800px) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 15rem 0 15rem;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     margin-bottom: 4rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 16px;
     line-height: 24px;
@@ -3634,86 +3756,92 @@ section#who-i-am {
     word-spacing: 2.8px;
     margin-bottom: 32px;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -50px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -50px;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-bottom: 2rem;
   }
-  #content-who-i-am section#who-iam ul.control .arrow .left {
-    left: 15px;
-  }
-  #content-who-i-am section#who-i-am ul.control .arrow .right {
-    left: 15px;
-  }
-  #content-who-i-am .left-portfolio {
-    left: 12px;
-  }
-  #content-who-i-am .right-experiences {
-    right: 12px;
-  }
-  #content-who-i-am .right-portfolio {
-    right: 12px;
-  }
-  #content-who-i-am .right {
-    right: 12px;
-  }
-  #content-who-i-am .portfolio-content {
+  #content-who-i-am .portfolio-content,
+  #content-who-i-am-second-section .portfolio-content {
     display: table;
   }
-  #content-who-i-am div#columns {
+  #content-who-i-am div#columns,
+  #content-who-i-am-second-section div#columns {
     float: left;
   }
-  #content-who-i-am .content-portfolio-title {
+  #content-who-i-am .content-portfolio-title,
+  #content-who-i-am-second-section .content-portfolio-title {
     width: 30%;
     padding-right: 30px;
   }
-  #content-who-i-am .content-portfolio-video {
+  #content-who-i-am .content-portfolio-video,
+  #content-who-i-am-second-section .content-portfolio-video {
     width: 40%;
     position: relative;
   }
-  #content-who-i-am .button-fixed {
+  #content-who-i-am .button-fixed,
+  #content-who-i-am-second-section .button-fixed {
     text-align: center;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
     position: relative;
   }
-  #content-who-i-am #columns {
+  #content-who-i-am #columns,
+  #content-who-i-am-second-section #columns {
     float: left;
   }
-  #content-who-i-am .portfolio-content::after {
+  #content-who-i-am .portfolio-content::after,
+  #content-who-i-am-second-section .portfolio-content::after {
     content: "";
     display: table;
     clear: both;
   }
-  #content-who-i-am .pantree-video {
+  #content-who-i-am .pantree-video,
+  #content-who-i-am-second-section .pantree-video {
     margin-top: 0;
     transform: translate(20%);
     -webkit-transform: translate(20%);
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 0rem;
     width: 700px;
   }
-  #content-who-i-am .experiences-content ul li {
+  #content-who-i-am .experiences-content ul li,
+  #content-who-i-am-second-section .experiences-content ul li {
     font-size: 16px;
+  }
+  #content-who-i-am #left-who-i-am,
+  #content-who-i-am-second-section #left-who-i-am {
+    left: 100px !important;
+  }
+  #content-who-i-am #right-who-i-am,
+  #content-who-i-am-second-section #right-who-i-am {
+    right: 100px !important;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 15rem 0 15rem;
     font-size: 24px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     margin-bottom: 4rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 16px;
     line-height: 24px;
@@ -3721,76 +3849,96 @@ section#who-i-am {
     word-spacing: 2.8px;
     margin-bottom: 32px;
   }
-  #content-who-i-am .portfolio-content p.swipe {
+  #content-who-i-am .portfolio-content p.swipe,
+  #content-who-i-am-second-section .portfolio-content p.swipe {
     font-weight: bolder;
     color: #333;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -100px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -100px;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-bottom: 3rem;
   }
-  #content-who-i-am section#who-iam ul.control .left {
+  #content-who-i-am section#who-iam ul.control .left,
+  #content-who-i-am-second-section section#who-iam ul.control .left {
     left: 15px;
   }
-  #content-who-i-am section#who-i-am ul.control .right {
+  #content-who-i-am section#who-i-am ul.control .right,
+  #content-who-i-am-second-section section#who-i-am ul.control .right {
     left: 15px;
   }
-  #content-who-i-am .left-experiences {
+  #content-who-i-am .left-experiences,
+  #content-who-i-am-second-section .left-experiences {
     left: 12px;
   }
-  #content-who-i-am .left-portfolio {
+  #content-who-i-am .left-portfolio,
+  #content-who-i-am-second-section .left-portfolio {
     left: 12px;
   }
-  #content-who-i-am .right-experiences {
+  #content-who-i-am .right-experiences,
+  #content-who-i-am-second-section .right-experiences {
     right: 12px;
   }
-  #content-who-i-am .right-portfolio {
+  #content-who-i-am .right-portfolio,
+  #content-who-i-am-second-section .right-portfolio {
     right: 12px;
   }
-  #content-who-i-am .content-portfolio-title {
+  #content-who-i-am .content-portfolio-title,
+  #content-who-i-am-second-section .content-portfolio-title {
     width: 30%;
     padding-right: 30px;
   }
-  #content-who-i-am .content-portfolio-video {
+  #content-who-i-am .content-portfolio-video,
+  #content-who-i-am-second-section .content-portfolio-video {
     width: 40%;
     position: relative;
   }
-  #content-who-i-am #columns {
+  #content-who-i-am #columns,
+  #content-who-i-am-second-section #columns {
     float: left;
   }
-  #content-who-i-am .portfolio-content::after {
+  #content-who-i-am .portfolio-content::after,
+  #content-who-i-am-second-section .portfolio-content::after {
     content: "";
     display: table;
     clear: both;
   }
-  #content-who-i-am .pantree-video {
+  #content-who-i-am .pantree-video,
+  #content-who-i-am-second-section .pantree-video {
     margin-top: 0;
     transform: translate(50%);
     -webkit-transform: translate(50%);
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 0.5rem;
     width: 700px;
   }
-  #content-who-i-am .experiences-content ul li {
+  #content-who-i-am .experiences-content ul li,
+  #content-who-i-am-second-section .experiences-content ul li {
     font-size: 16px;
   }
 }
 
 @media only screen and (min-width: 1320px) and (max-width: 1370px) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 12rem 0 12rem;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     margin-bottom: 5rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 16px;
     line-height: 24px;
@@ -3798,85 +3946,106 @@ section#who-i-am {
     word-spacing: 2.8px;
     margin-bottom: 32px;
   }
-  #content-who-i-am .portfolio-content .swipe {
+  #content-who-i-am .portfolio-content .swipe,
+  #content-who-i-am-second-section .portfolio-content .swipe {
     font-weight: bolder;
     color: #333;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -100px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -100px;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-bottom: 3rem;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: 30px;
     margin-bottom: 20px;
   }
-  #content-who-i-am section#who-iam ul.control .arrow .left {
+  #content-who-i-am section#who-iam ul.control .arrow .left,
+  #content-who-i-am-second-section section#who-iam ul.control .arrow .left {
     left: 15px;
   }
-  #content-who-i-am section#who-i-am ul.control .arrow .right {
+  #content-who-i-am section#who-i-am ul.control .arrow .right,
+  #content-who-i-am-second-section section#who-i-am ul.control .arrow .right {
     left: 15px;
   }
-  #content-who-i-am h5 {
+  #content-who-i-am h5,
+  #content-who-i-am-second-section h5 {
     margin-top: 0;
     margin-bottom: 5px;
   }
-  #content-who-i-am div.slider-experiences div.experiences-content ul {
+  #content-who-i-am div.slider-experiences div.experiences-content ul,
+  #content-who-i-am-second-section div.slider-experiences div.experiences-content ul {
     margin-left: 50px;
   }
-  #content-who-i-am .content-portfolio-title {
+  #content-who-i-am .content-portfolio-title,
+  #content-who-i-am-second-section .content-portfolio-title {
     width: 30%;
     padding-right: 30px;
   }
-  #content-who-i-am .content-portfolio-video {
+  #content-who-i-am .content-portfolio-video,
+  #content-who-i-am-second-section .content-portfolio-video {
     width: 40%;
     position: relative;
   }
-  #content-who-i-am #columns {
+  #content-who-i-am #columns,
+  #content-who-i-am-second-section #columns {
     float: left;
   }
-  #content-who-i-am .portfolio-content::after {
+  #content-who-i-am .portfolio-content::after,
+  #content-who-i-am-second-section .portfolio-content::after {
     content: "";
     display: table;
     clear: both;
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
     margin-left: 30px;
     width: 600px;
   }
-  #content-who-i-am .portfolio-content video {
+  #content-who-i-am .portfolio-content video,
+  #content-who-i-am-second-section .portfolio-content video {
     -ms-flex-line-pack: center;
         align-content: center;
   }
-  #content-who-i-am .pantree-video {
+  #content-who-i-am .pantree-video,
+  #content-who-i-am-second-section .pantree-video {
     margin-left: 80px;
     transform: translate(10%);
     -webkit-transform: translate(10%);
   }
-  #content-who-i-am .experiences-content ul li {
+  #content-who-i-am .experiences-content ul li,
+  #content-who-i-am-second-section .experiences-content ul li {
     font-size: 16px;
   }
 }
 
 @media only screen and (min-width: 1800px) and (max-width: 2400px) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 12rem 0 12rem;
   }
-  #content-who-i-am section.who-i-am-background .content-banner h1 {
+  #content-who-i-am section.who-i-am-background .content-banner h1,
+  #content-who-i-am-second-section section.who-i-am-background .content-banner h1 {
     font-size: 6rem;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     margin-bottom: 5rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 18px;
     line-height: 28px;
@@ -3884,36 +4053,45 @@ section#who-i-am {
     word-spacing: 3px;
     margin-bottom: 36px;
   }
-  #content-who-i-am .portfolio-content .swipe {
+  #content-who-i-am .portfolio-content .swipe,
+  #content-who-i-am-second-section .portfolio-content .swipe {
     font-weight: bolder;
     color: #333;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -320px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -320px;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-bottom: 3rem;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: -80px;
   }
-  #content-who-i-am section#who-iam ul.control .arrow .left {
+  #content-who-i-am section#who-iam ul.control .arrow .left,
+  #content-who-i-am-second-section section#who-iam ul.control .arrow .left {
     left: 15px;
   }
-  #content-who-i-am section#who-i-am ul.control .arrow .right {
+  #content-who-i-am section#who-i-am ul.control .arrow .right,
+  #content-who-i-am-second-section section#who-i-am ul.control .arrow .right {
     left: 15px;
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 2rem;
     width: 900px;
     -ms-flex-item-align: start;
         -ms-grid-row-align: start;
         align-self: start;
   }
-  #content-who-i-am .pantree-video {
+  #content-who-i-am .pantree-video,
+  #content-who-i-am-second-section .pantree-video {
     position: relative;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -3922,43 +4100,53 @@ section#who-i-am {
     transform: translate(20%);
     -webkit-transform: translate(20%);
   }
-  #content-who-i-am .portfolio-content {
+  #content-who-i-am .portfolio-content,
+  #content-who-i-am-second-section .portfolio-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  #content-who-i-am .content-portfolio-title {
+  #content-who-i-am .content-portfolio-title,
+  #content-who-i-am-second-section .content-portfolio-title {
     width: 30%;
     padding-right: 30px;
   }
-  #content-who-i-am .content-portfolio-video {
+  #content-who-i-am .content-portfolio-video,
+  #content-who-i-am-second-section .content-portfolio-video {
     width: 40%;
     position: relative;
   }
-  #content-who-i-am #columns {
+  #content-who-i-am #columns,
+  #content-who-i-am-second-section #columns {
     float: left;
   }
-  #content-who-i-am .portfolio-content::after {
+  #content-who-i-am .portfolio-content::after,
+  #content-who-i-am-second-section .portfolio-content::after {
     display: table;
     clear: both;
   }
-  #content-who-i-am .experiences-content ul li {
+  #content-who-i-am .experiences-content ul li,
+  #content-who-i-am-second-section .experiences-content ul li {
     font-size: 18px;
   }
 }
 
 @media only screen and (min-width: 560px) and (max-width: 600px) and (orientation: landscape) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 2rem 0 2rem;
   }
-  #content-who-i-am * {
+  #content-who-i-am *,
+  #content-who-i-am-second-section * {
     font-size: 12px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 2rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 12px;
     line-height: 16px;
@@ -3966,37 +4154,45 @@ section#who-i-am {
     word-spacing: 1.9px;
     margin-bottom: 20px;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: 10px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: 20px;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-top: 70px;
     margin-bottom: 1rem;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     -ms-flex-item-align: start;
         align-self: flex-start;
     font-size: 1.5rem;
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: 20px;
     margin-bottom: 5px;
   }
-  #content-who-i-am h5 {
+  #content-who-i-am h5,
+  #content-who-i-am-second-section h5 {
     margin-top: 0;
     margin-bottom: 0;
   }
-  #content-who-i-am .pantree-video {
+  #content-who-i-am .pantree-video,
+  #content-who-i-am-second-section .pantree-video {
     margin-top: 0;
     transform: translate(50%);
     -webkit-transform: translate(50%);
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 0.2rem;
     margin-bottom: 0;
     width: 260px;
@@ -4007,14 +4203,17 @@ section#who-i-am {
 }
 
 @media only screen and (min-width: 640px) and (max-width: 660px) and (orientation: landscape) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 2rem 0 2rem;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 2rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 12px;
     line-height: 18px;
@@ -4022,39 +4221,48 @@ section#who-i-am {
     word-spacing: 2px;
     margin-bottom: 20px;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: 10px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -20px;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-top: 30px;
     margin-bottom: 1rem;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
   }
-  #content-who-i-am .last-p-who-i-am {
+  #content-who-i-am .last-p-who-i-am,
+  #content-who-i-am-second-section .last-p-who-i-am {
     margin-bottom: 0;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: 20px;
     margin-bottom: 5px;
   }
-  #content-who-i-am h5 {
+  #content-who-i-am h5,
+  #content-who-i-am-second-section h5 {
     margin-top: 0;
     margin-bottom: 0;
   }
-  #content-who-i-am .pantree-video {
+  #content-who-i-am .pantree-video,
+  #content-who-i-am-second-section .pantree-video {
     margin-top: 0;
     transform: translate(50%);
     -webkit-transform: translate(50%);
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 0.2rem;
     width: 260px;
     transform: translate(20%);
@@ -4063,17 +4271,21 @@ section#who-i-am {
 }
 
 @media only screen and (min-width: 667px) and (max-width: 675px) and (orientation: landscape) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 2.5rem 0 2.5rem;
   }
-  #content-who-i-am * {
+  #content-who-i-am *,
+  #content-who-i-am-second-section * {
     font-size: 12px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 2rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 12px;
     line-height: 18px;
@@ -4081,42 +4293,52 @@ section#who-i-am {
     word-spacing: 2px;
     margin-bottom: 24px;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: 10px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -20px;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-top: 50px;
     margin-bottom: 1rem;
   }
-  #content-who-i-am section#who-i-am {
+  #content-who-i-am section#who-i-am,
+  #content-who-i-am-second-section section#who-i-am {
     height: 130%;
   }
-  #content-who-i-am section.who-i-am .indicators {
+  #content-who-i-am section.who-i-am .indicators,
+  #content-who-i-am-second-section section.who-i-am .indicators {
     top: 275px;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin-top: -1rem;
     margin-bottom: 2rem;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: 10px;
     margin-bottom: 5px;
   }
-  #content-who-i-am h5 {
+  #content-who-i-am h5,
+  #content-who-i-am-second-section h5 {
     margin-top: 0;
     margin-bottom: 0;
   }
-  #content-who-i-am .pantree-video {
+  #content-who-i-am .pantree-video,
+  #content-who-i-am-second-section .pantree-video {
     margin-top: 0;
     transform: translate(50%);
     -webkit-transform: translate(50%);
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 0.2rem;
     width: 280px;
     transform: translate(20%);
@@ -4125,56 +4347,69 @@ section#who-i-am {
 }
 
 @media only screen and (min-width: 684px) and (max-width: 690px) and (orientation: landscape) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 2rem 0 2rem;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 2rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 13px;
     line-height: 21px;
     letter-spacing: 1.6px;
     margin-bottom: 20px;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -20px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -20px;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-top: 0;
     margin-bottom: 1rem;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  #content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  #content-who-i-am .carousel .carousel-item .content-who-i-am p,
+  #content-who-i-am-second-section .carousel .carousel-item .content-who-i-am p {
     font-size: 12px;
   }
-  #content-who-i-am .last-p-who-i-am {
+  #content-who-i-am .last-p-who-i-am,
+  #content-who-i-am-second-section .last-p-who-i-am {
     margin-bottom: 0;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: 10px;
     margin-bottom: 5px;
   }
-  #content-who-i-am h5 {
+  #content-who-i-am h5,
+  #content-who-i-am-second-section h5 {
     margin-top: 0;
     margin-bottom: 0;
   }
-  #content-who-i-am .pantree-video {
+  #content-who-i-am .pantree-video,
+  #content-who-i-am-second-section .pantree-video {
     margin-top: 0;
     transform: translate(50%);
     -webkit-transform: translate(50%);
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 0;
     width: 290px;
     transform: translate(20%);
@@ -4183,58 +4418,71 @@ section#who-i-am {
 }
 
 @media only screen and (min-width: 700px) and (max-width: 731px) and (orientation: landscape) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 2.5rem 0 2.5rem;
     font-size: 13px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 2rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 13px;
     line-height: 21px;
     letter-spacing: 1.7px;
     margin-bottom: 24px;
   }
-  #content-who-i-am .portfolio-content p.swipe {
+  #content-who-i-am .portfolio-content p.swipe,
+  #content-who-i-am-second-section .portfolio-content p.swipe {
     font-weight: bolder;
     color: #333;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -20px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -20px;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-top: 40px;
     margin-bottom: 1rem;
   }
-  #content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  #content-who-i-am .carousel .carousel-item .content-who-i-am p,
+  #content-who-i-am-second-section .carousel .carousel-item .content-who-i-am p {
     font-size: 12px;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: 10px;
     margin-bottom: 5px;
   }
-  #content-who-i-am h5 {
+  #content-who-i-am h5,
+  #content-who-i-am-second-section h5 {
     margin-top: 0;
     margin-bottom: 0;
   }
-  #content-who-i-am .pantree-video {
+  #content-who-i-am .pantree-video,
+  #content-who-i-am-second-section .pantree-video {
     margin-top: 0;
     transform: translate(60%);
     -webkit-transform: translate(60%);
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 0.2rem;
     width: 310px;
     transform: translate(25%);
@@ -4243,58 +4491,71 @@ section#who-i-am {
 }
 
 @media only screen and (min-width: 734px) and (max-width: 735px) and (orientation: landscape) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 2.5rem 0 2.5rem;
     font-size: 13px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 2rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 13px;
     line-height: 21px;
     letter-spacing: 1.7px;
     margin-bottom: 24px;
   }
-  #content-who-i-am .portfolio-content p.swipe {
+  #content-who-i-am .portfolio-content p.swipe,
+  #content-who-i-am-second-section .portfolio-content p.swipe {
     font-weight: bolder;
     color: #333;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -20px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -20px;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-top: 0;
     margin-bottom: 1rem;
   }
-  #content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  #content-who-i-am .carousel .carousel-item .content-who-i-am p,
+  #content-who-i-am-second-section .carousel .carousel-item .content-who-i-am p {
     font-size: 12px;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: 10px;
     margin-bottom: 5px;
   }
-  #content-who-i-am h5 {
+  #content-who-i-am h5,
+  #content-who-i-am-second-section h5 {
     margin-top: 0;
     margin-bottom: 0;
   }
-  #content-who-i-am .pantree-video {
+  #content-who-i-am .pantree-video,
+  #content-who-i-am-second-section .pantree-video {
     margin-top: 0;
     transform: translate(60%);
     -webkit-transform: translate(60%);
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 0.2rem;
     width: 320px;
     transform: translate(25%);
@@ -4303,56 +4564,69 @@ section#who-i-am {
 }
 
 @media only screen and (min-width: 736px) and (max-width: 739px) and (orientation: landscape) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 2.5rem 0 2.5rem;
   }
-  #content-who-i-am * {
+  #content-who-i-am *,
+  #content-who-i-am-second-section * {
     font-size: 13px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 2rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 13px;
     line-height: 21px;
     letter-spacing: 1.7px;
     margin-bottom: 24px;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -10px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -10px;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-top: 20px;
     margin-bottom: 1rem;
   }
-  #content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  #content-who-i-am .carousel .carousel-item .content-who-i-am p,
+  #content-who-i-am-second-section .carousel .carousel-item .content-who-i-am p {
     font-size: 12px;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: 10px;
     margin-bottom: 5px;
   }
-  #content-who-i-am h5 {
+  #content-who-i-am h5,
+  #content-who-i-am-second-section h5 {
     margin-top: 0;
     margin-bottom: 0;
   }
-  #content-who-i-am .pantree-video {
+  #content-who-i-am .pantree-video,
+  #content-who-i-am-second-section .pantree-video {
     margin-top: 0;
     transform: translate(60%);
     -webkit-transform: translate(60%);
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 0;
     width: 300px;
     transform: translate(30%);
@@ -4361,94 +4635,116 @@ section#who-i-am {
 }
 
 @media only screen and (min-width: 812px) and (max-width: 822px) and (orientation: landscape) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 3rem 0 3rem;
   }
-  #content-who-i-am * {
+  #content-who-i-am *,
+  #content-who-i-am-second-section * {
     font-size: 13px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 2rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 13px;
     line-height: 22px;
     letter-spacing: 1.7px;
     margin-bottom: 22px;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -20px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -20px;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-top: 0;
     margin-bottom: 1rem;
   }
-  #content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  #content-who-i-am .carousel .carousel-item .content-who-i-am p,
+  #content-who-i-am-second-section .carousel .carousel-item .content-who-i-am p {
     font-size: 12px;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 0;
     width: 330px;
   }
 }
 
 @media only screen and (width: 823px) and (orientation: landscape) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 3rem 0 3rem;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 2rem;
     color: #333;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 13px;
     line-height: 22px;
     letter-spacing: 1.7px;
     margin-bottom: 22px;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -20px;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -20px;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-top: 80px;
     margin-bottom: 10px;
   }
-  #content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  #content-who-i-am .carousel .carousel-item .content-who-i-am p,
+  #content-who-i-am-second-section .carousel .carousel-item .content-who-i-am p {
     font-size: 12px;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  #content-who-i-am section#who-i-am .carousel-item .carousel ul.indicators {
+  #content-who-i-am section#who-i-am .carousel-item .carousel ul.indicators,
+  #content-who-i-am-second-section section#who-i-am .carousel-item .carousel ul.indicators {
     top: 1000px;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: 0;
   }
-  #content-who-i-am .pantree-video {
+  #content-who-i-am .pantree-video,
+  #content-who-i-am-second-section .pantree-video {
     transform: translate(20%);
     -webkit-transform: translate(20%);
     width: 350px;
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 0;
     width: 350px;
     transform: translate(-10%);
@@ -4457,56 +4753,68 @@ section#who-i-am {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1200px) and (orientation: landscape) {
-  #content-who-i-am {
+  #content-who-i-am,
+  #content-who-i-am-second-section {
     margin: 0 4rem 0 4rem;
     font-size: 16px;
   }
-  #content-who-i-am h1 {
+  #content-who-i-am h1,
+  #content-who-i-am-second-section h1 {
     font-size: 4rem;
     color: #333;
   }
-  #content-who-i-am nav ul li a {
+  #content-who-i-am nav ul li a,
+  #content-who-i-am-second-section nav ul li a {
     font-size: 24px;
   }
-  #content-who-i-am p {
+  #content-who-i-am p,
+  #content-who-i-am-second-section p {
     color: #696969;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 1.9px;
     margin-bottom: 32px;
   }
-  #content-who-i-am .experience-title {
+  #content-who-i-am .experience-title,
+  #content-who-i-am-second-section .experience-title {
     margin-top: -200px;
     margin-bottom: 2rem;
   }
-  #content-who-i-am .contact-title {
+  #content-who-i-am .contact-title,
+  #content-who-i-am-second-section .contact-title {
     margin-top: -100px;
     margin-bottom: 2rem;
   }
-  #content-who-i-am .portfolio-title {
+  #content-who-i-am .portfolio-title,
+  #content-who-i-am-second-section .portfolio-title {
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
-  #content-who-i-am .carousel .carousel-item .content-who-i-am p {
+  #content-who-i-am .carousel .carousel-item .content-who-i-am p,
+  #content-who-i-am-second-section .carousel .carousel-item .content-who-i-am p {
     font-size: 12px;
   }
-  #content-who-i-am .who-i-am-title {
+  #content-who-i-am .who-i-am-title,
+  #content-who-i-am-second-section .who-i-am-title {
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin-top: 4rem;
     margin-bottom: 2rem;
   }
-  #content-who-i-am .experience-second-title {
+  #content-who-i-am .experience-second-title,
+  #content-who-i-am-second-section .experience-second-title {
     margin-top: 0;
   }
-  #content-who-i-am .pantree-video {
+  #content-who-i-am .pantree-video,
+  #content-who-i-am-second-section .pantree-video {
     margin-top: 0;
     margin-bottom: 0;
     transform: translate(30%);
     -webkit-transform: translate(30%);
     width: 600px;
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 0;
     margin-bottom: 0;
     width: 600px;
@@ -4514,17 +4822,20 @@ section#who-i-am {
 }
 
 @media only screen and (width: 1024px) and (max-height: 768px) and (orientation: landscape) {
-  #content-who-i-am h5 {
+  #content-who-i-am h5,
+  #content-who-i-am-second-section h5 {
     margin-bottom: 0;
     margin-top: 0;
   }
-  #content-who-i-am .pantree-video {
+  #content-who-i-am .pantree-video,
+  #content-who-i-am-second-section .pantree-video {
     margin-top: 30px;
     transform: translate(30%);
     -webkit-transform: translate(30%);
     width: 400px;
   }
-  #content-who-i-am video {
+  #content-who-i-am video,
+  #content-who-i-am-second-section video {
     margin-top: 30px;
     margin-bottom: 0;
     width: 400px;
@@ -4592,6 +4903,9 @@ section#portfolio-section {
   .portfolio-content {
     margin: 0 1rem 0 1rem;
   }
+  .portfolio-content .arrow i {
+    font-size: 15px;
+  }
   .portfolio-content * {
     font-size: 12px;
   }
@@ -4644,7 +4958,7 @@ section#portfolio-section {
 
 @media screen and (min-width: 350px) and (max-width: 365px) {
   .portfolio-content {
-    margin: 0 1.5rem 0 1.5rem;
+    margin: 0 3rem 0 3.8rem;
   }
   .portfolio-content * {
     font-size: 12px;
@@ -4668,7 +4982,7 @@ section#portfolio-section {
     margin-top: 10px;
   }
   .portfolio-content .who-i-am-title {
-    margin-top: 1rem;
+    margin-top: -1rem;
   }
   .portfolio-content .portfolio-title {
     margin-top: -40px;
@@ -4679,6 +4993,15 @@ section#portfolio-section {
   }
   .portfolio-content .control ul {
     margin: 0 0 10px 0;
+  }
+  .portfolio-content .portfolio-content {
+    margin: 0 1.5rem 0 1.5rem;
+  }
+  .portfolio-content span i {
+    font-size: 25px;
+  }
+  .portfolio-content #content-who-i-am-second-section {
+    margin: 0 3.8rem 0 3rem;
   }
   .portfolio-content video {
     margin-top: 1rem;
@@ -5003,24 +5326,6 @@ section#portfolio-section {
   .portfolio-content .portfolio-title {
     margin-bottom: 2rem;
   }
-  .portfolio-content section#who-iam ul.control .arrow .left {
-    left: 15px;
-  }
-  .portfolio-content section#who-i-am ul.control .arrow .right {
-    left: 15px;
-  }
-  .portfolio-content .left-portfolio {
-    left: 12px;
-  }
-  .portfolio-content .right-experiences {
-    right: 12px;
-  }
-  .portfolio-content .right-portfolio {
-    right: 12px;
-  }
-  .portfolio-content .right {
-    right: 12px;
-  }
   .portfolio-content .portfolio-content {
     display: table;
   }
@@ -5061,6 +5366,12 @@ section#portfolio-section {
   }
   .portfolio-content .experiences-content ul li {
     font-size: 16px;
+  }
+  .portfolio-content #left-who-i-am {
+    left: 100px !important;
+  }
+  .portfolio-content #right-who-i-am {
+    right: 100px !important;
   }
 }
 
@@ -5970,7 +6281,8 @@ section#portfolio-section {
   position: relative;
 }
 
-.left-portfolio, .right-portfolio {
+.left-portfolio,
+.right-portfolio {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -5979,7 +6291,9 @@ section#portfolio-section {
 }
 
 .arrow-portfolio i {
-  font-size: 25px;
+  font-size: 30px;
+  border: solid 2px black;
+  border-radius: 50%;
   -webkit-user-select: none;
   color: black;
 }
@@ -5997,12 +6311,12 @@ section#portfolio-section {
 }
 
 .left-portfolio {
-  left: -4px;
+  left: 4px;
   z-index: 5;
 }
 
 .right-portfolio {
-  right: -4px;
+  right: 4px;
   z-index: 5;
 }
 

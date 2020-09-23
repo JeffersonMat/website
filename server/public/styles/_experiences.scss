@@ -32,7 +32,7 @@ section#experiences {
   background: $backgroundSections;
   width: 100%;
   height: 100vh;
-  overflow-x: hidden;
+  overflow:hidden;
   position: relative;
 }
 
@@ -73,6 +73,7 @@ section#experiences {
 #container-experiences {
  max-width:1280px;
   margin:0px auto;
+  overflow-y: hidden;
   overflow-x:scroll;
   scroll-snap-type: x mandatory; 
   -webkit-scroll-snap-type: x mandatory;
@@ -88,6 +89,7 @@ section#experiences {
 }
 
 .left-experiences, .right-experiences {
+
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -95,28 +97,35 @@ section#experiences {
 }
 
 .arrow-experiences i {
-  font-size: 25px;
+  font-size: 30px;  
+  border: solid 2px black;
+  border-radius: 50%;
+
   -webkit-user-select: none;
   color:black;
 }
 
 
+.arrow-experiences .arrow-experiences:hover {
+  color:#6fa2e5;
+}
 .arrow-experiences i:hover {
-  color:skyblue;
+  color:#6fa2e5;
 }
 
 .arrow-experiences i:focus {
-  color:skyblue;
+  color:s#6fa2e5;
 }
 .arrow-experiences i:active {
-  color:skyblue;
+  color:#6fa2e5;
 }
 .left-experiences {
-  left: -4px;
+  left: 4px;
   z-index:5;
 }
 .right-experiences {
-  right: 8px;
+ 
+  right: 4px;
   z-index:5;
 }
 .control-experiences ul li.selected-experiences {
