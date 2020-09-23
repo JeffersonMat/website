@@ -132,21 +132,24 @@ section#portfolio-section {
 
 .arrow-portfolio i {
   font-size: 30px;
-  border: solid 2px black;
+  border: solid 3px black;
   border-radius: 50%;
   -webkit-user-select: none;
   color: black;
 }
 
 .arrow-portfolio i:hover {
-  color: skyblue;
+  color: #6fa2e5;
+  border-color: #6fa2e5;
 }
 
 .arrow-portfolio i:focus {
-  color: skyblue;
+  color: #6fa2e5;
+  border-color: #6fa2e5;
 }
 .arrow-portfolio i:active {
-  color: skyblue;
+  color: #6fa2e5;
+  border-color: #6fa2e5;
 }
 
 .left-portfolio {

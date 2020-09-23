@@ -23,7 +23,6 @@ div.who-i-am-background {
 
   .content-banner {
     z-index: 2;
-    // background: rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,14 +132,14 @@ section#who-i-am {
 }
 
 .arrow i:hover {
-  color: skyblue;
+  color:#6fa2e5 ;
 }
 
 .arrow i:focus {
-  color: skyblue;
+  color: #6fa2e5;
 }
 .arrow i:active {
-  color: skyblue;
+  color: #6fa2e5;
 }
 
 #left-who-i-am {
